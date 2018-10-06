@@ -5,8 +5,8 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
+import './styles/fonts.css';
 import './index.css';
-import './fonts/fonts.css';
 
 ReactDOM.render((
   <BrowserRouter>

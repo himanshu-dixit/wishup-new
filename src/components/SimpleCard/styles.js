@@ -42,10 +42,17 @@ const styles = StyleSheet.create({
     maxWidth: '1170px',
     width: '100%',
   },
-  h1: {
+  mainHeading: {
     fontSize: '52px',
     fontWeight: '800',
     color: 'rgb(255,255,255)'
+  },
+  subHeading:{
+      fontSize: '33px',
+      fontWeight: '400',
+      color: 'rgb(255,255,255)',
+lineHeight: '1.2',
+padding: '.25em 0'
   }
 });
 

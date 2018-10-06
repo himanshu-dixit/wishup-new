@@ -45,9 +45,13 @@ const styles = StyleSheet.create({
   },
   aPad: {
     color: '#999',
-    padding: '7px 6px 5px',
+    padding: '7px 6px 0px',
     textDecoration: 'none'
-  }
+  },
+    center:{
+      display: 'flex',
+      height: '100%'
+    }
 });
 
 export default styles;

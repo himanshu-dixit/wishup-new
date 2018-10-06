@@ -25,7 +25,7 @@ class HeadBar extends Component {
                 <Icon size={12} className={css(styles.vIcon)} icon={chevronDown}/>
               </a>
             </div>
-            <div>
+            <div className={css(styles.center)}>
               <a className={css(styles.aPad)} href='/'>Announcing Bizplan: A Modern Take on Business Planning</a>
               <a className={css(styles.aPad)} >|</a>
               <a className={css(styles.aPad)} href="/">about startups.co</a>
