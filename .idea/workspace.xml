@@ -2,204 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wishup.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DetailedCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DetailedCard/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GraphicCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GraphicCard/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FAQ/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FAQ/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Login/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/FAQ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BlackIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BlackIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BlackIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BoldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BoldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-BoldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Extrabld.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Extrabld.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Extrabld.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ExtrabldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ExtrabldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ExtrabldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-LightIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-LightIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-LightIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-RegularIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-RegularIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-RegularIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-SemiboldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-SemiboldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-SemiboldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ThinIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ThinIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNova-ThinIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BlackIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BlackIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BlackIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BoldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BoldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-BoldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Extrabld.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Extrabld.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Extrabld.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ExtrabldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ExtrabldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ExtrabldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-LightIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-LightIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-LightIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-RegularIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-RegularIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-RegularIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-SemiboldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-SemiboldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-SemiboldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ThinIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ThinIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaCond-ThinIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BlackIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BlackIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BlackIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BoldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BoldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-BoldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Extrabld.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Extrabld.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Extrabld.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ExtrabldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ExtrabldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ExtrabldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-LightIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-LightIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-LightIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-RegularIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-RegularIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-RegularIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-SemiboldIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-SemiboldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-SemiboldIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ThinIt.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ThinIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaExCn-ThinIt.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaT-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaT-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/ProximaNovaT-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SimpleCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SimpleCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SimpleCard/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SimpleCard/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Black-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Black-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Black-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Condensed Semibold-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Regular-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Semibold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Thin-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Thin-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Thin-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Mark Simonson - Proxima Nova Thin-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fonts.min.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomInput/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginCard/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_custom_bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_custom_bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -214,18 +23,21 @@
     <session id="637872288">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
+          <entry key="css" value="7" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="81" />
+          <entry key="js" value="102" />
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
@@ -234,10 +46,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
+          <entry key="CSS" value="7" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="81" />
+          <entry key="JavaScript" value="102" />
           <entry key="Markdown" value="1" />
           <entry key="SCSS" value="4" />
           <entry key="yarn.lock" value="1" />
@@ -245,33 +57,91 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="128" />
-          <entry key="js" value="13018" />
+          <entry key="css" value="133" />
+          <entry key="js" value="16739" />
           <entry key="json" value="85" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="128" />
+          <entry key="CSS" value="133" />
           <entry key="HTML" value="21" />
           <entry key="JSON" value="85" />
-          <entry key="JavaScript" value="12997" />
+          <entry key="JavaScript" value="16718" />
           <entry key="SCSS" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NavBar/index.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+            <state relative-caret-position="509">
+              <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-icons-kit/ionicons/loop.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-icons-kit/fa/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="1561" column="36" selection-start-line="1561" selection-start-column="36" selection-end-line="1561" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DetailedCard/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LoginCard/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1995">
+              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="144" />
             </state>
           </provider>
         </entry>
@@ -279,53 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SimpleCard/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="82" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="82" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="20" selection-start-line="20" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -334,25 +159,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/HomePage/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Login/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1407">
+              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="80" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -360,23 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="18" selection-end-line="54" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/FAQ/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="49" column="17" selection-end-line="99" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -399,12 +194,23 @@
       <find>image</find>
       <find>.style</find>
       <find>style.</find>
-      <find>heading</find>
       <find>assistantImage</find>
+      <find>heading</find>
+      <find>inputText</find>
+      <find>buttontyle</find>
+      <find>linkA</find>
+      <find>buttonStyle</find>
+      <find>Icon</find>
+      <find>React</find>
+      <find>restore</find>
+      <find>cache</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node_modules/react-icons-kit</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -423,11 +229,9 @@
         <option value="$PROJECT_DIR$/src/components/Footer/styles.js" />
         <option value="$PROJECT_DIR$/src/data/FAQ.json" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/data/FAQ.js" />
         <option value="$PROJECT_DIR$/src/containers/FAQ/styles.js" />
         <option value="$PROJECT_DIR$/src/components/Button/styles.js" />
-        <option value="$PROJECT_DIR$/src/components/SimpleCard/styles.js" />
         <option value="$PROJECT_DIR$/src/components/Button/index.js" />
         <option value="$PROJECT_DIR$/src/containers/FAQ/index.js" />
         <option value="$PROJECT_DIR$/src/components/DetailedCard/styles.js" />
@@ -437,12 +241,20 @@
         <option value="$PROJECT_DIR$/src/containers/HomePage/styles.js" />
         <option value="$PROJECT_DIR$/src/components/GraphicCard/index.js" />
         <option value="$PROJECT_DIR$/src/components/GraphicCard/styles.js" />
-        <option value="$PROJECT_DIR$/src/containers/HomePage/index.js" />
         <option value="$PROJECT_DIR$/src/Main.js" />
         <option value="$PROJECT_DIR$/src/components/NavBar/index.js" />
         <option value="$PROJECT_DIR$/src/components/SimpleCard/index.js" />
         <option value="$PROJECT_DIR$/src/containers/Login/styles.js" />
         <option value="$PROJECT_DIR$/src/containers/Login/index.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/SimpleCard/styles.js" />
+        <option value="$PROJECT_DIR$/src/components/Input/styles.js" />
+        <option value="$PROJECT_DIR$/src/components/Input/index.js" />
+        <option value="$PROJECT_DIR$/src/components/CustomInput/styles.js" />
+        <option value="$PROJECT_DIR$/src/components/CustomInput/index.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginCard/styles.js" />
+        <option value="$PROJECT_DIR$/src/containers/HomePage/index.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginCard/index.js" />
       </list>
     </option>
   </component>
@@ -473,7 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -497,6 +308,34 @@
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DetailedCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="GraphicCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="HeadBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="SimpleCard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -504,6 +343,20 @@
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
@@ -522,6 +375,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,12 +413,15 @@
       <workItem from="1538400430054" duration="39108000" />
       <workItem from="1538638642190" duration="53000" />
       <workItem from="1538692409239" duration="4403000" />
-      <workItem from="1538735313009" duration="23277000" />
+      <workItem from="1538735313009" duration="28650000" />
+      <workItem from="1538834574804" duration="15000" />
+      <workItem from="1538879520534" duration="8977000" />
+      <workItem from="1538896906999" duration="3245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72148000" />
+    <option name="totallyTimeSpent" value="89758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -574,6 +431,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -666,16 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2331">
           <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -690,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="838">
           <caret line="118" column="6" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="118" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,33 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DetailedCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="43" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="25" lean-forward="true" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DetailedCard/styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -744,23 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="92" column="15" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TextCard/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="22" column="10" lean-forward="true" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,57 +576,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SimpleCard/styles.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="84">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="133" selection-start-line="35" selection-start-column="133" selection-end-line="35" selection-end-column="133" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/styles.js">
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="546">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="18" selection-end-line="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="49" column="17" selection-end-line="99" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -832,43 +611,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1323">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SimpleCard/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1113">
+          <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/index.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SimpleCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="82" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -876,18 +636,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="20" lean-forward="true" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomInput/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SimpleCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/GraphicCard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+        <state relative-caret-position="525">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" selection-start-line="20" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons-kit/md/ic_cached.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DetailedCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons-kit/fa/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="1561" column="36" selection-start-line="1561" selection-start-column="36" selection-end-line="1561" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons-kit/ionicons/loop.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

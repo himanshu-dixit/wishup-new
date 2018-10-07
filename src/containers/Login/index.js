@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SimpleCard from '../../components/SimpleCard';
+import LoginCard from '../../components/LoginCard';
 import styles from './styles';
 import data from '../../data/FAQ';
 import { StyleSheet, css } from 'aphrodite';
@@ -21,7 +22,7 @@ class Login extends Component {
         return (
             <div>
                 <SimpleCard headingStyle={styles.featuredHeading} style={styles} mainheadingStyle={styles.mainheadingStyle} heading="My Account"></SimpleCard>
-
+                <LoginCard></LoginCard>
             </div>
         );
     }
