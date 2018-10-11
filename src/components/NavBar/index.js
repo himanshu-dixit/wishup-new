@@ -28,7 +28,7 @@ class NavBar extends Component {
                             <a href="/" className={css(styles.pageLink)}>Why Zirtual?</a>
                             </div>
                             <div className={css(styles.linkContainer)}>
-                            <a href="/" className={css(styles.pageLink)}>Pricing</a>
+                                <Link to="/plans-pricing" className={css(styles.pageLink)}>Pricing</Link>
                             </div>
                             <div className={css(styles.linkContainer)}>
                             <Link to="/faqs" className={css(styles.pageLink)}>FAQs</Link>

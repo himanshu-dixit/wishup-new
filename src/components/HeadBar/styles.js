@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
     '@media (max-width: 800px)': {
       display: 'none'
     },
-    paddingLeft: '2em',
-    paddingRight: '2em'
+    paddingLeft: '1.5em',
+    paddingRight: '1.5em'
   },
   row: {
     alignItems: 'center',

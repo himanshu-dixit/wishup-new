@@ -2,6 +2,7 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './containers/HomePage';
 import FAQ from './containers/FAQ';
 import Login from './containers/Login';
+import Pricing from './containers/Pricing';
 
 import React, { Component } from 'react';
 
@@ -13,6 +14,7 @@ class Main extends Component {
           <Route exact path='/' component={Home}/>
           <Route exact path='/faqs' component={FAQ}/>
           <Route exact path='/login' component={Login}/>
+          <Route exact path='/plans-pricing' component={Pricing}/>
         </Switch>
       </main>
     );
