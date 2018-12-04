@@ -33,3 +33,26 @@ h5{
     float: right;
 }
 
+
+.navbar-default {
+    background: none;
+    border: none;
+    margin-top: 1.6rem;
+    padding: 0 3rem;
+
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 3rem;
+    color: #2a2724;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-weight: 600;
+    color: #2a2724;
+}
+
+.cta{
+    color: #6fda44 !important;
+}

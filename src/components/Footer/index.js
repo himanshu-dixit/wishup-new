@@ -17,7 +17,20 @@ class Footer extends Component {
         //<Link to='/'>Home</Link>
         return (
             <div>
-
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-4">
+                        </div>
+                        <div className="col-md-4">
+                            <div className="col-md-6">
+                            </div>
+                            <div className="col-md-6">
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
