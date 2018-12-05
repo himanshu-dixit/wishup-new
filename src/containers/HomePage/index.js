@@ -1,87 +1,254 @@
 import React, { Component } from 'react';
-import SimpleCard from '../../components/SimpleCard';
-import DetailedCard from '../../components/DetailedCard';
-import TextCard from '../../components/TextCard';
-import GraphicCard from '../../components/GraphicCard';
+import './style.css';
 
-import assistantImage from '../../assets/zirtual-assistant_4c16d9bf.svg';
-import businessImage from '../../assets/client-logos_9d66967c.png';
-
-import successImage from '../../assets/streamline_e17cdcf9.png';
-import superHumanImage from '../../assets/superhumans_87d19b39.png';
-import todoImage from '../../assets/to-do_224a05ca.jpg';
-
-import styles from './styles';
-import {css} from "aphrodite";
-import {search} from 'react-icons-kit/fa/search'
-import Icon from "react-icons-kit";
-
-const buttons = [{href: "/", text: "Request a Consulation", color: ""}, {href: "/", text: "View Plans & Pricing"}];
 class HomePage extends Component {
-    renderLinks(){
-        const links = [{icon: search, text: "Research & Reports"}, {icon: search, text: "Research & Reports"}, {icon: search, text: "Research & Reports"}, {icon: search, text: "Research & Reports"}];
-        const out = links.map((link, index) => {
-            return (      <div className={css(styles.link)} key={index}>
-                <div className={css(styles.linkIcon)}>
-                                                            <span className={css(styles.iconSpan)}>
-                                                                <Icon size={20} className={css(styles.iconSpan)} icon={link.icon}/>
-                                                            </span>
-                </div>
-                <div className={css(styles.linkText)}>
-                    <p className={css(styles.p)}>
-                        <a className={css(styles.linkA)}>
-                            {link.text}
-                        </a>
-                    </p>
-                </div>
-            </div>);
-        });
-        return (<div>{out}</div>);
-    }
+
   render() {
-        //streamline_e17cdcf9
+
     return (
       <div>
-        <SimpleCard
-            style={styles}
-            heading="Work. Life. Balanced."
-            buttons={buttons}
-            buttonStyle={styles.buttonStyle}
-            textStyle={styles.buttonText}
-            subHeading={<span>Virtual assistants for entrepreneurs,<br/> professionals, and small teams.</span>}
-            headingStyle={styles.headingS}
-        ></SimpleCard>
-          <DetailedCard background={styles.grey} image={assistantImage} style={styles}>
-              <h3 className={css(styles.heading)}>Supercharge your life with a Zirtual Virtual Assistant.</h3>
-              <p className={css(styles.p)}>Your inbox is overflowing, your appointments are a mess, you have travel that needs booked, and your "to do" list is endless. VA's have all of the skills to handle both your work and personal needs, and can start relieving your stress immediately.</p>
-              <p className={css(styles.p)}><strong>Zirtual VA's can complete many types of tasks, including:</strong></p>
-              <div className={css(styles.table)}>
-                  <div className={css(styles.col)}>
-                      {this.renderLinks()}
-                  </div>
-                  <div className={css(styles.col)}>
-                      {this.renderLinks()}
+        <div className="cover"
+             style={{  backgroundImage: "url(" + require('../../assets/resources/cover.png') + ")"}}>
+            <div className="wishup-container">
+                <div className="container-fluid">
+                    <div className="cover-info">
+                        <h1 className="wishup-tagline">Get Work Done <br></br> Remotely</h1>
+                        <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
+                            Small Teams and Businesses.</div>
+                        <div className="hire-cta">Hire now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div className="mentions">
+              <div className="wishup-container">
+                  <div className="row">
+                      <div className="col-md-4 left"><img src={require('../../assets/resources/yourstory.png')} height="25px"/> </div>
+                      <div className="col-md-4"><img src={require('../../assets/resources/business-world.png')} height="25px"/> </div>
+                      <div className="col-md-4"><img src={require('../../assets/resources/economic-times.png')} height="25px"/> </div>
+                      <div className="col-md-4 left"><img src={require('../../assets/resources/livemint.png')} height="25px"/> </div>
+                      <div className="col-md-4"><img src={require('../../assets/resources/moneycontrol.png')} height="25px"/> </div>
+                      <div className="col-md-4"><img src={require('../../assets/resources/telegraph.png')} height="25px"/> </div>
                   </div>
               </div>
-          </DetailedCard>
-          <TextCard image={businessImage}>Virtual Assistants are used by busy people from amazing companies all over the world.</TextCard>
-          <DetailedCard background={styles.grey} image={successImage} imageStyle={styles.successImg} style={styles}>
-              <h3 className={css(styles.heading)}>Streamline your success, in work and life.</h3>
-              <p className={css(styles.p)}>Zirtual is the secret weapon of successful people. Not just in work, but in life. We give you more time to focus on the big picture by taking care of the little details. Stuff like scheduling meetings, paying bills, and booking travel. As a Zirtual client, you get your very own Virtual Assistant (VA) — a smart, highly trained US-based point person who works remotely as your right hand and left brain. You delegate a task and your VA is on it.</p>
-              <p className={css(styles.p)}><strong>Bills? Paid... Inbox? Cleared... Travel? Booked...&nbsp;<a className={css(styles.linkA)}>Get Started</a> </strong></p>
-          </DetailedCard>
-          <DetailedCard background={styles.white} image={superHumanImage} leftImage={true} imageStyle={styles.successImg} contentStyle={styles.content} style={styles}>
-              <h3 className={css(styles.heading)}>Some call them superhumans, we call them VAs.</h3>
-              <p className={css(styles.p)}>At Zirtual, we hire US-based, detail-oriented people who strive to provide our clients with the best assistance on the planet. All Virtual Assistants go through a rigorous, multi-step vetting process that tests everything from their communication and tech skills to their creativity and resourcefulness. Thousands apply, but only the best of the best get to call themselves VAs..</p>
-              <p className={css(styles.p)}><strong>Smart, reliable, personable virtual assistants. &nbsp;<a className={css(styles.linkA)}>Get Started</a> </strong></p>
-          </DetailedCard>
-          <GraphicCard background={styles.graphicCard}             buttonStyle={styles.buttonStyle}
-                       textStyle={styles.buttonText}></GraphicCard>
-          <DetailedCard background={styles.white} image={todoImage} imageStyle={styles.successImg} contentStyle={styles.content} style={styles}>
-              <h3 className={css(styles.heading)}>Give us your to-do list and get on with your love-to-do list.</h3>
-              <p className={css(styles.p)}>Get started by having your VA set up meetings, manage your busy schedule and streamline all the information that pours into your inbox. They can help remind you of that important call, deal with the phone company, track your packages and plan your weekend getaway.</p>
-              <p className={css(styles.p)}><strong>With your VA handling all the small stuff, you can start focusing on what's truly important, in work and life. &nbsp;<a className={css(styles.linkA)}>Get Started</a> </strong></p>
-          </DetailedCard>
+          </div>
+
+          <div className="assistance-bar">
+              <div className="wishup-container">
+                  <div className="row">
+                      <div className="col-md-5">
+                          <div style={{  backgroundImage: "url(" + require('../../assets/resources/VA.png') + ")"}} className="va-backdrop">
+                              Do you think your business <br></br>would soar if you got the<br></br>right assistance?
+                          </div>
+                      </div>
+                      <div className="col-md-7">
+                          <div className="assistance-description">
+                          Your Virtual Employee is an ideal and efficient resource to help you handle recurrent and specialized tasks. All our Wishup Virtual Employees are skilled and trained to handle your tasks and give you great result
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="grow-business-bar">
+              <div className="wishup-container">
+                  <div className="row">
+                      <div className="col-md-6 center">
+                          <img src={require('../../assets/resources/thinking.png')} width="80%"/>
+                      </div>
+                      <div className="col-md-6">
+                          <h2>
+                          Grow your business with a Wishup Virtual Employee
+                          </h2>
+
+                          <div className="description">
+                             Do you need help with one or more aspects of your business? Are you struggling to check tasks off your to-do list? Your Virtual Employee is an ideal and efficient resource to help you handle recurrent and specialized tasks. All our Wishup Virtual Employees are skilled and trained to handle your tasks and give you great results
+                          </div>
+                          <div className="service-list">
+                              <div className="row">
+                                  <div className="col-md-6">
+                                      <ul>
+                                          <li>Bookkeeping </li>
+                                          <li>E-commerce assistance</li>
+                                          <li>Email management</li>
+                                          <li>Administrative tasks</li>
+                                      </ul>
+                                  </div>
+                                  <div className="col-md-6">
+                                      <ul>
+                                          <li>Online research</li>
+                                          <li>Lead Generation</li>
+                                          <li>Social Mediat</li>
+                                          <li>Administrative tasks</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                              <div className="secondary-description">
+                                  Our virtual employees will add great value to your business by managing appointments, inbox, social media, content creation and much more.
+                              </div>
+                              <div className="button">
+                                  More Services
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="highlight-bar">
+              <div className="wishup-container">
+                  <div className="row">
+                      <div className="col-md-5">
+                          <h2>
+                          Skilled, multitasking experts? We call them our Virtual Employees
+                          </h2>
+                      </div>
+                      <div className="col-md-7">
+                          <div className="description">
+                          At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we retain only 2-3% of them. We always find the best talent to work with
+                              <br></br>
+                              <div className="button">
+                                  Get Started
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="team-pic" style={{  backgroundImage: "url(" + require('../../assets/resources/team.png') + ")"}}>
+          </div>
+
+          <div className="pricing-bar">
+              <div className="wishup-container">
+                  <div className="heading">
+                  Plans starting at just $150/mo.
+                  </div>
+
+                  <div className="description">
+                      Working with a Virtual Employee is easier than ever before. In just a few steps, you can get connected with your Virtual employee and begin delegating tasks almost immediately!
+                      <br></br>Plans to fit every budget and keeping every requirement in mind
+                  </div>
+                  <div className="cta">
+                      <div className="button">Request a consultation</div><br></br>
+                  <div className="button">Plan and Pricing</div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="va-section">
+              <div className="wishup-container">
+                  <h2>
+                  Meet Some Of our Virtual employees
+                  </h2>
+                  <div className="description">
+                  Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately
+                  </div>
+                  <div className="row slider">
+                      <div className="col-md-3">
+                          <div className="card">
+                          <div>
+                          <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                          </div>
+                          <div className="user-desc">
+                             A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                          </div>
+                          </div>
+                      </div>
+                      <div className="col-md-3">
+                          <div className="card">
+                              <div>
+                                  <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                              </div>
+                              <div className="user-desc">
+                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-md-3">
+                          <div className="card">
+                              <div>
+                                  <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                              </div>
+                              <div className="user-desc">
+                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-md-3">
+                          <div className="card">
+                              <div>
+                                  <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                              </div>
+                              <div className="user-desc">
+                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+          <div className="testimonial-section">
+              <div className="wishup-container">
+                  <h2>
+                  Don't just take our word for it
+                  </h2>
+                  <div className="description">
+                  Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? Read what people have to say
+                  </div>
+                  <div className="row">
+                      <div className="col-md-4">
+                          <div className="card">
+                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
+                          </div>
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name"> Benji Rogerrs</span><br></br>
+                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
+                          </div>
+                      </div>
+                      <div className="col-md-4">
+                          <div className="card">
+                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
+                          </div>
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name"> Benji Rogerrs</span><br></br>
+                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
+                          </div>
+                      </div>
+                      <div className="col-md-4">
+                          <div className="card">
+                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
+                          </div>
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name"> Benji Rogerrs</span><br></br>
+                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="va-bar">
+              <div className="wishup-container">
+                 <div>Become a Virtual Employee</div>  <div className="line"></div>
+              </div>
+          </div>
       </div>
     );
   }

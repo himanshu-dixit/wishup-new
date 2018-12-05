@@ -1,0 +1,304 @@
+.cover{
+    width: 100%;
+    height: 530px;
+    margin-top: -10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.cover-info{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.wishup-tagline{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.wishup-desc{
+    font-size: 12px;
+    color: rgb(117, 116, 116);
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.hire-cta{
+    padding: 1.2rem 3.5rem;
+    background-color: rgb(111, 218, 68);
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    display: inline-block;
+    border-radius: 4rem;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3rem;
+}
+
+.mentions .col-md-4{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.va-bar{
+    background: #6fda44;
+    color: #fff;
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 6rem 7rem;
+    display: flex;
+}
+
+.va-bar .line{
+    width: 20%;
+    height: 2px;
+    background: white;
+    display: inline-block;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 4%;
+}
+.va-bar .wishup-container{
+    padding: 0 3rem;
+    width: 100%;
+}
+.team-pic{
+    height: 47rem;
+    background-size: cover;
+    background-position-y: -24rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.va-backdrop{
+    background-image: url(/static/media/cover.f131a81b.png);
+    font-size: 23px;
+    font-weight: 700;
+    padding: 10rem 2rem;
+    text-align: right;
+    background-position-y: 115%;
+    background-position-x: right;
+    background-size: cover;
+}
+
+.assistance-description{
+    border-left: 1px solid #fa396b;
+    padding: 0 4rem;
+    margin-top: 11rem;
+    color: rgb(113, 113, 113);
+    line-height: 1.2;
+}
+
+.grow-business-bar h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.grow-business-bar .description{
+    margin-top: 2rem;
+    font-size: 12px;
+    font-family: "Poppins";
+    color: rgb(117, 116, 116);
+    line-height: 1.468;
+    text-align: left;
+}
+
+.grow-business-bar .secondary-description{
+    margin-top: 1rem;
+    font-size: 12px;
+    font-family: "Poppins";
+    color: rgb(117, 116, 116);
+    line-height: 1.468;
+    text-align: left;
+}
+
+.grow-business-bar  ul{
+    padding-left: 10px;
+    list-style: none;
+    color: rgb(111, 218, 68);
+    line-height: 1.2;
+    font-size: 12.1px;
+    margin-top: 2rem;
+}
+
+.grow-business-bar  li::before {
+    content: "• ";
+    color: #dbd9d9;
+}
+.grow-business-bar  li{
+    font-weight: 600;
+    margin: 1rem 0 0;
+
+}
+
+.button{
+    padding: 1.2rem 3.5rem;
+    background-color: rgb(111, 218, 68);
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    display: inline-block;
+    border-radius: 4rem;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.highlight-bar .description{
+    font-size: 11px;
+    color: rgb(113, 113, 113);
+    line-height: 1.571;
+    border-left: 1px solid red;
+    padding-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.highlight-bar{
+    margin: 5rem 2rem;
+}
+
+.highlight-bar h2{
+    text-align: right;
+}
+
+.pricing-bar{
+    width: 98%;
+    background: #6fda44;
+    text-align: center;
+    padding: 6rem;
+}
+
+.pricing-bar .heading{
+    font-size: 39px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0rem;
+}
+
+.pricing-bar .description{
+    margin: 1rem 13rem;
+    font-size: 13px;
+    color: #fff;
+}
+
+.pricing-bar .button{
+    min-width: 200px;
+    background: white;
+    color: #36df12;
+}
+
+.va-section{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.va-section .description{
+    padding: 2rem 19rem;
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+    line-height: 1.467;
+}
+
+.va-section .col-md-3{
+
+}
+
+.va-section .card{
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.va-section img{
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.va-section .user-desc{
+    line-height: 1.561;
+    font-size: 11.428px;
+    color: rgb(113, 113, 113);
+    line-height: 1.561;
+    margin-top: 1rem;
+}
+
+.slider{
+    padding: 0 5rem;
+}
+.slider .col-md-3{
+
+}
+
+.testimonial-section{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 5rem 0;
+}
+
+.testimonial-section .description{
+    padding: 2rem 19rem;
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+    line-height: 1.467;
+    margin-bottom: 1rem;
+}
+
+.testimonial-section .card{
+    font-size: 12.4px;
+    text-align: left;
+    padding: 3rem;
+    width: 82%;
+    margin-left: 9%;
+    margin-bottom: 2rem;
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 1rem;
+    color: rgb(113, 113, 113);
+    line-height: 1.785;
+
+}
+
+.testimonial-section .profile-pic{
+    display: inline-block;
+}
+
+.testimonial-section .profile-info{
+    display: inline-block;
+    display: inline-block;
+    text-align: left;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.testimonial-section .name{
+    font-size: 15px;
+    color: rgb(35, 35, 35);
+    font-weight: 600;
+    line-height: 1.667;
+
+}
+
+.testimonial-section img{
+    margin-top: -20px;
+}
+
+.testimonial-section .position{
+    font-size: 13px;
+    color: rgb(35, 35, 35);
+    font-weight: 600;
+}
+
+.testimonial-section .company-name{
+    font-size: 13px;
+    color: #36df12;
+    font-weight: 600;
+}
+
+.testimonial-section{
+    background: #fafafa;
+}

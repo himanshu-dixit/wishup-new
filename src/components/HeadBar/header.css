@@ -17,10 +17,6 @@
     font-size: 17px;
 }
 
-h5{
-
-}
-
 /* Change the color of links on hover */
 
 /* Add a color to the active/current link */
@@ -55,4 +51,8 @@ h5{
 
 .cta{
     color: #6fda44 !important;
+}
+
+.navbar-brand{
+    padding: 10px 15px;
 }
