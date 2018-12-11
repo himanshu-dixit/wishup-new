@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import HeaderBar from './components/HeadBar';
 import Footer from './components/Footer';
 import HomePage from './containers/HomePage';
-
+import Pricing from './containers/Pricing';
+import FAQ from './containers/FAQ';
 class App extends Component {
     constructor(){
         super()
@@ -13,7 +14,8 @@ class App extends Component {
         return (
             <div>
                 <HeaderBar></HeaderBar>
-                <HomePage/>
+                {/*<HomePage/>*/}
+                {/*<Pricing></Pricing>*/}
                 <Footer></Footer>
             </div>
         );

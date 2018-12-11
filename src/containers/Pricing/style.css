@@ -1,0 +1,94 @@
+.plan-type{
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.plan-description{
+    font-size: 12px;
+    padding: 11px 28px;
+}
+
+.plan-price{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plan-hours{
+    color: #6fda44;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.plan-hoursinmonth{
+    padding: 10px 0;
+}
+
+.plan-button{
+    width: 53%;
+    background: #36df12;
+    padding: 12px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -11px;
+    border-radius: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.plan-card{
+    padding-bottom: 44px;
+}
+
+.plans-bar{
+    margin-top: -30px;
+}
+
+.grey{
+    background: #fafafa;
+    padding-bottom: 64px;
+}
+
+.help-info{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    font-weight: 600;
+}
+
+a{
+    color: #6fda44;
+}
+
+a:hover{
+    color: #6fda44;
+    cursor: pointer;
+}
+
+.pricing-section{
+    text-align: center;
+    padding: 30px 0;
+}
+
+h3{
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+
+.red-strip{
+    background: #ff4c72;
+    height: 2px;
+    max-width: 50px;
+    display: inline-block;
+    width: 90px;
+    margin-bottom: 40px;
+
+}
+
+.plan-feature{
+    padding: 20px;
+    color: #545454;
+    font-weight: 600;
+    margin-top: 17px;
+}
