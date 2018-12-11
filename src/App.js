@@ -16,6 +16,7 @@ class App extends Component {
                 <HeaderBar></HeaderBar>
                 {/*<HomePage/>*/}
                 {/*<Pricing></Pricing>*/}
+                <FAQ/>
                 <Footer></Footer>
             </div>
         );
