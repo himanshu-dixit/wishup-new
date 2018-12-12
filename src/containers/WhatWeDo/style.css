@@ -1,0 +1,106 @@
+.grey-section{
+    background: #f6f4ef;
+}
+
+.raised-container{
+    margin-top: -45px;
+}
+
+.what-we-do-menu{
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.09);
+
+}
+
+.raised-container .section-text{
+    background: white;
+    border-radius: 7px;
+}
+
+.what-we-do-form{
+    background: #6fda44;
+    border-radius: 7px;
+    text-align: center;
+    padding: 24px 23px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form-cta-button{
+    padding: 15px;
+    margin: 20px 0;
+    background: white;
+    color: #36df12;
+    border-radius: 35px;
+}
+.menu-header{
+    padding: 23px 22px 10px 22px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.menu-item{
+    padding: 11px 23px;
+    font-size: 14px;
+    color: #686868;
+    font-weight: 600;
+}
+
+.active{
+    border-left: 2px solid #6fda44;
+    color: #6fda44;
+}
+
+.raised-container-top .section-text{
+    font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(76, 75, 75);
+    line-height: 1.6;
+    padding: 30px 20px;
+}
+
+.what-we-do .col-md-6{
+    padding: 0;
+    width: 55%;
+}
+.what-we-do .col-md-3-large{
+    width: 24% !important;
+}
+
+.what-we-do .col-md-3{
+    width: 21%;
+}
+
+.what-we-do h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.grey-section .different-section{
+    padding: 50px 20px;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(76, 75, 75);
+    line-height: 1.6;
+    border-radius: 7px;
+}
+.raised-container .different-section{
+    font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(76, 75, 75);
+    line-height: 1.6;
+    background: white;
+    border-radius: 7px;
+    padding: 20px 40px;
+    padding-bottom: 70px;
+
+}
+
+
+.what-we-do h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+}
