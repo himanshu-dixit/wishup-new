@@ -15,6 +15,7 @@ class LoginCard extends Component {
     render(){
         //<Link to='/'>Home</Link>
         return (
+            <div className="login-container">
             <div className="container">
                 <div className="uContainer">
                     <div className="mainContainer">
@@ -85,6 +86,7 @@ class LoginCard extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

@@ -9,7 +9,7 @@ class GraphicHeader extends Component {
                  style={{  backgroundImage: this.props.image}}>
                 <div className="opaque-mask">
                     <div className="wishup-container">
-                        <div className="content">
+                        <div className="graphic-header-content">
                             <div className="heading">
                                 <h1>
                                     {this.props.title}
