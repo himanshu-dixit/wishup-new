@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         margin: '.75em',
         marginRight: '0',
         marginLeft: '0',
-        fontSize: '16px',
+        fontSize: '14px',
         color: 'rgba(0,0,0,.75)',
         lineHeight: '1'
     },
@@ -28,14 +28,14 @@ const styles = StyleSheet.create({
     },
     inputHeading: {
         color: 'inherit',
-        fontSize: '16px',
+        fontSize: '14px',
         padding: '.5em 0',
         display: 'block'
     },
     inputText: {
         width: '100%',
-        fontSize: '16px',
-        height: '56px',
+        fontSize: '14px',
+        height: '52px',
         padding: '17.6px 16px 14.4px',
         borderColor: 'rgba(0,0,0,0.15)',
         borderRadius: '.1875em',

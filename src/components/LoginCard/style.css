@@ -1,0 +1,296 @@
+
+.container{
+    width: 100%;
+}
+.uContainer{
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border-radius: 8px;
+}
+.mainContainer{
+    max-width: 756px;
+    width: 100%;
+    background-color: #fff;
+    color: rgba(0;0;0;.8);
+    box-shadow: 0 3px 12px rgba(0;0;0;.15);
+    text-align: left;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.content{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inputContainer {
+    flex: 2 1;
+    min-width: 256px;
+    padding: 2em;
+}
+.navContainer {
+    background-color: #eff8fd;
+    color: rgba(51,58,67,.8);
+    flex: 1 1;
+    font-size: 16px;
+    padding: 2em;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.heading {
+    color: inherit;
+    font-weight: 800;
+    margin: 0;
+    padding: 0.20em 0 .20em;
+    font-size: 20px;
+    line-height: 1.25
+}
+.buttonStyle {
+    border-width: 2px;
+    box-shadow: 0 1px 12px rgba(0,0,0,.1);
+    color: #fff !important;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-color: #5cb85c !important;
+    border-color: #5cb85c;
+    font-size: 16px !important;
+    margin: .75em;
+    width: auto;
+    flex: 1 1;
+    margin-right: 0;
+    padding-left: 1em;
+    padding-right: 1em
+
+}
+.buttonText{
+    min-height: 56px !important;
+}
+.spacingDiv {
+    flex: 2 1;
+    margin: .75em;
+    margin-left: 0;
+}
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em
+}
+.linkText{
+    flex-grow: 1;
+    padding: 0 .75em;
+}
+.linkA {
+    border-bottom: 1px dotted #357bb8;
+    text-decoration: none;
+    color: #357bb8;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+
+.button-cta{
+    -webkit-appearance: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    position: relative !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 12px !important;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px !important;
+    background-color: #6fda44 !important;
+    font-size: 15px !important;
+    width: auto !important;
+    padding: 0px 1em !important;
+    overflow: visible !important;
+    outline: 0px !important;
+    text-decoration: none !important;
+    -o-transition: all 0.1s ease-out 0s !important;
+    border-width: 2px !important;
+    margin: 0.75em 0px 0.75em 0.75em !important;
+    -ms-flex: 1 1 !important;
+    flex: 1 1 !important;
+    padding: 13px 0px !important;
+    border-radius: 50px !important;
+    max-width: 147px;
+}
+
+
+.tag{
+    -webkit-appearance: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    position: relative !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 12px !important;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px !important;
+    font-size: 13px !important;
+    padding: 0px 1em !important;
+    overflow: visible !important;
+    outline: 0px !important;
+    text-decoration: none !important;
+    -o-transition: all 0.1s ease-out 0s !important;
+    border-width: 2px !important;
+    margin: 0.75em 0px 0.75em 0.75em !important;
+    -ms-flex: 1 1 !important;
+    flex: 1 1 !important;
+    padding: 13px 20px !important;
+    border-radius: 50px !important;
+}
+
+
+/*Button*/
+
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    max-width: 480px;
+    margin: 25vh auto;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.login-box:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.login-box h2 {
+    margin: 20px 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #4688F1;
+}
+
+.social-button {
+    background-position: 25px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 20%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect {
+    background: rgb(255, 255, 255) url('https://eswarasai.com/projects/social-login/img/facebook.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+    border-color: rgb(60, 90, 154);
+    background: rgb(60, 90, 154) url('https://eswarasai.com/projects/social-login/img/facebook-white.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#google-connect {
+    border-color: rgb(220, 74, 61);
+    background: rgb(220, 74, 61) url('https://eswarasai.com/projects/social-login/img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+
+}
+
+#google-connect:hover {
+    border-color: rgb(220, 74, 61);
+    background: rgb(220, 74, 61) url('https://eswarasai.com/projects/social-login/img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+#google-connect span {
+    box-sizing: border-box;
+    color: rgb(248, 255, 247);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect:hover span {
+    color: #FFF;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+#linkedin-connect {
+    border-color: rgb(0, 119, 181);
+    color: #fff !important;
+    background: rgb(0, 119, 181) url('https://eswarasai.com/projects/social-login/img/linkedin-white.svg') no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+}
+
+#linkedin-connect:hover {
+    border-color: rgb(0, 119, 181);
+    background: rgb(0, 119, 181) url('https://eswarasai.com/projects/social-login/img/linkedin-white.svg') no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+#linkedin-connect span {
+    box-sizing: border-box;
+    color: rgb(255, 249, 247);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(0, 119, 181);
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#linkedin-connect:hover span {
+    color: #FFF;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}

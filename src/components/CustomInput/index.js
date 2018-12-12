@@ -23,10 +23,10 @@ class CustomInput extends Component {
             <div className={css(styles.mainInput)}>
                 <div className={css(styles.mainInputContainer)}>
                     <label className={css(styles.label)}>
-                        <span className={css(styles.inputHeading)}>{this.props.label}</span>
                         <input
                             className={css(styles.inputText)}
                             name={this.props.id}
+                            placeholder={this.props.label}
                             type={this.props.type ? this.props.type : "text"}
                             onChange={(event) => {this.setState({value: event.target.value})}}
                         />

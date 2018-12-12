@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import HomePage from './containers/HomePage';
 import Pricing from './containers/Pricing';
 import WhatWeDo from './containers/WhatWeDo';
-import WhyWishup from './containers/WhyWishup';
+import LoginCard from './components/LoginCard';
 class App extends Component {
     constructor(){
         super()
@@ -14,12 +14,18 @@ class App extends Component {
 
         return (
             <div>
-                <HeaderBar></HeaderBar>
-                {/*<HomePage/>*/}
-                {/*<Pricing></Pricing>*/}
-                {/*<WhatWeDo/>*/}
-                <WhyWishup></WhyWishup>
-                <Footer></Footer>
+                <div className="login-container">
+                    <LoginCard></LoginCard>
+                </div>
+                <div>
+                    <HeaderBar></HeaderBar>
+                    {/*<HomePage/>*/}
+                    {/*<Pricing></Pricing>*/}
+                    {/*<WhatWeDo/>*/}
+
+                    {/*<WhyWishup></WhyWishup>*/}
+                    <Footer></Footer>
+                </div>
             </div>
         );
     }
