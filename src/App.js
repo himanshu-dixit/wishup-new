@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import HomePage from './containers/HomePage';
 import Pricing from './containers/Pricing';
 import WhatWeDo from './containers/WhatWeDo';
+import WhyWishup from './containers/WhyWishup';
 class App extends Component {
     constructor(){
         super()
@@ -16,7 +17,8 @@ class App extends Component {
                 <HeaderBar></HeaderBar>
                 {/*<HomePage/>*/}
                 {/*<Pricing></Pricing>*/}
-                <WhatWeDo/>
+                {/*<WhatWeDo/>*/}
+                <WhyWishup></WhyWishup>
                 <Footer></Footer>
             </div>
         );
