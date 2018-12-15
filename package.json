@@ -2,7 +2,7 @@
   "name": "wishup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://flatpixel.co/wishup/",
+  "homepage": "http://himanshudixit.me/wishup-site/",
   "dependencies": {
     "aphrodite": "^2.2.3",
     "bootstrap": "^4.1.3",

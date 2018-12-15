@@ -16,3 +16,10 @@ body, html{
   background: rgba(0,0,0,.6);
   z-index: 10;
 }
+
+@media only screen and (max-width: 550px) {
+  .wishup-container {
+    padding: 0 1.1rem !important;
+  }
+
+}
