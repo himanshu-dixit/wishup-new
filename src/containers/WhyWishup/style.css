@@ -4,6 +4,9 @@
 .image-container{
     text-align: center;
 }
+.left-image-container{
+    text-align: left;
+}
 
 h2{
     line-height: 1.6;
@@ -30,4 +33,30 @@ h2{
 
 .grey-container{
     background: #fafafa;
+}
+.featured-section-image{
+    width: 70%;
+}
+
+@media only screen and (max-width: 792px ) {
+
+    .why-wishup-section {
+        padding: 10px 1rem 5rem !important;
+    }
+    .section-description {
+        line-height: 1.768;
+    }
+    .featured-section-image {
+        width: 84%;
+        margin: 2rem 0;
+    }
+    .image-container{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .why-wishup .mobile-bar {
+
+        margin-left: 0;
+        margin-top: 1rem;
+    }
 }

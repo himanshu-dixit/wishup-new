@@ -61,15 +61,15 @@
     padding: 30px 20px;
 }
 
-.what-we-do .col-md-6{
+.what-we-do .col-sm-6{
     padding: 0;
     width: 55%;
 }
-.what-we-do .col-md-3-large{
+.what-we-do .col-sm-3-large{
     width: 24% !important;
 }
 
-.what-we-do .col-md-3{
+.what-we-do .col-sm-3{
     width: 21%;
 }
 
@@ -103,4 +103,29 @@
     font-size: 18px;
     font-weight: 600;
     margin: 20px 0;
+}
+
+
+@media only screen and (max-width: 792px ) {
+
+  .what-we-do .col-sm-3, .what-we-do  .col-sm-6{
+      width: 99% !important;
+      margin-left: .5%;
+  }
+    .raised-container .different-section {
+        padding: 20px 24px;
+    }
+    .grey-section .different-section {
+        padding: 20px 20px;
+    }
+    .what-we-do .graphic-header h1 {
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 1rem;
+    }
+    .what-we-do .graphic-header {
+        height: 25rem;
+    }
 }

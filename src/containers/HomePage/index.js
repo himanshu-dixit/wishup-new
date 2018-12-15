@@ -202,7 +202,9 @@ class HomePage extends Component {
               <div className="wishup-container">
                   <h2>
                   Don't just take our word for it
+
                   </h2>
+                  <div className="red-strip"></div>
                   <div className="description">
                       <div className="mobile-bar"></div>
                   Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? Read what people have to say
@@ -225,6 +227,7 @@ class HomePage extends Component {
                           <div className="card">
                               Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
                           </div>
+
                           <div className="profile-pic">
                               <img src={require('../../assets/resources/userr.png')} height="55px"/>
                           </div>

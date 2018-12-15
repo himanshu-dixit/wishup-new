@@ -27,12 +27,14 @@
 .plan-button{
     width: 53%;
     background: #36df12;
-    padding: 12px;
+    padding: 15px 12px;
     margin: 0 auto;
     position: absolute;
-    bottom: -11px;
+    bottom: -19px;
     border-radius: 23px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     color: #fff;
 }
@@ -91,4 +93,12 @@ h3{
     color: #545454;
     font-weight: 600;
     margin-top: 17px;
+}
+
+@media only screen and (max-width: 792px ) {
+    .plan-card {
+        margin-bottom: 4rem;
+        width: 93%;
+        margin-left: 3.5%;
+    }
 }

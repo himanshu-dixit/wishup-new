@@ -306,6 +306,10 @@ h2{
     background: #fafafa;
 }
 
+.testimonial-section .red-strip{
+   margin-bottom: 10px;
+}
+
 .mentions{
     background: #fafafa;
 }
@@ -517,5 +521,8 @@ h2{
         padding: 4rem 2rem 8rem 2rem;
         display: -ms-flexbox;
         display: flex;
+    }
+    .testimonial-section .red-strip{
+        display: none;
     }
 }

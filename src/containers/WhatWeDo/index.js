@@ -15,7 +15,7 @@ class WhatWeDo extends Component {
                 <div className="raised-container-top raised-container">
                     <div className="wishup-container">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                                 <div className="what-we-do-menu">
                                     <div className="menu-header">
                                         What We Do
@@ -33,7 +33,7 @@ class WhatWeDo extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-sm-6">
                                 <div className="section-text">
                                     Zirtual provides US-Based, college educated virtual assistants to busy people everywhere, but just what is a virtual assistant, and how does the role compare to traditional “in office” titles?
 
@@ -42,7 +42,7 @@ class WhatWeDo extends Component {
                                     However, titles such as Remote Office Manager, Virtual Secretary, Virtual Paralegal, Virtual Receptionist, and Online Project Manager, usually indicate much more specific and specialized areas of expertise and service.
                                 </div>
                             </div>
-                            <div className="col-md-3 col-md-3-large">
+                            <div className="col-sm-3 col-sm-3-large">
                                 <div className="what-we-do-form">
                                     Sounds like the kind of team you want to work with?
                                     <div className="form-cta-button">Request consultation</div>
@@ -55,9 +55,9 @@ class WhatWeDo extends Component {
                 <div className="grey-section">
                     <div className="wishup-container">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-sm-6">
                                 <div className="different-section">
                                     <h2>How are they different?</h2>
                                     <div className="section-text">
@@ -75,7 +75,7 @@ class WhatWeDo extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
                         </div>
                     </div>
@@ -88,9 +88,9 @@ class WhatWeDo extends Component {
                 <div className="raised-container">
                     <div className="wishup-container">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-sm-6">
                                 <div className="different-section">
                                     <h2>How are they different?</h2>
                                     <div className="section-text">
@@ -108,7 +108,7 @@ class WhatWeDo extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
                         </div>
                     </div>
@@ -121,9 +121,9 @@ class WhatWeDo extends Component {
                 <div className="raised-container">
                     <div className="wishup-container">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-sm-6">
                                 <div className="different-section">
                                     <h2>How are they different?</h2>
                                     <div className="section-text">
@@ -141,7 +141,7 @@ class WhatWeDo extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-sm-3">
                             </div>
                         </div>
                     </div>
