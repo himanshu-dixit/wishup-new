@@ -534,4 +534,8 @@ h2{
     .testimonial-section .red-strip{
         display: none;
     }
+    .va-section .card {
+        min-height: 35rem;
+        height: 35rem;
+    }
 }

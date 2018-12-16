@@ -37,6 +37,7 @@ class LoginCard extends Component {
                                     </div>
                                 </div>
                                 <div className="inputContainer col-sm-8">
+                                    <i className="fas fa-times close-button "></i>
                                     <div className="header-logo form-logo-visible">
                                         <img src={require('../../assets/resources/logo.png')} height="23px"/> Wishup
                                     </div>

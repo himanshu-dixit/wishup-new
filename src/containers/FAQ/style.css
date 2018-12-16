@@ -136,4 +136,10 @@
         max-width: 305px;
         margin: 020px auto;
     }
+    .raised-container{
+        margin-top: 0 !important;
+    }
+    .faq .raised-container-top .section-text {
+        padding: 1rem 1rem;
+    }
 }

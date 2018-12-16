@@ -44,7 +44,6 @@ transition: all .15s ease-out;
 }
 .inputText:focus{
     border-bottom-width: 3px;
-    box-shadow: 0 1px 4px #6fda44;
     border-bottom-color: #6fda44;
 }
 .redInput{

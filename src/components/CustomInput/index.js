@@ -1,12 +1,8 @@
-import { Link } from 'react-router-dom'
+
 import React, { Component } from 'react';
-import Sentinel from "react-sentinel";
 import './style.css';
-import styles from './styles';
-import Icon from 'react-icons-kit';
 import { chevronDown } from 'react-icons-kit/fa/chevronDown';
 import { chevronUp } from 'react-icons-kit/fa/chevronUp';
-import { css } from 'aphrodite';
 
 
 class CustomInput extends Component {

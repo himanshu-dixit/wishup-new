@@ -175,7 +175,7 @@ class HomePage extends Component {
                           <div className="profile-info">
 
                               <span className="name">Farhan Ahmed</span><br></br>
-                              <span className="position"> Founder and Director</span>,<span className="company-name">Confetti Holdings</span>
+                              <span className="position"> Founder</span>,<span className="company-name">Confetti Holdings</span>
                           </div>
                       </div>
                   </div>
