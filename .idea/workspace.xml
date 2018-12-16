@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/rupee-indian.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomInput/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FAQ/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FAQ/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginCard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Pricing/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pricing/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Pricing/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhatWeDo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhatWeDo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhyWishup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhyWishup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -103,7 +82,7 @@
           <entry key="html" value="3" />
           <entry key="ico" value="1" />
           <entry key="js" value="69" />
-          <entry key="json" value="6" />
+          <entry key="json" value="8" />
           <entry key="npmrc" value="1" />
           <entry key="png" value="2" />
           <entry key="scss" value="4" />
@@ -115,7 +94,7 @@
           <entry key="CSS" value="51" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="3" />
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="8" />
           <entry key="JavaScript" value="69" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="4" />
@@ -127,14 +106,14 @@
           <entry key="css" value="3902" />
           <entry key="html" value="81" />
           <entry key="js" value="9734" />
-          <entry key="json" value="56" />
+          <entry key="json" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3902" />
           <entry key="HTML" value="81" />
-          <entry key="JSON" value="56" />
+          <entry key="JSON" value="58" />
           <entry key="JavaScript" value="9734" />
         </counts>
       </usages-collector>
@@ -195,11 +174,20 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -227,15 +215,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="940">
               <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -270,10 +249,10 @@
       <find>what-we-do</find>
       <find>height</find>
       <find>31</find>
-      <find>31re</find>
       <find>unbe</find>
       <find>plan-p</find>
       <find>plan-ca</find>
+      <find>31re</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
@@ -326,7 +305,6 @@
         <option value="$PROJECT_DIR$/src/containers/Why-Wishup/index.js" />
         <option value="$PROJECT_DIR$/src/components/CustomInput/styles.js" />
         <option value="$PROJECT_DIR$/src/components/GraphicHeader/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/GraphicHeader/index.css" />
         <option value="$PROJECT_DIR$/src/containers/WhyWishup/style.css" />
@@ -349,6 +327,7 @@
         <option value="$PROJECT_DIR$/src/containers/Pricing/style.css" />
         <option value="$PROJECT_DIR$/src/containers/Pricing/index.js" />
         <option value="$PROJECT_DIR$/src/components/HeadBar/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -533,12 +512,12 @@
       <workItem from="1544824508406" duration="7383000" />
       <workItem from="1544902693073" duration="29000" />
       <workItem from="1544902762232" duration="4291000" />
-      <workItem from="1544937499679" duration="5325000" />
+      <workItem from="1544937499679" duration="5661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185335000" />
+    <option name="totallyTimeSpent" value="185671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
@@ -675,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -863,6 +835,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
