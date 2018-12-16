@@ -25,7 +25,10 @@ class HeadBar extends Component {
                               <span className="icon-bar"></span>
                           </button>
                           <a className="navbar-brand" href="/">
-                              <img src={require('../../assets/resources/logo.png')} height="23px"/>
+                              <div className="header-logo">
+                                  <img src={require('../../assets/resources/logo.png')} height="23px"/> Wishup
+                              </div>
+
                           </a>
                       </div>
 
@@ -34,7 +37,7 @@ class HeadBar extends Component {
                               <li><a href="/why-wishup">Why US</a></li>
                               <li><a href="/what-we-do">What we do</a></li>
                               <li><a href="/pricing">Pricing</a></li>
-                              <li><a href="">FAQs</a></li>
+                              <li><a href="/faq">FAQs</a></li>
                               <li><a href="/login" className="cta">Get Started</a></li>
                           </ul>
                       </div>

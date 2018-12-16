@@ -7,6 +7,14 @@
     margin-top: 10px;
 }
 
+.header-logo{
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+.header-logo img{
+    margin-right: 10px;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;

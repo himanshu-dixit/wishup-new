@@ -6,7 +6,7 @@
     margin-top: -45px;
 }
 
-.what-we-do-menu{
+.faq-menu{
     background: white;
     border-radius: 7px;
     box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.09);
@@ -18,7 +18,7 @@
     border-radius: 7px;
 }
 
-.what-we-do-form{
+.faq-form{
     background: #6fda44;
     border-radius: 7px;
     text-align: center;
@@ -53,27 +53,23 @@
     color: #6fda44;
 }
 
-.raised-container-top .section-text{
-    font-size: 15px;
-    font-family: "Poppins";
-    color: rgb(76, 75, 75);
-    line-height: 1.6;
-    padding: 30px 20px;
+.faq .raised-container-top .section-text{
+    padding: 30px 40px;
 }
 
-.what-we-do .col-sm-6{
+.faq .col-sm-6{
     padding: 0;
     width: 52%;
 }
-.what-we-do .col-sm-3-large{
+.faq .col-sm-3-large{
     width: 27% !important;
 }
 
-.what-we-do .col-sm-3{
-     width: 21%;
- }
+.faq .col-sm-3{
+    width: 21%;
+}
 
-.what-we-do h2{
+.faq h2{
     font-size: 26px;
     font-weight: 600;
 }
@@ -99,7 +95,7 @@
 }
 
 
-.what-we-do h4{
+.faq h4{
     font-size: 18px;
     font-weight: 600;
     margin: 20px 0;
@@ -108,27 +104,27 @@
 
 @media only screen and (max-width: 792px ) {
 
-  .what-we-do .col-sm-3, .what-we-do  .col-sm-6{
-      width: 99% !important;
-      margin-left: .5%;
-  }
+    .faq .col-sm-3, .faq  .col-sm-6{
+        width: 99% !important;
+        margin-left: .5%;
+    }
     .raised-container .different-section {
         padding: 20px 24px;
     }
     .grey-section .different-section {
         padding: 20px 20px;
     }
-    .what-we-do .graphic-header h1 {
+    .faq .graphic-header h1 {
         font-weight: bold;
         line-height: 1.2;
         font-size: 30px;
         font-weight: 700;
         padding: 0 1rem;
     }
-    .what-we-do .graphic-header {
+    .faq .graphic-header {
         height: 25rem;
     }
-    .what-we-do-form{
+    .faq-form{
         padding: 64px 23px;
     }
     .form-cta-button{

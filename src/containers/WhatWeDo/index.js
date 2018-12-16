@@ -8,8 +8,8 @@ class WhatWeDo extends Component {
         return (
             <div className="what-we-do">
                 <GraphicHeader
-                    title="What We Do"
-                    description=""
+                    title="What Wishup can help you with?"
+                    description="We have more than 20."
                     image={"url(" + require('../../assets/resources/what-we-do/what-we-do-background[1].png') + ")"}
                 ></GraphicHeader>
                 <div className="raised-container-top raised-container">
@@ -22,13 +22,13 @@ class WhatWeDo extends Component {
                                     </div>
                                     <div className="menu-list">
                                         <div className="menu-item active">
-                                            Adminstrative Task
+                                            Administrative Assistant
                                         </div>
                                         <div className="menu-item">
-                                            Adminstrative Task
+                                            Social Media Assistant
                                         </div>
                                         <div className="menu-item">
-                                            Adminstrative Task
+                                            Bookkeeping Assistant
                                         </div>
                                     </div>
                                 </div>

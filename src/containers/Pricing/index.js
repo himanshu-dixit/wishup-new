@@ -17,19 +17,20 @@ class Pricing extends Component {
                             <div className="col-md-3">
                                 <div className="plan-card">
                                     <div className="plan-type">
-                                        Economy Employee
+                                        One Week Trial
                                     </div>
                                     <div className="plan-description">
-                                        Small task work to keep on top of a few things.
+                                        A warm up plan to give you the feel of things and get you started!
                                     </div>
                                     <div className="plan-price">
-                                        21000 / month
+                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
+                                        <span className="plan-amount">4,999</span> / month
                                     </div>
                                     <div className="plan-hours">
-                                        3 hrs/day
+                                        10 hrs
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (60 hours per months)
+                                        (10 hrs)
                                     </div>
                                     <div className="plan-button">
                                         Sign Up
@@ -40,73 +41,160 @@ class Pricing extends Component {
                             <div className="col-md-3">
                                 <div className="plan-card">
                                     <div className="plan-type">
-                                        Economy Employee
+                                        Mini Assistant
                                     </div>
                                     <div className="plan-description">
-                                        Small task work to keep on top of a few things.
+                                        A plan designed for smaller, recurring tasks
                                     </div>
                                     <div className="plan-price">
-                                        21000 / month
+                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
+                                        <span className="plan-amount">12,499</span> / month
                                     </div>
                                     <div className="plan-hours">
-                                        3 hrs/day
+                                       1.5 hrs/ Day
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (60 hours per months)
+
+                                        Up to 30 Hrs/month
+
                                     </div>
                                     <div className="plan-button">
                                         Sign Up
                                     </div>
                                 </div>
                             </div>
-
 
                             <div className="col-md-3">
                                 <div className="plan-card">
                                     <div className="plan-type">
-                                        Economy Employee
+                                        Quarter Assistant
                                     </div>
                                     <div className="plan-description">
-                                        Small task work to keep on top of a few things.
+                                        A plan crafted  for busy entrepreneurs for  recurrent, small projects
                                     </div>
                                     <div className="plan-price">
-                                        21000 / month
+                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
+                                        <span className="plan-amount">15,999</span> / month
                                     </div>
                                     <div className="plan-hours">
-                                        3 hrs/day
+                                        2 hrs/ Day
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (60 hours per months)
+
+                                        Up to 45 Hrs/month
+
                                     </div>
                                     <div className="plan-button">
                                         Sign Up
                                     </div>
                                 </div>
                             </div>
-
 
                             <div className="col-md-3">
                                 <div className="plan-card">
                                     <div className="plan-type">
-                                        Economy Employee
+                                        Economy Assistant
                                     </div>
                                     <div className="plan-description">
-                                        Small task work to keep on top of a few things.
+                                        A plan crafted  for start-ups for recurrent long-term tasks
                                     </div>
                                     <div className="plan-price">
-                                        21000 / month
+                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
+                                        <span className="plan-amount">20,999</span> / month
                                     </div>
                                     <div className="plan-hours">
-                                        3 hrs/day
+                                        3 hrs/ Day
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (60 hours per months)
+
+                                        Up to 60 Hrs/month
+
                                     </div>
                                     <div className="plan-button">
                                         Sign Up
                                     </div>
                                 </div>
                             </div>
+
+
+                            {/*<div className="col-md-3">*/}
+                                {/*<div className="plan-card">*/}
+                                    {/*<div className="plan-type">*/}
+                                        {/*Mini Assistant*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-description">*/}
+                                        {/*A plan customised for anyone looking for greater assistance!*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-price">*/}
+                                        {/*<sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>*/}
+                                        {/*<span className="plan-amount">29,499</span> / month*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hours">*/}
+                                       {/*2 hrs/ Day*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hoursinmonth">*/}
+
+                                        {/*Up to 80 Hrs/month*/}
+
+                                    {/*</div>*/}
+                                    {/*<div className="plan-button">*/}
+                                        {/*Sign Up*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+
+                            {/*<div className="col-md-3">*/}
+                                {/*<div className="plan-card">*/}
+                                    {/*<div className="plan-type">*/}
+                                        {/*Full Employee*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-description">*/}
+                                        {/*A full-fledged plan meant for full-time assistance for mid-sized teams.*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-price">*/}
+                                        {/*<sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>*/}
+                                        {/*<span className="plan-amount">49,999</span> / month*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hours">*/}
+                                        {/*10 hrs/ Day*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hoursinmonth">*/}
+
+                                        {/*Up to 160 Hrs/month*/}
+
+                                    {/*</div>*/}
+                                    {/*<div className="plan-button">*/}
+                                        {/*Sign Up*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+
+                            {/*<div className="col-md-3">*/}
+                                {/*<div className="plan-card">*/}
+                                    {/*<div className="plan-type">*/}
+                                        {/*Super Employee*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-description">*/}
+                                        {/*A plan crafted  for start-ups for recurrent long-term tasks*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-price">*/}
+                                        {/*<sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>*/}
+                                        {/*<span className="plan-amount">59,999</span> / month*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hours">*/}
+                                        {/*10 hrs/ Day*/}
+                                    {/*</div>*/}
+                                    {/*<div className="plan-hoursinmonth">*/}
+
+                                        {/*Up to 200 Hrs/month*/}
+
+                                    {/*</div>*/}
+                                    {/*<div className="plan-button">*/}
+                                        {/*Sign Up*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+
                         </div>
                         <div className="help-info">
                             Need multiple employees? Contact us at <a href="mailto:sales@wishup.com"> sales@wishup.co</a>

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react';
 import Sentinel from "react-sentinel";
-import '../../styles/index.css';
+import './style.css';
 import styles from './styles';
 import Icon from 'react-icons-kit';
 import { chevronDown } from 'react-icons-kit/fa/chevronDown';
@@ -20,11 +20,11 @@ class CustomInput extends Component {
     render(){
         //<Link to='/'>Home</Link>
         return (
-            <div className={css(styles.mainInput)}>
-                <div className={css(styles.mainInputContainer)}>
-                    <label className={css(styles.label)}>
+            <div className="mainInput">
+                <div className="mainInputContainer">
+                    <label className="label">
                         <input
-                            className={css(styles.inputText)}
+                            className="inputText"
                             name={this.props.id}
                             placeholder={this.props.label}
                             type={this.props.type ? this.props.type : "text"}

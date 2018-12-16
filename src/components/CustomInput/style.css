@@ -1,0 +1,53 @@
+.mainInput {
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainInputContainer {
+    flex: 1 1;
+    margin: .75em;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 13px;
+    color: rgba(0,0,0,.75);
+    line-height: 1;
+}
+.label {
+    display: block;
+}
+.inputHeading {
+    color: inherit;
+    font-size: 14px;
+    padding: .5em 0;
+    display: block;
+}
+.inputText {
+    width: 100%;
+    font-size: 12px;
+    height: 47px;
+    padding: 11.6px 16px 11.4px;
+    border-color: rgba(0,0,0,0.15);
+    border-radius: .1875em;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .8);
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    outline: 0;
+transition: all .15s ease-out;
+}
+.inputText:focus{
+    border-bottom-width: 3px;
+    box-shadow: 0 1px 4px #6fda44;
+    border-bottom-color: #6fda44;
+}
+.redInput{
+    border-color: #c00 !important;
+}
+

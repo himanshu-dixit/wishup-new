@@ -6,6 +6,7 @@ import Pricing from './containers/Pricing';
 import WhatWeDo from './containers/WhatWeDo';
 import WhyWishup from './containers/WhyWishup';
 import LoginCard from './components/LoginCard';
+import FAQ from './containers/FAQ';
 import { Switch, Route } from 'react-router-dom'
 class App extends Component {
     constructor(){
@@ -20,6 +21,7 @@ class App extends Component {
                     <HeaderBar></HeaderBar>
                     <Switch>
                         <Route exact path='/' component={HomePage}/>
+                        <Route exact path='/faq' component={FAQ}/>
                         <Route exact path='/login' component={LoginCard}/>
                         <Route exact path='/what-we-do' component={WhatWeDo}/>
                         <Route exact path='/why-wishup' component={WhyWishup}/>

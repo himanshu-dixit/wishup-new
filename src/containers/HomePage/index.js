@@ -20,6 +20,8 @@ class HomePage extends Component {
                 </div>
             </div>
         </div>
+
+
           <div className="mentions">
               <div className="wishup-container">
                   <div className="row">
@@ -33,6 +35,7 @@ class HomePage extends Component {
               </div>
           </div>
 
+
           <div className="assistance-bar">
               <div className="wishup-container">
                   <div className="row">
@@ -45,7 +48,6 @@ class HomePage extends Component {
                           <div className="mobile-bar"></div>
                           <div className="assistance-description">
                           Your Virtual Employee is an ideal and efficient resource to help you handle recurrent and specialized tasks. All our Wishup Virtual Employees are skilled and trained to handle your tasks and give you great result
-
                           </div>
                       </div>
                   </div>
@@ -66,24 +68,26 @@ class HomePage extends Component {
 
                           <div className="description">
                               <div className="mobile-bar"></div>
-                             Do you need help with one or more aspects of your business? Are you struggling to check tasks off your to-do list? Your Virtual Employee is an ideal and efficient resource to help you handle recurrent and specialized tasks. All our Wishup Virtual Employees are skilled and trained to handle your tasks and give you great results
+                              Do you think your business would soar if you got the right assistance? Struggling to check tasks off your to-do list? Your Virtual Employee is trained and ready to handle recurrent and specialized tasks. Try us!
                           </div>
                           <div className="service-list">
                               <div className="row">
                                   <div className="col-sm-6">
                                       <ul>
-                                          <li>Bookkeeping </li>
-                                          <li>E-commerce assistance</li>
-                                          <li>Email management</li>
                                           <li>Administrative tasks</li>
+                                          <li>Social Media</li>
+                                          <li>Online Research</li>
+                                          <li>Lead Generation</li>
+                                          <li>Ecommerce assistant</li>
                                       </ul>
                                   </div>
                                   <div className="col-sm-6">
                                       <ul>
-                                          <li>Online research</li>
-                                          <li>Lead Generation</li>
-                                          <li>Social Mediat</li>
-                                          <li>Administrative tasks</li>
+                                          <li>E-mail Management</li>
+                                          <li>BookKeeping</li>
+                                          <li>Personal tasks</li>
+                                          <li>Real estate assistance </li>
+                                          <li>And Much more</li>
                                       </ul>
                                   </div>
                               </div>
@@ -106,13 +110,13 @@ class HomePage extends Component {
                   <div className="row">
                       <div className="col-sm-5">
                           <h2>
-                          Skilled, multitasking experts? We call them our Virtual Employees
+                              Skilled, multitasking experts? We call them our Virtual Employees
                           </h2>
                       </div>
                       <div className="col-sm-7">
                           <div className="mobile-bar"></div>
                           <div className="description">
-                          At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we retain only 2-3% of them. We always find the best talent to work with
+                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we retain only 2-3% of them. We always find the best talent to work with.
                               <br></br>
                               <div className="button">
                                   Get Started
@@ -123,13 +127,70 @@ class HomePage extends Component {
               </div>
           </div>
 
+          <div className="testimonial-section">
+              <div className="wishup-container">
+                  <h2>
+                      Unbelievable? Read to Believe
+                  </h2>
+                  <div className="red-strip"></div>
+                  <div className="description">
+                      <div className="mobile-bar"></div>
+                      Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? Read what people have to say
+                  </div>
+                  <div className="row">
+                      <div className="col-sm-4">
+                          <div className="card">
+                              I have been using the services of a Virtual assistant from Wishup for few months now and I must say they are professional, trustworthy and highly competent.
+                           </div>
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name"> Pranay Gupta</span><br></br>
+                              <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
+                          </div>
+                      </div>
+                      <div className="col-sm-4">
+                          <div className="card">
+                              We've had a great experience working with Upasana and WIshup. I can not recommend it enough for anyone looking for a talented freelancer to accelerate your growth.
+                           </div>
+
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name"> Manan Shah</span><br></br>
+                              <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
+                          </div>
+                      </div>
+                      <div className="col-sm-4">
+                          <div className="card">
+                              I have been using the services of Wishup for close to half a year now and I truly feel this is one of the best investments I have made.
+                          </div>
+                          <div className="profile-pic">
+                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
+                          </div>
+                          <div className="profile-info">
+
+                              <span className="name">Farhan Ahmed</span><br></br>
+                              <span className="position"> Founder and Director</span>,<span className="company-name">Confetti Holdings</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
           <div className="team-pic" style={{  backgroundImage: "url(" + require('../../assets/resources/team.png') + ")"}}>
           </div>
 
           <div className="pricing-bar">
               <div className="wishup-container">
                   <div className="heading">
-                  Plans starting at just $150/mo.
+                      Tailor-made Plans to suit every workload.
                   </div>
 
                   <div className="description">
@@ -139,6 +200,28 @@ class HomePage extends Component {
                   <div className="cta">
                       <div className="button">Request a consultation</div><br></br>
                   <div className="button">Plan and Pricing</div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="highlight-bar">
+              <div className="wishup-container">
+                  <div className="row">
+                      <div className="col-sm-5">
+                          <h2>
+                              Troubled with Recurrent Tasks? Let’s Automate it for you
+                          </h2>
+                      </div>
+                      <div className="col-sm-7">
+                          <div className="mobile-bar"></div>
+                          <div className="description">
+                              Enterprises require a great deal of time and focus to streamline their success.Our Virtual Employee helps you stay on track by managing appointments, inbox, social media, content creation and much more.
+                              <br></br>
+                              <div className="button">
+                                  Get Started
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
           </div>
@@ -158,8 +241,11 @@ class HomePage extends Component {
                           <div>
                           <img src={require('../../assets/resources/userr.png')} height="115px"/>
                           </div>
+                              <div className="user-name">
+                                  Shweta
+                              </div>
                           <div className="user-desc">
-                             A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                              A computer science graduate with over 9 years of experience in the field of web development, web sales, e-marketing and customer relationships.
                           </div>
                           </div>
                       </div>
@@ -168,8 +254,25 @@ class HomePage extends Component {
                               <div>
                                   <img src={require('../../assets/resources/userr.png')} height="115px"/>
                               </div>
+                              <div className="user-name">
+                                  Swati
+                              </div>
                               <div className="user-desc">
-                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup.
+                              </div>
+
+                          </div>
+                      </div>
+                      <div className="col-sm-3">
+                          <div className="card">
+                              <div>
+                                  <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                              </div>
+                              <div className="user-name">
+                                  Saloni
+                              </div>
+                              <div className="user-desc">
+                                  A MBA Finance graduate and campus placed with one of the India biggest Private sector bank as a Wealth Manager. Client Management is my expertise and with Wishup.
                               </div>
                           </div>
                       </div>
@@ -178,18 +281,11 @@ class HomePage extends Component {
                               <div>
                                   <img src={require('../../assets/resources/userr.png')} height="115px"/>
                               </div>
-                              <div className="user-desc">
-                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
-                              </div>
-                          </div>
-                      </div>
-                      <div className="col-sm-3">
-                          <div className="card">
-                              <div>
-                                  <img src={require('../../assets/resources/userr.png')} height="115px"/>
+                              <div className="user-name">
+                                  Mallika
                               </div>
                               <div className="user-desc">
-                                  A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup, I get to learn and explore the latest in the online world.
+                                  My previous career involved travelling across the world and it helped me understand the importance of superior customer service skills and time-management.
                               </div>
                           </div>
                       </div>
@@ -198,65 +294,12 @@ class HomePage extends Component {
               </div>
           </div>
 
-          <div className="testimonial-section">
-              <div className="wishup-container">
-                  <h2>
-                  Don't just take our word for it
 
-                  </h2>
-                  <div className="red-strip"></div>
-                  <div className="description">
-                      <div className="mobile-bar"></div>
-                  Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? Read what people have to say
-                  </div>
-                  <div className="row">
-                      <div className="col-sm-4">
-                          <div className="card">
-                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
-                          </div>
-                          <div className="profile-pic">
-                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
-                          </div>
-                          <div className="profile-info">
 
-                              <span className="name"> Benji Rogerrs</span><br></br>
-                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
-                          </div>
-                      </div>
-                      <div className="col-sm-4">
-                          <div className="card">
-                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
-                          </div>
-
-                          <div className="profile-pic">
-                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
-                          </div>
-                          <div className="profile-info">
-
-                              <span className="name"> Benji Rogerrs</span><br></br>
-                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
-                          </div>
-                      </div>
-                      <div className="col-sm-4">
-                          <div className="card">
-                              Now that I have Renee, my VA, to handle all the small stuff, I'm more productive. I'm closing more transactions, and I can finally exhale — truly enjoying my chosen career
-                          </div>
-                          <div className="profile-pic">
-                              <img src={require('../../assets/resources/userr.png')} height="55px"/>
-                          </div>
-                          <div className="profile-info">
-
-                              <span className="name"> Benji Rogerrs</span><br></br>
-                              <span className="position"> CEO & Founder</span>,<span className="company-name"> Pledge Musi</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
 
           <div className="va-bar">
               <div className="wishup-container">
-                 <div>Become a Virtual Employee</div>  <div className="line"></div>
+                 <div>Become a Virtual Employee <div className="line"></div></div>
               </div>
           </div>
       </div>
