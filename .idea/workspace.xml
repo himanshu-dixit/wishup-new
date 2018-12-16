@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Poppins-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Poppins-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Poppins-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Poppins-Italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Poppins-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Poppins-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Poppins-SemiBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Poppins-SemiBold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomInput/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginCard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FAQ/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -115,7 +103,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3984" />
+          <entry key="css" value="3985" />
           <entry key="html" value="84" />
           <entry key="js" value="9750" />
           <entry key="json" value="58" />
@@ -123,7 +111,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3984" />
+          <entry key="CSS" value="3985" />
           <entry key="HTML" value="84" />
           <entry key="JSON" value="58" />
           <entry key="JavaScript" value="9750" />
@@ -184,8 +172,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="350">
+              <caret line="309" column="20" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -435,18 +423,18 @@
       <workItem from="1544824508406" duration="7383000" />
       <workItem from="1544902693073" duration="29000" />
       <workItem from="1544902762232" duration="4291000" />
-      <workItem from="1544937499679" duration="7297000" />
+      <workItem from="1544937499679" duration="7385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187307000" />
+    <option name="totallyTimeSpent" value="187395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18987341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18987341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -460,7 +448,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32585597" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32585597" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -770,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="350">
+          <caret line="309" column="20" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -307,7 +307,7 @@ margin-top: 10px;
 
 .form-logo-visible{
     display: none;
-    margin-bottom: 6vh;
+    margin-bottom: 2vh;
 }
 
 @media only screen and (max-width: 762px) {
