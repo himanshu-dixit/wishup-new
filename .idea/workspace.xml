@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/styles.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginCard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/style.css" afterDir="false" />
     </list>
@@ -108,18 +105,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4016" />
+          <entry key="css" value="4050" />
           <entry key="html" value="84" />
-          <entry key="js" value="12712" />
+          <entry key="js" value="12722" />
           <entry key="json" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4016" />
+          <entry key="CSS" value="4050" />
           <entry key="HTML" value="84" />
           <entry key="JSON" value="58" />
-          <entry key="JavaScript" value="12712" />
+          <entry key="JavaScript" value="12722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -159,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="-277">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -183,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="8372">
+              <caret line="364" column="34" selection-start-line="364" selection-start-column="34" selection-end-line="364" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -193,7 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slider</find>
       <find>slide</find>
       <find>nav-c</find>
       <find>)}</find>
@@ -223,6 +219,7 @@
       <find>31re</find>
       <find>tags</find>
       <find>clientSubmit</find>
+      <find>tag</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
@@ -318,8 +315,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="114" />
+    <option name="x" value="490" />
+    <option name="y" value="27" />
     <option name="width" value="1680" />
     <option name="height" value="955" />
   </component>
@@ -444,15 +441,15 @@
       <workItem from="1544902693073" duration="29000" />
       <workItem from="1544902762232" duration="4291000" />
       <workItem from="1544937499679" duration="8888000" />
-      <workItem from="1545032688362" duration="14180000" />
+      <workItem from="1545032688362" duration="14688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203078000" />
+    <option name="totallyTimeSpent" value="203586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="114" width="1680" height="955" extended-state="0" />
+    <frame x="490" y="27" width="1680" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18987341" />
@@ -758,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CustomInput/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -775,10 +765,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8372">
+          <caret line="364" column="34" selection-start-line="364" selection-start-column="34" selection-end-line="364" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="-277">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

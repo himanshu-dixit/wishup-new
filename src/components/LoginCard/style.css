@@ -355,3 +355,17 @@ margin-top: 10px;
 
 
 }
+
+.buttonsContainer .buttton{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.buttonsContainer .metro{
+    padding: 1.7rem 2px !important;
+    margin-left: 10% !important;
+    width: 80% !important;
+    margin-top: 2rem !important;
+    border-radius: 4px !important;
+
+}

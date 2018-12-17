@@ -13,7 +13,7 @@ import FacebookLogin from 'react-facebook-login';
 class LoginCard extends Component {
     constructor(props) {
         super(props);
-        this.state =  {name: '', email: '', phone: '', state: 'login', selectedTags: [], otherTag: false, newtag: ''};
+        this.state =  {name: '', email: '', phone: '', state: 'initial', selectedTags: [], otherTag: false, newtag: ''};
         this.tags = ['Social','Task'];
         localStorage.setItem('data',JSON.stringify(this.state));
     }
@@ -57,7 +57,7 @@ class LoginCard extends Component {
 
         sendRequest('/controller/login.php',data).then((data)=>{
             if(data.status===200){
-                // this.redirect();
+                this.redirect();
             }
         });
     }
@@ -331,6 +331,7 @@ class LoginCard extends Component {
                                                 <GoogleLogin
                                                     clientId="1037355421362-u192pai9brpfs6o6kppg33tedcqcrb88.apps.googleusercontent.com"
                                                     buttonText="Login"
+
                                                     onSuccess={this.responseGoogle.bind(this)}
                                                     onFailure={this.responseGoogle}
                                                 />
