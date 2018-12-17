@@ -17,13 +17,15 @@
     transform: translate(-50%,-50%);
     left: 50%;
     border-radius: 8px;
+    background: white;
+    min-height: 490px;
 }
 .mainContainer{
     max-width: 756px;
     width: 100%;
     background-color: #fff;
     color: rgba(0,0,0,.8);
-    box-shadow: 0 3px 12px rgba(0,0,0,.15);
+    /*box-shadow: 0 3px 12px rgba(0,0,0,.15);*/
     text-align: left;
     border-radius: 3px;
     margin: 0 auto;
@@ -303,6 +305,11 @@ margin-top: 10px;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+}
+
+.completed{
+    background: #6fda44;
+    color: white;
 }
 
 .form-logo-visible{

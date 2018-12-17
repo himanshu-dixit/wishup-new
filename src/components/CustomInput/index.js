@@ -8,13 +8,9 @@ import { chevronUp } from 'react-icons-kit/fa/chevronUp';
 class CustomInput extends Component {
     constructor(props){
         super(props);
-        this.setState({value : ""});
-    }
-    toggle = () => {
-
     }
     render(){
-        //<Link to='/'>Home</Link>
+        let that = this;
         return (
             <div className="mainInput">
                 <div className="mainInputContainer">
@@ -23,8 +19,9 @@ class CustomInput extends Component {
                             className="inputText"
                             name={this.props.id}
                             placeholder={this.props.label}
+                            value={this.props.data}
                             type={this.props.type ? this.props.type : "text"}
-                            onChange={(event) => {this.setState({value: event.target.value})}}
+                            onChange={(event) => {this.props.changeValue(this.props.id,event.target.value)}}
                         />
                     </label>
                 </div>
