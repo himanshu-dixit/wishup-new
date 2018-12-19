@@ -26,6 +26,9 @@ class App extends Component {
                 <div>
                     <HeaderBar ></HeaderBar>
                     <Switch>
+                        <Route exact path='/2' component={()=>{
+                            return <HomePage set={this.setPopupState.bind(this)} type="new"></HomePage>;
+                        }}/>
                         <Route exact path='/' component={()=>{
                             return <HomePage set={this.setPopupState.bind(this)}></HomePage>;
                         }}/>

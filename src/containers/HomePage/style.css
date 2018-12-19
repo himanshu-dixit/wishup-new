@@ -7,6 +7,23 @@
     background-position: right;
     position: relative;
 }
+.new-cover{
+    width: 100%;
+    height: 500px;
+    margin-top: -10px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.new-cover .cover-info{
+    margin-top: 35%;
+    position: relative;
+}
+
+.new-cover .wishup-desc{
+    color: #fff;
+}
 
 .cover-info{
     position: absolute;
@@ -420,6 +437,10 @@ h2{
 }
 
 @media only screen and (max-width: 792px ) {
+    .new-cover {
+        width: 100%;
+        height: 659px;
+    }
     .grow-business-bar  .second-ul{
         margin-top: 0rem;
     }

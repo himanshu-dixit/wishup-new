@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 import Slider from "react-slick";
+import Form from "../../components/Form";
 
 
 class HomePage extends Component {
@@ -51,19 +52,47 @@ class HomePage extends Component {
       };
     return (
       <div>
-        <div className="cover"
-             style={{  backgroundImage: "url(" + require('../../assets/resources/cover.png') + ")"}}>
-            <div className="wishup-container">
-                <div className="container-fluid">
-                    <div className="cover-info">
-                        <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
-                        <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
-                            Small Teams and Businesses.</div>
-                        <div className="hire-cta" onClick={()=>{this.props.set("login")}}>Get started</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+          {this.props.type == "new" ?
+              <div className="new-cover"
+                   style={{backgroundImage: "url(" + require('../../assets/blue-background.png') + ")"}}>
+                  <div className="wishup-container">
+                      <div className="container-fluid">
+                          <div className="row">
+                              <div className="col-md-7">
+                          <div className="cover-info">
+                              <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
+                              <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
+                                  Small Teams and Businesses.
+                              </div>
+                          </div>
+                              </div>
+                              <div className="col-md-5">
+                                  <Form/>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              :
+              <div className="cover"
+                   style={{backgroundImage: "url(" + require('../../assets/resources/cover.png') + ")"}}>
+                  <div className="wishup-container">
+                      <div className="container-fluid">
+                          <div className="cover-info">
+                              <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
+                              <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
+                                  Small Teams and Businesses.
+                              </div>
+                              <div className="hire-cta" onClick={() => {
+                                  this.props.set("login")
+                              }}>Get started
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          }
 
 
           {/*<div className="assistance-bar">*/}
