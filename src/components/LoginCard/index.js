@@ -13,7 +13,7 @@ import FacebookLogin from 'react-facebook-login';
 class LoginCard extends Component {
     constructor(props) {
         super(props);
-        this.state =  {name: '', email: '', phone: '', state: 'initial', selectedTags: [], otherTag: false, newtag: ''};
+        this.state =  {name: '', email: '', phone: '', state: props.type?props.type:'login', selectedTags: [], otherTag: false, newtag: ''};
         this.tags = ['Social','Task'];
         localStorage.setItem('data',JSON.stringify(this.state));
     }
@@ -26,16 +26,18 @@ class LoginCard extends Component {
     }
 
     responseGoogle(response){
-        this.loadState();
         let email = response.profileObj.email;
         let id = response.El;
         let token = response.Zi.access_token;
-        this.signup('',id,email,token);
+        if(this.state.state==="login") {
+            this.login('', id, email, token);
+        }
+        else{
+            this.signup('', id, email, token);
+        }
     }
+
     responseFacebook(response){
-        console.log(response);
-        this.loadState();
-        console.log(this.state);
         let email = response.email;
         let id = response.id;
         let token = response.accessToken;
@@ -57,13 +59,18 @@ class LoginCard extends Component {
 
         sendRequest('/controller/login.php',data).then((data)=>{
             if(data.status===200){
+                localStorage.setItem("token",data.token);
                 this.redirect();
+            }
+            else{
+                this.setState({error: data.message});
             }
         });
     }
     loginButton(){
         this.login("","",this.state.email,"",this.state.password);
     }
+
     signup(facebook,google,email,token){
         let data = {
             name: this.state.name,
@@ -72,13 +79,18 @@ class LoginCard extends Component {
             location: this.state.location?this.state.location:'',
             tags: JSON.stringify(this.state.selectedTags),
             password: this.state.password,
+            google: google?google:'',
             facebook: facebook?facebook:'',
             token: token?token:''
         };
-
             sendRequest('/controller/signup.php',data).then((data)=>{
                 if(data.status===200){
+                    localStorage.setItem("token",data.token);
                     this.redirect();
+                }
+                else{
+                    console.log(data)
+                    this.setState({error: data.message});
                 }
             });
     }
@@ -122,6 +134,9 @@ class LoginCard extends Component {
             if(data.status===200){
                 this.changeState("tags");
             }
+            else{
+                this.setState({error: data.message});
+            }
         });
     }
 
@@ -137,23 +152,6 @@ class LoginCard extends Component {
         sendRequest('/controller/va_lead.php',data).then((data)=>{
             if(data.status===200){
                 this.changeState("va-done");
-            }
-        });
-    }
-
-    signup(socialData){
-        let data = {
-            name: this.state.name,
-            email: this.state.email,
-            phone: this.state.phone,
-            location: this.state.location?this.state.location:'',
-            tags: JSON.stringify(this.state.selectedTags),
-            password: this.state.password,
-            social: socialData?socialData:''
-        };
-        sendRequest('/controller/signup.php',data).then((data)=>{
-            if(data.status===200){
-                this.changeState("redirect");
             }
         });
     }
@@ -207,6 +205,7 @@ class LoginCard extends Component {
                                         <CustomInput label="Your Full Name" type="text" id="name" data={this.state.name} changeValue={this.changeValue.bind(this)}/>
                                         <CustomInput label="Email Address" type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
                                         <CustomInput label="Phone" type="phone" id="phone" data={this.state.phone} changeValue={this.changeValue.bind(this)}/>
+                                        <div className="error">{this.state.error}</div>
                                         <div className="buttonsContainer">
                                             <div className="button-cta" onClick={()=>{this.clientSubmit()}}>Hire VA</div>
                                             <div className="button-cta va-button" onClick={()=>{this.changeState("va")}}>Become VA</div>
@@ -225,6 +224,7 @@ class LoginCard extends Component {
                                             <CustomInput label="Total Work Experience" type="text" id="experience" data={this.state.experience} changeValue={this.changeValue.bind(this)}/>
                                             <CustomInput label="Skills" type="text" id="skills" data={this.state.skills} changeValue={this.changeValue.bind(this)}/>
                                             <CustomInput label="Tell us more" type="text" id="more" data={this.state.more} changeValue={this.changeValue.bind(this)}/>
+                                            <div className="error">{this.state.error}</div>
                                             <div className="buttonsContainer">
                                                 <div className="button-cta" onClick={()=>{this.vaSubmit()}}>Submit</div>
                                             </div>
@@ -233,12 +233,10 @@ class LoginCard extends Component {
                                     {this.state.state === 'va-done' ?
                                         <div>
                                             <h2 className="heading">
-                                                More Details
+                                                Thank you
                                             </h2>
                                             <hr/>
-                                            <div>We eill look</div>
-
-
+                                            <div>We have succesfully received your details. Will contact you in next 3-4 days.</div>
                                             </div>
                                          : ''}
                                     {this.state.state === 'tags' ?
@@ -272,14 +270,11 @@ class LoginCard extends Component {
                                         <hr/>
                                         <CustomInput label="Email Address" type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
                                         <CustomInput label="Enter the password" type="password" id="password" data={this.state.password} changeValue={this.changeValue.bind(this)}/>
+                                        <div className="error">{this.state.error}</div>
 
+                                        {/*<div className="or-text"> Or</div>*/}
                                         <hr/>
                                         <div className="buttonsContainer">
-
-                                            {/*<LinkedIn*/}
-                                                {/*clientId='xxx'*/}
-                                                {/*callback={this.callbackLinkedIn}*/}
-                                                {/*text='LinkedIn' />*/}
 
                                             <GoogleLogin
                                                 clientId="1037355421362-u192pai9brpfs6o6kppg33tedcqcrb88.apps.googleusercontent.com"
@@ -291,28 +286,16 @@ class LoginCard extends Component {
 
                                             <FacebookLogin
                                                 appId="2217954758472006"
-                                                autoLoad={true}
                                                 fields="name,email,picture"
                                                 onClick={()=>{this.componentClicked}}
                                                 callback={this.responseFacebook.bind(this)}
                                             />
-
-                                                {/*<a href="#" className="social-button" id="google-connect"> <span>Signup with Google</span></a>*/}
-                                            {/*/!*<LinkedIn*!/*/}
-                                                {/*/!*clientId="81ox2ce8b5cku1"*!/*/}
-                                                {/*/!*onFailure={this.handleFailure}*!/*/}
-                                                {/*/!*onSuccess={this.handleSuccess}*!/*/}
-                                                {/*/!*redirectUri="http://localhost:8080/login"*!/*/}
-                                            {/*/!*>*!/*/}
-                                                {/*<a href="#" className="social-button" id="linkedin-connect"> <span>Signup with LinkedIn</span></a>*/}
-                                            {/*</LinkedIn>*/}
-
+                                            <div className="buttonsContainer">
+                                                <div className="button-cta" onClick={()=>this.loginButton()}>Next</div>
+                                            </div>
 
                                         </div>
-                                        <div className="buttonsContainer">
-                                            <div className="button-cta" onClick={()=>this.loginButton()}>Next</div>
 
-                                        </div>
                                     </form> : ''}
 
                                     {this.state.state === 'signup' ?
@@ -321,17 +304,15 @@ class LoginCard extends Component {
                                                 Last Step
                                             </h2>
                                             <hr/>
-                                            <CustomInput label="Email Address" type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
 
                                             <CustomInput label="Enter the password" type="password" id="password" data={this.state.password} changeValue={this.changeValue.bind(this)}/>
-
+                                            {/*<div className="or-text"> Or</div>*/}
                                             <hr/>
                                             <div className="buttonsContainer">
 
                                                 <GoogleLogin
                                                     clientId="1037355421362-u192pai9brpfs6o6kppg33tedcqcrb88.apps.googleusercontent.com"
                                                     buttonText="Login"
-
                                                     onSuccess={this.responseGoogle.bind(this)}
                                                     onFailure={this.responseGoogle}
                                                 />
@@ -339,18 +320,21 @@ class LoginCard extends Component {
 
                                                 <FacebookLogin
                                                     appId="2217954758472006"
-                                                    autoLoad={true}
                                                     fields="name,email,picture"
                                                     onClick={()=>{this.componentClicked}}
-                                                    callback={this.responseFacebook.bind(this)} />
+                                                     callback={this.responseFacebook.bind(this)}
+                                                />
 
 
                                             </div>
+                                            <div className="error">{this.state.error}</div>
                                             <div className="buttonsContainer">
                                                 <div className="button-cta" onClick={()=>this.signup()}>Next</div>
 
                                             </div>
                                         </form> : ''}
+
+
 
                                 </div>
                             </div>

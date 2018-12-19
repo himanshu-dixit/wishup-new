@@ -8,7 +8,7 @@
 }
 
 .header-logo{
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 700;
     color: black;
 }
@@ -43,6 +43,7 @@
     border: none;
     margin-top: 1.2rem;
     padding: 0 0rem;
+    margin-bottom: 12px;
 }
 .nav>li>a {
     position: relative;
@@ -84,6 +85,22 @@
     padding: 10px 15px;
 }
 
+.black-header{
+    background: #161417;
+}
+
+.black-header .navbar-default .navbar-nav>li>a {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 3.5rem;
+}
+.black-header .navbar-default{
+    margin-bottom: 5px;
+}
+.black-header .header-logo{
+    color: white;
+}
 
 @media only screen and (max-width: 762px) {
 

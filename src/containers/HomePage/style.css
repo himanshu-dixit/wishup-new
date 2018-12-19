@@ -25,22 +25,22 @@ h2{
 }
 
 .wishup-desc{
-    font-size: 12px;
-    color: rgb(117, 116, 116);
+    color: #757474;
     line-height: 1.2;
+    margin-top: 1.8rem;
+    font-size: 18px;
     font-weight: 600;
-    margin-top: 1rem;
 }
 .hire-cta{
-    padding: 1.2rem 3.5rem;
     background-color: rgb(111, 218, 68);
-    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.29);
     display: inline-block;
     border-radius: 4rem;
     font-weight: 600;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 3rem;
+    padding: 1.6rem 5.3rem;
 }
 
 .mentions .col-sm-4{
@@ -60,22 +60,27 @@ h2{
 }
 
 .va-bar .line{
-    width: 20%;
-    height: 2px;
+    width: 8%;
+    height: 3px;
     background: white;
     display: inline-block;
-    margin-top: 3rem;
-    position: absolute;
-    margin-left: 4%;
+    /* margin-top: 3rem; */
+    /* position: absolute; */
+    margin-left: 2%;
+    margin-top: -11px;
+}
+.va-bar-text{
+    display: inline-block;
+    padding-top: 1rem;
 }
 .va-bar .wishup-container{
     padding: 0 3rem;
     width: 100%;
 }
 .team-pic{
-    height: 47rem;
+    height: 44rem;
     background-size: cover;
-    background-position-y: -24rem;
+    background-position-y: -28rem;
 }
 
 .center{
@@ -110,7 +115,7 @@ h2{
 
 .grow-business-bar .description{
     margin-top: 2rem;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Poppins";
     color: rgb(117, 116, 116);
     line-height: 1.468;
@@ -125,14 +130,17 @@ h2{
     line-height: 1.468;
     text-align: left;
 }
-
+.linkedin{
+    margin-top: -4px;
+    margin-left: 6px;
+}
 .grow-business-bar  ul{
     padding-left: 10px;
     list-style: none;
     color: rgb(111, 218, 68);
     line-height: 1.2;
     font-size: 12.1px;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .grow-business-bar  li::before {
@@ -141,24 +149,37 @@ h2{
 }
 .grow-business-bar  li{
     font-weight: 600;
-    margin: 1rem 0 0;
+    margin: 1.5rem 0 0;
+    font-size: 14px;
+}
 
+.testimonial-section .profile-pic {
+    display: inline-block;
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    overflow: hidden;
+}
+
+.grow-business-bar{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .button{
-    padding: 1.2rem 3.5rem;
+    padding: 1.5rem 4.2rem;
     background-color: rgb(111, 218, 68);
-    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.19);
     display: inline-block;
     border-radius: 4rem;
     font-weight: 600;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 2rem;
 }
 
 .highlight-bar .description{
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(113, 113, 113);
     line-height: 1.571;
     border-left: 1px solid red;
@@ -168,7 +189,11 @@ h2{
 }
 
 .highlight-bar{
-    margin: 5rem 2rem;
+    margin: 5rem 2rem -1.2rem 2rem;
+}
+
+.second-highlight-bar{
+    margin: 5rem 2rem ;
 }
 
 .highlight-bar h2{
@@ -177,10 +202,9 @@ h2{
 }
 
 .pricing-bar{
-    width: 98%;
     background: #6fda44;
     text-align: center;
-    padding: 6rem;
+    padding: 11rem 6rem;
 }
 
 .pricing-bar .heading{
@@ -197,9 +221,12 @@ h2{
 }
 
 .pricing-bar .button{
-    min-width: 200px;
+    min-width: 220px;
     background: white;
     color: #36df12;
+    padding: 1.8rem 3.2rem;
+    font-size: 14px;
+    margin: 26px 10px;
 }
 
 .va-section{
@@ -228,8 +255,7 @@ h2{
 }
 
 .va-section img{
-    margin-bottom: 2rem;
-    margin-top: -1rem;
+    margin: 0rem auto 1.5rem;
 }
 
 .va-section .user-desc{
@@ -249,13 +275,13 @@ h2{
 
 .testimonial-section{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 0rem;
     padding: 5rem 0;
 }
 
 .testimonial-section .description{
     padding: 2rem 19rem;
-    font-size: 13px;
+    font-size: 16px;
     color: rgb(113, 113, 113);
     line-height: 1.467;
     margin-bottom: 1rem;
@@ -277,15 +303,21 @@ h2{
 }
 
 .testimonial-section .profile-pic{
-    display: inline-block;
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    margin-left: 4rem;
 }
 
 .testimonial-section .profile-info{
-    display: inline-block;
-    display: inline-block;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 0rem;
     margin-top: 1rem;
+    margin-left: 2rem;
+    float: left;
 }
 
 .testimonial-section .name{
@@ -297,7 +329,7 @@ h2{
 }
 
 .testimonial-section img{
-    margin-top: -20px;
+
 }
 
 .testimonial-section .position{
@@ -377,6 +409,9 @@ h2{
 }
 
 @media only screen and (max-width: 792px ) {
+    .grow-business-bar  .second-ul{
+        margin-top: 0rem;
+    }
     .va-backdrop{
         padding: 4rem 2rem;
         text-align: left;
@@ -423,9 +458,9 @@ h2{
         line-height: 1.7;
     }
     .highlight-bar {
-       margin: 0;
+         margin: 0;
         padding: 0 1.4em;
-        margin-top: 0.1rem;
+        margin-top: 1rem;
         line-height: 1.7;
         text-align: left;
         margin-bottom: 4rem;
@@ -538,4 +573,79 @@ h2{
         min-height: 35rem;
         height: 35rem;
     }
+}
+@media only screen and (min-width: 1292px ) {
+    .team-pic {
+        height: 41rem;
+        background-position-y: -36rem;
+    }
+}
+
+@media only screen and (min-width: 1592px ) {
+    .team-pic {
+        height: 47rem;
+        background-size: cover;
+        background-position-y: -22rem;
+    }
+
+    .cover{
+        background-size:  81%;
+    }
+}
+.slider{
+    position: relative;
+}
+.previous{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 0px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+}
+.mentions{
+    padding-top: 5rem;
+    text-align: center;
+}
+.mentions .red-strip{
+    margin-bottom: 0 !important;
+}
+
+.va-bar .hire-cta{
+    display: inline-block!important;
+    background: white !important;
+    color: rgb(111, 218, 68) !important;
+    margin-left: 2%;
+}
+.slick-previous:before, .slick-prev:before {
+    font-size: 0px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+}
+
+.slider button{
+    border: none !important;
+    outline: none;
+}
+
+.slider button:active, .slick-slide:active, .slick-active:active{
+    border: none !important;
+    outline: none !important;
+}
+
+.slick-track{
+    width: 100% !important;
 }

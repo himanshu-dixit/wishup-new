@@ -16,6 +16,7 @@
 .raised-container .section-text{
     background: white;
     border-radius: 7px;
+    padding-top: 9px;
 }
 
 .what-we-do-form{
@@ -54,11 +55,20 @@
 }
 
 .raised-container-top .section-text{
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Poppins";
     color: rgb(76, 75, 75);
     line-height: 1.6;
-    padding: 30px 20px;
+    padding: 26px 27px 30px;
+
+}
+.raised-container-top .section-text h2{
+margin-top: 0;
+
+}
+
+li{
+    margin-bottom: 5px;
 }
 
 .what-we-do .col-sm-6{
@@ -71,11 +81,22 @@
 
 .what-we-do .col-sm-3{
      width: 21%;
+    padding: 0px 5px !important;
  }
 
+.what-we-do-menu{
+    position: absolute;
+    width: 95%;
+}
+
+.what-we-do-menu-container{
+    position: relative;
+}
+
+
 .what-we-do h2{
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 26px !important;
+    font-weight: 600 !important;
 }
 
 .grey-section .different-section{
@@ -140,4 +161,8 @@
         max-width: 305px;
         margin: 020px auto;
     }
+}
+
+.what-we-do ul{
+    padding-left: 16px;
 }

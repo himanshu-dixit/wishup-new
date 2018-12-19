@@ -38,8 +38,21 @@ h2{
     width: 70%;
 }
 
-@media only screen and (max-width: 792px ) {
 
+.mobile-only{
+     display: none;
+ }
+.desktop-only{
+    display: block;
+}
+
+@media only screen and (max-width: 792px ) {
+    .desktop-only{
+        display: none;
+    }
+    .mobile-only{
+        display: block;
+    }
     .why-wishup-section {
         padding: 10px 1rem 5rem !important;
     }

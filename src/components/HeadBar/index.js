@@ -1,16 +1,33 @@
 import React, { Component } from 'react';
 import '../../styles/index.css';
 import './header.css';
-
+import LoginCard from '../../components/LoginCard';
 
 class HeadBar extends Component {
+    constructor(){
+        super();
+        this.state = {popup: ''}
+    }
   toggle = () => {
 
   }
+
+
+    isLoggedIn(){
+        let token = localStorage.getItem("token");
+        if(token){
+            return true;
+        }
+        return false;
+    }
+
   render(){
     //<Link to='/'>Home</Link>
     return (
-      <div>
+        <div>
+      {this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}
+      {this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}
+      <div className={this.isLoggedIn()?'black-header':''}>
         <div className="row">
           <div className="container-fluid">
               <nav className="navbar navbar-default">
@@ -33,13 +50,19 @@ class HeadBar extends Component {
                       </div>
 
                       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                          <ul className="nav navbar-nav navbar-right">
-                              <li><a href="/why-wishup">Why US</a></li>
-                              <li><a href="/what-we-do">What we do</a></li>
-                              <li><a href="/pricing">Pricing</a></li>
-                              <li><a href="/faq">FAQs</a></li>
-                              <li><a href="/login" className="cta">Get Started</a></li>
-                          </ul>
+                          {this.isLoggedIn()?             <ul className="nav navbar-nav navbar-right">
+
+                              <li><a onClick={()=>{ localStorage.removeItem("token")}} href="/logout" className="cta">Logout</a></li>
+                              </ul> :
+                              <ul className="nav navbar-nav navbar-right">
+                                  <li><a href="/why-wishup/">Why Wishup</a></li>
+                                  <li><a href="/what-we-do/">What we do</a></li>
+                                  <li><a href="/pricing/">Pricing</a></li>
+                                  <li><a href="/faq/">FAQs</a></li>
+                                  <li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>
+                                  <li><a onClick={()=>{this.setState({popup: 'initial'})}} className="cta">Get Started</a></li>
+                              </ul> }
+
                       </div>
 
                   </div>
@@ -48,6 +71,7 @@ class HeadBar extends Component {
           </div>
         </div>
       </div>
+        </div>
     );
   }
 }

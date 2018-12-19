@@ -9,6 +9,8 @@
     <meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>
     <meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
     <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -28,29 +30,53 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <style>
+      /*@font-face{*/
+        /*font-family: "Poppins";*/
+        /*font-weight: 400;*/
+        /*font-display: swap;*/
+        /*src:url('http://revamp.wishup.co/fonts/Poppins-Regular.woff');*/
+      /*}*/
+      /*@font-face{*/
+        /*font-family: "Poppins";*/
+        /*font-weight: 400;*/
+        /*font-style: italic;*/
+        /*src:url('http://revamp.wishup.co/fonts/Poppins-Italic.woff');*/
+      /*}*/
+      /*@font-face{*/
+        /*font-family: "Poppins";*/
+        /*font-weight: 600;*/
+        /*font-display: swap;*/
+        /*src:url('http://revamp.wishup.co/fonts/Poppins-SemiBold.woff');*/
+      /*}*/
+      /*@font-face{*/
+        /*font-family: "Poppins";*/
+        /*font-weight: 700;*/
+        /*font-display: swap;*/
+        /*src:url('http://revamp.wishup.co/fonts/Poppins-Bold.woff');*/
+      /*}*/
       @font-face{
         font-family: "Poppins";
         font-weight: 400;
         font-display: swap;
-        src:url('./fonts/Poppins-Regular.woff');
+        src:url('https://ancilla.serveo.net/fonts/Poppins-Regular.woff');
       }
       @font-face{
         font-family: "Poppins";
         font-weight: 400;
         font-style: italic;
-        src:url('./fonts/Poppins-Italic.woff');
+        src:url('https://ancilla.serveo.net/fonts/Poppins-Italic.woff');
       }
       @font-face{
         font-family: "Poppins";
         font-weight: 600;
         font-display: swap;
-        src:url('./fonts/Poppins-SemiBold.woff');
+        src:url('https://ancilla.serveo.net/fonts/Poppins-SemiBold.woff');
       }
       @font-face{
         font-family: "Poppins";
         font-weight: 700;
         font-display: swap;
-        src:url('./fonts/Poppins-Bold.woff');
+        src:url('https://ancilla.serveo.net/fonts/Poppins-Bold.woff');
       }
     </style>
   </head>
@@ -71,5 +97,27 @@
     -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script>
+         function showLocation(position) {
+             var latitude = position.coords.latitude;
+             var longitude = position.coords.longitude;
+             //alert("Latitude : " + latitude + " Longitude: " + longitude);
+         }
+
+         function errror(){
+
+         }
+         function getLocation() {
+             if(navigator.geolocation) {
+
+                 // timeout at 60000 milliseconds (60 seconds)
+                 var options = {timeout:60000};
+                 navigator.geolocation.getCurrentPosition(showLocation,errror , options);
+             } else {
+                 alert("Sorry, browser does not support geolocation!");
+             }
+         }
+         getLocation();
+     </script>
       </body>
 </html>

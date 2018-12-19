@@ -11,9 +11,11 @@ class GraphicHeader extends Component {
                     <div className="wishup-container">
                         <div className="graphic-header-content">
                             <div className="heading">
-                                <h1>
+                                {this.props.type=="small"? <h2>
                                     {this.props.title}
-                                </h1>
+                                </h2>: <h1>
+                                    {this.props.title}
+                                </h1>}
                             </div>
                             <div className="description">
                                 <h4>

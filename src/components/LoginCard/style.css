@@ -6,12 +6,13 @@
     position: absolute;
     right: 48px;
     top: 21px;
+
     font-size: 21px;
     color: #575757;
 }
 .uContainer{
     top: 50%;
-    position: absolute;
+    position: fixed;
     width: 100%;
     max-width: 800px;
     transform: translate(-50%,-50%);
@@ -19,9 +20,9 @@
     border-radius: 8px;
     background: white;
     min-height: 490px;
+    overflow: hidden;
 }
 .mainContainer{
-    max-width: 756px;
     width: 100%;
     background-color: #fff;
     color: rgba(0,0,0,.8);
@@ -38,7 +39,7 @@
     background: #6fda44;
     position: absolute;
     width: 100%;
-    height: 428px;
+    height: 828px;
     color: #fff;
 
 }
@@ -329,7 +330,7 @@ margin-top: 10px;
         padding: 5rem 4rem 18rem;
     }
     .login-container {
-        position: absolute;
+        position: fixed !important;
         width: 100%;
         height: 100%;
         background: #fff !important;
@@ -361,11 +362,42 @@ margin-top: 10px;
     margin-left: 10%;
 }
 
-.buttonsContainer .metro{
-    padding: 1.7rem 2px !important;
-    margin-left: 10% !important;
-    width: 80% !important;
-    margin-top: 2rem !important;
-    border-radius: 4px !important;
+.buttonsContainer button{
+    font-size: 0;
+    background: url(https://i.imgur.com/kOxYP5S.png);
+    background-size: contain;
+    height: 51px !important;
+    border: 0 !important;
+    background-repeat: no-repeat;
+    width: 80%;
+    box-shadow: none !important;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.buttonsContainer button div, .buttonsContainer button span{
+display: none;
+}
+.buttonsContainer button:active{
+    outline: none;
+}
+.or-text{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 16px;
+}
 
+.buttonsContainer .metro{
+    font-size: 0;
+    background: url(https://i.imgur.com/9f9CX6L.png);
+    background-size: contain;
+    height: 53px;
+    border: 0 !important;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.error{
+    color: red;
+    padding-left: 10px;
 }

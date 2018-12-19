@@ -9,7 +9,7 @@ class FAQ extends Component {
             <div className="faq">
                 <GraphicHeader
                     title="FAQ"
-                    description="We have more than 20."
+                    description=""
                     image={"url(" + require('../../assets/resources/what-we-do/what-we-do-background[1].png') + ")"}
                 ></GraphicHeader>
                 <div className="raised-container-top raised-container">

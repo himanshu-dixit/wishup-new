@@ -9,7 +9,7 @@ class WhyWishup extends Component {
     return (
       <div className="why-wishup">
           <GraphicHeader
-              title="Whu Wishup"
+              title="Why Wishup"
               description="Bringing you the best talent possible"
               image={"url(" + require('../../assets/resources/why-wishup/header.png') + ")"}
           ></GraphicHeader>
@@ -37,7 +37,7 @@ class WhyWishup extends Component {
           <div className="why-wishup-section ">
               <div className="wishup-container ">
                   <div className="row">
-                      <div className="col-md-6 image-container left-image-container">
+                      <div className="col-md-6 image-container left-image-container desktop-only">
                           <img src={require('../../assets/resources/why-wishup/2.png')} className="featured-section-image"/>
                       </div>
                       <div className="col-md-6">
@@ -50,6 +50,9 @@ class WhyWishup extends Component {
                           <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>Training on 50+ business and executive related tasks</div>
                           <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>All virtual employees professionally managed by Wishup
                           </div>
+                      </div>
+                      <div className="col-md-6 image-container left-image-container mobile-only">
+                          <img src={require('../../assets/resources/why-wishup/2.png')} className="featured-section-image"/>
                       </div>
 
                   </div>
