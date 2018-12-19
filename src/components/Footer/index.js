@@ -41,17 +41,15 @@ class Footer extends Component {
                         <div className="col-sm-3">
                             <div className="footer-sub-heading">Useful Links</div>
                             <div >
-                                <div className="footer-link">Virtual Research Assistant</div>
-                                    <div className="footer-link">Virtual Administrative Assistant</div>
-                                        <div className="footer-link">Virtual Travel Assistant</div>
-                                            <div className="footer-link">Social Media Virtual Assistant</div>
-                                                <div className="footer-link">Virtual Book-Keeping Assistant</div>
-                                                    <div className="footer-link">Virtual Email Assistant</div>
-                                                        <div className="footer-link">Virtual Personal Assistant</div>
-                                                            <div className="footer-link">Virtual Customer Support</div>
-                                                                <div className="footer-link">Virtual Marketing Assistant</div>
-                                                                    <div className="footer-link">Virtual Recruitment Assistant</div>
-                                                                        <div className="footer-link">Virtual Project Manager</div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-research">Virtual Research Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-administritive"> Virtual Administrative Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-travel">Virtual Travel Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-socialmedia">Social Media Virtual Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-bookkeeping">Virtual Book-Keeping Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-email">Virtual Email Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-personal">Virtual Personal Assistant</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-hiring">Virtual Hiring Customer</a></div>
+                                <div className="footer-link"><a href="/what-we-do/what-we-do-ecommerce">Virtual Ecommerce Customer</a></div>
 
                             </div>
                         </div>
