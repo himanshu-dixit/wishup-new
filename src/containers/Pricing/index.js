@@ -222,7 +222,7 @@ class Pricing extends Component {
                                 <div className="col-md-3" key={4}>
                                     <div className="plan-card">
                                         <div className="plan-type">
-                                            Mini Assistant
+                                            Half Assistant
                                         </div>
                                         <div className="plan-description">
                                             A plan customised for anyone looking for greater assistance!
@@ -232,7 +232,7 @@ class Pricing extends Component {
                                             <span className="plan-amount">29,499</span> / month
                                         </div>
                                         <div className="plan-hours">
-                                            2 hrs/ Day
+                                            4 hrs/ Day
                                         </div>
                                         <div className="plan-hoursinmonth">
 

@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Cover/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginCard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginCard/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FAQ/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Pricing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhatWeDo/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/WhyWishup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhyWishup/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/WhyWishup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WhyWishup/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,11 +91,11 @@
     <session id="-959271799">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="69" />
+          <entry key="css" value="73" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="6" />
           <entry key="ico" value="1" />
-          <entry key="js" value="94" />
+          <entry key="js" value="105" />
           <entry key="json" value="11" />
           <entry key="npmrc" value="1" />
           <entry key="png" value="2" />
@@ -97,11 +105,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="69" />
+          <entry key="CSS" value="73" />
           <entry key="HTML" value="6" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="94" />
+          <entry key="JavaScript" value="105" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="4" />
           <entry key="YAML" value="1" />
@@ -109,18 +117,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5366" />
+          <entry key="css" value="5399" />
           <entry key="html" value="171" />
-          <entry key="js" value="16330" />
+          <entry key="js" value="17103" />
           <entry key="json" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5366" />
-          <entry key="HTML" value="171" />
+          <entry key="CSS" value="5399" />
+          <entry key="HTML" value="172" />
           <entry key="JSON" value="182" />
-          <entry key="JavaScript" value="16330" />
+          <entry key="JavaScript" value="17102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -140,37 +148,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+            <state relative-caret-position="433">
+              <caret line="150" column="92" selection-start-line="150" selection-start-column="92" selection-end-line="150" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/HomePage/style.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Cover/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Pricing/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1090">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Pricing/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-776">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#1#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,17 +171,110 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/WhyWishup/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="483">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Cover/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/WhyWishup/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Pricing/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="234" column="45" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/WhyWishup/index.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/WhatWeDo/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+            <state relative-caret-position="379">
+              <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+              <folding>
+                <element signature="e#321#328#0" expanded="true" />
+                <element signature="e#1074#1081#0" expanded="true" />
+                <element signature="e#288#295#0" expanded="true" />
+                <element signature="e#1048#1055#0" expanded="true" />
+                <element signature="e#1288#1295#0" expanded="true" />
+                <element signature="e#491#498#0" expanded="true" />
+                <element signature="e#804#811#0" expanded="true" />
+                <element signature="e#464#471#0" expanded="true" />
+                <element signature="e#539#546#0" expanded="true" />
+                <element signature="e#161#168#0" expanded="true" />
+                <element signature="e#186#193#0" expanded="true" />
+                <element signature="e#934#941#0" expanded="true" />
+                <element signature="e#536#543#0" expanded="true" />
+                <element signature="e#1078#1085#0" expanded="true" />
+                <element signature="e#200#207#0" expanded="true" />
+                <element signature="e#296#303#0" expanded="true" />
+                <element signature="e#97#104#0" expanded="true" />
+                <element signature="e#552#559#0" expanded="true" />
+                <element signature="e#91#97#1" expanded="true" />
+                <element signature="e#297#303#1" expanded="true" />
+                <element signature="e#590#596#1" expanded="true" />
+                <element signature="e#812#818#1" expanded="true" />
+                <element signature="e#1089#1095#1" expanded="true" />
+                <element signature="e#1365#1371#1" expanded="true" />
+                <element signature="e#63#70#0" expanded="true" />
+                <element signature="e#119#126#0" expanded="true" />
+                <element signature="e#165#172#0" expanded="true" />
+                <element signature="e#589#596#0" expanded="true" />
+                <element signature="e#642#649#0" expanded="true" />
+                <element signature="e#347#354#0" expanded="true" />
+                <element signature="e#158#165#0" expanded="true" />
+                <element signature="e#276#283#0" expanded="true" />
+                <element signature="e#869#876#0" expanded="true" />
+                <element signature="e#95#101#1" expanded="true" />
+                <element signature="e#314#321#0" expanded="true" />
+                <element signature="e#940#947#0" expanded="true" />
+                <element signature="e#1009#1016#0" expanded="true" />
+                <element signature="e#1278#1285#0" expanded="true" />
+                <element signature="e#377#384#0" expanded="true" />
+                <element signature="e#760#767#0" expanded="true" />
+                <element signature="e#996#1003#0" expanded="true" />
+                <element signature="e#1470#1477#0" expanded="true" />
+                <element signature="e#1554#1561#0" expanded="true" />
+                <element signature="e#1702#1708#0" expanded="true" />
+                <element signature="e#136#143#0" expanded="true" />
+                <element signature="e#915#922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1545230622152" expanded="true" signature="15437:15481" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,8 +282,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4298">
-              <caret line="221" column="80" selection-start-line="221" selection-start-column="80" selection-end-line="221" selection-end-column="80" />
+            <state relative-caret-position="230">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -205,51 +291,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="86" column="79" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/style.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Our virtual employees will add great value to your business by managing appointments, inbox, social media, content creation and much more.</find>
-      <find>high</find>
-      <find>wishup-des</find>
-      <find>testimonial-section</find>
-      <find>hire</find>
-      <find>.grow-business-bar</find>
-      <find>.grow-business-bar</find>
-      <find>grow-business-bar</find>
-      <find>grow-business-bar .des</find>
-      <find>highlight-bar .des</find>
-      <find>hire-</find>
-      <find>.pricing-bar .butt</find>
-      <find>Working with a Virtual Employee is easier than ever before. In just a few steps,</find>
-      <find>.highlight-bar</find>
-      <find>team-pic</find>
-      <find>team</find>
-      <find>second-</find>
-      <find>.button</find>
       <find>.testimonial-section img</find>
       <find>More Se</find>
       <find>manan sha</find>
@@ -258,10 +303,28 @@
       <find>va-</find>
       <find>hire-c</find>
       <find>.card</find>
-      <find>Unbe</find>
       <find>fo</find>
       <find>footer-description</find>
       <find>pricing</find>
+      <find>slider b</find>
+      <find>Unbe</find>
+      <find>Plan and Pricing</find>
+      <find>l</find>
+      <find>login-c</find>
+      <find>login-</find>
+      <find>killed, multitasking expert</find>
+      <find>highl</find>
+      <find>ilor-made Pla</find>
+      <find>descr</find>
+      <find>andre</find>
+      <find>card</find>
+      <find>.pricing-bar .description</find>
+      <find>mon</find>
+      <find>nav-</find>
+      <find>nav-co</find>
+      <find>12,49</find>
+      <find>Tailor</find>
+      <find>signup</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
@@ -286,7 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/GraphicCard/styles.js" />
         <option value="$PROJECT_DIR$/src/components/SimpleCard/index.js" />
         <option value="$PROJECT_DIR$/src/containers/Login/styles.js" />
         <option value="$PROJECT_DIR$/src/containers/Login/index.js" />
@@ -313,30 +375,31 @@
         <option value="$PROJECT_DIR$/src/components/CustomInput/style.css" />
         <option value="$PROJECT_DIR$/src/containers/FAQ/style.css" />
         <option value="$PROJECT_DIR$/src/components/CustomInput/index.js" />
-        <option value="$PROJECT_DIR$/src/services/server.js" />
         <option value="$PROJECT_DIR$/src/containers/Pricing/style.css" />
         <option value="$PROJECT_DIR$/src/containers/Dashboard/style.css" />
         <option value="$PROJECT_DIR$/src/components/GraphicHeader/index.css" />
         <option value="$PROJECT_DIR$/src/components/HeadBar/header.css" />
-        <option value="$PROJECT_DIR$/src/components/LoginCard/style.css" />
         <option value="$PROJECT_DIR$/src/containers/Dashboard/index.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginCard/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/containers/WhatWeDo/data.json" />
-        <option value="$PROJECT_DIR$/src/containers/WhatWeDo/data.js" />
         <option value="$PROJECT_DIR$/src/containers/WhatWeDo/style.css" />
         <option value="$PROJECT_DIR$/src/components/GraphicHeader/index.js" />
         <option value="$PROJECT_DIR$/src/containers/WhatWeDo/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/FAQ/index.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/HeadBar/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/Pricing/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/HomePage/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/HomePage/style.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.css" />
-        <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/containers/WhyWishup/style.css" />
+        <option value="$PROJECT_DIR$/src/components/HeadBar/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/HomePage/style.css" />
+        <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginCard/style.css" />
+        <option value="$PROJECT_DIR$/src/components/Cover/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/HomePage/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/FAQ/index.js" />
         <option value="$PROJECT_DIR$/src/containers/WhyWishup/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/Pricing/index.js" />
+        <option value="$PROJECT_DIR$/src/services/server.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginCard/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/WhatWeDo/data.js" />
       </list>
     </option>
   </component>
@@ -357,8 +420,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="23" />
+    <option name="x" value="63" />
+    <option name="y" value="24" />
     <option name="width" value="1680" />
     <option name="height" value="955" />
   </component>
@@ -394,6 +457,26 @@
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Cover" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -401,7 +484,41 @@
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Pricing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="WhatWeDo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="WhyWishup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,12 +535,13 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/containers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,12 +594,12 @@
       <workItem from="1544902762232" duration="4291000" />
       <workItem from="1544937499679" duration="8888000" />
       <workItem from="1545032688362" duration="35093000" />
-      <workItem from="1545207669376" duration="10294000" />
+      <workItem from="1545207669376" duration="17182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234285000" />
+    <option name="totallyTimeSpent" value="241173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +611,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1680" height="955" extended-state="0" />
+    <frame x="63" y="24" width="1680" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18987341" />
@@ -557,13 +675,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/_custom_bootstrap.scss" />
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,13 +761,6 @@
     <entry file="file://$PROJECT_DIR$/src/data/FAQ.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CustomInput/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -678,41 +782,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1571">
-          <caret line="380" column="17" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboard/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -727,13 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/WhatWeDo/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -754,61 +823,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/style.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4298">
-          <caret line="221" column="80" selection-start-line="221" selection-start-column="80" selection-end-line="221" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="86" column="79" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -819,24 +840,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Pricing/index.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-776">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="365">
+          <caret line="110" column="40" lean-forward="true" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="218" column="18" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="108" column="122" selection-start-line="108" selection-start-column="122" selection-end-line="108" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cover/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cover/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cover/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/WhyWishup/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="483">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/FAQ/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="150" column="92" selection-start-line="150" selection-start-column="92" selection-end-line="150" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/WhyWishup/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        <state relative-caret-position="322">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Pricing/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="234" column="45" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1545230622152" expanded="true" signature="15437:15481" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/WhatWeDo/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="e#321#328#0" expanded="true" />
+            <element signature="e#1074#1081#0" expanded="true" />
+            <element signature="e#288#295#0" expanded="true" />
+            <element signature="e#1048#1055#0" expanded="true" />
+            <element signature="e#1288#1295#0" expanded="true" />
+            <element signature="e#491#498#0" expanded="true" />
+            <element signature="e#804#811#0" expanded="true" />
+            <element signature="e#464#471#0" expanded="true" />
+            <element signature="e#539#546#0" expanded="true" />
+            <element signature="e#161#168#0" expanded="true" />
+            <element signature="e#186#193#0" expanded="true" />
+            <element signature="e#934#941#0" expanded="true" />
+            <element signature="e#536#543#0" expanded="true" />
+            <element signature="e#1078#1085#0" expanded="true" />
+            <element signature="e#200#207#0" expanded="true" />
+            <element signature="e#296#303#0" expanded="true" />
+            <element signature="e#97#104#0" expanded="true" />
+            <element signature="e#552#559#0" expanded="true" />
+            <element signature="e#91#97#1" expanded="true" />
+            <element signature="e#297#303#1" expanded="true" />
+            <element signature="e#590#596#1" expanded="true" />
+            <element signature="e#812#818#1" expanded="true" />
+            <element signature="e#1089#1095#1" expanded="true" />
+            <element signature="e#1365#1371#1" expanded="true" />
+            <element signature="e#63#70#0" expanded="true" />
+            <element signature="e#119#126#0" expanded="true" />
+            <element signature="e#165#172#0" expanded="true" />
+            <element signature="e#589#596#0" expanded="true" />
+            <element signature="e#642#649#0" expanded="true" />
+            <element signature="e#347#354#0" expanded="true" />
+            <element signature="e#158#165#0" expanded="true" />
+            <element signature="e#276#283#0" expanded="true" />
+            <element signature="e#869#876#0" expanded="true" />
+            <element signature="e#95#101#1" expanded="true" />
+            <element signature="e#314#321#0" expanded="true" />
+            <element signature="e#940#947#0" expanded="true" />
+            <element signature="e#1009#1016#0" expanded="true" />
+            <element signature="e#1278#1285#0" expanded="true" />
+            <element signature="e#377#384#0" expanded="true" />
+            <element signature="e#760#767#0" expanded="true" />
+            <element signature="e#996#1003#0" expanded="true" />
+            <element signature="e#1470#1477#0" expanded="true" />
+            <element signature="e#1554#1561#0" expanded="true" />
+            <element signature="e#1702#1708#0" expanded="true" />
+            <element signature="e#136#143#0" expanded="true" />
+            <element signature="e#915#922#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

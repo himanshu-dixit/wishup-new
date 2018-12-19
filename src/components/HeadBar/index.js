@@ -8,10 +8,6 @@ class HeadBar extends Component {
         super();
         this.state = {popup: ''}
     }
-  toggle = () => {
-
-  }
-
 
     isLoggedIn(){
         let token = localStorage.getItem("token");

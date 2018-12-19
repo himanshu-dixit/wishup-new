@@ -4,6 +4,11 @@ import GraphicHeader from '../../components/GraphicHeader';
 
 class WhyWishup extends Component {
 
+    constructor(props){
+        super(props);
+        this.state = { width: 0, height: 0, price: '12,499' };
+    }
+
   render() {
 
     return (
@@ -127,6 +132,23 @@ class WhyWishup extends Component {
                       <div className="col-md-6 image-container">
                           <img src={require('../../assets/resources/why-wishup/3.png')} className="featured-section-image"/>
                       </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="pricing-bar">
+              <div className="wishup-container">
+                  <div className="heading">
+                      Tailor-made plans to suit every workload.
+                  </div>
+                  <div className="description">
+                      Starting at {this.state.price}/month
+                  </div>
+                  <div className="cta">
+                      <div className="button">Get Started</div>
+                      <a href="/pricing">
+                          <div className="button">Plan and Pricing</div>
+                      </a>
                   </div>
               </div>
           </div>

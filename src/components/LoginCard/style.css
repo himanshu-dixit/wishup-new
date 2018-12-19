@@ -36,7 +36,7 @@
 }
 .nav-container {
     padding: 3rem 2.7rem;
-    background: #6fda44;
+    background: #2a2d29;
     position: absolute;
     width: 100%;
     height: 828px;
@@ -153,7 +153,7 @@ margin-top: 10px;
 
 
 .login-container {
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,.6);

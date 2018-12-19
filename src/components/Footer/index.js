@@ -26,9 +26,15 @@ class Footer extends Component {
                                 We'll send you updates regularly
                             </div><br></br>
                             <div className="social-icons">
+                                <a href="https://www.facebook.com/WishUpNow/" target="_blank">
                                 <img src={require('../../assets/facebook.png')} height="23px"/>
+                                </a>
+                                <a href="https://twitter.com/wishupnow" target="_blank">
                                 <img src={require('../../assets/twitter.png')} height="23px"/>
+                                </a>
+                                <a href="https://www.instagram.com/wishupnow/" target="_blank">
                                 <img src={require('../../assets/instagram.png')} height="23px"/>
+                                </a>
                             </div>
 
                         </div>
@@ -36,11 +42,17 @@ class Footer extends Component {
                             <div className="footer-sub-heading">Useful Links</div>
                             <div >
                                 <div className="footer-link">Virtual Research Assistant</div>
-                                <div className="footer-link">Virtual Research Assistant</div>
-                                <div className="footer-link">Virtual Research Assistant</div>
-                                <div className="footer-link">Virtual Research Assistant</div>
-                                <div className="footer-link">Virtual Research Assistant</div>
-                                <div className="footer-link">Virtual Research Assistant</div>
+                                    <div className="footer-link">Virtual Administrative Assistant</div>
+                                        <div className="footer-link">Virtual Travel Assistant</div>
+                                            <div className="footer-link">Social Media Virtual Assistant</div>
+                                                <div className="footer-link">Virtual Book-Keeping Assistant</div>
+                                                    <div className="footer-link">Virtual Email Assistant</div>
+                                                        <div className="footer-link">Virtual Personal Assistant</div>
+                                                            <div className="footer-link">Virtual Customer Support</div>
+                                                                <div className="footer-link">Virtual Marketing Assistant</div>
+                                                                    <div className="footer-link">Virtual Recruitment Assistant</div>
+                                                                        <div className="footer-link">Virtual Project Manager</div>
+
                             </div>
                         </div>
 
@@ -48,43 +60,42 @@ class Footer extends Component {
                             <div className="col-xs-4">
                                 <div >
                                     <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
+                                    <div className="footer-link">Dallas</div>
+                                        <div className="footer-link">New York</div>
+                                            <div className="footer-link"> Los Angeles</div>
+                                                <div className="footer-link">Chicago</div>
+                                                    <div className="footer-link">Houston</div>
+                                                        <div className="footer-link">San Francisco</div>
+                                                            <div className="footer-link">Austin</div>
+
+                                    <div className="footer-link country">Canada</div>
+                                    <div className="footer-link">Toronto</div>
+                                    <div className="footer-link"> Vancouver</div>
+                                    <div className="footer-link">Seattle</div>
                                 </div>
                             </div>
                             <div className="col-xs-4">
                                 <div >
-                                    <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
+                                    <div className="footer-link country">Europe</div>
+                                        <div className="footer-link">UK</div>
+                                            <div className="footer-link">London</div>
+                                                <div className="footer-link">Tel Aviv</div>
+                                                    <div className="footer-link">Berlin</div>
+                                                        <div className="footer-link">Paris</div>
+                                                            <div className="footer-link">Dublin</div>
+
+
                                 </div>
                             </div>
                             <div className="col-xs-4">
                                 <div >
-                                    <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link country">USA</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">San francisco</div>
-                                    <div className="footer-link">New york</div>
-                                    <div className="footer-link">New york</div>
+                                    <div className="footer-link country">Asia</div>
+                                    <div className="footer-link"> Dubai</div>
+                                    <div className="footer-link">Abu Dhabi</div>
+                                    <div className="footer-link">Singapore</div>
+                                    <div className="footer-link">Sydney</div>
+                                    <div className="footer-link">Hong Kong</div>
+                                    <div className="footer-link">Shangai</div>
                                 </div>
                             </div>
                         </div>
@@ -95,9 +106,8 @@ class Footer extends Component {
                             <span className="sub-footer-text">All Right Reserved</span>
                         </div>
                         <div className="right-sub-footer">
-                            <a className="footer-sub-link">Home</a>
-                            <a className="footer-sub-link">Home</a>
-                            <a className="footer-sub-link">Home</a>
+                            <a className="footer-sub-link" href="https://www.wishup.co/privacy-policy/">Privacy Policy</a>
+                            <a className="footer-sub-link" href="https://www.wishup.co/terms-and-conditions/">Terms and conditions</a>
                         </div>
                     </div>
                 </div>

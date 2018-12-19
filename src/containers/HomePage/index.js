@@ -8,7 +8,7 @@ class HomePage extends Component {
         super(props);
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
-        this.state = { width: 0, height: 0 };
+        this.state = { width: 0, height: 0, price: '12,499' };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
 
     }
@@ -45,7 +45,7 @@ class HomePage extends Component {
           infinite: true,
           slidesToShow: 3,
           slidesToScroll: this.state.width<550?1:(this.state.width<850?2:3),
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 2000,
           pauseOnHover: true
       };
@@ -59,7 +59,7 @@ class HomePage extends Component {
                         <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
                         <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
                             Small Teams and Businesses.</div>
-                        <div className="hire-cta">Get started</div>
+                        <div className="hire-cta" onClick={()=>{this.props.set("login")}}>Get started</div>
                     </div>
                 </div>
             </div>
@@ -140,16 +140,11 @@ class HomePage extends Component {
                   <div className="red-strip"></div>
                   <div className="description">
                       <div className="mobile-bar"></div>
-                      Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? Read what people have to say
+                      Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonial"> Read what people have to say</a>
                   </div>
-                  <div className="row slider">
-                      <button className=" previous" onClick={this.previous}>
-                          <img src={require('../../assets/previous-icon.png')} height="45px"/>
-                      </button>
-                      <button className=" next" onClick={this.next}>
-                          <img src={require('../../assets/next-icon.png')} height="45px"/>
-                      </button>
-                      <Slider ref={c => (this.slider2 = c)} {...settings2}>
+                  <div className="row ">
+
+
                           <div className="col-sm-4" key={1}>
                               <div className="card">
                                   I have been using the services of a Virtual assistant from Wishup for few months now and I must say they are professional, trustworthy and highly competent.
@@ -204,45 +199,43 @@ class HomePage extends Component {
                               </div>
                           </div>
 
-                          <div className="col-sm-4" key={4}>
-                              <div className="card">
-                                  I couldn't be more thrilled with my Wishup VA! It took me a few weeks to get the time to organize the work to assign initially, but it's been the best business decision for me this year.
-                              </div>
-                              <div className="profile-pic" >
-                                  <img src={require('../../assets/andrew.jpeg')} height="55px"/>
-                              </div>
-                              <div className="profile-info">
+                          {/*<div className="col-sm-4" key={4}>*/}
+                              {/*<div className="card">*/}
+                                  {/*I couldn't be more thrilled with my Wishup VA! It took me a few weeks to get the time to organize the work to assign initially, but it's been the best business decision for me this year.*/}
+                              {/*</div>*/}
+                              {/*<div className="profile-pic" >*/}
+                                  {/*<img src={require('../../assets/andrew.jpeg')} height="55px"/>*/}
+                              {/*</div>*/}
+                              {/*<div className="profile-info">*/}
 
-                              <span className="name">Andrew McDermott
+                              {/*<span className="name">Andrew McDermott*/}
 
-                                    <a href="https://www.linkedin.com/in/andrewmcdermott/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                  <span className="position"> Full-Time Traveler</span>,<span className="company-name"></span>
-                              </div>
-                          </div>
+                                    {/*<a href="https://www.linkedin.com/in/andrewmcdermott/" target="_blank">*/}
+                                  {/*<img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>*/}
+                              {/*</a>*/}
+                              {/*</span><br></br>*/}
+                                  {/*<span className="position"> Full-Time Traveler</span>,<span className="company-name"></span>*/}
+                              {/*</div>*/}
+                          {/*</div>*/}
 
-                          <div className="col-sm-4" key={5}>
-                              <div className="card">
-                                  First I was skeptical about the whole VA game. But when I started my trial at Wishup this completely changed. Now I can really feel the value (and power!) a VA can have.
-                              </div>
-                              <div className="profile-pic" >
-                                  <img src={require('../../assets/neil.jpg')} height="55px"/>
-                              </div>
-                              <div className="profile-info">
+                          {/*<div className="col-sm-4" key={5}>*/}
+                              {/*<div className="card">*/}
+                                  {/*First I was skeptical about the whole VA game. But when I started my trial at Wishup this completely changed. Now I can really feel the value (and power!) a VA can have.*/}
+                              {/*</div>*/}
+                              {/*<div className="profile-pic" >*/}
+                                  {/*<img src={require('../../assets/neil.jpg')} height="55px"/>*/}
+                              {/*</div>*/}
+                              {/*<div className="profile-info">*/}
 
-                              <span className="name">Niels Van De Bergh
+                              {/*<span className="name">Niels Van De Bergh*/}
 
-                                    <a href="https://www.linkedin.com/in/nielsvandenbergh/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                  <span className="position"> Growth Consultant</span>,<span className="company-name"></span>
-                              </div>
-                          </div>
-
-                      </Slider>
+                                    {/*<a href="https://www.linkedin.com/in/nielsvandenbergh/" target="_blank">*/}
+                                  {/*<img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>*/}
+                              {/*</a>*/}
+                              {/*</span><br></br>*/}
+                                  {/*<span className="position"> Growth Consultant</span>,<span className="company-name"></span>*/}
+                              {/*</div>*/}
+                          {/*</div>*/}
                   </div>
                   <div className="row ">
 
@@ -264,11 +257,7 @@ class HomePage extends Component {
                       <div className="col-sm-7">
                           <div className="mobile-bar"></div>
                           <div className="description">
-                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we retain only 2-3% of them. We always find the best talent to work with.
-                              <br></br>
-                              <div className="button">
-                                  Get Started
-                              </div>
+                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with.
                           </div>
                       </div>
                   </div>
@@ -282,11 +271,16 @@ class HomePage extends Component {
           <div className="pricing-bar">
               <div className="wishup-container">
                   <div className="heading">
-                      Tailor-made Plans to suit every workload.
+                      Tailor-made plans to suit every workload.
+                  </div>
+                  <div className="description">
+                      Starting at {this.state.price}/month
                   </div>
                   <div className="cta">
                       <div className="button">Get Started</div>
-                  <div className="button">Plan and Pricing</div>
+                      <a href="/pricing">
+                         <div className="button">Plan and Pricing</div>
+                      </a>
                   </div>
               </div>
           </div>

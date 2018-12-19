@@ -179,7 +179,7 @@ h2{
 }
 
 .highlight-bar .description{
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(113, 113, 113);
     line-height: 1.571;
     border-left: 1px solid red;
@@ -214,10 +214,11 @@ h2{
     margin-top: 0rem;
 }
 
-.pricing-bar .description{
-    margin: 1rem 13rem;
-    font-size: 13px;
+.pricing-bar .description {
+    font-size: 32px !important;
+    font-weight: 700;
     color: #fff;
+    margin-top: 0rem;
 }
 
 .pricing-bar .button{
@@ -290,17 +291,19 @@ h2{
 }
 
 .testimonial-section .card{
-    font-size: 12.4px;
+    font-size: 14.4px;
     text-align: left;
     padding: 3rem;
     width: 82%;
     margin-left: 9%;
     margin-bottom: 2rem;
+    -webkit-box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.09);
     border-radius: 1rem;
     color: rgb(113, 113, 113);
     line-height: 1.785;
-    min-height: 191px;
+    min-height: 203px;
+    padding: 25px;
 
 }
 
@@ -356,6 +359,12 @@ h2{
 
 .mentions{
     background: #fafafa;
+}
+
+.grow-business-bar li{
+    font-weight: 600;
+    margin: 1.8rem 0 0;
+    font-size: 16px;
 }
 
 @media only screen and (max-width: 550px) {
@@ -641,6 +650,7 @@ h2{
 .slider button{
     border: none !important;
     outline: none;
+    background: rgba(0,0,0,0);
 }
 
 .slider button:active, .slick-slide:active, .slick-active:active{

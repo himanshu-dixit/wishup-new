@@ -72,6 +72,10 @@ class LoginCard extends Component {
     }
 
     signup(facebook,google,email,token){
+        if(!email){
+            email = this.state.email;
+            console.log(this.state.email);
+        }
         let data = {
             name: this.state.name,
             email: email,

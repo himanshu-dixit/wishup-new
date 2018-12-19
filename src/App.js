@@ -10,15 +10,25 @@ import LoginCard from './components/LoginCard';
 import FAQ from './containers/FAQ';
 import { Switch, Route } from 'react-router-dom'
 class App extends Component {
-
+    constructor(props){
+        super();
+        this.state={popup: ""}
+    }
+    setPopupState(type){
+        this.setState({popup: type});
+    }
     render() {
 
         return (
             <div>
+                {this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}
+                {this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}
                 <div>
-                    <HeaderBar></HeaderBar>
+                    <HeaderBar ></HeaderBar>
                     <Switch>
-                        <Route exact path='/' component={HomePage}/>
+                        <Route exact path='/' component={()=>{
+                            return <HomePage set={this.setPopupState.bind(this)}></HomePage>;
+                        }}/>
                         <Route exact path='/faq' component={FAQ}/>
                         <Route exact path='/logout' component={()=>{
                             return <HomePage></HomePage>;

@@ -1,4 +1,4 @@
-const serverURI = 'http://localhost/wishup';
+const serverURI = 'https://infligo.serveo.net/wishup';
 
 export const sendRequest = (endpoint, requestData) => fetch(serverURI+endpoint, {
     method: 'POST',
