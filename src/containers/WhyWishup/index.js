@@ -22,10 +22,31 @@ class WhyWishup extends Component {
 
                           <div className="section-description">
                               <div className="mobile-bar"></div>
-                              You don’t need to sift through thousands of applications to find the most suited employee for any particular task or project. We’ve done that for you to bring you the best.</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>5 Years+ experience</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>Serious vetting process- Only 2-3% selected from the total applications.</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>Well-qualified and diverse skill-sets.!</div>
+                              You don’t need to sift through thousands of applications to find the most suited employee for any particular task or project. We’ve done that for you to bring you the best.
+
+                              <div className="list-item">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                                  </div>
+                                  <div className="description-box">5 Years+ experience</div>
+                              </div>
+                              <div className="list-item">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                                  </div>
+                                  <div className="description-box">Serious vetting process- Only 2-3% selected from the total applications.</div>
+                              </div>
+
+                              <div className="list-item">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                                  </div>
+                                  <div className="description-box">Well-qualified and diverse skill-sets.!</div>
+                              </div>
+
+                          </div>
+
+
                       </div>
                       <div className="col-md-6 image-container">
                           <img src={require('../../assets/resources/why-wishup/1.png')} className="featured-section-image"/>
@@ -46,10 +67,25 @@ class WhyWishup extends Component {
                           <div className="section-description">
                               <div className="mobile-bar"></div>
                               Your VE is hand-picked, rigorously trained and ready to work on your tasks. </div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>1 month of rigorous in-house training</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>Training on 50+ business and executive related tasks</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>All virtual employees professionally managed by Wishup
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">1 month of rigorous in-house training</div>
                           </div>
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">Training on 50+ business and executive related tasks</div>
+                          </div>
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">All virtual employees professionally managed by Wishup</div>
+                          </div>
+
                       </div>
                       <div className="col-md-6 image-container left-image-container mobile-only">
                           <img src={require('../../assets/resources/why-wishup/2.png')} className="featured-section-image"/>
@@ -67,9 +103,26 @@ class WhyWishup extends Component {
                         <div className="section-description">
                             <div className="mobile-bar"></div>
                             If you feel your present VE is a bad fit for your tasks, then feel free to connect with the support team and we’ll make it a smooth transition to the next one!</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>No hassle-replacement</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>Account Manager to troubleshoot</div>
-                          <div className="list-item"><img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>One-email and we’ll find your a VE to suit your needs!</div>
+
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">No hassle-replacement</div>
+                          </div>
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">Account Manager to troubleshoot</div>
+                          </div>
+                          <div className="list-item">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/why-wishup/tick.png')} width="20px"/>
+                              </div>
+                              <div className="description-box">One-email and we’ll find your a VE to suit your needs!</div>
+                          </div>
+
                       </div>
                       <div className="col-md-6 image-container">
                           <img src={require('../../assets/resources/why-wishup/3.png')} className="featured-section-image"/>

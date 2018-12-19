@@ -1,6 +1,9 @@
 .footer{
     padding: 2rem;
     padding-top: 6rem;
+    padding-bottom: 5rem;
+    background: #1f201f;
+    color: white;
 }
 
 .footer-logo{
@@ -8,8 +11,27 @@
     font-weight: 600;
 }
 
+.footer-sub-link{
+    color: #fff;
+}
+
+.social-icons img{
+    margin: 13px 10px;
+}
+
 .footer-description{
+    padding: 0 2rem 0 0;
     margin-top: 2rem;
+    line-height: 1.7;
+}
+
+.footer-sub-heading{
+    margin-top: 2rem;
+}
+
+.country{
+    color: #6ee63e;
+    font-weight: 600;
 }
 
 .footer-sub-heading{

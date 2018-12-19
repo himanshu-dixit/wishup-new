@@ -14,6 +14,23 @@ h2{
     font-weight: 600;
 }
 
+.icon-box{
+    float: left;
+    width: 8%;
+    height: 17px;
+
+}
+
+.list-item{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 13px 0px;
+}
+
+.description-box{
+    float: left;
+    width: 90%;
+}
 .section-description{
     font-size: 15px;
     color: rgb(117, 116, 116);

@@ -250,6 +250,8 @@ h2{
     margin-bottom: 4rem;
 }
 
+
+
 .user-name{
     font-weight: 600;
 }
@@ -298,7 +300,7 @@ h2{
     border-radius: 1rem;
     color: rgb(113, 113, 113);
     line-height: 1.785;
-    min-height: 179px;
+    min-height: 191px;
 
 }
 
@@ -644,8 +646,4 @@ h2{
 .slider button:active, .slick-slide:active, .slick-active:active{
     border: none !important;
     outline: none !important;
-}
-
-.slick-track{
-    width: 100% !important;
 }
