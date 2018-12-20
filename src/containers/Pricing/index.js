@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import GraphicHeader from '../../components/GraphicHeader';
 import './style.css';
 import Slider from "react-slick";
+import getPricing from "../../services/location";
 class Pricing extends Component {
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
-        this.state = {show: false};
+        this.state = {show: false, price: getPricing(), country: window.country};
     }
-
+    componentDidUpdate(){
+        this.setState({price: getPricing()});
+    }
     next() {
         this.slider.slickNext();
     }
@@ -48,12 +51,12 @@ class Pricing extends Component {
                                     </div>
                                 </div>
                                 <div className="plan-price">
-                                    <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                    <span className="plan-amount">4,999</span> / month
+                                    <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                    <span className="plan-amount">{this.state.price.economy}</span> / month
                                 </div>
                             </div>
                             <div className="mobile-card">
-                                <div className="plan-name">Econonmy Employee</div>
+                                <div className="plan-name">Quarter Employee</div>
                                 <div className="plan-details">
                                     <div className="plan-hours">
                                         10 hrs
@@ -63,8 +66,8 @@ class Pricing extends Component {
                                     </div>
                                 </div>
                                 <div className="plan-price">
-                                    <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                    <span className="plan-amount">4,999</span> / month
+                                    <sup><img src={this.state.price.sign} height="10px"/></sup>
+                                    <span className="plan-amount">{this.state.price.quarter}</span> / month
                                 </div>
                             </div>
                             <div className={this.state.show? "hidden":"button-container"}>
@@ -85,8 +88,8 @@ class Pricing extends Component {
                                         </div>
                                     </div>
                                     <div className="plan-price">
-                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                        <span className="plan-amount">4,999</span> / month
+                                        <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                        <span className="plan-amount">{this.state.price.trial}</span> / month
                                     </div>
                                 </div>
                                 <div className="mobile-card">
@@ -100,8 +103,8 @@ class Pricing extends Component {
                                         </div>
                                     </div>
                                     <div className="plan-price">
-                                        <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                        <span className="plan-amount">4,999</span> / month
+                                        <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                        <span className="plan-amount">{this.state.price.economy}</span> / month
                                     </div>
                                 </div>
                             </div>
@@ -125,8 +128,8 @@ class Pricing extends Component {
                                             A warm up plan to give you the feel of things and get you started!
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">4,999</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.trial}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             10 hrs
@@ -149,8 +152,8 @@ class Pricing extends Component {
                                             A plan designed for smaller, recurring tasks
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">12,499</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.mini}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             1.5 hrs/ Day
@@ -175,8 +178,8 @@ class Pricing extends Component {
                                             A plan crafted  for busy entrepreneurs for  recurrent, small projects
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">15,999</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.quarter}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             2 hrs/ Day
@@ -201,8 +204,8 @@ class Pricing extends Component {
                                             A plan crafted  for start-ups for recurrent long-term tasks
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">20,999</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.economy}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             3 hrs/ Day
@@ -228,8 +231,8 @@ class Pricing extends Component {
                                             A plan customised for anyone looking for greater assistance!
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">29,499</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.half}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             4 hrs/ Day
@@ -254,8 +257,8 @@ class Pricing extends Component {
                                             A full-fledged plan meant for full-time assistance for mid-sized teams.
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">49,999</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.full}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             10 hrs/ Day
@@ -280,8 +283,8 @@ class Pricing extends Component {
                                             A plan crafted  for start-ups for recurrent long-term tasks
                                         </div>
                                         <div className="plan-price">
-                                            <sup><img src={require('../../assets/rupee-indian.svg')} height="10px"/></sup>
-                                            <span className="plan-amount">59,999</span> / month
+                                            <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                            <span className="plan-amount">{this.state.price.super}</span> / month
                                         </div>
                                         <div className="plan-hours">
                                             10 hrs/ Day

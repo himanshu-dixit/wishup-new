@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Wishup</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta content="no" name="apple-mobile-web-app-capable">
-    <meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
+    <meta name="description"
+          content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
     <meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>
-    <meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
+    <meta property="og:description"
+          content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
     <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" charset="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4Ofm19oZz-Pyi51LJsWZsLYdOmI0GA7Q"
+            type="text/javascript"></script>
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -30,94 +42,160 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <style>
-      @font-face{
-        font-family: "Poppins";
-        font-weight: 400;
-        font-display: swap;
-        src:url('http://revamp.wishup.co/fonts/Poppins-Regular.woff');
-      }
-      @font-face{
-        font-family: "Poppins";
-        font-weight: 400;
-        font-style: italic;
-        src:url('http://revamp.wishup.co/fonts/Poppins-Italic.woff');
-      }
-      @font-face{
-        font-family: "Poppins";
-        font-weight: 600;
-        font-display: swap;
-        src:url('http://revamp.wishup.co/fonts/Poppins-SemiBold.woff');
-      }
-      @font-face{
-        font-family: "Poppins";
-        font-weight: 700;
-        font-display: swap;
-        src:url('http://revamp.wishup.co/fonts/Poppins-Bold.woff');
-      }
-      /*@font-face{*/
+        @font-face {
+            font-family: "Poppins";
+            font-weight: 400;
+            font-display: swap;
+            src: url('http://revamp.wishup.co/fonts/Poppins-Regular.woff');
+        }
+
+        @font-face {
+            font-family: "Poppins";
+            font-weight: 400;
+            font-style: italic;
+            src: url('http://revamp.wishup.co/fonts/Poppins-Italic.woff');
+        }
+
+        @font-face {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-display: swap;
+            src: url('http://revamp.wishup.co/fonts/Poppins-SemiBold.woff');
+        }
+
+        @font-face {
+            font-family: "Poppins";
+            font-weight: 700;
+            font-display: swap;
+            src: url('http://revamp.wishup.co/fonts/Poppins-Bold.woff');
+        }
+
+        /*@font-face{*/
         /*font-family: "Poppins";*/
         /*font-weight: 400;*/
         /*font-display: swap;*/
         /*src:url('https://ancilla.serveo.net/fonts/Poppins-Regular.woff');*/
-      /*}*/
-      /*@font-face{*/
+        /*}*/
+        /*@font-face{*/
         /*font-family: "Poppins";*/
         /*font-weight: 400;*/
         /*font-style: italic;*/
         /*src:url('https://ancilla.serveo.net/fonts/Poppins-Italic.woff');*/
-      /*}*/
-      /*@font-face{*/
+        /*}*/
+        /*@font-face{*/
         /*font-family: "Poppins";*/
         /*font-weight: 600;*/
         /*font-display: swap;*/
         /*src:url('https://ancilla.serveo.net/fonts/Poppins-SemiBold.woff');*/
-      /*}*/
-      /*@font-face{*/
+        /*}*/
+        /*@font-face{*/
         /*font-family: "Poppins";*/
         /*font-weight: 700;*/
         /*font-display: swap;*/
         /*src:url('https://ancilla.serveo.net/fonts/Poppins-Bold.woff');*/
-      /*}*/
+        /*}*/
+        .overlay {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(21, 21, 21, 0.97);
+            display: none;
+            z-index: 2;
+        }
+        .overlay-permission-container{
+            position: absolute;
+            max-width: 400px;
+            color: white;
+            top: 50%;
+            left: 50%;
+            font-size: 40px;
+            transform: translate(-50%,-50%);
+            text-align: center;
+
+        }
     </style>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+</head>
+<body>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+<div class="overlay" id="permission">
+    <div class="overlay-permission-container">We need your location to provide better experience.</div>
+</div>
+<div id="root"></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script>
+    function getLocation() {
+        if (navigator.geolocation) {
+            document.getElementById("permission").style.display = "block";
+            // timeout at 60000 milliseconds (60 seconds)
+            var options = {timeout: 60000};
+            navigator.geolocation.getCurrentPosition(successFunction, errror, options);
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     <script>
-         function showLocation(position) {
-             var latitude = position.coords.latitude;
-             var longitude = position.coords.longitude;
-             //alert("Latitude : " + latitude + " Longitude: " + longitude);
-         }
+        } else {
+            alert("Sorry, browser does not support geolocation!");
+        }
+    }
 
-         function errror(){
+    //Get the latitude and the longitude;
+    function successFunction(position) {
+        document.getElementById("permission").style.display = "none";
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        codeLatLng(lat, lng)
+    }
 
-         }
-         function getLocation() {
-             if(navigator.geolocation) {
+    function codeLatLng(lat, lng) {
+        geocoder = new google.maps.Geocoder();
 
-                 // timeout at 60000 milliseconds (60 seconds)
-                 var options = {timeout:60000};
-                 navigator.geolocation.getCurrentPosition(showLocation,errror , options);
-             } else {
-                 alert("Sorry, browser does not support geolocation!");
-             }
-         }
-         getLocation();
-     </script>
-      </body>
+        var latlng = new google.maps.LatLng(lat, lng);
+        geocoder.geocode({'latLng': latlng}, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                if (results[1]) {
+
+                    //find country name
+                    for (var i = 0; i < results[0].address_components.length; i++) {
+                        for (var b = 0; b < results[0].address_components[i].types.length; b++) {
+                            //there are different types that might hold a city admin_area_lvl_1 usually does in come cases looking for sublocality type will be more appropriate
+                            if (results[0].address_components[i].types[b] == "country") {
+                                //this is the object you are looking for
+                                var country = results[0].address_components[i];
+                                break;
+                            }
+                        }
+                    }
+                    window.country = country.short_name;
+                    localStorage.setItem("country", country.short_name);
+
+                } else {
+                    console.log("No results found");
+                }
+            } else {
+                console.log("Geocoder failed due to: " + status);
+            }
+        });
+    }
+
+    function error() {}
+
+    var geocoder;
+    window.country = 'US';
+    var country = localStorage.getItem("country");
+    if (navigator.geolocation && !country) {
+        navigator.geolocation.getCurrentPosition(successFunction, error);
+        getLocation();
+    }
+    else {
+        window.country = country;
+    }
+
+
+</script>
+
+
+</body>
 </html>

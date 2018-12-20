@@ -254,7 +254,7 @@ h2{
 
 .va-section .description{
     padding: 2rem 19rem;
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(113, 113, 113);
     line-height: 1.467;
 }
@@ -355,13 +355,13 @@ h2{
 }
 
 .testimonial-section .position{
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(35, 35, 35);
     font-weight: 600;
 }
 
 .testimonial-section .company-name{
-    font-size: 13px;
+    font-size: 15px;
     color: #36df12;
     font-weight: 600;
 }
@@ -385,6 +385,19 @@ h2{
 }
 
 @media only screen and (max-width: 550px) {
+    .testimonial-section .profile-pic{
+        margin-left: 0;
+    }
+    .testimonial-section .profile-info{
+        margin-left: 20px;
+    }
+    .testimonial-section .company-name ,  .testimonial-section .position{
+        font-size: 12px;
+    }
+    .testimonial-section .card{
+        min-height: unset;
+    }
+
     .cover {
         width: 100%;
         height: 554px;
@@ -437,6 +450,14 @@ h2{
 }
 
 @media only screen and (max-width: 792px ) {
+    .line{
+        display: none !important;
+    }
+    .profile-desc{
+        position: relative;
+        width: 100%;
+        height: 71px;
+    }
     .new-cover {
         width: 100%;
         height: 659px;
@@ -486,7 +507,7 @@ h2{
         margin-top: 0;
     }
     .grow-business-bar .description,.grow-business-bar .secondary-description {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.7;
     }
     .highlight-bar {
@@ -508,7 +529,7 @@ h2{
     .highlight-bar .description {
         padding-left: 0;
         border: 0;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.7;
     }
     .team-pic{
@@ -523,12 +544,46 @@ h2{
         width: 100%;
     }
     .pricing-bar .description {
-        margin: 1rem 0rem;
-        font-size: 13px;
+        margin: 0 0rem;
+        font-size: 15px;
         line-height: 1.7;
         color: #fff;
         text-align: left;
     }
+    .cta {
+        color: #6fda44 !important;
+        text-align: left;
+    }
+    .pricing-bar .button{
+        text-align: center;
+    }
+
+    .mobile-only .new-form{
+        margin-top: 19%;
+    }
+
+    .new-cover{
+        width: 100%;
+        height: 667px !important;
+        margin-top: -10px;
+        background-size: cover;
+        color: #fff;
+        position: relative;
+    }
+
+    .new-cover .cover-info{
+        margin-top: 0% !important;
+        display: inline !important;
+        padding-left: 16px;
+    }
+
+    .grow-business-bar {
+        margin-top: -1rem;
+        margin-bottom: 4rem;
+    }
+
+
+
     .pricing-bar .heading {
         font-size: 31px;
         font-weight: 700;
@@ -544,7 +599,7 @@ h2{
     }
     .va-section .description, .testimonial-section .description{
         margin: 1rem 0rem;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.7;
         padding: 0 !important;
         text-align: left;
@@ -563,10 +618,14 @@ h2{
     }
     .va-section .user-desc {
         line-height: 1.561;
-        font-size: 14.428px;
+        font-size: 16.428px;
         color: rgb(113, 113, 113);
         line-height: 1.561;
         margin-top: 2rem;
+    }
+
+    .pricing-bar .button{
+        margin: 16.428px 10px;
     }
     .va-section .card {
         line-height: 1.561;
@@ -576,9 +635,10 @@ h2{
         margin-top: 2rem;
     }
     .testimonial-section .card {
-        font-size: 13.4px;
+        font-size: 17.4px;
         text-align: left;
-        padding: 3rem 3rem;
+        padding: 2rem 2rem;
+        width: 96%;
         width: 96%;
         margin-bottom: 2rem;
         margin-left: 0;

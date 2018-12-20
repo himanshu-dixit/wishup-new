@@ -2,16 +2,15 @@ import React, { Component } from 'react';
 import './style.css';
 import Slider from "react-slick";
 import Form from "../../components/Form";
-
+import getPricing from "../../services/location";
 
 class HomePage extends Component {
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
-        this.state = { width: 0, height: 0, price: '12,499' };
+        this.state = { width: 0, height: 0, price: getPricing() };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-
     }
     componentDidMount() {
         this.updateWindowDimensions();
@@ -58,6 +57,9 @@ class HomePage extends Component {
                   <div className="wishup-container">
                       <div className="container-fluid">
                           <div className="row">
+                              <div className="col-md-5 mobile-only" >
+                                  <Form/>
+                              </div>
                               <div className="col-md-7">
                           <div className="cover-info">
                               <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
@@ -66,7 +68,7 @@ class HomePage extends Component {
                               </div>
                           </div>
                               </div>
-                              <div className="col-md-5">
+                              <div className="col-md-5 desktop-only">
                                   <Form/>
                               </div>
 
@@ -116,7 +118,7 @@ class HomePage extends Component {
           <div className="grow-business-bar">
               <div className="wishup-container">
                   <div className="row">
-                      <div className="col-sm-6 center">
+                      <div className="col-sm-6 center desktop-only">
                           <img src={require('../../assets/resources/thinking.png')} width="80%"/>
                       </div>
                       <div className="col-sm-6">
@@ -157,6 +159,9 @@ class HomePage extends Component {
                           </div>
                           </div>
                       </div>
+                      <div className="col-sm-6 center mobile-only">
+                          <img src={require('../../assets/resources/thinking.png')} width="80%"/>
+                      </div>
                   </div>
               </div>
           </div>
@@ -178,6 +183,7 @@ class HomePage extends Component {
                               <div className="card">
                                   I have been using the services of a Virtual assistant from Wishup for few months now and I must say they are professional, trustworthy and highly competent.
                               </div>
+                              <div className="profile-desc">
                               <div className="profile-pic">
                                   <img src={require('../../assets/pranay.jpeg')} height="55px"/>
                               </div>
@@ -190,12 +196,13 @@ class HomePage extends Component {
                                   <br></br>
                                   <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
                               </div>
+                              </div>
                           </div>
                           <div className="col-sm-4" key={2}>
                               <div className="card">
                                   We've had a great experience working with Upasana and WIshup. I can not recommend it enough for anyone looking for a talented freelancer to accelerate your growth.
                               </div>
-
+                              <div className="profile-desc">
                               <div className="profile-pic">
                                   <img src={require('../../assets/manan.jpeg')} height="55px"/>
                               </div>
@@ -208,11 +215,14 @@ class HomePage extends Component {
                               </span ><br></br>
                                   <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
                               </div>
+                                </div>
+
                           </div>
                           <div className="col-sm-4" key={3}>
                               <div className="card">
                                   I have been using the services of Wishup for close to half a year now and I truly feel this is one of the best investments I have made.
                               </div>
+                              <div className="profile-desc">
                               <div className="profile-pic" >
                                   <img src={require('../../assets/Farhan.jpg')} height="55px"/>
                               </div>
@@ -225,6 +235,7 @@ class HomePage extends Component {
                               </a>
                               </span><br></br>
                                   <span className="position"> Founder</span>,<span className="company-name"> Confetti Holdings</span>
+                              </div>
                               </div>
                           </div>
 
@@ -303,7 +314,7 @@ class HomePage extends Component {
                       Tailor-made plans to suit every workload.
                   </div>
                   <div className="description">
-                      Starting at {this.state.price}/month
+                      Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
                   </div>
                   <div className="cta">
                       <div className="button">Get Started</div>
