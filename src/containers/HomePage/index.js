@@ -135,19 +135,19 @@ class HomePage extends Component {
                               <div className="row">
                                   <div className="col-sm-6">
                                       <ul>
-                                          <li>Administrative tasks</li>
-                                          <li>Social Media</li>
-                                          <li>Online Research</li>
-                                          <li>Invoicing and Payments</li>
-                                          <li>Ecommerce assistant</li>
+                                          <li><a href="/what-we-do/what-we-do-administritive">Administrative tasks</a></li>
+                                          <li><a href="/what-we-do/what-we-do-socialmedia">Social Media</a></li>
+                                          <li><a href="/what-we-do/what-we-do-research">Online Research</a></li>
+                                          <li><a href="#">Invoicing and Payments</a></li>
+                                          <li><a href="/what-we-do/what-we-do-ecommerce">Ecommerce assistant</a></li>
                                       </ul>
                                   </div>
                                   <div className="col-sm-6">
                                       <ul className="second-ul">
-                                          <li>Project Management</li>
-                                          <li>E-mail Management</li>
-                                          <li>Bookkeeping</li>
-                                          <li>Personal tasks</li>
+                                          <li><a href="#">Project Management</a></li>
+                                          <li><a href="/what-we-do/what-we-do-email">E-mail Management</a></li>
+                                          <li><a href="/what-we-do/what-we-do-bookkeeping">Bookkeeping</a></li>
+                                          <li><a href="/what-we-do/what-we-do-personal">Personal tasks</a></li>
                                           <li>So much more</li>
                                       </ul>
                                   </div>
@@ -471,7 +471,6 @@ class HomePage extends Component {
               <div className="wishup-container">
                   <div><div className="va-bar-text">
                       <div className="va-text"> Become a Virtual Employee </div></div><div className="line"></div><a href="https://www.wishup.co/become-a-virtual-assistant"> <div className="hire-cta wishup">Get started</div></a></div>
-
               </div>
           </div>
       </div>

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './style.css';
 import GraphicHeader from '../../components/GraphicHeader';
+import getPricing from "../../services/location";
 
 class WhyWishup extends Component {
 
     constructor(props){
         super(props);
-        this.state = { width: 0, height: 0, price: '12,499' };
+        this.state = { width: 0, height: 0, price: getPricing()  };
     }
 
   render() {
@@ -142,7 +143,7 @@ class WhyWishup extends Component {
                       Tailor-made plans to suit every workload.
                   </div>
                   <div className="description">
-                      Starting at {this.state.price}/month
+                      Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
                   </div>
                   <div className="cta">
                       <div className="button">Get Started</div>

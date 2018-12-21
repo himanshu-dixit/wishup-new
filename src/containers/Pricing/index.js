@@ -84,7 +84,7 @@ class Pricing extends Component {
                                             10 hrs
                                         </div>
                                         <div className="plan-hoursinmonth">
-                                            (10 hrs)
+                                            (60 hrs)
                                         </div>
                                     </div>
                                     <div className="plan-price">
@@ -301,16 +301,14 @@ class Pricing extends Component {
                                 </div>
                             </Slider>
                             </div>
-
-
                         </div>
                         <div className="help-info">
                             Need multiple employees? Contact us at <a href="mailto:sales@wishup.com"> sales@wishup.co</a>
                         </div>
                     </div>
-
                 </div>
             </div>
+
             <div className="pricing-section">
                 <div className="wishup-container">
                     <h3>All Plans included</h3>

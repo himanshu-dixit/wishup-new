@@ -32,7 +32,7 @@ class App extends Component {
                         <Route exact path='/' component={()=>{
                             return <HomePage set={this.setPopupState.bind(this)}></HomePage>;
                         }}/>
-                        <Route exact path='/faq' component={FAQ}/>
+
                         <Route exact path='/logout' component={()=>{
                             return <HomePage></HomePage>;
                         }}/>
@@ -42,12 +42,8 @@ class App extends Component {
                         <Route exact path='/what-we-do' component={WhatWeDo}/>
                         <Route exact path='/why-wishup' component={WhyWishup}/>
                         <Route exact path='/pricing' component={Pricing}/>
+                        <Route exact path='/faq' component={FAQ}/>
                     </Switch>
-                    {/*<HomePage/>*/}
-                    {/*<Pricing></Pricing>*/}
-                    {/*<WhatWeDo/>*/}
-
-                    {/*<WhyWishup></WhyWishup>*/}
                     <Footer></Footer>
                 </div>
             </div>
