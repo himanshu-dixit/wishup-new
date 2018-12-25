@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+// Import header and footer
 import HeaderBar from './components/HeadBar';
 import Footer from './components/Footer';
+
+// Import pages.
 import HomePage from './pages/HomePage';
 import Pricing from './pages/Pricing';
 import WhatWeDo from './pages/WhatWeDo';
@@ -8,7 +13,8 @@ import Dashboard from './pages/Dashboard';
 import WhyWishup from './pages/WhyWishup';
 import LoginCard from './components/LoginCard';
 import FAQ from './pages/FAQ';
-import { Switch, Route } from 'react-router-dom'
+import WhatWeDoList from './pages/WhatWeDoList';
+
 class App extends Component {
     constructor(){
         super();
@@ -38,7 +44,7 @@ class App extends Component {
                         }}/>
                         <Route exact path='/dashboard' component={Dashboard}/>
                         <Route exact path='/login' component={LoginCard}/>
-                        <Route exact path='/what-we-do' component={WhatWeDo}/>
+                        <Route exact path='/what-we-do' component={WhatWeDoList}/>
                         <Route exact path='/what-we-do/:type' component={WhatWeDo}/>
                         <Route exact path='/why-wishup' component={WhyWishup}/>
                         <Route exact path='/pricing' component={Pricing}/>

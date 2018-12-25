@@ -2,83 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/resources/icons/Add document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WhatWeDoList/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WhatWeDoList/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Login/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Pricing/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDo/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhatWeDo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhyWishup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhyWishup/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WhyWishup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhyWishup/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/FAQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/fonts/Poppins-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/fonts/Poppins-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/fonts/Poppins-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/fonts/Poppins-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/css/main.058b7c7d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/css/main.058b7c7d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/js/main.087ebc01.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/js/main.087ebc01.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/1.1d69b040.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/2.8fc465bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/3.d3b963a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/VA.4cd0e53b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/business-world.977483b5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/cover.f131a81b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/economic-times.6f4f06b9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/header.d820cb18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/logo.081e7743.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/moneycontrol.58918c04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/pricing-background.99f5c431.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/team.e7f6d323.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/telegraph.6fc0e8da.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/thinking.01580d73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/userr.f86134bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/what-we-do-background[1].c85f9619.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup-site/static/media/what-we-do-background[2].be8c68a7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/fonts/Poppins-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/fonts/Poppins-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/fonts/Poppins-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/fonts/Poppins-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/css/main.03ac78a3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/css/main.03ac78a3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/js/main.30ea2708.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/js/main.30ea2708.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/VA.4cd0e53b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/business-world.977483b5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/cover.f131a81b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/economic-times.6f4f06b9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/logo.081e7743.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/moneycontrol.58918c04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/team.e7f6d323.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/telegraph.6fc0e8da.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/thinking.01580d73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishup/static/media/userr.f86134bb.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -153,44 +82,48 @@
     <session id="-959271799">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="82" />
+          <entry key="css" value="85" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="9" />
           <entry key="ico" value="1" />
-          <entry key="js" value="127" />
+          <entry key="js" value="132" />
           <entry key="json" value="11" />
           <entry key="npmrc" value="1" />
           <entry key="png" value="2" />
           <entry key="scss" value="4" />
+          <entry key="svg" value="2" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="82" />
+          <entry key="CSS" value="85" />
           <entry key="HTML" value="9" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="127" />
+          <entry key="JavaScript" value="132" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="4" />
+          <entry key="SVG" value="2" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5875" />
+          <entry key="css" value="6199" />
           <entry key="html" value="797" />
-          <entry key="js" value="18738" />
+          <entry key="js" value="19368" />
           <entry key="json" value="182" />
+          <entry key="svg" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5875" />
+          <entry key="CSS" value="6199" />
           <entry key="HTML" value="798" />
           <entry key="JSON" value="182" />
-          <entry key="JavaScript" value="18737" />
+          <entry key="JavaScript" value="19367" />
+          <entry key="SVG" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -216,10 +149,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="-738">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#69#114#0" expanded="true" />
+                <element signature="e#175#215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -235,22 +170,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/location.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/data.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="391">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="52" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="299">
+              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -258,28 +198,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+            <state relative-caret-position="115">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+            <state relative-caret-position="207">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/resources/icons/Add document.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Tailor</find>
-      <find>LoginCard</find>
-      <find>slider</find>
       <find>.slider</find>
       <find>new-form</find>
       <find>.card</find>
@@ -307,6 +249,9 @@
       <find>endpoint</find>
       <find>login</find>
       <find>subscribe_bar</find>
+      <find>color</find>
+      <find>country</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
@@ -327,6 +272,9 @@
       <replace>../assets/rupee.svg</replace>
       <replace>15px</replace>
       <replace>subscribe</replace>
+      <replace>what-we-do</replace>
+      <replace>what-we-do-heading</replace>
+      <replace>what-we-do-he</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/node_modules/react-icons-kit</dir>
@@ -338,10 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Input/styles.js" />
-        <option value="$PROJECT_DIR$/src/components/Input/index.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginCard/styles.js" />
-        <option value="$PROJECT_DIR$/src/components/HeadBar/styles.js" />
         <option value="$PROJECT_DIR$/src/components/NavBar/styles.js" />
         <option value="$PROJECT_DIR$/src/containers/Pricing/styles.js" />
         <option value="$PROJECT_DIR$/src/Main.js" />
@@ -383,12 +327,16 @@
         <option value="$PROJECT_DIR$/src/containers/Pricing/index.js" />
         <option value="$PROJECT_DIR$/src/components/CustomInput/style.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/services/server.js" />
         <option value="$PROJECT_DIR$/src/services/location.js" />
         <option value="$PROJECT_DIR$/src/pages/WhatWeDo/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer/index.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/WhatWeDoList/data.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/assets/resources/icons/Add document.svg" />
+        <option value="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer/index.css" />
+        <option value="$PROJECT_DIR$/src/pages/WhatWeDoList/style.css" />
       </list>
     </option>
   </component>
@@ -450,6 +398,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="WhatWeDoList" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -466,13 +421,15 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/resources/icons" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -535,12 +492,12 @@
       <workItem from="1545391837932" duration="542000" />
       <workItem from="1545506258333" duration="395000" />
       <workItem from="1545673615299" duration="1276000" />
-      <workItem from="1545734061748" duration="909000" />
+      <workItem from="1545734061748" duration="5059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260544000" />
+    <option name="totallyTimeSpent" value="264694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +526,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32349467" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32349467" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -591,7 +548,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32467532" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32349467" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -616,36 +573,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/HomePage/styles.js" />
-    <entry file="file://$PROJECT_DIR$/src/assets/resources/VA.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144831" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wishup/static/css/main.03ac78a3.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Pricing/styles.js" />
     <entry file="file://$PROJECT_DIR$/src/components/GraphicHeader/styles.js" />
     <entry file="file://$PROJECT_DIR$/src/containers/FAQ/styles.js" />
     <entry file="file://$PROJECT_DIR$/src/components/LoginCard/styles.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -832,23 +763,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/FAQ.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1817">
@@ -924,6 +838,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/location.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -934,24 +855,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
+    <entry file="file://$PROJECT_DIR$/src/services/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#69#114#0" expanded="true" />
+            <element signature="e#175#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/resources/icons/Add document.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        <state relative-caret-position="207">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
