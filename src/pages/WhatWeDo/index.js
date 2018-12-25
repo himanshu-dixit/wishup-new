@@ -19,6 +19,8 @@ class WhatWeDo extends Component {
 
     render() {
         let that = this;
+
+
         return (
             <div className="what-we-do">
                 <GraphicHeader
@@ -26,29 +28,29 @@ class WhatWeDo extends Component {
                     description={this.data[this.type].description}
 
                     image={"url(" + require('../../assets/resources/what-we-do/what-we-do-background[1].png') + ")"}
-                ></GraphicHeader>
+                />
                 <div className="raised-container-top raised-container">
                     <div className="wishup-container">
                         <div className="row">
                             <div className="col-sm-3">
                                 <div className="what-we-do-menu-containerr">
-                                <div className="what-we-do-menu">
-                                    <div className="menu-header">
-                                        What We Do
+                                    <div className="what-we-do-menu">
+                                        <div className="menu-header">
+                                            What We Do
+                                        </div>
+                                        <div className="menu-list">
+                                            {Object.keys(that.data).map(function (key, index) {
+                                                if (key !== "home") {
+                                                    return <a href={"./what-we-do-" + key}>
+                                                        <div
+                                                            className={that.type === key ? "menu-item active" : "menu-item"}>
+                                                            {that.data[key].title}
+                                                        </div>
+                                                    </a>
+                                                }
+                                            })}
+                                        </div>
                                     </div>
-                                    <div className="menu-list">
-                                        {Object.keys(that.data).map(function(key, index) {
-                                            if(key!=="home") {
-                                                return <a href={"./what-we-do-" + key}>
-                                                    <div
-                                                        className={that.type === key ? "menu-item active" : "menu-item"}>
-                                                        {that.data[key].title}
-                                                    </div>
-                                                </a>
-                                            }
-                                        })}
-                                    </div>
-                                </div>
                                 </div>
                             </div>
                             <div className="col-sm-6">

@@ -1,8 +1,8 @@
 import { Switch, Route } from 'react-router-dom'
-import Home from './containers/HomePage';
-import FAQ from './containers/WhatWeDo';
-import Login from './containers/Login';
-import Pricing from './containers/Pricing';
+import Home from './pages/HomePage';
+import FAQ from './pages/WhatWeDo';
+import Login from './pages/Login';
+import Pricing from './pages/Pricing';
 
 import React, { Component } from 'react';
 

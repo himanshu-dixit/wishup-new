@@ -1,3 +1,9 @@
+/*
+Date : 5 Dec 2018
+Parameters : endpoint, requestData
+Description - Fetches the location from request data received and pass it components
+*/
+
 const data = {
     US: {
         'trial': 125,
@@ -52,7 +58,9 @@ const data = {
         'sign': '$'
     }
 };
+
 export const getPricing = ()=>{
     return window.country?data[window.country]:data['US'];
 }
+
 export default getPricing;

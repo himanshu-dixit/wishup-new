@@ -24,7 +24,14 @@ class Footer extends Component {
 
                             <div className="footer-form-text">
                                 We'll send you updates regularly
-                            </div><br></br>
+                            </div>
+                            <div className="subscribe_bar">
+                                <input className="subscribe" placeholder="super-email@gmail.com"></input>
+                                <span className="subscribe_button" onClick="subscribeOnClick()">subscribe</span>
+                            </div>
+
+                            <div className="footer-sub-heading">Join Us</div>
+
                             <div className="social-icons">
                                 <a href="https://www.facebook.com/WishUpNow/" target="_blank">
                                 <img src={require('../../assets/facebook.png')} height="23px"/>
