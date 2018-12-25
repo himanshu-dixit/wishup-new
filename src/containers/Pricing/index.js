@@ -81,7 +81,7 @@ class Pricing extends Component {
                                     <div className="plan-name">Econonmy Employee</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
-                                            10 hrs
+                                            8 hrs
                                         </div>
                                         <div className="plan-hoursinmonth">
                                             (60 hrs)
