@@ -343,27 +343,32 @@ class HomePage extends Component {
               </div>
           </div>
 
-          <div className="highlight-bar second-highlight-bar">
-              <div className="wishup-container">
+          <div className="second-highlight-bar">
+
                   <div className="row">
-                      <div className="col-sm-5">
+                      <div className="col-sm-4 super-highlight-box mobile-only">
+
+                      </div>
+                      <div className="col-sm-8">
+                          <div className="wishup-container">
                           <h2>
                               Troubled with Recurrent Tasks? Let’s Automate it for you
                           </h2>
-                      </div>
-                      <div className="col-sm-7">
                           <div className="mobile-bar"></div>
                           <div className="description">
-                              Enterprises require a great deal of time and focus to streamline their success.Our Virtual Employee helps you stay on track by managing appointments, inbox, social media, content creation and much more.
-                              <br></br>
-                              <div className="button">
-                                  Get Started
-                              </div>
+                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with.
+
+                          </div>
                           </div>
                       </div>
+                      <div className="col-sm-4 super-highlight-box desktop-only">
+
+                      </div>
+
                   </div>
-              </div>
+
           </div>
+
 
           <div className="mentions">
               <h2>

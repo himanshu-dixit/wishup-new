@@ -747,6 +747,17 @@ h2{
     position: relative;
 }
 
+.second-highlight-bar{
+    margin: 0;
+}
+
+.second-highlight-bar .super-highlight-box{
+    height: 250px;
+    background: url('../../assets/homepage/accounts.jpg');
+    background-size: cover;
+    position: relative;
+}
+
 .green-highlight-box{
     background: #6fda44;
     padding-top: 40px;
@@ -759,14 +770,27 @@ h2{
     background: #fff !important;
 }
 
+.second-highlight-bar .wishup-container{
+    padding: 1rem 6rem;
+}
+
 @media only screen and (max-width: 772px ) {
     .super-highlight-box {
         height: 300px !important;
     }
-    .green-highlight-box .wishup-container{
-        padding: 0 3rem !important;
+    .green-highlight-box .wishup-container, .second-highlight-bar .wishup-container{
+        padding: 2rem 3rem 4rem !important;
     }
     .green-highlight-box {
-        padding-top: 30px;
+        padding-top: 0px;
+    }
+
+    .green-highlight-box .mobile-bar, .second-highlight-bar  .mobile-bar{
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+    .second-highlight-bar h2{
+        font-size: 25px !important;
     }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/style.css" afterDir="false" />
     </list>
@@ -82,7 +83,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="9" />
           <entry key="ico" value="1" />
-          <entry key="js" value="140" />
+          <entry key="js" value="141" />
           <entry key="json" value="11" />
           <entry key="npmrc" value="1" />
           <entry key="png" value="2" />
@@ -97,7 +98,7 @@
           <entry key="HTML" value="9" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="140" />
+          <entry key="JavaScript" value="141" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="4" />
           <entry key="SVG" value="25" />
@@ -106,19 +107,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7088" />
+          <entry key="css" value="7175" />
           <entry key="html" value="797" />
-          <entry key="js" value="20281" />
+          <entry key="js" value="20329" />
           <entry key="json" value="182" />
           <entry key="svg" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7088" />
+          <entry key="CSS" value="7175" />
           <entry key="HTML" value="798" />
           <entry key="JSON" value="182" />
-          <entry key="JavaScript" value="20280" />
+          <entry key="JavaScript" value="20328" />
           <entry key="SVG" value="27" />
         </counts>
       </usages-collector>
@@ -166,12 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/HomePage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="307" column="46" selection-start-line="307" selection-start-column="30" selection-end-line="307" selection-end-column="46" />
-              <folding>
-                <element signature="e#15252#16088#0" />
-                <element signature="e#15362#16066#0" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="348" column="78" selection-start-line="348" selection-start-column="78" selection-end-line="348" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -179,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/HomePage/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="769" column="22" selection-start-line="769" selection-start-column="22" selection-end-line="769" selection-end-column="22" />
+            <state relative-caret-position="310">
+              <caret line="793" column="35" selection-start-line="793" selection-start-column="35" selection-end-line="793" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -225,8 +222,8 @@
       <find>new-form</find>
       <find>1</find>
       <find>half</find>
-      <find>footer-li</find>
       <find>hald</find>
+      <find>footer-li</find>
       <find>r</find>
     </findStrings>
     <replaceStrings>
@@ -494,12 +491,12 @@
       <workItem from="1545734061748" duration="9760000" />
       <workItem from="1545837883852" duration="100000" />
       <workItem from="1545838017677" duration="594000" />
-      <workItem from="1545849275523" duration="5589000" />
+      <workItem from="1545849275523" duration="7085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275678000" />
+    <option name="totallyTimeSpent" value="277174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1972">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CustomInput/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
@@ -849,21 +839,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1972">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/HomePage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="307" column="46" selection-start-line="307" selection-start-column="30" selection-end-line="307" selection-end-column="46" />
-          <folding>
-            <element signature="e#15252#16088#0" />
-            <element signature="e#15362#16066#0" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="348" column="78" selection-start-line="348" selection-start-column="78" selection-end-line="348" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/HomePage/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="769" column="22" selection-start-line="769" selection-start-column="22" selection-end-line="769" selection-end-column="22" />
+        <state relative-caret-position="310">
+          <caret line="793" column="35" selection-start-line="793" selection-start-column="35" selection-end-line="793" selection-end-column="35" />
         </state>
       </provider>
     </entry>
