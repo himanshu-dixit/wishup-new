@@ -286,6 +286,24 @@ class HomePage extends Component {
           </div>
 
 
+          <div className="super-highlight-bar">
+              <div className="row">
+                  <div className="col-sm-5 super-highlight-box">
+                  </div>
+                  <div className="col-sm-7 green-highlight-box">
+                      <div className="wishup-container">
+                      <h2>
+                          Ready. Set. Go
+                          Start Immediately with our Trained Employees
+                      </h2>
+                      <div className="highlight-description">
+                          Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!
+                      </div>
+                      <div className="button">Get Started</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
           <div className="highlight-bar ">
               <div className="wishup-container">
                   <div className="row">

@@ -738,3 +738,35 @@ h2{
     border: none !important;
     outline: none !important;
 }
+
+
+.super-highlight-box{
+    height: 400px;
+    background: url('../../assets/homepage/super-highlight.png');
+    background-size: cover;
+    position: relative;
+}
+
+.green-highlight-box{
+    background: #6fda44;
+    padding-top: 40px;
+    color: white;
+    height: 400px;
+}
+
+.green-highlight-box .button{
+    color: #6fda44;
+    background: #fff !important;
+}
+
+@media only screen and (max-width: 772px ) {
+    .super-highlight-box {
+        height: 300px !important;
+    }
+    .green-highlight-box .wishup-container{
+        padding: 0 3rem !important;
+    }
+    .green-highlight-box {
+        padding-top: 30px;
+    }
+}
