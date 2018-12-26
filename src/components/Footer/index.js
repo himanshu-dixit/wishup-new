@@ -26,8 +26,8 @@ class Footer extends Component {
                                 We'll send you updates regularly
                             </div>
                             <div className="subscribe_bar">
-                                <input className="subscribe" placeholder="super-email@gmail.com"></input>
-                                <span className="subscribe_button" onClick="subscribeOnClick()">subscribe</span>
+                                <input className="subscribe" placeholder="Enter your email"></input>
+                                <span className="subscribe_button" onClick={()=>{}}>subscribe</span>
                             </div>
 
                             <div className="footer-sub-heading">Join Us</div>

@@ -24,7 +24,19 @@
     border-radius: 8px;
     color: #333333;
     font-weight: 600;
+    min-height: 197px;
+    transition: transform .4s;
     margin-bottom: 20px;
+}
+
+.wishup-box .what-we-do-card:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wishup-box a:hover{
+    text-decoration: none;
 }
 
 .wishup-box .wishup-dont-tasks{
@@ -36,7 +48,7 @@
 
 .wishup-box{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0 !important;
     padding-bottom: 40px;
 }
 
@@ -90,6 +102,40 @@
     border-top: 1px solid #e9e9e9;
 }
 
+
+.col-sm-offset-5{
+    margin: 0 37%;
+}
+
+
+
+.wishup-dont-tasks .icon_box{
+    float: left;
+    width: 100% !important;
+    height: 57px !important;
+}
+
+.dont-do-icon-box{
+    float: left;
+    width: 100%;
+    height: 67px;
+}
+
+.wishup-dont-tasks{
+    padding: 35px 20px;
+    border-radius: 8px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.wishup-dont-tasks .task-description{
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
 @media only screen and (max-width: 792px ) {
     .wishup-box .what-we-do {
         padding: 1rem;
@@ -108,6 +154,26 @@
     }
     .wishup-box .what-we-do-card {
         max-width: 80%;
-        margin: 0 auto;
+        margin: 10px auto;
     }
+    .col-sm-offset-5 {
+        margin: 0 auto !important;
+    }
+}
+
+.first-heading{
+    margin-top: 48px;
+}
+
+.second-heading{
+    margin-top: 0px;
+}
+
+.first-description{
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+.secondary-description{
+    margin-top: 22px;
+    margin-bottom: 21px;
 }
