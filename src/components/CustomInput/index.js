@@ -12,11 +12,11 @@ class CustomInput extends Component {
     render(){
         let that = this;
         return (
-            <div className="mainInput">
+            <div  className={this.props.size === "half" ?"half mainInput":"mainInput"}>
                 <div className="mainInputContainer">
                     <label className="label">
                         <input
-                            className="inputText"
+                            className={this.props.size === "half" ?"inputText":"inputText"}
                             name={this.props.id}
                             placeholder={this.props.label}
                             value={this.props.data}

@@ -5,7 +5,8 @@ import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest} from '../../services/server.js';
 import GoogleLogin from 'react-google-login';
-import { LinkedIn } from 'react-linkedin-login-oauth2';
+import IntlTelInput from 'react-intl-tel-input';
+import 'react-intl-tel-input/dist/main.css';
 
 import FacebookLogin from 'react-facebook-login';
 
@@ -179,21 +180,40 @@ class Form extends Component {
 
                                 <div className="inputContainer col-sm-12">
 
-
-
                                     {this.state.state === 'initial' ?
                                         <form>
                                         <h2 className="heading">
                                             Get Started
                                         </h2>
                                         <hr/>
-                                        <CustomInput label="Your Full Name" type="text" id="name" data={this.state.name} changeValue={this.changeValue.bind(this)}/>
-                                        <CustomInput label="Email Address" type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
-                                        <CustomInput label="Phone" type="phone" id="phone" data={this.state.phone} changeValue={this.changeValue.bind(this)}/>
+                                            <div className="name-bar">
+                                        <CustomInput label="First Name" type="text" size="half" id="name" data={this.state.first_name} changeValue={this.changeValue.bind(this)}/>
+                                        <CustomInput label="Last Name" size="half" type="text" id="name" data={this.state.last_name} changeValue={this.changeValue.bind(this)}/>
+                                            </div>
+                                            <div className="name-bar">
+                                                <CustomInput label="Email Address"  type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
+                                            </div>
+                                            <div className="name-bar phone">
+                                                <IntlTelInput
+                                                    preferredCountries={['US']}
+                                                    css={['intl-tel-input', 'form-control']}
+                                                />
+                                           </div>
                                             <h4>What are you looking for?</h4>
+
+                                            <div className="radio-group">
+                                                <label className="container">Hire VA
+                                                    <input type="radio" checked="checked" name="radio"></input>
+                                                        <span className="checkmark"></span>
+                                                </label>
+                                                <label className="container">Become VA
+                                                    <input type="radio" name="radio"></input>
+                                                        <span className="checkmark"></span>
+                                                </label>
+                                            </div>
                                         <div className="error">{this.state.error}</div>
                                         <div className="buttonsContainer">
-                                            <div className="button-cta" onClick={()=>{this.clientSubmit()}}>Hire VA</div>
+                                            <div className="button-cta" onClick={()=>{this.clientSubmit()}}>Next</div>
                                         </div>
                                     </form> : ''}
 

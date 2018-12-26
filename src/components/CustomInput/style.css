@@ -56,3 +56,12 @@
     border-color: #c00 !important;
 }
 
+.half{
+    width: 49% !important;
+    float: left;
+    margin-right: 1%;
+}
+
+.half .label{
+    padding: .0em .1em .0em;
+}

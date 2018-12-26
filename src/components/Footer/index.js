@@ -26,8 +26,18 @@ class Footer extends Component {
                                 We'll send you updates regularly
                             </div>
                             <div className="subscribe_bar">
-                                <input className="subscribe" placeholder="Enter your email"></input>
-                                <span className="subscribe_button" onClick={()=>{}}>subscribe</span>
+
+                                <form
+                                    action="https://wishup.us18.list-manage.com/subscribe/post?u=1b6f68fbae24ef77d377c480f&amp;id=1048219f9e"
+                                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                    className="validate" target="_blank" noValidate>
+
+                                    <input className="subscribe" type="email" name="EMAIL" className="required email email_input" placeholder="Enter your email"></input>
+                                    <button className="subscribe_button" type="submit" value="Subscribe" name="subscribe"
+                                             onClick={()=>{}}>subscribe</button>
+
+                                </form>
+
                             </div>
 
                             <div className="footer-sub-heading">Join Us</div>

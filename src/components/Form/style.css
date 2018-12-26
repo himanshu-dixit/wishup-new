@@ -408,12 +408,12 @@ display: none;
 
 .new-form{
     max-height: 400px;
-    max-width: 300px;
+    max-width: 370px;
 }
 
 .new-form .mainContainer{
     max-width: 310px;
-    margin-top: 20%;
+    margin-top: 12%;
 }
 
 .new-form {
@@ -444,7 +444,7 @@ display: none;
 
 .new-form .inputText{
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     height: 39px;
 }
 
@@ -461,4 +461,156 @@ display: none;
         padding-bottom: 3rem;
     }
 
+}
+
+.name-bar{
+    height: 52px;
+}
+
+.label {
+    display: inline;
+     padding: 0;
+}
+
+.intl-tel-input input{
+    width: 99%;
+    font-size: 12px;
+    height: 47px;
+    padding: 11.6px 16px 11.4px;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-radius: .1875em;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .8);
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    outline: 0;
+    -webkit-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+    padding: 0 70px !important;
+    max-height: 50px;
+}
+
+.intl-tel-input{
+    padding-left: 3px;
+    max-height: 54px;
+    width: 100%;
+}
+.intl-tel-input .flag-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0 13px !important;
+}
+
+.intl-tel-input .form-control{
+    max-height: 41px;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+    width: 100%;
+}
+
+.intl-tel-input .form-control:focus{
+    border-bottom-width: 3px;
+    border-bottom-color: #6fda44;
+    color: #757575;
+    outline: none;
+    box-shadow: none;
+}
+
+.intl-tel-input .form-control::placeholder{
+    border-bottom-width: 3px;
+    border-bottom-color: #6fda44;
+    color: #757575;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.radio-group{
+    padding-left: 12px;
+    margin-top: 17px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-group:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-group input:checked ~ .checkmark {
+    background-color: #6fda44;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-group input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-group .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 5.3px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+.new-form h4{
+    font-weight: 600;
+}
+
+.country-list{
+    max-width: 272px;
+    font-size: 12px;
+    margin-left: -10px !important;
+}
+.intl-tel-input .country-list .country-name, .intl-tel-input .country-list .flag-box {
+    color: #484848;
 }

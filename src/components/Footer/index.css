@@ -41,6 +41,11 @@
 
 .footer-link{
     margin-top: 15px;
+
+}
+
+.footer-link a{
+    color: #fff;
 }
 
 .sub-footer-text{
@@ -133,3 +138,15 @@
     color: white;
 }
 
+.subscribe_button:active{
+    outline: none !important;
+    border: 0 !important;
+}
+
+.email_input{
+    height: 42px;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    border: 0;
+}
