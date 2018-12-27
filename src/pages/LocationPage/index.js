@@ -272,7 +272,10 @@ class LocationPage extends Component {
 
           <div className="wishup-container location-va-type">
               <h2 className="first-heading">Looking for the right support for your business or professional practice?</h2>
+              <div className="red-strip desktop-only"></div>
+              <div className="mobile-bar"></div>
               <div className="description first-description">
+
                   You definitely need the best virtual assistant for all your time consuming, mundane tasks. Toronto businesses are growing rapidly and if you need a virtual assistant who can keep up, hire Wishup’s qualified, experienced and trained virtual assistants.
                   <br></br>
                   <br></br>

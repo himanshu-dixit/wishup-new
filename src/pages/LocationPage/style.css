@@ -5,3 +5,35 @@
 .location .new-cover{
     box-shadow: inset 0 0 0 1000px rgba(29, 26, 26, 0.2);
 }
+
+@media only screen and (max-width: 400px) {
+    .location .new-cover {
+        width: 100%;
+        height: 789px !important;
+    }
+    .green-highlight-box {
+        height: 520px;
+    }
+    .va-section .user-desc{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 772px) {
+
+    .location .green-highlight-box {
+        height: 620px;
+    }
+    .location .location-va-type{
+        padding: 0 1.8rem !important;
+    }
+    .location .mobile-bar {
+        height: 2px;
+        width: 8rem;
+        background: red;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}
