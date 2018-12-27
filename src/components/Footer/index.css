@@ -70,9 +70,13 @@
 }
 
 @media only screen and (max-width: 792px ) {
+    .col-xs-4{
+        padding-left: 0 !important;
+    }
     .footer {
         padding: 1rem;
         padding-top: 3rem;
+        padding-bottom: 9rem;
     }
     .footer-sub-heading{
         margin-top: 24px;
@@ -124,7 +128,6 @@
 }
 
 .subscribe_button {
-    background: #6fda44;
     position: absolute;
     top: -53px;
     left: 200px;
@@ -136,6 +139,10 @@
     line-height: 150px;
     vertical-align: middle;
     color: white;
+    box-shadow: none;
+    background-color: #6eda44;
+    border: 0;
+    outline: none;
 }
 
 .subscribe_button:active{
@@ -149,4 +156,8 @@
     outline: none;
     padding-left: 16px;
     border: 0;
+}
+
+.footer a{
+    color: #fff;
 }

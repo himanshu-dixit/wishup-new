@@ -2,7 +2,11 @@ const data = {
   home:{
     name: "Home",
     title: "What We Do",
-    description: "",
+    meta_title: "",
+    meta_description: "",
+      og_title: "",
+      og_description: "",
+      description: "",
       content: "<h2>Why Virtual Administrative Assistant?</h2>\n" +
           "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Employee will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
       first_section:{
@@ -42,6 +46,11 @@ const data = {
   administritive:{
     name: "administritive",
     title: "Administrative Assistant",
+      meta_title: "Best Virtual Admin Assistants, Hire Remote Administrative Assistants Online",
+      meta_description: "A virtual admin assistant is the one who helps you with organizing the small or recurring tasks constantly. Our remote administrative assistants manage your inboxes, schedules appointments, manages your calendar and much more than this. Hire an administrative assistant today in USA, UK, Canada, India or anywhere!",
+      og_title: "Best Virtual Admin Assistants, Hire Remote Administrative Assistants Online",
+      og_description: "A virtual admin assistant is the one who helps you with organizing the small or recurring tasks constantly. Our remote administrative assistants manage your inboxes, schedules appointments, manages your calendar and much more than this. Hire an administrative assistant today in USA, UK, Canada, India or anywhere!",
+      description: "",
     description: "Our virtual administrative assistants are great organizers of your business and make everyday easy for you. ",
     content: "<h2>Why Virtual Administrative Assistant?</h2>\n" +
         "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Employee will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
@@ -82,6 +91,10 @@ const data = {
     socialmedia:{
         name: "Social Media",
         title: "Social Media Assistant",
+        meta_title: "Social Media Virtual Assistant | Social Media Outsourcing",
+        meta_description: "Affordable Social Media Virtual Assistant to manage your brand image over various social networking platforms. Our Social Media Assistants maintain regular post updates, write catchy SEO-friendly content and constantly finding means to keep you ahead in the internet world.",
+        og_title: "Social Media Virtual Assistant | Social Media Outsourcing",
+        og_description: "Affordable Social Media Virtual Assistant to manage your brand image over various social networking platforms. Our Social Media Assistants maintain regular post updates, write catchy SEO-friendly content and constantly finding means to keep you ahead in the internet world.",
         description: "Our social media assistants are web-mavericks who can bring you the traffic you want. They are the perfect combination of zealous and net-savvy for your needs.",
         content: "<h2>Why Virtual Social Media Assistant?</h2>" +
             "With the world getting digitized at a faster pace, social networking and managing brand image over various social networking portals can be a tedious task. Instead, hand it over to our social media assistants who are extremely passionate about the Internet. Our virtual employees make sure they are updated with the latest tools and technology to promote your needs. A social media assistant writes catchy SEO-friendly content, maintains a regular posting schedule and constantly finds means to keep you ahead in the world of the Internet. ",

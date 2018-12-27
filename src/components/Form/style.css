@@ -461,6 +461,10 @@ display: none;
         padding-bottom: 3rem;
     }
 
+    .iti-mobile .intl-tel-input .country-list {
+        max-height: 362px !important;
+    }
+
 }
 
 .name-bar{

@@ -153,7 +153,8 @@
         font-size: 12px;
     }
     .wishup-box .what-we-do-card {
-        max-width: 80%;
+        max-width: 100%;
+        margin: 10px auto;
         margin: 10px auto;
     }
     .col-sm-offset-5 {
@@ -176,4 +177,35 @@
 .secondary-description{
     margin-top: 22px;
     margin-bottom: 21px;
+}
+
+.what-we-do-main .mobile-bar {
+    height: 2px;
+    width: 8rem;
+    background: red;
+    margin: 1rem auto 2rem;
+}
+
+@media only screen and (max-width: 792px ) {
+
+    .what-we-do-main h2 {
+        text-align: left;
+    }
+
+    .what-we-do-main .mobile-bar {
+        height: 2px;
+        width: 8rem;
+        background: red;
+        margin: 1rem 0 2rem;
+    }
+
+    .what-we-do-main .description {
+        text-align: left;
+    }
+
+
+
+    .what-we-do-main .wishup-container {
+        padding: 0 2rem !important;
+    }
 }

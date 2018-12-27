@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import GraphicHeader from '../../components/GraphicHeader';
 import getPricing from "../../services/location";
+import MetaTags from "react-meta-tags";
 
 class WhyWishup extends Component {
 
@@ -14,6 +15,21 @@ class WhyWishup extends Component {
 
     return (
       <div className="why-wishup">
+          <MetaTags>
+              <title>Why Hire A Virtual Assistant? | Wishup</title>
+              <link rel="canonical" href="/why-wishup"/>
+                  <meta property="og:url" content="https://www.zirtual.com/why-zirtual"/>
+                      <meta name="twitter:title" content="Why Hire A Virtual Assistant?"/>
+                          <meta property="og:title" content="Why Hire A Virtual Assistant?"/>
+                              <meta name="description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                                  <meta property="og:description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                                      <meta name="twitter:description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                                          <meta property="og:image" content="https://d37szscqjmjaac.cloudfront.net/production/20181203-032325/images/why-z_c0bd7e43.jpg"/>
+                                              <meta name="twitter:image" content="https://d37szscqjmjaac.cloudfront.net/production/20181203-032325/images/why-z_c0bd7e43.jpg"/>
+                                                  <meta name="twitter:image:alt" content="Why Hire A Virtual Assistant?"  />
+          </MetaTags>
+
+
           <GraphicHeader
               title="Why Wishup"
               description="Bringing you the best talent possible"
@@ -147,7 +163,7 @@ class WhyWishup extends Component {
                   </div>
                   <div className="cta">
                       <div className="button">Get Started</div>
-                      <a href="/pricing">
+                      <a href="/virtual-assistant-pricing/">
                           <div className="button">Plan and Pricing</div>
                       </a>
                   </div>

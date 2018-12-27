@@ -3,6 +3,7 @@ import GraphicHeader from '../../components/GraphicHeader';
 import './style.css';
 import Slider from "react-slick";
 import getPricing from "../../services/location";
+import MetaTags from "react-meta-tags";
 class Pricing extends Component {
     constructor(props) {
         super(props);
@@ -31,6 +32,14 @@ class Pricing extends Component {
             pauseOnHover: true
         };
         return <div className="pricing">
+            <MetaTags>
+                <title>Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services </title>
+                <meta name="description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities."/>
+                <meta property="og:title" content="Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services "/>
+                <meta property="og:description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities. "/>
+                <link rel="canonical" href="/virtual-assistant-pricing" />
+            </MetaTags>
+
             <GraphicHeader
                 title="Plans & Pricing"
                 description="Flexible monthly plans to fit any workload"
@@ -342,6 +351,22 @@ class Pricing extends Component {
                                 Available from Mon-Fri between 9AM to 7PM IST
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="pricing-bar">
+                <div className="wishup-container">
+                    <div className="heading">
+                        Tailor-made plans to suit every workload.
+                    </div>
+                    <div className="description">
+                        Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
+                    </div>
+                    <div className="cta">
+                        <div className="button">Get Started</div>
+                        <a href="/virtual-assistant-pricing/">
+                            <div className="button">Plan and Pricing</div>
+                        </a>
                     </div>
                 </div>
             </div>

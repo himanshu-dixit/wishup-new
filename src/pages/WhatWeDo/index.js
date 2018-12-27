@@ -3,6 +3,7 @@ import './style.css';
 import GraphicHeader from '../../components/GraphicHeader';
 import data from './data'
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import MetaTags from "react-meta-tags";
 
 class WhatWeDo extends Component {
 
@@ -13,7 +14,8 @@ class WhatWeDo extends Component {
         if(!this.type){
             this.type = 'home';
         }
-        this.type = this.type.replace('what-we-do-','');
+        this.type = this.type.replace('hire-','');
+        this.type = this.type.replace('-assistant','');
         this.data = data;
     }
 
@@ -23,6 +25,14 @@ class WhatWeDo extends Component {
 
         return (
             <div className="what-we-do">
+                <MetaTags>
+                    <title>{this.data[this.type].meta_title}</title>
+                    <meta name="description" content={this.data[this.type].meta_description}/>
+                    <meta property="og:title" content={this.data[this.type].og_title}/>
+                    <meta property="og:description" content={this.data[this.type].og_description}/>
+                    <link rel="canonical" href={"/hire-"+this.data+"-assistant"} />
+                </MetaTags>
+
                 <GraphicHeader
                     title={this.data[this.type].title}
                     description={this.data[this.type].description}
@@ -41,7 +51,7 @@ class WhatWeDo extends Component {
                                         <div className="menu-list">
                                             {Object.keys(that.data).map(function (key, index) {
                                                 if (key !== "home") {
-                                                    return <a href={"./what-we-do-" + key}>
+                                                    return <a href={"./hire-" + key+"-assistant"}>
                                                         <div
                                                             className={that.type === key ? "menu-item active" : "menu-item"}>
                                                             {that.data[key].title}
@@ -132,6 +142,7 @@ class WhatWeDo extends Component {
                         </div>
                     </div>
                 </div>
+
             </div>
         );
     }

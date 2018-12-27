@@ -3,15 +3,21 @@ import './style.css';
 import Slider from "react-slick";
 import Form from "../../components/Form";
 import getPricing from "../../services/location";
-import MetaTags from 'react-meta-tags';
+import MetaTags from "react-meta-tags";
+import data from './data'
 
-class HomePage extends Component {
+class LocationPage extends Component {
     constructor(props) {
         super(props);
+        this.type = props.match.params.type;
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
         this.state = { width: 0, height: 0, price: getPricing() };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+        this.type = this.type.replace('-virtual-assistants','');
+        this.type = this.type.replace('-','');
+
+        this.data = data;
     }
     componentDidMount() {
         this.updateWindowDimensions();
@@ -41,67 +47,38 @@ class HomePage extends Component {
           autoplaySpeed: 2000,
           pauseOnHover: true
       };
-      var settings2 = {
-          dots: false,
-          infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: this.state.width<550?1:(this.state.width<850?2:3),
-          autoplay: false,
-          autoplaySpeed: 2000,
-          pauseOnHover: true
-      };
     return (
-      <div>
+      <div className="location">
           <MetaTags>
-              <title>Best Virtual Assistant Services Online, Hire a Virtual Assistant</title>
-              <meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
-              <meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>
-              <meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
-              <link rel="canonical" href="http://www.wishup.co" />
+              <title>{this.data[this.type].meta_title}</title>
+              <meta name="description" content={this.data[this.type].meta_description}/>
+              <meta property="og:title" content={this.data[this.type].og_title}/>
+              <meta property="og:description" content={this.data[this.type].og_description}/>
+              <link rel="canonical" href={"/hire-"+this.data+"-assistant"} />
           </MetaTags>
 
-          {this.props.type == "new" ?
-              <div className="new-cover"
-                   style={{backgroundImage: "url(" + require('../../assets/blue-background.png') + ")"}}>
-                  <div className="wishup-container">
-                      <div className="container-fluid">
-                          <div className="row">
+          <div className="new-cover"
+               style={{backgroundImage: this.data[this.type].cover}}>
+              <div className="wishup-container">
+                  <div className="container-fluid">
+                      <div className="row">
 
-                              <div className="col-md-7">
-                          <div className="cover-info">
-                              <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
-                              <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
-                                  Small Teams and Businesses.
+                          <div className="col-md-7">
+                              <div className="cover-info">
+                                  <h1 className="wishup-tagline">{this.data[this.type].name} Virtual Assistant Services</h1>
+                                  <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
+                                      Small Teams and Businesses.
+                                  </div>
                               </div>
                           </div>
-                              </div>
-                              <div className="col-md-5">
-                                  <Form/>
-                              </div>
-
+                          <div className="col-md-5">
+                              <Form/>
                           </div>
+
                       </div>
                   </div>
               </div>
-              :
-              <div className="cover"
-                   style={{backgroundImage: "url(" + require('../../assets/resources/cover.png') + ")"}}>
-                  <div className="wishup-container">
-                      <div className="container-fluid">
-                          <div className="cover-info">
-                              <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
-                              <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
-                                  Small Teams and Businesses.
-                              </div>
-                              <div className="hire-cta" onClick={() => {
-                                  this.props.set("login")
-                              }}>Get started
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          }
+          </div>
 
 
           <div className="grow-business-bar">
@@ -113,7 +90,7 @@ class HomePage extends Component {
                       <div className="col-sm-6">
                           <div className="grow-description">
                           <h2>
-                          Grow your business with a Wishup Virtual Employee
+                              Based in {this.data[this.type].name} and looking for virtual assistants?
                           </h2>
 
                           <div className="description">
@@ -141,6 +118,9 @@ class HomePage extends Component {
                                       </ul>
                                   </div>
                               </div>
+                              {/*<div className="button">*/}
+                                  {/*More Services*/}
+                              {/*</div>*/}
 
                           </div>
                           </div>
@@ -155,12 +135,12 @@ class HomePage extends Component {
           <div className="testimonial-section">
               <div className="wishup-container">
                   <h2>
-                      Unbelievable? Read to Believe
+                      We have best virtual assistants
                   </h2>
                   <div className="red-strip"></div>
                   <div className="description">
                       <div className="mobile-bar"></div>
-                      Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonial"> Read what people have to say</a>
+                      It's not just us who say it but our clients who express it to us, everyday. <a href="/testimonial"> Read what people have to say</a>
                   </div>
                   <div className="row ">
 
@@ -263,6 +243,11 @@ class HomePage extends Component {
                               {/*</div>*/}
                           {/*</div>*/}
                   </div>
+                  <div className="row ">
+
+
+
+                  </div>
               </div>
           </div>
 
@@ -274,38 +259,149 @@ class HomePage extends Component {
                   <div className="col-sm-7 green-highlight-box">
                       <div className="wishup-container">
                       <h2>
-                          Ready. Set. Go
-                          Start Immediately with our Trained Employees
+                          What are Virtual Assistants?
                       </h2>
                       <div className="highlight-description">
-                          Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!
+                          Virtual assistants are remote workers using digital technologies who double up as your research assistant, social media manager, bookkeeper and accountant, travel and administrative assistant and email and workflow experts. Virtual assistants handle reports, minutes, analytics, facts and figures. They also have offer research, social media and email management and a whole lot of other competencies. Basically, virtual assistants carry out every task you need to keep your business in order without compromising on cost efficiency
                       </div>
                       <div className="button">Get Started</div>
                       </div>
                   </div>
               </div>
           </div>
-          <div className="highlight-bar ">
-              <div className="wishup-container">
+
+          <div className="wishup-container location-va-type">
+              <h2 className="first-heading">Looking for the right support for your business or professional practice?</h2>
+              <div className="description first-description">
+                  You definitely need the best virtual assistant for all your time consuming, mundane tasks. Toronto businesses are growing rapidly and if you need a virtual assistant who can keep up, hire Wishup’s qualified, experienced and trained virtual assistants.
+                  <br></br>
+                  <br></br>
+                  Choosing the right virtual assistant for the job is important. Saving effort, time or money while hiring a best virtual assistant with Wishup. Wishup is your full-service virtual assistant provider providing dedicated solutions for business and professional practices. Now, grow your business or professional practice with our skilled, experienced and qualified virtual assistants to give your business the winning edge.
+
+              </div>
+              <div className="container wishup-box">
                   <div className="row">
-                      <div className="col-sm-5">
-                          <h2>
-                              Skilled, multitasking experts? We call them our Virtual Employees
-                          </h2>
+
+                      <div className="col-md-3">
+                          <a href="/hire-administritive-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/Add document.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Administrative and Executive Assistant
+                                  </div>
+                              </div>
+                          </a>
                       </div>
-                      <div className="col-sm-7">
-                          <div className="mobile-bar"></div>
-                          <div className="description">
-                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with.
+
+                      <div className="col-md-3">
+                          <a href="/hire-socialmedia-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/socialmedia.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Social Media Assistant
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+
+
+                      <div className="col-md-3">
+                          <div className="what-we-do-card">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/icons/lead.svg') } height="50px"/>
+                              </div>
+                              <div className="task-title">
+                                  Lead generation Assistant
+                              </div>
                           </div>
+                      </div>
+
+                      <div className="col-md-3">
+                          <a href="/hire-research-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/research.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Research Assistant
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+
+                  </div>
+                  <div className="row">
+                      <div className="col-md-3">
+                          <a href="/hire-bookkeeping-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/bookkeeping.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Bookkeeping Assistant
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                      <div className="col-md-3">
+                          <a href="/hire-email-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/mail.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Email Assistant
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                      <div className="col-md-3">
+                          <a href="/hire-hiring-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/hiring.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Hiring Assistant
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+
+                      <div className="col-md-3">
+                          <div className="what-we-do-card">
+                              <div className="icon-box">
+                                  <img src={require('../../assets/resources/icons/realestate.svg') } height="50px"/>
+                              </div>
+                              <div className="task-title">
+                                  Real Estate Assistant
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <div className="row">
+
+                      <div className="col-md-3 col-sm-offset-5">
+                          <a href="/hire-travel-assistant">
+                              <div className="what-we-do-card">
+                                  <div className="icon-box">
+                                      <img src={require('../../assets/resources/icons/travel.svg') } height="50px"/>
+                                  </div>
+                                  <div className="task-title">
+                                      Travel Assistant
+                                  </div>
+                              </div>
+                          </a>
                       </div>
                   </div>
               </div>
           </div>
-
-          <div className="team-pic" style={{  backgroundImage: "url(" + require('../../assets/resources/team.png') + ")"}}>
-          </div>
-
 
           <div className="pricing-bar">
               <div className="wishup-container">
@@ -324,61 +420,7 @@ class HomePage extends Component {
               </div>
           </div>
 
-          <div className="second-highlight-bar">
 
-                  <div className="row">
-                      <div className="col-sm-5 super-highlight-box mobile-only">
-
-                      </div>
-                      <div className="col-sm-7">
-                          <div className="wishup-container">
-                          <h2>
-                              Troubled with Recurrent Tasks? Let’s Automate it for you
-                          </h2>
-                          <div className="mobile-bar"></div>
-                          <div className="description">
-                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with.
-
-                          </div>
-                          </div>
-                      </div>
-                      <div className="col-sm-5 super-highlight-box desktop-only">
-
-                      </div>
-
-                  </div>
-
-          </div>
-
-
-          <div className="mentions">
-              <h2>
-                  Wishup in media
-              </h2>
-              <div className="red-strip"></div>
-              <div className="wishup-container">
-                  <div className="row">
-                      <a target="_blank" href="https://yourstory.com/2018/11/wishup-aims-help-mums-balance-careers-family-work-home-options/">
-                      <div className="col-sm-4 left"><img src={require('../../assets/resources/yourstory.png')} height="25px"/> </div>
-                      </a>
-                      <a target="_blank" href="http://bwpeople.businessworld.in/article/GIG-economy-increase-in-contract-based-jobs/20-09-2018-160373/">
-                      <div className="col-sm-4"><img src={require('../../assets/resources/business-world.png')} height="25px"/> </div>
-                      </a>
-                      <a target="_blank" href="https://economictimes.indiatimes.com/jobs/wishup-to-hire-400-people/articleshow/66421647.cms">
-                      <div className="col-sm-4"><img src={require('../../assets/resources/economic-times.png')} height="25px"/> </div>
-                      </a>
-                      <a target="_blank" href="https://www.livemint.com/Leisure/JkinDpMBgPenrQBxWdeX6I/No-fixed-benefitsyet-gig-economy-rocks.html">
-                      <div className="col-sm-4 left"><img src={require('../../assets/resources/livemint.png')} height="25px"/> </div>
-                      </a>
-                      <a target="_blank" href="https://www.moneycontrol.com/news/business/startup/how-wishup-is-bridging-gap-between-talented-individuals-and-corporates-looking-for-remote-employees-2872311.html">
-                      <div className="col-sm-4"><img src={require('../../assets/resources/moneycontrol.png')} height="25px"/> </div>
-                      </a>
-                      <a href="https://epaper.telegraphindia.com/calcutta/2018-10-02/71/Page-15.html" target="_blank">
-                      <div className="col-sm-4"><img src={require('../../assets/resources/telegraph.png')} height="25px"/> </div>
-                      </a>
-                  </div>
-              </div>
-          </div>
 
           <div className="va-section">
               <div className="wishup-container">
@@ -400,21 +442,21 @@ class HomePage extends Component {
                       <Slider ref={c => (this.slider = c)} {...settings}>
                           <div className="col-sm-3" key={1}>
                               <div className="card">
-                                  <div className="round-pic">
-                                      <img src={require('../../assets/va/upasana.jpg')} width="100%"/>
+                                  <div>
+                                      <img src={require('../../assets/resources/userr.png')} height="115px"/>
                                   </div>
                                   <div className="user-name">
-                                      Upasana Iyer
+                                      Shweta
                                   </div>
                                   <div className="user-desc">
-                                      Social science post graduate with 10+ yrs of writing/translating experience. Proficient with social media management, content creation, secondary research and more.
+                                      A computer science graduate with over 9 years of experience in the field of web development, web sales, e-marketing and customer relationships.
                                   </div>
                               </div>
                           </div>
                           <div className="col-sm-3" key={2}>
                               <div className="card">
-                                  <div className="round-pic">
-                                      <img src={require('../../assets/resources/userr.png')} width="100%"/>
+                                  <div>
+                                      <img src={require('../../assets/resources/userr.png')} height="115px"/>
                                   </div>
                                   <div className="user-name">
                                       Shweta
@@ -426,8 +468,8 @@ class HomePage extends Component {
                           </div>
                           <div className="col-sm-3" key={3}>
                               <div className="card">
-                                  <div className="round-pic">
-                                      <img src={require('../../assets/va/swati.jpg')} width="100%"/>
+                                  <div>
+                                      <img src={require('../../assets/resources/userr.png')} height="115px"/>
                                   </div>
                                   <div className="user-name">
                                       Swati
@@ -440,27 +482,27 @@ class HomePage extends Component {
                           </div>
                           <div className="col-sm-3" key={4}>
                               <div className="card">
-                                  <div className="round-pic">
-                                      <img src={require('../../assets/va/saloni.jpg')} width="100%"/>
+                                  <div>
+                                      <img src={require('../../assets/resources/userr.png')} height="115px"/>
                                   </div>
                                   <div className="user-name">
                                       Saloni
                                   </div>
                                   <div className="user-desc">
-                                      MBA Finance graduate with work experience as a wealth manager in a private sector bank. Proficient with Accounting and Gross Analysis, Email drafting, Recruitment, Management.
+                                      A MBA Finance graduate and campus placed with one of the India biggest Private sector bank as a Wealth Manager. Client Management is my expertise and with Wishup.
                                   </div>
                               </div>
                           </div>
                           <div className="col-sm-3" key={5}>
                               <div className="card">
-                                  <div className="round-pic">
-                                      <img src={require('../../assets/va/malika.jpg')} width="100%"/>
+                                  <div>
+                                      <img src={require('../../assets/resources/userr.png')} height="115px"/>
                                   </div>
                                   <div className="user-name">
                                       Mallika
                                   </div>
                                   <div className="user-desc">
-                                      Vast experience in the aviation industry and global customer service. Proficient with social media, content generation, schedule management and more.
+                                      My previous career involved travelling across the world and it helped me understand the importance of superior customer service skills and time-management.
                                   </div>
                               </div>
                           </div>
@@ -468,16 +510,9 @@ class HomePage extends Component {
                   </div>
               </div>
           </div>
-
-          <div className="va-bar">
-              <div className="wishup-container">
-                  <div><div className="va-bar-text">
-                      <div className="va-text"> Become a Virtual Employee </div></div><div className="line"></div><a href="https://www.wishup.co/become-a-virtual-assistant"> <div className="hire-cta wishup">Get started</div></a></div>
-              </div>
-          </div>
       </div>
     );
   }
 }
 
-export default HomePage;
+export default LocationPage;

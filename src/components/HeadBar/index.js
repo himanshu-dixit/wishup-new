@@ -39,7 +39,7 @@ class HeadBar extends Component {
                           </button>
                           <a className="navbar-brand" href="/">
                               <div className="header-logo">
-                                  <img src={require('../../assets/resources/logo.png')} height="23px"/> Wishup
+                                  <img src={require('../../assets/wishup_logo.png')} height="23px"/>
                               </div>
 
                           </a>
@@ -53,9 +53,9 @@ class HeadBar extends Component {
                               <ul className="nav navbar-nav navbar-right">
                                   <li><a href="/why-wishup/">Why Wishup</a></li>
                                   <li><a href="/what-we-do/">What we do</a></li>
-                                  <li><a href="/pricing/">Pricing</a></li>
-                                  <li><a href="/faq/">FAQs</a></li>
-                                  <li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>
+                                  <li><a href="/virtual-assistant-pricing/">Pricing</a></li>
+                                  <li><a href="/virtual-assistant-faq/">FAQs</a></li>
+                                  {/*<li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>*/}
                                   <li><a onClick={()=>{this.setState({popup: 'initial'})}} className="cta">Get Started</a></li>
                               </ul> }
 

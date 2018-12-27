@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
 import './style.css';
 import GraphicHeader from '../../components/GraphicHeader';
+import MetaTags from "react-meta-tags";
+import {getTiming} from "../../services/location"
 
 class FAQ extends Component {
 
     render() {
         return (
             <div className="faq">
+                <MetaTags>
+                    <title>Frequently Asked Questions about Virtual Assistant Services</title>
+                    <meta name="description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>
+                    <meta property="og:title" content="Frequently Asked Questions about Virtual Assistant Services"/>
+                    <meta property="og:description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>
+                    <link rel="canonical" href="/virtual-assistant-faq" />
+                </MetaTags>
                 <GraphicHeader
                     title="FAQ"
                     description=""
@@ -25,7 +34,7 @@ class FAQ extends Component {
 
                                     <h4>2.  When is my VE available?</h4>
 
-                                    Your VAs are available Mon - Fri from 9AM to 7PM
+                                    Your VAs are available {getTiming()}
 
 
                                     <h4>3.  What is Dedicated Assistance?</h4>

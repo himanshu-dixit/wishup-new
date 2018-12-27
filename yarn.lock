@@ -6963,6 +6963,13 @@ react-linkedin-sdk@^1.0.12:
     react "^16.2.0"
     webpack "^3.10.0"
 
+react-meta-tags@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/react-meta-tags/-/react-meta-tags-0.7.3.tgz#fb5f4aa49846e06030a3d3850ea75ce697753d7e"
+  integrity sha512-+X28Q0gXb4I2xZZYGeiSfLCe8JpTAApxymcLb0zmf4uJx9vE2zPZ3NA8tpaRpYogUbXSUC45APzhscEkbGCZ0g==
+  dependencies:
+    prop-types "^15.6.0"
+
 react-router-dom@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"

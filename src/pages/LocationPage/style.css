@@ -1,0 +1,7 @@
+.location .what-we-do-card {
+    text-align: center;
+}
+
+.location .new-cover{
+    box-shadow: inset 0 0 0 1000px rgba(29, 26, 26, 0.2);
+}

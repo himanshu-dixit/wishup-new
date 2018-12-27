@@ -14,6 +14,7 @@ import WhyWishup from './pages/WhyWishup';
 import LoginCard from './components/LoginCard';
 import FAQ from './pages/FAQ';
 import WhatWeDoList from './pages/WhatWeDoList';
+import LocationPage from "./pages/LocationPage";
 
 class App extends Component {
     constructor(){
@@ -42,13 +43,16 @@ class App extends Component {
                         <Route exact path='/logout' component={()=>{
                             return <HomePage></HomePage>;
                         }}/>
+                        <Route exact path='/location/:type' component={LocationPage}/>
                         <Route exact path='/dashboard' component={Dashboard}/>
                         <Route exact path='/login' component={LoginCard}/>
                         <Route exact path='/what-we-do' component={WhatWeDoList}/>
-                        <Route exact path='/what-we-do/:type' component={WhatWeDo}/>
                         <Route exact path='/why-wishup' component={WhyWishup}/>
-                        <Route exact path='/pricing' component={Pricing}/>
-                        <Route exact path='/faq' component={FAQ}/>
+                        <Route exact path='/virtual-assistant-pricing' component={Pricing}/>
+                        <Route exact path='/virtual-assistant-faq' component={FAQ}/>
+                        <Route exact path='/:type' component={WhatWeDo}/>
+
+
                     </Switch>
                     <Footer></Footer>
                 </div>
