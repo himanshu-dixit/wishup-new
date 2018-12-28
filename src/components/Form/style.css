@@ -10,6 +10,10 @@
     font-size: 21px;
     color: #575757;
 }
+.new-form .inputContainer {
+    padding: 2rem 3.5rem;
+    min-height: 300px;
+}
 .uContainer{
     top: 50%;
     position: fixed;

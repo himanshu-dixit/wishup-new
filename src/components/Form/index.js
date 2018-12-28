@@ -19,14 +19,17 @@ class Form extends Component {
         this.setState(JSON.parse(localStorage.getItem('data')));
     }
     next(){
+        var plan = localStorage.getItem('plan');
         let data = {
             first_name: this.state.first_name,
             last_name: this.state.last_name,
             email: this.state.email,
-            phone: this.state.phone
+            phone: this.state.phone,
+            plan: plan?plan:'',
         };
+        console.log(data);
         if(this.state.action==="become-va"){
-            if(!data.email || !data.phone || !data.first_name || !data.last_name) {
+            if(data.email && data.phone && data.first_name && data.last_name) {
                 this.changeState("va");
             }else{
                 this.setState({error: "Please enter all the data"});
@@ -117,8 +120,8 @@ class Form extends Component {
                                         </h2>
                                         <hr/>
                                             <div className="name-bar">
-                                        <CustomInput label="First Name" type="text" size="half" id="name" data={this.state.first_name} changeValue={this.changeValue.bind(this)}/>
-                                        <CustomInput label="Last Name" size="half" type="text" id="name" data={this.state.last_name} changeValue={this.changeValue.bind(this)}/>
+                                        <CustomInput label="First Name" type="text" size="half" id="first_name" data={this.state.first_name} changeValue={this.changeValue.bind(this)}/>
+                                        <CustomInput label="Last Name" size="half" type="text" id="last_name" data={this.state.last_name} changeValue={this.changeValue.bind(this)}/>
                                             </div>
                                             <div className="name-bar">
                                                 <CustomInput label="Email Address"  type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
@@ -175,6 +178,15 @@ class Form extends Component {
                                             <div>We have succesfully received your details. Will contact you in next 3-4 days.</div>
                                             </div>
                                          : ''}
+                                    {this.state.state === 'done' ?
+                                        <div>
+                                            <h2 className="heading">
+                                                Thank you
+                                            </h2>
+                                            <hr/>
+                                            <div>We have succesfully received your details. Will contact you in next 24 hours.</div>
+                                        </div>
+                                        : ''}
 
                                 </div>
                             </div>

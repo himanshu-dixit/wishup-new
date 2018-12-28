@@ -26,6 +26,10 @@ class Pricing extends Component {
         this.slider.slickPrev();
     }
 
+    selectPlan(plan){
+        localStorage.setItem('plan',plan);
+    }
+
     render() {
         var that = this;
         var settings = {
