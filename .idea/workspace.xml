@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FAQ/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wishup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,12 +80,12 @@
         <counts>
           <entry key="css" value="108" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="11" />
+          <entry key="html" value="12" />
           <entry key="ico" value="1" />
           <entry key="js" value="190" />
           <entry key="json" value="11" />
           <entry key="npmrc" value="1" />
-          <entry key="png" value="2" />
+          <entry key="png" value="3" />
           <entry key="scss" value="4" />
           <entry key="svg" value="25" />
           <entry key="yaml" value="1" />
@@ -96,8 +94,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="108" />
-          <entry key="HTML" value="11" />
-          <entry key="Image" value="3" />
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="4" />
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="190" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -109,7 +107,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7669" />
-          <entry key="html" value="801" />
+          <entry key="html" value="813" />
           <entry key="js" value="21966" />
           <entry key="json" value="182" />
           <entry key="svg" value="27" />
@@ -118,7 +116,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7669" />
-          <entry key="HTML" value="802" />
+          <entry key="HTML" value="814" />
           <entry key="JSON" value="182" />
           <entry key="JavaScript" value="21965" />
           <entry key="SVG" value="27" />
@@ -152,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-149">
@@ -165,18 +163,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-slick/lib/slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/resources/logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-slick/lib/arrows.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28" />
+            <state relative-caret-position="351">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -335,7 +331,6 @@
         <option value="$PROJECT_DIR$/src/components/Form/index.js" />
         <option value="$PROJECT_DIR$/src/components/CustomInput/style.css" />
         <option value="$PROJECT_DIR$/src/components/Form/style.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pages/WhyWishup/index.js" />
         <option value="$PROJECT_DIR$/src/components/HeadBar/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
@@ -354,6 +349,7 @@
         <option value="$PROJECT_DIR$/src/pages/FAQ/style.css" />
         <option value="$PROJECT_DIR$/src/services/location.js" />
         <option value="$PROJECT_DIR$/src/pages/Pricing/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -395,74 +391,25 @@
             <path>
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="LocationPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Pricing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="WhatWeDo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="WhatWeDoList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="WhyWishup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -480,19 +427,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/homepage" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/assets/resources/icons" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/svg" />
       <recent name="$PROJECT_DIR$/src/assets/va" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/resources/icons" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets/homepage" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/assets/resources/icons" />
+      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,12 +506,12 @@
       <workItem from="1545837883852" duration="100000" />
       <workItem from="1545838017677" duration="594000" />
       <workItem from="1545849275523" duration="23488000" />
-      <workItem from="1545973408272" duration="2466000" />
+      <workItem from="1545973408272" duration="2558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296043000" />
+    <option name="totallyTimeSpent" value="296135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,16 +587,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/resources/icons/Add document.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -724,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="450" selection-start-line="450" selection-end-line="450" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -997,6 +927,16 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/resources/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
         </state>
       </provider>
     </entry>
