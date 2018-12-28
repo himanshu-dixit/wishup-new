@@ -172,8 +172,14 @@ class FAQ extends Component {
                             <div className="col-sm-3 col-sm-3-large">
                                 <div className="faq-form">
                                     Sounds like the kind of team you want to work with?
-                                    <div className="form-cta-button">Request consultation</div>
-                                    <div className="form-cta-button">View Plans and Pricing</div>
+                                    <div className="cta">
+                                        <a href="/">
+                                            <div className="button">Get Started</div>
+                                        </a>
+                                        <a href="/virtual-assistant-pricing/">
+                                            <div className="button">Plan and Pricing</div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

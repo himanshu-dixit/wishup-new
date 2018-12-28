@@ -19,6 +19,11 @@ class WhatWeDo extends Component {
         this.data = data;
     }
 
+    selectPlan(plan){
+        localStorage.setItem('plan',plan);
+        window.location.replace("/");
+    }
+
     render() {
         let that = this;
 
@@ -71,8 +76,8 @@ class WhatWeDo extends Component {
                             <div className="col-sm-3 col-sm-3-large">
                                 <div className="what-we-do-form">
                                     Sounds like the kind of team you want to work with?
-                                    <div className="form-cta-button">Request consultation</div>
-                                    <div className="form-cta-button">View Plans and Pricing</div>
+                                    <a href="/"> <div className="form-cta-button">Request consultation</div></a>
+                                    <a href="/virtual-assistant-pricing/"> <div className="form-cta-button">View Plans and Pricing</div></a>
                                 </div>
                             </div>
                         </div>

@@ -28,6 +28,7 @@ class Pricing extends Component {
 
     selectPlan(plan){
         localStorage.setItem('plan',plan);
+        window.location.replace("/");
     }
 
     render() {
@@ -61,7 +62,7 @@ class Pricing extends Component {
             ></GraphicHeader>
             <div className="row grey">
                 <div className="wishup-container">
-                    <div className="plans-bar">
+                    <div className="plans-bar" onClick={()=>{this.selectPlan("super")}}>
                         <div className="mobile-plans">
                             <div className="mobile-card">
                                 <div className="plan-name">Super Employee</div>
@@ -78,7 +79,7 @@ class Pricing extends Component {
                                     <span className="plan-amount">{this.state.price.super}</span> / month
                                 </div>
                             </div>
-                            <div className="mobile-card">
+                            <div className="mobile-card" onClick={()=>{this.selectPlan("full")}}>
                                 <div className="plan-name">Full Employee</div>
                                 <div className="plan-details">
                                     <div className="plan-hours">
@@ -100,7 +101,7 @@ class Pricing extends Component {
 
 
                             <div className={this.state.show? "":"hidden"}>
-                                <div className="mobile-card">
+                                <div className="mobile-card" onClick={()=>{this.selectPlan("hald")}}>
                                     <div className="plan-name">Half Assistant</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
@@ -116,7 +117,7 @@ class Pricing extends Component {
                                     </div>
                                 </div>
                                 <div className="mobile-card">
-                                    <div className="plan-name">Econonmy Employee</div>
+                                    <div className="plan-name" onClick={()=>{this.selectPlan("economy")}}>Econonmy Employee</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
                                             3 hrs
@@ -130,7 +131,7 @@ class Pricing extends Component {
                                         <span className="plan-amount">{this.state.price.economy}</span> / month
                                     </div>
                                 </div>
-                                <div className="mobile-card">
+                                <div className="mobile-card" onClick={()=>{this.selectPlan("quarter")}}>
                                     <div className="plan-name">Quarter Assistant</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
@@ -145,7 +146,7 @@ class Pricing extends Component {
                                         <span className="plan-amount">{this.state.price.quarter}</span> / month
                                     </div>
                                 </div>
-                                <div className="mobile-card">
+                                <div className="mobile-card" onClick={()=>{this.selectPlan("mini")}}>
                                     <div className="plan-name">Mini Assistant</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
@@ -160,7 +161,7 @@ class Pricing extends Component {
                                         <span className="plan-amount">{this.state.price.mini}</span> / month
                                     </div>
                                 </div>
-                                <div className="mobile-card">
+                                <div className="mobile-card" onClick={()=>{this.selectPlan("trial")}}>
                                     <div className="plan-name">Trial</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
@@ -189,7 +190,7 @@ class Pricing extends Component {
                             <Slider ref={c => (this.slider = c)} {...settings}>
 
                                 <div className="col-md-3" key={1}>
-                                    <div className="plan-card">
+                                    <div className="plan-card" >
                                         <div className="plan-type">
                                             One Week Trial
                                         </div>
@@ -206,7 +207,7 @@ class Pricing extends Component {
                                         <div className="plan-hoursinmonth">
                                             (10 hrs)
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("trial")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -232,7 +233,7 @@ class Pricing extends Component {
                                             Up to 30 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("mini")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -258,7 +259,7 @@ class Pricing extends Component {
                                             Up to 45 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("quarter")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -284,7 +285,7 @@ class Pricing extends Component {
                                             Up to 60 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("economy")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -311,7 +312,7 @@ class Pricing extends Component {
                                             Up to 80 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("half")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -337,7 +338,7 @@ class Pricing extends Component {
                                             Up to 160 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("full")}}>
                                             Sign Up
                                         </div>
                                     </div>
@@ -363,7 +364,7 @@ class Pricing extends Component {
                                             Up to 200 Hrs/month
 
                                         </div>
-                                        <div className="plan-button">
+                                        <div className="plan-button" onClick={()=>{this.selectPlan("super")}}>
                                             Sign Up
                                         </div>
                                     </div>

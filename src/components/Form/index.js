@@ -111,7 +111,7 @@ class Form extends Component {
                             <div className="mainContainer">
                             <div className="row">
 
-                                <div className="inputContainer col-sm-12">
+                                <div className="inputContainer col-sm-12" name="onboarding">
 
                                     {this.state.state === 'initial' ?
                                         <form>

@@ -261,7 +261,9 @@ class WhatWeDo extends Component {
                             Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
                         </div>
                         <div className="cta">
+                            <a href="/">
                             <div className="button">Get Started</div>
+                            </a>
                             <a href="/virtual-assistant-pricing/">
                                 <div className="button">Plan and Pricing</div>
                             </a>

@@ -280,7 +280,10 @@ class HomePage extends Component {
                       <div className="highlight-description">
                           Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!
                       </div>
-                      <div className="button">Get Started</div>
+                          <a href="/">
+                              <div className="button">Get Started</div>
+                          </a>
+
                       </div>
                   </div>
               </div>
@@ -316,9 +319,11 @@ class HomePage extends Component {
                       Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
                   </div>
                   <div className="cta">
-                      <div className="button">Get Started</div>
+                      <a href="/">
+                          <div className="button">Get Started</div>
+                      </a>
                       <a href="/virtual-assistant-pricing/">
-                         <div className="button">Plan and Pricing</div>
+                          <div className="button">Plan and Pricing</div>
                       </a>
                   </div>
               </div>
@@ -343,7 +348,6 @@ class HomePage extends Component {
                           </div>
                       </div>
                       <div className="col-sm-5 super-highlight-box desktop-only">
-
                       </div>
 
                   </div>
@@ -472,6 +476,7 @@ class HomePage extends Component {
           <div className="va-bar">
               <div className="wishup-container">
                   <div><div className="va-bar-text">
+
                       <div className="va-text"> Become a Virtual Employee </div></div><div className="line"></div><a href="https://www.wishup.co/become-a-virtual-assistant"> <div className="hire-cta wishup">Get started</div></a></div>
               </div>
           </div>
