@@ -136,18 +136,18 @@ class Form extends Component {
                                             <h4>What are you looking for?</h4>
 
                                             <div className="radio-group">
-                                                <label className="container" onClick={()=>{this.setState({action: 'hire-va'})}}>Hire VA
+                                                <label className="container" onClick={()=>{this.setState({action: 'hire-va'})}}>Hire a Virtual employee
                                                     <input type="radio" checked={this.state.action=="hire-va"||!this.state.action?"checked":""} name="radio"></input>
                                                         <span className="checkmark"></span>
                                                 </label>
-                                                <label className="container" onClick={()=>{this.setState({action: 'become-va'})}}>Become VA
+                                                <label className="container" onClick={()=>{this.setState({action: 'become-va'})}}>I want to work
                                                     <input type="radio" name="radio" checked={this.state.action=="become-va"?"checked":""} name="radio"></input>
                                                         <span className="checkmark"></span>
                                                 </label>
                                             </div>
                                         <div className="error">{this.state.error}</div>
                                         <div className="buttonsContainer">
-                                            <div className="button-cta" onClick={()=>{that.next()}}>Next</div>
+                                            <div className="button-cta" onClick={()=>{that.next()}}>Get Started</div>
                                         </div>
                                     </form> : ''}
 

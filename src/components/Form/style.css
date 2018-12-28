@@ -622,3 +622,8 @@ display: none;
 .intl-tel-input .country-list .country-name, .intl-tel-input .country-list .flag-box {
     color: #484848;
 }
+.new-form .button-cta{
+    width: 93% !important;
+    max-width: 100%;
+    float: left;
+}

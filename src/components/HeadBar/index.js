@@ -55,6 +55,7 @@ class HeadBar extends Component {
                                   <li><a href="/what-we-do/">What we do</a></li>
                                   <li><a href="/virtual-assistant-pricing/">Pricing</a></li>
                                   <li><a href="/virtual-assistant-faq/">FAQs</a></li>
+                                  <li><a href="https://wishup.co/blog/">Blog</a></li>
                                   {/*<li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>*/}
                                   <li><a onClick={()=>{this.setState({popup: 'initial'})}} className="cta">Get Started</a></li>
                               </ul> }

@@ -137,7 +137,7 @@ class HomePage extends Component {
                                           <li><a href="/hire-email-assistant">E-mail Management</a></li>
                                           <li><a href="/hire-bookkeeping-assistant">Bookkeeping</a></li>
                                           <li><a href="/hire-personal-assistant">Personal tasks</a></li>
-                                          <li>So much more</li>
+                                          <li><a href="/what-we-do">So much more</a></li>
                                       </ul>
                                   </div>
                               </div>
