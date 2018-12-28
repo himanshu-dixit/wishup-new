@@ -4,17 +4,13 @@ import CustomInput from '../CustomInput';
 import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest} from '../../services/server.js';
-import GoogleLogin from 'react-google-login';
 import IntlTelInput from 'react-intl-tel-input';
 import 'react-intl-tel-input/dist/main.css';
-
-import FacebookLogin from 'react-facebook-login';
-
 
 class Form extends Component {
     constructor(props) {
         super(props);
-        this.state =  {name: '', email: '', phone: '', state: props.type?props.type:'initial', selectedTags: [], otherTag: false, newtag: ''};
+        this.state =  {email: '', phone: '', action:'',state: props.type?props.type:'initial', selectedTags: [], otherTag: false, newtag: ''};
         this.tags = ['Social','Task'];
         localStorage.setItem('data',JSON.stringify(this.state));
     }
@@ -22,115 +18,46 @@ class Form extends Component {
     loadState(){
         this.setState(JSON.parse(localStorage.getItem('data')));
     }
+    next(){
+        let data = {
+            first_name: this.state.first_name,
+            last_name: this.state.last_name,
+            email: this.state.email,
+            phone: this.state.phone
+        };
+        if(this.state.action==="become-va"){
+            if(!data.email || !data.phone || !data.first_name || !data.last_name) {
+                this.changeState("va");
+            }else{
+                this.setState({error: "Please enter all the data"});
+            }
+        }
+        else{
+            sendRequest('/controller/client_lead.php',data).then((data)=>{
+                if(data.status===200){
+                this.changeState("done");
+                }
+                else{
+                    this.setState({error: data.message});
+                }
+            });
+        }
+
+    }
     redirect(){
         window.location.replace("/dashboard");
     }
 
-    responseGoogle(response){
-        let email = response.profileObj.email;
-        let id = response.El;
-        let token = response.Zi.access_token;
-        if(this.state.state==="login") {
-            this.login('', id, email, token);
-        }
-        else{
-            this.signup('', id, email, token);
-        }
-    }
-
-    responseFacebook(response){
-        let email = response.email;
-        let id = response.id;
-        let token = response.accessToken;
-        if(this.state.state==="login"){
-            this.login(id,"",email,token,"")
-        }
-        else {
-            this.signup(id, '', email, token);
-        }
-    }
-    login(facebook,google,email,token,password){
-        let data = {
-            email: email,
-            password: password,
-            facebook: facebook?facebook:'',
-            google: google?google:'',
-            token: token?token:''
-        };
-
-        sendRequest('/controller/login.php',data).then((data)=>{
-            if(data.status===200){
-                localStorage.setItem("token",data.token);
-                this.redirect();
-            }
-            else{
-                this.setState({error: data.message});
-            }
-        });
-    }
-    loginButton(){
-        this.login("","",this.state.email,"",this.state.password);
-    }
-
-    signup(facebook,google,email,token){
-        if(!email){
-            email = this.state.email;
-            console.log(this.state.email);
-        }
-        let data = {
-            name: this.state.name,
-            email: email,
-            phone: this.state.phone,
-            location: this.state.location?this.state.location:'',
-            tags: JSON.stringify(this.state.selectedTags),
-            password: this.state.password,
-            google: google?google:'',
-            facebook: facebook?facebook:'',
-            token: token?token:''
-        };
-            sendRequest('/controller/signup.php',data).then((data)=>{
-                if(data.status===200){
-                    localStorage.setItem("token",data.token);
-                    this.redirect();
-                }
-                else{
-                    console.log(data)
-                    this.setState({error: data.message});
-                }
-            });
-    }
-
-
-    changeValue(id,value){
-        var obj = {};
-        obj[id] = value;
-        this.setState(obj);
-    }
 
     changeState(state){
         localStorage.setItem('data',JSON.stringify(this.state));
         this.setState({state: state})
     }
 
-    updateTask(tag){
-        var index = this.state.selectedTags.indexOf(tag);
-        var selected = this.state.selectedTags;
-        if(index>-1){
-            selected.splice(index,1);
-            this.setState({selectedTags: selected});
-        }else{
-            selected.push(tag);
-            this.setState({selectedTags: selected});
-        }
-    }
-
-    isSelected(tag){
-        var index = this.state.selectedTags.indexOf(tag);
-        if(index>-1){
-            return true;
-        }else{
-            return false;
-        }
+    changeValue(id,value){
+        var obj = {};
+        obj[id] = value;
+        this.setState(obj);
     }
 
     clientSubmit(){
@@ -146,14 +73,17 @@ class Form extends Component {
     }
 
     vaSubmit(){
-        let data = {name: this.state.name,
+        let data = {
+            first_name: this.state.first_name,
+            last_name: this.state.last_name,
             email: this.state.email,
             phone: this.state.phone,
             location: this.state.location,
             qualification: this.state.qualification,
             experience: this.state.experience,
             skills: this.state.skills,
-            more: this.state.more};
+            more: this.state.more
+        };
         sendRequest('/controller/va_lead.php',data).then((data)=>{
             if(data.status===200){
                 this.changeState("va-done");
@@ -162,15 +92,15 @@ class Form extends Component {
     }
 
 
-    signupAction(){
-        var selected = this.state.selectedTags;
-        selected.push(this.state.newtag);
-        this.setState({selectedTags: selected});
-        this.changeState("signup");
-    }
+
+
 
     render(){
         //<Link to='/'>Home</Link>
+        var that = this;
+        const handler = (status, value, countryData, number, id) => {
+            this.setState({phone: number});
+        };
         return (
 
 
@@ -195,6 +125,7 @@ class Form extends Component {
                                             </div>
                                             <div className="name-bar phone">
                                                 <IntlTelInput
+                                                    onPhoneNumberChange={handler}
                                                     preferredCountries={['US']}
                                                     css={['intl-tel-input', 'form-control']}
                                                 />
@@ -202,18 +133,18 @@ class Form extends Component {
                                             <h4>What are you looking for?</h4>
 
                                             <div className="radio-group">
-                                                <label className="container">Hire VA
-                                                    <input type="radio" checked="checked" name="radio"></input>
+                                                <label className="container" onClick={()=>{this.setState({action: 'hire-va'})}}>Hire VA
+                                                    <input type="radio" checked={this.state.action=="hire-va"||!this.state.action?"checked":""} name="radio"></input>
                                                         <span className="checkmark"></span>
                                                 </label>
-                                                <label className="container">Become VA
-                                                    <input type="radio" name="radio"></input>
+                                                <label className="container" onClick={()=>{this.setState({action: 'become-va'})}}>Become VA
+                                                    <input type="radio" name="radio" checked={this.state.action=="become-va"?"checked":""} name="radio"></input>
                                                         <span className="checkmark"></span>
                                                 </label>
                                             </div>
                                         <div className="error">{this.state.error}</div>
                                         <div className="buttonsContainer">
-                                            <div className="button-cta" onClick={()=>{this.clientSubmit()}}>Next</div>
+                                            <div className="button-cta" onClick={()=>{that.next()}}>Next</div>
                                         </div>
                                     </form> : ''}
 
@@ -225,10 +156,10 @@ class Form extends Component {
                                             </h2>
                                             <hr/>
                                             <CustomInput label="Based out of" type="text" id="location" data={this.state.location} changeValue={this.changeValue.bind(this)}/>
-                                            <CustomInput label="Highest Qualification" type="text" id="qualification" data={this.state.qualification} changeValue={this.changeValue.bind(this)}/>
-                                            <CustomInput label="Total Work Experience" type="text" id="experience" data={this.state.experience} changeValue={this.changeValue.bind(this)}/>
+                                            <CustomInput label="Your highest qualification" type="text" id="qualification" data={this.state.qualification} changeValue={this.changeValue.bind(this)}/>
+                                            <CustomInput label="Total work experience" type="text" id="experience" data={this.state.experience} changeValue={this.changeValue.bind(this)}/>
                                             <CustomInput label="Skills" type="text" id="skills" data={this.state.skills} changeValue={this.changeValue.bind(this)}/>
-                                            <CustomInput label="Tell us more" type="text" id="more" data={this.state.more} changeValue={this.changeValue.bind(this)}/>
+                                            <CustomInput label="Tell us more about you" type="text" id="more" data={this.state.more} changeValue={this.changeValue.bind(this)}/>
                                             <div className="error">{this.state.error}</div>
                                             <div className="buttonsContainer">
                                                 <div className="button-cta" onClick={()=>{this.vaSubmit()}}>Submit</div>
@@ -244,102 +175,6 @@ class Form extends Component {
                                             <div>We have succesfully received your details. Will contact you in next 3-4 days.</div>
                                             </div>
                                          : ''}
-                                    {this.state.state === 'tags' ?
-                                    <form>
-                                        <h2 className="heading">
-                                            Types of services you want
-                                        </h2>
-                                        <hr/>
-                                        <div className="tags">
-                                            {this.tags.map((tag, i) => {
-                                                // Return the element. Also pass key
-                                                return (<div className={this.isSelected(tag)?"completed tag":"tag"} onClick={()=>{this.updateTask(tag)}}>{tag}</div>)
-                                            })}
-
-                                            <div className="tag" onClick={()=>this.setState({otherTag: true})}>Others </div>
-                                            {this.state.otherTag ?
-                                            <CustomInput label="Please enter separated by comma" type="text" id="newtag" data={this.state.newtag} changeValue={this.changeValue.bind(this)}/> : ''}
-                                        </div>
-                                        <div className="buttonsContainer">
-                                            <div className="button-cta" onClick={()=>{this.signupAction()}}>Next</div>
-
-                                        </div>
-                                    </form> : ''}
-
-
-                                    {this.state.state === 'login' ?
-                                    <form>
-                                        <h2 className="heading">
-                                            Login
-                                        </h2>
-                                        <hr/>
-                                        <CustomInput label="Email Address" type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
-                                        <CustomInput label="Enter the password" type="password" id="password" data={this.state.password} changeValue={this.changeValue.bind(this)}/>
-                                        <div className="error">{this.state.error}</div>
-
-                                        {/*<div className="or-text"> Or</div>*/}
-                                        <hr/>
-                                        <div className="buttonsContainer">
-
-                                            <GoogleLogin
-                                                clientId="1037355421362-u192pai9brpfs6o6kppg33tedcqcrb88.apps.googleusercontent.com"
-                                                buttonText="Login"
-                                                onSuccess={this.responseGoogle.bind(this)}
-                                                onFailure={this.responseGoogle}
-                                            />
-
-
-                                            <FacebookLogin
-                                                appId="2217954758472006"
-                                                fields="name,email,picture"
-                                                onClick={()=>{this.componentClicked}}
-                                                callback={this.responseFacebook.bind(this)}
-                                            />
-                                            <div className="buttonsContainer">
-                                                <div className="button-cta" onClick={()=>this.loginButton()}>Next</div>
-                                            </div>
-
-                                        </div>
-
-                                    </form> : ''}
-
-                                    {this.state.state === 'signup' ?
-                                        <form>
-                                            <h2 className="heading">
-                                                Last Step
-                                            </h2>
-                                            <hr/>
-
-                                            <CustomInput label="Enter the password" type="password" id="password" data={this.state.password} changeValue={this.changeValue.bind(this)}/>
-                                            {/*<div className="or-text"> Or</div>*/}
-                                            <hr/>
-                                            <div className="buttonsContainer">
-
-                                                <GoogleLogin
-                                                    clientId="1037355421362-u192pai9brpfs6o6kppg33tedcqcrb88.apps.googleusercontent.com"
-                                                    buttonText="Login"
-                                                    onSuccess={this.responseGoogle.bind(this)}
-                                                    onFailure={this.responseGoogle}
-                                                />
-
-
-                                                <FacebookLogin
-                                                    appId="2217954758472006"
-                                                    fields="name,email,picture"
-                                                    onClick={()=>{this.componentClicked}}
-                                                     callback={this.responseFacebook.bind(this)}
-                                                />
-
-
-                                            </div>
-                                            <div className="error">{this.state.error}</div>
-                                            <div className="buttonsContainer">
-                                                <div className="button-cta" onClick={()=>this.signup()}>Next</div>
-
-                                            </div>
-                                        </form> : ''}
-
-
 
                                 </div>
                             </div>

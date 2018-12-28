@@ -4,7 +4,7 @@ Parameters : endpoint, requestData
 Description - Service to interact with server and fetch the data by calling an API.
 */
 
-const serverURI = 'https://infligo.serveo.net/wishup';
+const serverURI = 'https://revamp.wishup.co/server';
 
 export const sendRequest = (endpoint, requestData) => {
     return fetch(serverURI + endpoint, {
