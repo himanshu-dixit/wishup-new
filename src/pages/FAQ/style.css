@@ -13,6 +13,11 @@
 
 }
 
+.faq-form{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
 .raised-container .section-text{
     background: white;
     border-radius: 7px;

@@ -9,27 +9,37 @@ class Pricing extends Component {
         super(props);
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
-        this.state = {show: false, price: getPricing(), country: window.country};
-    }
-    componentDidUpdate(){
+        this.state = {show: false, price: getPricing(), country: window.country, slide_no: 4};
         this.setState({price: getPricing()});
     }
+    changeState(no){
+        this.setState({slide_no: this.state.slide_no+no});
+    }
     next() {
+
         this.slider.slickNext();
+
+
     }
     previous() {
+
         this.slider.slickPrev();
     }
-    render() {
 
+    render() {
+        var that = this;
         var settings = {
             dots: false,
             infinite: false,
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: false,
+            initialSlide: 3,
             autoplaySpeed: 2000,
-            pauseOnHover: true
+            pauseOnHover: true,
+            afterChange: (index)=>{
+                this.setState({slide_no: index});
+            }
         };
         return <div className="pricing">
             <MetaTags>
@@ -50,33 +60,33 @@ class Pricing extends Component {
                     <div className="plans-bar">
                         <div className="mobile-plans">
                             <div className="mobile-card">
-                                <div className="plan-name">Econonmy Employee</div>
+                                <div className="plan-name">Super Employee</div>
                                 <div className="plan-details">
                                     <div className="plan-hours">
                                         10 hrs
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (10 hrs)
+                                        (200 hrs)
                                     </div>
                                 </div>
                                 <div className="plan-price">
                                     <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
-                                    <span className="plan-amount">{this.state.price.economy}</span> / month
+                                    <span className="plan-amount">{this.state.price.super}</span> / month
                                 </div>
                             </div>
                             <div className="mobile-card">
-                                <div className="plan-name">Quarter Employee</div>
+                                <div className="plan-name">Full Employee</div>
                                 <div className="plan-details">
                                     <div className="plan-hours">
                                         10 hrs
                                     </div>
                                     <div className="plan-hoursinmonth">
-                                        (10 hrs)
+                                        (160 hrs)
                                     </div>
                                 </div>
                                 <div className="plan-price">
                                     <sup><img src={this.state.price.sign} height="10px"/></sup>
-                                    <span className="plan-amount">{this.state.price.quarter}</span> / month
+                                    <span className="plan-amount">{this.state.price.full}</span> / month
                                 </div>
                             </div>
                             <div className={this.state.show? "hidden":"button-container"}>
@@ -87,10 +97,25 @@ class Pricing extends Component {
 
                             <div className={this.state.show? "":"hidden"}>
                                 <div className="mobile-card">
+                                    <div className="plan-name">Half Assistant</div>
+                                    <div className="plan-details">
+                                        <div className="plan-hours">
+                                            4 hrs
+                                        </div>
+                                        <div className="plan-hoursinmonth">
+                                            (80 hrs)
+                                        </div>
+                                    </div>
+                                    <div className="plan-price">
+                                        <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                        <span className="plan-amount">{this.state.price.half}</span> / month
+                                    </div>
+                                </div>
+                                <div className="mobile-card">
                                     <div className="plan-name">Econonmy Employee</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
-                                            8 hrs
+                                            3 hrs
                                         </div>
                                         <div className="plan-hoursinmonth">
                                             (60 hrs)
@@ -98,11 +123,41 @@ class Pricing extends Component {
                                     </div>
                                     <div className="plan-price">
                                         <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
-                                        <span className="plan-amount">{this.state.price.trial}</span> / month
+                                        <span className="plan-amount">{this.state.price.economy}</span> / month
                                     </div>
                                 </div>
                                 <div className="mobile-card">
-                                    <div className="plan-name">Econonmy Employee</div>
+                                    <div className="plan-name">Quarter Assistant</div>
+                                    <div className="plan-details">
+                                        <div className="plan-hours">
+                                            2 hrs
+                                        </div>
+                                        <div className="plan-hoursinmonth">
+                                            (45 hrs)
+                                        </div>
+                                    </div>
+                                    <div className="plan-price">
+                                        <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                        <span className="plan-amount">{this.state.price.quarter}</span> / month
+                                    </div>
+                                </div>
+                                <div className="mobile-card">
+                                    <div className="plan-name">Mini Assistant</div>
+                                    <div className="plan-details">
+                                        <div className="plan-hours">
+                                            1.5 hrs
+                                        </div>
+                                        <div className="plan-hoursinmonth">
+                                            (30 hrs)
+                                        </div>
+                                    </div>
+                                    <div className="plan-price">
+                                        <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
+                                        <span className="plan-amount">{this.state.price.mini}</span> / month
+                                    </div>
+                                </div>
+                                <div className="mobile-card">
+                                    <div className="plan-name">Trial</div>
                                     <div className="plan-details">
                                         <div className="plan-hours">
                                             10 hrs
@@ -113,19 +168,20 @@ class Pricing extends Component {
                                     </div>
                                     <div className="plan-price">
                                         <sup>{this.state.price.image?<img src={this.state.price.sign} height="10px"/>:this.state.price.sign}</sup>
-                                        <span className="plan-amount">{this.state.price.economy}</span> / month
+                                        <span className="plan-amount">{this.state.price.trial}</span> / month
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="row slider">
-                                <button className=" previous" onClick={this.previous}>
-                                    <img src={require('../../assets/previous-icon.png')} height="45px"/>
-                                </button>
-                                <button className=" next" onClick={this.next}>
-                                    <img src={require('../../assets/next-icon.png')} height="45px"/>
-                                </button>
+                                {this.state.slide_no>=1 ? <button className=" previous" onClick={this.previous}>
+                                        <img src={require('../../assets/previous-icon.png')} height="45px" />
+                                    </button> : ''}
+                                {this.state.slide_no>=3 ? '' :
+                                <button className=" next" onClick={this.next} >
+                                    <img src={require('../../assets/next-icon.png')} height="45px" />
+                                </button>}
                             <Slider ref={c => (this.slider = c)} {...settings}>
 
                                 <div className="col-md-3" key={1}>

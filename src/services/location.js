@@ -68,11 +68,11 @@ const data = {
 };
 
 export const getPricing = ()=>{
-    sendRequest('/get_location','').then((result)=>{
-        return data[result.country];
-    }).catch(()=>{
-        console.log("Error in fetching the resources");
-    })
+    // sendRequest('/get_location','').then((result)=>{
+    //     return data[result.country];
+    // }).catch(()=>{
+    //     console.log("Error in fetching the resources");
+    // })
     return data['US'];
 }
 export const getTiming = ()=>{
