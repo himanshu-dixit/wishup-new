@@ -62,7 +62,7 @@ class Pricing extends Component {
             ></GraphicHeader>
             <div className="row grey">
                 <div className="wishup-container">
-                    <div className="plans-bar" onClick={()=>{this.selectPlan("super")}}>
+                    <div className="plans-bar">
                         <div className="mobile-plans">
                             <div className="mobile-card">
                                 <div className="plan-name">Super Employee</div>

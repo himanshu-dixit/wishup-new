@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,7 +82,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="12" />
           <entry key="ico" value="1" />
-          <entry key="js" value="205" />
+          <entry key="js" value="206" />
           <entry key="json" value="11" />
           <entry key="npmrc" value="1" />
           <entry key="png" value="3" />
@@ -100,7 +97,7 @@
           <entry key="HTML" value="12" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="205" />
+          <entry key="JavaScript" value="206" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="4" />
           <entry key="SVG" value="25" />
@@ -111,7 +108,7 @@
         <counts>
           <entry key="css" value="7694" />
           <entry key="html" value="813" />
-          <entry key="js" value="22915" />
+          <entry key="js" value="22931" />
           <entry key="json" value="182" />
           <entry key="svg" value="27" />
         </counts>
@@ -121,7 +118,7 @@
           <entry key="CSS" value="7694" />
           <entry key="HTML" value="814" />
           <entry key="JSON" value="182" />
-          <entry key="JavaScript" value="22914" />
+          <entry key="JavaScript" value="22930" />
           <entry key="SVG" value="27" />
         </counts>
       </usages-collector>
@@ -151,6 +148,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="631">
               <caret line="423" column="24" selection-start-line="423" selection-start-column="24" selection-end-line="423" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -190,15 +199,6 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -258,7 +258,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.wishup-box .what-we-do-card</find>
       <find>.wishup-box</find>
       <find>top</find>
       <find>10%</find>
@@ -288,6 +287,7 @@
       <find>leadsubmit</find>
       <find>error</find>
       <find>So muc</find>
+      <find>selectPlan</find>
     </findStrings>
     <replaceStrings>
       <replace>fillRule</replace>
@@ -370,7 +370,6 @@
         <option value="$PROJECT_DIR$/src/services/location.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/services/server.js" />
-        <option value="$PROJECT_DIR$/src/pages/Pricing/index.js" />
         <option value="$PROJECT_DIR$/src/pages/WhatWeDo/index.js" />
         <option value="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" />
         <option value="$PROJECT_DIR$/src/pages/WhyWishup/index.js" />
@@ -380,6 +379,7 @@
         <option value="$PROJECT_DIR$/src/components/Form/style.css" />
         <option value="$PROJECT_DIR$/src/pages/HomePage/index.js" />
         <option value="$PROJECT_DIR$/src/components/HeadBar/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Pricing/index.js" />
       </list>
     </option>
   </component>
@@ -400,8 +400,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
-    <option name="y" value="244" />
+    <option name="x" value="139" />
+    <option name="y" value="93" />
     <option name="width" value="1400" />
     <option name="height" value="859" />
   </component>
@@ -604,12 +604,12 @@
       <workItem from="1545837883852" duration="100000" />
       <workItem from="1545838017677" duration="594000" />
       <workItem from="1545849275523" duration="23488000" />
-      <workItem from="1545973408272" duration="9984000" />
+      <workItem from="1545973408272" duration="11258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303561000" />
+    <option name="totallyTimeSpent" value="304835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,7 +621,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="244" width="1400" height="859" extended-state="0" />
+    <frame x="139" y="93" width="1400" height="859" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26033357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -894,16 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" selection-start-line="28" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -975,6 +966,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/HomePage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -985,10 +983,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBar/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="85" />
+        <state relative-caret-position="384">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
