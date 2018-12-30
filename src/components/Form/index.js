@@ -3,7 +3,7 @@ import '../../styles/index.css';
 import CustomInput from '../CustomInput';
 import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
-import {sendRequest} from '../../services/server.js';
+import {sendRequest,oldRequest} from '../../services/server.js';
 import IntlTelInput from 'react-intl-tel-input';
 import 'react-intl-tel-input/dist/main.css';
 
@@ -19,6 +19,7 @@ class Form extends Component {
         this.setState(JSON.parse(localStorage.getItem('data')));
     }
     next(){
+        var  that = this;
         var plan = localStorage.getItem('plan');
         let data = {
             first_name: this.state.first_name,
@@ -36,14 +37,26 @@ class Form extends Component {
             }
         }
         else{
-            sendRequest('/controller/client_lead.php',data).then((data)=>{
-                if(data.status===200){
-                this.changeState("done");
+            if(!this.state.first_name || !this.state.email || !this.state.phone){
+                that.setState({error: "Please enter all the field accordingly"});
+                return;
+            }
+
+            var http = new XMLHttpRequest();
+            var url = 'https://prod.wishup.in/user/requestConsultation';
+            var params = 'name='+this.state.first_name+" "+this.state.last_name+'&country_name='+'&email='+this.state.email+'&phone='+this.state.phone+"&sourceLead='wishup'&undefined='TALK TTO US'";
+            http.open('POST', url, true);
+           //Send the proper header information along with the request
+            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            http.onreadystatechange = function() {//Call a function when the state changes.
+                if(http.readyState == 4 && http.status == 200) {
+                    that.changeState("done");
                 }
-                else{
-                    this.setState({error: data.message});
+                else {
+                    that.setState({error: "Please enter all the field accordingly"});
                 }
-            });
+            }
+            http.send(params);
         }
 
     }

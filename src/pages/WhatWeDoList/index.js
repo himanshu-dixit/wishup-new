@@ -258,7 +258,7 @@ class WhatWeDo extends Component {
                             Tailor-made plans to suit every workload.
                         </div>
                         <div className="description">
-                            Starting at <sup>{this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}</sup>{this.state.price.mini}/month
+                            Starting at {this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}{this.state.price.mini}/month
                         </div>
                         <div className="cta">
                             <a href="/">

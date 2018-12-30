@@ -744,6 +744,7 @@ h2{
     height: 400px;
     background: url('../../assets/homepage/super-highlight.png');
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -755,6 +756,7 @@ h2{
     height: 400px;
     background: url('../../assets/homepage/happyy.jpeg');
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 

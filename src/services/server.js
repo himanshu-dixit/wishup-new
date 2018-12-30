@@ -26,4 +26,5 @@ export const sendRequest = (endpoint, requestData) => {
         });
 };
 
+
 export default sendRequest;
