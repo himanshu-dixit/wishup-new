@@ -57,6 +57,23 @@ class Form extends Component {
                 }
             }
             http.send(params);
+            // console.log(response);
+            //
+            // var response = oldRequest(this.state.first_name+" "+this.state.last_name,this.state.email,this.state.phone,'');
+            //     if(response.status==="success"){
+            //     this.changeState("done");
+            //     }
+            //     else{
+            //         this.setState({error: "Please enter all the field accordingly"});
+            //     }
+            // sendRequest('/controller/client_lead.php',data).then((data)=>{
+            //     if(data.status===200){
+            //     this.changeState("done");
+            //     }
+            //     else{
+            //         this.setState({error: data.message});
+            //     }
+            // });
         }
 
     }
