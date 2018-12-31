@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="" />
+    <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -75,7 +77,7 @@
     <session id="-959271799">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="112" />
+          <entry key="css" value="113" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="12" />
           <entry key="ico" value="1" />
@@ -90,7 +92,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="112" />
+          <entry key="CSS" value="113" />
           <entry key="HTML" value="12" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="11" />
@@ -103,7 +105,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7780" />
+          <entry key="css" value="7794" />
           <entry key="html" value="813" />
           <entry key="js" value="23807" />
           <entry key="json" value="182" />
@@ -112,7 +114,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7780" />
+          <entry key="CSS" value="7794" />
           <entry key="HTML" value="814" />
           <entry key="JSON" value="182" />
           <entry key="JavaScript" value="23806" />
@@ -140,7 +142,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2621">
@@ -148,6 +150,15 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -166,18 +177,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
               <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Dashboard/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -282,9 +281,9 @@
       <find>550px</find>
       <find>desc</find>
       <find>require('</find>
-      <find>height=&quot;10px&quot;</find>
       <find>Troubled</find>
       <find>require('../</find>
+      <find>height=&quot;10px&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>20</replace>
@@ -314,9 +313,9 @@
       <replace>Neew York</replace>
       <replace>New York</replace>
       <replace>{this.data[this.type].name}</replace>
-      <replace>height=&quot;13px&quot;</replace>
       <replace>require('../</replace>
       <replace>require('</replace>
+      <replace>height=&quot;13px&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/node_modules/react-icons-kit</dir>
@@ -342,7 +341,6 @@
         <option value="$PROJECT_DIR$/src/assets/resources/icons/research.svg" />
         <option value="$PROJECT_DIR$/src/assets/resources/icons/socialmedia.svg" />
         <option value="$PROJECT_DIR$/src/assets/resources/icons/travel.svg" />
-        <option value="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" />
         <option value="$PROJECT_DIR$/src/assets/resources/icons/customersupport.svg" />
         <option value="$PROJECT_DIR$/src/assets/resources/icons/money.svg" />
         <option value="$PROJECT_DIR$/src/assets/resources/icons/sales.svg" />
@@ -379,6 +377,7 @@
         <option value="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" />
         <option value="$PROJECT_DIR$/src/pages/LocationPage/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Pricing/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" />
       </list>
     </option>
   </component>
@@ -596,12 +595,12 @@
       <workItem from="1545973408272" duration="11324000" />
       <workItem from="1546165272686" duration="520000" />
       <workItem from="1546182187996" duration="3250000" />
-      <workItem from="1546254962115" duration="4788000" />
+      <workItem from="1546254962115" duration="5356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313459000" />
+    <option name="totallyTimeSpent" value="314027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,8 +613,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="24" width="1396" height="955" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2610909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2610909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -629,7 +629,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20306966" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20306966" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -676,9 +676,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/resources/icons/research.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/resources/icons/sales.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1015,6 +1012,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>

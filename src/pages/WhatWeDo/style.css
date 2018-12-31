@@ -2,8 +2,8 @@
     background: #f6f4ef;
 }
 
-.raised-container{
-    margin-top: -45px;
+.what-we-do .raised-container{
+    margin-top: -2rem;
 }
 
 .what-we-do-menu{
@@ -18,11 +18,11 @@
     padding-top: 9px;
 }
 
-.what-we-do-form{
+.what-we-do-form {
     background: #6fda44;
     border-radius: 7px;
     text-align: center;
-    padding: 24px 23px;
+    padding: 34px 23px 26px;
     color: #fff;
     font-weight: 600;
     font-size: 15px;
