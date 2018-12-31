@@ -411,22 +411,9 @@ class Pricing extends Component {
                     </div>
                 </div>
             </div>
-            <div className="pricing-bar">
-                <div className="wishup-container">
-                    <div className="heading">
-                        Tailor-made plans to suit every workload.
-                    </div>
-                    <div className="description">
-                        Starting at {this.state.price.image?<img src={this.state.price.whitesign} height="13px"/>:this.state.price.sign}{this.state.price.mini}/month
-                    </div>
-                    <div className="cta">
-                        <div className="button">Get Started</div>
-                        <a href="/virtual-assistant-pricing/">
-                            <div className="button">Plan and Pricing</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+
+            <Pricing/>
+
         </div>;
     }
 }

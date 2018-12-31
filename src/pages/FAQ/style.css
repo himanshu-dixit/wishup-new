@@ -14,9 +14,8 @@
 }
 
 .faq-form{
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-}
+     margin-bottom: 2rem;
+ }
 
 .raised-container .section-text{
     background: white;
@@ -27,7 +26,7 @@
     background: #6fda44;
     border-radius: 7px;
     text-align: center;
-    padding: 24px 23px;
+    padding: 34px 23px 50px;
     color: #fff;
     font-weight: 600;
     font-size: 15px;
@@ -106,9 +105,20 @@
     margin: 20px 0;
 }
 
+.faq-form .button{
+    color: #6fda44;
+    background: white;
+    padding: 1.2rem 4.2rem;
+    min-width: 20rem;
+}
+.faq .raised-container {
+    margin-top: -2rem;
+}
 
 @media only screen and (max-width: 792px ) {
-
+    .faq-form{
+        margin-top: 1rem;
+    }
     .faq .col-sm-3, .faq  .col-sm-6{
         width: 99% !important;
         margin-left: .5%;
