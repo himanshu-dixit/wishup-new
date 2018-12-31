@@ -454,6 +454,9 @@ h2{
     .line{
         display: none !important;
     }
+    .second-highlight-bar .super-highlight-box {
+        background-position: 70%;
+    }
     .profile-desc{
         position: relative;
         width: 100%;

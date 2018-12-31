@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,7 +78,7 @@
     <session id="-959271799">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="113" />
+          <entry key="css" value="114" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="12" />
           <entry key="ico" value="1" />
@@ -92,7 +93,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="113" />
+          <entry key="CSS" value="114" />
           <entry key="HTML" value="12" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="11" />
@@ -105,7 +106,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7794" />
+          <entry key="css" value="7797" />
           <entry key="html" value="813" />
           <entry key="js" value="23807" />
           <entry key="json" value="182" />
@@ -114,7 +115,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7794" />
+          <entry key="CSS" value="7797" />
           <entry key="HTML" value="814" />
           <entry key="JSON" value="182" />
           <entry key="JavaScript" value="23806" />
@@ -123,7 +124,7 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -132,10 +133,10 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -145,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2621">
+            <state relative-caret-position="564">
               <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -155,10 +156,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/style.css">
+        <entry file="file://$PROJECT_DIR$/src/pages/HomePage/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="277">
+              <caret line="456" column="48" selection-start-line="456" selection-start-column="48" selection-end-line="456" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -175,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MainComponents/Testimonial/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="46">
               <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -187,7 +188,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="943">
               <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
               <folding>
                 <element signature="e#225#265#0" expanded="true" />
@@ -199,7 +200,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-915">
+            <state relative-caret-position="759">
               <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -211,7 +212,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/LocationPage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="2024">
               <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -223,7 +224,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/FAQ/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="713">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
@@ -232,7 +233,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/WhyWishup/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="3473">
               <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
             </state>
           </provider>
@@ -241,7 +242,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="5750">
               <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -362,7 +363,6 @@
         <option value="$PROJECT_DIR$/src/services/server.js" />
         <option value="$PROJECT_DIR$/src/components/Form/index.js" />
         <option value="$PROJECT_DIR$/src/components/MainComponents/Testimonial/testimonial.css" />
-        <option value="$PROJECT_DIR$/src/pages/HomePage/style.css" />
         <option value="$PROJECT_DIR$/src/components/MainComponents/VAsList/index.js" />
         <option value="$PROJECT_DIR$/src/components/MainComponents/Pricing/index.js" />
         <option value="$PROJECT_DIR$/src/components/MainComponents/TasksList/index.js" />
@@ -378,6 +378,7 @@
         <option value="$PROJECT_DIR$/src/pages/LocationPage/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Pricing/index.js" />
         <option value="$PROJECT_DIR$/src/pages/WhatWeDo/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/HomePage/style.css" />
       </list>
     </option>
   </component>
@@ -399,7 +400,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="262" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="955" />
   </component>
@@ -453,14 +454,7 @@
               <item name="wishup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wishup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wishup" type="b2602c69:ProjectViewProjectNode" />
@@ -595,12 +589,13 @@
       <workItem from="1545973408272" duration="11324000" />
       <workItem from="1546165272686" duration="520000" />
       <workItem from="1546182187996" duration="3250000" />
-      <workItem from="1546254962115" duration="5356000" />
+      <workItem from="1546254962115" duration="5405000" />
+      <workItem from="1546263069066" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314027000" />
+    <option name="totallyTimeSpent" value="314227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +607,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="24" width="1396" height="955" extended-state="0" />
+    <frame x="262" y="23" width="1396" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2610909" />
@@ -850,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1639">
           <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3998">
           <caret line="176" column="68" selection-start-line="176" selection-start-column="68" selection-end-line="176" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,16 +862,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="421" column="29" selection-start-line="421" selection-start-column="29" selection-end-line="421" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainComponents/VAsList/Pricing/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainComponents/VAsList/Pricing/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/MainComponents/Pricing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -901,9 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,9 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,29 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
-          <folding>
-            <element signature="e#225#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainComponents/Testimonial/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,33 +912,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FAQ/style.css">
+    <entry file="file://$PROJECT_DIR$/src/components/MainComponents/Testimonial/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/WhyWishup/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
+        <state relative-caret-position="46">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
+          <folding>
+            <element signature="e#225#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-915">
+        <state relative-caret-position="759">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -997,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/LocationPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="2024">
           <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1005,10 +952,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/FAQ/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2621">
-          <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
+        <state relative-caret-position="713">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhyWishup/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3473">
+          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDoList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5750">
+          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1017,8 +978,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="690">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="456" column="48" selection-start-line="456" selection-start-column="48" selection-end-line="456" selection-end-column="48" />
         </state>
       </provider>
     </entry>
