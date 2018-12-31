@@ -1,0 +1,35 @@
+.dashboard-header{
+    padding: 2rem 4rem;
+}
+.dashboard{
+    background: #151416;
+}
+.dashboard-header .col-sm-2{
+    text-align: center;
+}
+.dashboard-header .name{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 8px;
+    color: #faf4f4;
+
+}
+
+.dashboard-header .welcome-message{
+    color: #faf4f4;
+}
+
+.raised-container{
+    margin-top: -5px;
+
+}
+
+.user-dashboard .card{
+    background: white;
+    height: 400px;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.user-dashboard .raised-container{
+    margin-top: -15px;
+}

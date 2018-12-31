@@ -13,6 +13,7 @@ import Dashboard from './pages/Dashboard';
 import WhyWishup from './pages/WhyWishup';
 import LoginCard from './components/LoginCard';
 import FAQ from './pages/FAQ';
+import Testimonials from './pages/Testimonials';
 import WhatWeDoList from './pages/WhatWeDoList';
 import LocationPage from "./pages/LocationPage";
 
@@ -49,6 +50,7 @@ class App extends Component {
                         <Route exact path='/what-we-do' component={WhatWeDoList}/>
                         <Route exact path='/why-wishup' component={WhyWishup}/>
                         <Route exact path='/virtual-assistant-pricing' component={Pricing}/>
+                        <Route exact path='/testimonial' component={Testimonials}/>
                         <Route exact path='/virtual-assistant-faq' component={FAQ}/>
                         <Route exact path='/:type' component={WhatWeDo}/>
 
