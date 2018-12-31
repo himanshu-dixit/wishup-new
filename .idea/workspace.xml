@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FAQ/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LocationPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LocationPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhatWeDoList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/WhyWishup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WhyWishup/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="6193dd1b-7b0c-4d31-84d3-e8907bfb650d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -150,7 +143,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="2621">
               <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -163,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/Testimonials/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="15" column="98" lean-forward="true" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
+              <caret line="15" column="98" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -208,7 +201,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-915">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -241,7 +234,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/WhyWishup/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="156" column="4" lean-forward="true" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
+              <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -603,12 +596,12 @@
       <workItem from="1545973408272" duration="11324000" />
       <workItem from="1546165272686" duration="520000" />
       <workItem from="1546182187996" duration="3250000" />
-      <workItem from="1546254962115" duration="4517000" />
+      <workItem from="1546254962115" duration="4788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313188000" />
+    <option name="totallyTimeSpent" value="313459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,9 +614,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="24" width="1396" height="955" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2610909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2610909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -637,7 +629,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20306966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20306966" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -968,7 +960,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/Testimonials/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="15" column="98" lean-forward="true" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
+          <caret line="15" column="98" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -982,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/WhyWishup/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="156" column="4" lean-forward="true" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
+          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -999,7 +991,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/WhatWeDo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-915">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1018,7 +1010,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Pricing/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="2621">
           <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
