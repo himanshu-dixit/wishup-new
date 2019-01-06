@@ -13,8 +13,8 @@ const data = {
         'half': 799,
         'full': 1299,
         'super': 1499,
-        'sign': require('../assets/svg/dollar.svg'),
-        'whitesign': require('../assets/svg/dollar-white.svg'),
+        'sign': '/assets/svg/dollar.svg',
+        'whitesign': '/assets/svg/dollar-white.svg',
         'image': true
     },
     IN: {
@@ -25,8 +25,8 @@ const data = {
         'half': 26999,
         'full': 49999,
         'super': 59999,
-        'sign': require('../assets/svg/rupee.svg'),
-        'whitesign': require('../assets/svg/rupee-white.svg'),
+        'sign': '/assets/svg/rupee.svg',
+        'whitesign': '/assets/svg/rupee-white.svg',
         'image': true
     },
     UK: {
@@ -37,8 +37,8 @@ const data = {
         'half': 549,
         'full': 899,
         'super': 999,
-        'sign': require('../assets/svg/pound.svg'),
-        'whitesign': require('../assets/svg/pound-white.svg'),
+        'sign': '/assets/svg/pound.svg',
+        'whitesign': '/assets/svg/pound-white.svg',
         'image': true
     },
     EUROPE: {
@@ -49,8 +49,8 @@ const data = {
         'half': 549,
         'full': 899,
         'super': 999,
-        'sign': require('../assets/svg/euro.svg'),
-        'whitesign': require('../assets/svg/euro-white.svg'),
+        'sign': '/assets/svg/euro.svg',
+        'whitesign': '/assets/svg/euro-white.svg',
         'image': true
     },
     OTHER: {
@@ -61,8 +61,8 @@ const data = {
         'half': 549,
         'full': 899,
         'super': 999,
-        'sign': require('../assets/svg/dollar.svg'),
-        'whitesign': require('../assets/svg/dollar-white.svg'),
+        'sign': '/assets/svg/dollar.svg',
+        'whitesign': '/assets/svg/dollar-white.svg',
         'image': true
     }
 };

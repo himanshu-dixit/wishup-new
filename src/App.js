@@ -6,13 +6,13 @@ import HeaderBar from './components/HeadBar';
 import Footer from './components/Footer';
 
 // Import pages.
-import HomePage from './pages/HomePage';
-import Pricing from './pages/Pricing';
+import HomePage from './pages/index';
+import Pricing from './pages/pricing';
 import WhatWeDo from './pages/WhatWeDo';
 import Dashboard from './pages/Dashboard';
-import WhyWishup from './pages/WhyWishup';
+import WhyWishup from './pages/why-wishup';
 import LoginCard from './components/LoginCard';
-import FAQ from './pages/FAQ';
+import FAQ from './pages/faq';
 import Testimonials from './pages/Testimonials';
 import WhatWeDoList from './pages/WhatWeDoList';
 import LocationPage from "./pages/LocationPage";
@@ -53,8 +53,6 @@ class App extends Component {
                         <Route exact path='/testimonial' component={Testimonials}/>
                         <Route exact path='/virtual-assistant-faq' component={FAQ}/>
                         <Route exact path='/:type' component={WhatWeDo}/>
-
-
                     </Switch>
                     <Footer></Footer>
                 </div>

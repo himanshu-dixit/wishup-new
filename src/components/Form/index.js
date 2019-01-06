@@ -4,19 +4,22 @@ import CustomInput from '../CustomInput';
 import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest,oldRequest} from '../../services/server.js';
-import IntlTelInput from 'react-intl-tel-input';
-import 'react-intl-tel-input/dist/main.css';
+// import IntlTelInput from 'react-intl-tel-input';
+// import 'react-intl-tel-input/dist/main.css';
 
 class Form extends Component {
     constructor(props) {
         super(props);
         this.state =  {email: '', phone: '', action:'',state: props.type?props.type:'initial', selectedTags: [], otherTag: false, newtag: ''};
         this.tags = ['Social','Task'];
-        localStorage.setItem('data',JSON.stringify(this.state));
+
     }
 
     loadState(){
         this.setState(JSON.parse(localStorage.getItem('data')));
+    }
+    componentDidMount(){
+        localStorage.setItem('data',JSON.stringify(this.state));
     }
     next(){
         var  that = this;
@@ -157,11 +160,11 @@ class Form extends Component {
                                                 <CustomInput label="Email Address"  type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
                                             </div>
                                             <div className="name-bar phone">
-                                                <IntlTelInput
-                                                    onPhoneNumberChange={handler}
-                                                    preferredCountries={['US']}
-                                                    css={['intl-tel-input', 'form-control']}
-                                                />
+                                                {/*<IntlTelInput*/}
+                                                    {/*onPhoneNumberChange={handler}*/}
+                                                    {/*preferredCountries={['US']}*/}
+                                                    {/*css={['intl-tel-input', 'form-control']}*/}
+                                                {/*/>*/}
                                            </div>
                                             <h4>What are you looking for?</h4>
 

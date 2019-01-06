@@ -1,8 +1,8 @@
 import { Switch, Route } from 'react-router-dom'
-import Home from './pages/HomePage';
+import Home from './pages/index';
 import FAQ from './pages/WhatWeDo';
 import Login from './pages/Login';
-import Pricing from './pages/Pricing';
+import Pricing from './pages/pricing';
 
 import React, { Component } from 'react';
 

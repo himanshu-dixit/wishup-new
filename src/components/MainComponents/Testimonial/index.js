@@ -23,13 +23,13 @@ class Testimonial extends Component {
                         <div className="profile-desc mobile-only">
 
                             <div className="profile-pic">
-                                <img src={require('../../../assets/pranay.jpeg')} height="55px"/>
+                                <img src='/static/assets/pranay.jpeg' height="55px"/>
                             </div>
                             <div className="profile-info">
 
                                 <span className="name"> Pranay Gupta</span>
                                 <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                    <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                    <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                                 </a>
                                 <br></br>
                                 <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
@@ -41,13 +41,13 @@ class Testimonial extends Component {
                         <div className="profile-desc desktop-only">
 
                             <div className="profile-pic">
-                                <img src={require('../../../assets/pranay.jpeg')} height="55px"/>
+                                <img src='/static/assets/pranay.jpeg' height="55px"/>
                             </div>
                             <div className="profile-info desktop-only">
 
                                 <span className="name"> Pranay Gupta</span>
                                 <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                    <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                    <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                                 </a>
                                 <br></br>
                                 <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
@@ -57,13 +57,13 @@ class Testimonial extends Component {
                     <div className="col-sm-4" key={2}>
                         <div className="profile-desc mobile-only">
                             <div className="profile-pic">
-                                <img src={require('../../../assets/manan.jpeg')} height="55px"/>
+                                <img src='/static/assets/manan.jpeg' height="55px"/>
                             </div>
                             <div className="profile-info">
 
                               <span className="name"> Manan Shah
                                <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span ><br></br>
                                 <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
@@ -74,13 +74,13 @@ class Testimonial extends Component {
                         </div>
                         <div className="profile-desc desktop-only">
                             <div className="profile-pic">
-                                <img src={require('../../../assets/manan.jpeg')} height="55px"/>
+                                <img src='/static/assets/manan.jpeg' height="55px"/>
                             </div>
                             <div className="profile-info">
 
                               <span className="name"> Manan Shah
                                <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span ><br></br>
                                 <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
@@ -91,14 +91,14 @@ class Testimonial extends Component {
                     <div className="col-sm-4" key={3}>
                         <div className="profile-desc mobile-only">
                             <div className="profile-pic" >
-                                <img src={require('../../../assets/Farhan.jpg')} height="55px"/>
+                                <img src='/static/assets/Farhan.jpg' height="55px"/>
                             </div>
                             <div className="profile-info">
 
                               <span className="name">Farhan Ahmed
 
                                     <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span><br></br>
                                 <span className="position"> Founder</span>,<span className="company-name"> Confetti Holdings</span>
@@ -109,14 +109,14 @@ class Testimonial extends Component {
                         </div>
                         <div className="profile-desc desktop-only">
                             <div className="profile-pic" >
-                                <img src={require('../../../assets/Farhan.jpg')} height="55px"/>
+                                <img src='/static/assets/Farhan.jpg' height="55px"/>
                             </div>
                             <div className="profile-info">
 
                               <span className="name">Farhan Ahmed
 
                                     <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span><br></br>
                                 <span className="position"> Founder</span>,<span className="company-name"> Confetti Holdings</span>
@@ -129,14 +129,14 @@ class Testimonial extends Component {
                     {/*I couldn't be more thrilled with my Wishup VA! It took me a few weeks to get the time to organize the work to assign initially, but it's been the best business decision for me this year.*/}
                     {/*</div>*/}
                     {/*<div className="profile-pic" >*/}
-                    {/*<img src={require('../../../assets/andrew.jpeg')} height="55px"/>*/}
+                    {/*<img src='/static/assets/andrew.jpeg' height="55px"/>*/}
                     {/*</div>*/}
                     {/*<div className="profile-info">*/}
 
                     {/*<span className="name">Andrew McDermott*/}
 
                     {/*<a href="https://www.linkedin.com/in/andrewmcdermott/" target="_blank">*/}
-                    {/*<img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>*/}
+                    {/*<img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>*/}
                     {/*</a>*/}
                     {/*</span><br></br>*/}
                     {/*<span className="position"> Full-Time Traveler</span>,<span className="company-name"></span>*/}
@@ -148,14 +148,14 @@ class Testimonial extends Component {
                     {/*First I was skeptical about the whole VA game. But when I started my trial at Wishup this completely changed. Now I can really feel the value (and power!) a VA can have.*/}
                     {/*</div>*/}
                     {/*<div className="profile-pic" >*/}
-                    {/*<img src={require('../../../assets/neil.jpg')} height="55px"/>*/}
+                    {/*<img src='/static/assets/neil.jpg' height="55px"/>*/}
                     {/*</div>*/}
                     {/*<div className="profile-info">*/}
 
                     {/*<span className="name">Niels Van De Bergh*/}
 
                     {/*<a href="https://www.linkedin.com/in/nielsvandenbergh/" target="_blank">*/}
-                    {/*<img src={require('../../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>*/}
+                    {/*<img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>*/}
                     {/*</a>*/}
                     {/*</span><br></br>*/}
                     {/*<span className="position"> Growth Consultant</span>,<span className="company-name"></span>*/}

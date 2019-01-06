@@ -54,16 +54,16 @@ class VAsList extends Component {
                 </div>
                 <div className="row slider">
                     <button className=" previous" onClick={this.previous}>
-                        <img src={require('../../../assets/previous-icon.png')} height="45px"/>
+                        <img src='/static/assets/previous-icon.png' height="45px"/>
                     </button>
                     <button className=" next" onClick={this.next}>
-                        <img src={require('../../../assets/next-icon.png')} height="45px"/>
+                        <img src='/static/assets/next-icon.png' height="45px"/>
                     </button>
                     <Slider ref={c => (this.slider = c)} {...settings}>
                         <div className="col-sm-3" key={1}>
                             <div className="card">
                                 <div className="round-pic">
-                                    <img src={require('../../../assets/va/upasana.jpg')} width="100%"/>
+                                    <img src='/static/assets/va/upasana.jpg' width="100%"/>
                                 </div>
                                 <div className="user-name">
                                     Upasana Iyer
@@ -76,7 +76,7 @@ class VAsList extends Component {
                         <div className="col-sm-3" key={2}>
                             <div className="card">
                                 <div className="round-pic">
-                                    <img src={require('../../../assets/resources/userr.png')} width="100%"/>
+                                    <img src='/static/assets/resources/userr.png' width="100%"/>
                                 </div>
                                 <div className="user-name">
                                     Shweta
@@ -89,7 +89,7 @@ class VAsList extends Component {
                         <div className="col-sm-3" key={3}>
                             <div className="card">
                                 <div className="round-pic">
-                                    <img src={require('../../../assets/va/swati.jpg')} width="100%"/>
+                                    <img src='/static/assets/va/swati.jpg' width="100%"/>
                                 </div>
                                 <div className="user-name">
                                     Swati
@@ -103,7 +103,7 @@ class VAsList extends Component {
                         <div className="col-sm-3" key={4}>
                             <div className="card">
                                 <div className="round-pic">
-                                    <img src={require('../../../assets/va/saloni.jpg')} width="100%"/>
+                                    <img src='/static/assets/va/saloni.jpg' width="100%"/>
                                 </div>
                                 <div className="user-name">
                                     Saloni
@@ -116,7 +116,7 @@ class VAsList extends Component {
                         <div className="col-sm-3" key={5}>
                             <div className="card">
                                 <div className="round-pic">
-                                    <img src={require('../../../assets/va/malika.jpg')} width="100%"/>
+                                    <img src='/static/assets/va/malika.jpg' width="100%"/>
                                 </div>
                                 <div className="user-name">
                                     Mallika

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/index.css';
 import './header.css';
-import LoginCard from '../../components/LoginCard';
+
 
 class HeadBar extends Component {
     constructor(){
@@ -10,7 +10,8 @@ class HeadBar extends Component {
     }
 
     isLoggedIn(){
-        let token = localStorage.getItem("token");
+        // let token = localStorage.getItem("token");
+        var token = false;
         if(token){
             return true;
         }
@@ -21,8 +22,8 @@ class HeadBar extends Component {
     //<Link to='/'>Home</Link>
     return (
         <div>
-      {this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}
-      {this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}
+      {/*{this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}*/}
+      {/*{this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}*/}
       <div className={this.isLoggedIn()?'black-header':''}>
         <div className="row">
           <div className="container-fluid">
@@ -39,7 +40,7 @@ class HeadBar extends Component {
                           </button>
                           <a className="navbar-brand" href="/">
                               <div className="header-logo">
-                                  <img src={require('../../assets/wishup_logo.png')} height="23px"/>
+                                  <img src='/static/assets/wishup_logo.png' height="23px"/>
                               </div>
 
                           </a>
