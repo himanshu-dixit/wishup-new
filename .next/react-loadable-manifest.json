@@ -15,7 +15,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 18,
+      "id": 11,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -27,7 +27,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -39,7 +39,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -51,7 +51,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -63,13 +63,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 10,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 4,
+      "id": 18,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -81,13 +75,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 15,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 23,
+      "id": 4,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -99,25 +87,15 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
+  "../index/style.css": [
+    {
+      "id": "./pages/index/style.css",
+      "name": "./pages/index/style.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
   "./style.css": [
-    {
-      "id": "./pages/faq/style.css",
-      "name": "./pages/faq/style.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/CustomInput/style.css",
-      "name": "./src/components/CustomInput/style.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./pages/location/style.css",
-      "name": "./pages/location/style.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
     {
       "id": "./pages/whatwedo/style.css",
       "name": "./pages/whatwedo/style.css",
@@ -129,12 +107,18 @@
       "name": "./src/components/Form/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/CustomInput/style.css",
+      "name": "./src/components/CustomInput/style.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
     }
   ],
   "./testimonial.css": [
     {
-      "id": "./src/components/MainComponents/Pricing/testimonial.css",
-      "name": "./src/components/MainComponents/Pricing/testimonial.css",
+      "id": "./src/components/MainComponents/Testimonial/testimonial.css",
+      "name": "./src/components/MainComponents/Testimonial/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
@@ -157,8 +141,8 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/MainComponents/Testimonial/testimonial.css",
-      "name": "./src/components/MainComponents/Testimonial/testimonial.css",
+      "id": "./src/components/MainComponents/Pricing/testimonial.css",
+      "name": "./src/components/MainComponents/Pricing/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -189,14 +173,6 @@
     {
       "id": "./src/styles/index.css",
       "name": "./src/styles/index.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../index/style.css": [
-    {
-      "id": "./pages/index/style.css",
-      "name": "./pages/index/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
