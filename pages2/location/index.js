@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './style.css';
 import Slider from "react-slick";
-import Form from "../../components/Form";
+import Form from "../../src/omponents/Form";
 import getPricing from "../../services/location";
 import MetaTags from "react-meta-tags";
 import data from './data'
-import Pricing from "../../components/MainComponents/pricing";
-import VAsList from "../../components/MainComponents/VAsList";
-import Testimonial from "../../components/MainComponents/Testimonial";
-import TasksList from "../../components/MainComponents/TasksList";
+import Pricing from "../../src/components/MainComponents/pricing";
+import VAsList from "../../src/components/MainComponents/VAsList";
+import Testimonial from "../../src/components/MainComponents/Testimonial";
+import TasksList from "../../src/components/MainComponents/TasksList";
 
 class LocationPage extends Component {
     constructor(props) {
@@ -89,7 +89,7 @@ class LocationPage extends Component {
               <div className="wishup-container">
                   <div className="row">
                       <div className="col-sm-6 center desktop-only">
-                          <img src={require('../../assets/resources/thinking.png')} width="80%"/>
+                          <img src={require('../../static/assets/resources/thinking.png')} width="80%"/>
                       </div>
                       <div className="col-sm-6">
                           <div className="grow-description">
@@ -100,7 +100,7 @@ class LocationPage extends Component {
                           </div>
                       </div>
                       <div className="col-sm-6 center mobile-only">
-                          <img src={require('../../assets/resources/thinking.png')} width="80%"/>
+                          <img src={require('../../static/assets/resources/thinking.png')} width="80%"/>
                       </div>
                   </div>
               </div>
@@ -145,7 +145,7 @@ class LocationPage extends Component {
                           <a href="/hire-administritive-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/Add document.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/Add document.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Administrative and Executive Assistant
@@ -158,7 +158,7 @@ class LocationPage extends Component {
                           <a href="/hire-socialmedia-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/socialmedia.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/socialmedia.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Social Media Assistant
@@ -171,7 +171,7 @@ class LocationPage extends Component {
                       <div className="col-md-3">
                           <div className="what-we-do-card">
                               <div className="icon-box">
-                                  <img src={require('../../assets/resources/icons/lead.svg') } height="50px"/>
+                                  <img src={require('../../static/assets/resources/icons/lead.svg') } height="50px"/>
                               </div>
                               <div className="task-title">
                                   Lead generation Assistant
@@ -183,7 +183,7 @@ class LocationPage extends Component {
                           <a href="/hire-research-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/research.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/research.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Research Assistant
@@ -198,7 +198,7 @@ class LocationPage extends Component {
                           <a href="/hire-bookkeeping-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/bookkeeping.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/bookkeeping.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Bookkeeping Assistant
@@ -210,7 +210,7 @@ class LocationPage extends Component {
                           <a href="/hire-email-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/mail.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/mail.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Email Assistant
@@ -222,7 +222,7 @@ class LocationPage extends Component {
                           <a href="/hire-hiring-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/hiring.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/hiring.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Hiring Assistant
@@ -234,7 +234,7 @@ class LocationPage extends Component {
                       <div className="col-md-3">
                           <div className="what-we-do-card">
                               <div className="icon-box">
-                                  <img src={require('../../assets/resources/icons/realestate.svg') } height="50px"/>
+                                  <img src={require('../../static/assets/resources/icons/realestate.svg') } height="50px"/>
                               </div>
                               <div className="task-title">
                                   Real Estate Assistant
@@ -250,7 +250,7 @@ class LocationPage extends Component {
                           <a href="/hire-travel-assistant">
                               <div className="what-we-do-card">
                                   <div className="icon-box">
-                                      <img src={require('../../assets/resources/icons/travel.svg') } height="50px"/>
+                                      <img src={require('../../static/assets/resources/icons/travel.svg') } height="50px"/>
                                   </div>
                                   <div className="task-title">
                                       Travel Assistant
@@ -261,7 +261,6 @@ class LocationPage extends Component {
                   </div>
               </div>
           </div>
-
      <Pricing/>
 
           <VAsList/>

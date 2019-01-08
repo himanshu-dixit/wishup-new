@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
 import GraphicHeader from '../../src/components/GraphicHeader';
-import MetaTags from "react-meta-tags";
 import {getTiming} from "../../src/services/location"
 import Head from "next/head";
 import HeadBar from "../../src/components/HeadBar";
@@ -29,13 +28,7 @@ class FAQ extends Component {
                             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                             crossOrigin="anonymous"></script>
                 </Head>
-                {/*<MetaTags>*/}
-                    {/*<title>Frequently Asked Questions about Virtual Assistant Services</title>*/}
-                    {/*<meta name="description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>*/}
-                    {/*<meta property="og:title" content="Frequently Asked Questions about Virtual Assistant Services"/>*/}
-                    {/*<meta property="og:description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>*/}
-                    {/*<link rel="canonical" href="/virtual-assistant-faq" />*/}
-                {/*</MetaTags>*/}
+
                 <GraphicHeader
                     title="FAQ"
                     description=""

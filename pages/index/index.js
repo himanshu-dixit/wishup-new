@@ -38,13 +38,7 @@ class HomePage extends Component {
                       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                       crossOrigin="anonymous"></script>
           </Head>
-          {/*<MetaTags>*/}
-              {/*<title>Best Virtual Assistant Services Online, Hire a Virtual Assistant</title>*/}
-              {/*<meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>*/}
-              {/*<meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>*/}
-              {/*<meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>*/}
-              {/*<link rel="canonical" href="http://www.wishup.co" />*/}
-          {/*</MetaTags>*/}
+
 
           <HeadBar/>
 

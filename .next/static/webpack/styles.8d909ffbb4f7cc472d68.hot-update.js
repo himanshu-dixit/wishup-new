@@ -1,9 +1,9 @@
 webpackHotUpdate("styles",{
 
-/***/ "./pages/faq/style.css":
-/*!*****************************!*\
-  !*** ./pages/faq/style.css ***!
-  \*****************************/
+/***/ "./pages/whatwedo/style.css":
+/*!**********************************!*\
+  !*** ./pages/whatwedo/style.css ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1546808983238");
+            injectCss(link, link.href.split("?")[0] + "?unix=1546922412688");
           });
       }
     }
@@ -66,7 +66,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1546808983285");
+            injectCss(link, link.href.split("?")[0] + "?unix=1546922412821");
           });
       }
     }
@@ -75,4 +75,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.3628d815c1316e9f9670.hot-update.js.map
+//# sourceMappingURL=styles.8d909ffbb4f7cc472d68.hot-update.js.map

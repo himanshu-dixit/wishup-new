@@ -1,37 +1,37 @@
-const express = require('express');
-const webpack = require('webpack');
-const path = require('path');
-const requireFromString = require('require-from-string');
-const MemoryFS = require('memory-fs');
-const serverConfig = require('./config/server.production.js');
-const fs = new MemoryFS();
-const outputErrors = (err, stats) => {
-    if (err) {
-        console.error(err.stack || err);
-        if (err.details) {
-            console.error(err.details);
-        }
-        return;
-    }
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')
 
-    const info = stats.toJson();
-    if (stats.hasErrors()) {
-        console.error(info.errors);
-    }
-    if (stats.hasWarnings()) {
-        console.warn(info.warnings);
-    }
-};
-console.log('Initializing server application...');
-const app = express();
-console.log('Compiling bundle...');
-const serverCompiler = webpack(serverConfig);
-serverCompiler.outputFileSystem = fs;
-serverCompiler.run((err, stats) => {
-    outputErrors(err, stats);
-    const contents = fs.readFileSync(path.resolve(serverConfig.output.path, serverConfig.output.filename), 'utf8');
-    const app = requireFromString(contents, serverConfig.output.filename);
-    app.get('*', app.default);
-    app.listen(3000);
-    console.log('Server listening on port 3000!');
-});
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()
+
+app.prepare().then(() => {
+    createServer((req, res) => {
+        // Be sure to pass `true` as the second argument to `url.parse`.
+        // This tells it to parse the query portion of the URL.
+        const parsedUrl = parse(req.url, true)
+        const { pathname, query } = parsedUrl
+
+        if (pathname === '/why-wishup') {
+            app.render(req, res, '/why-wishup', query)
+        } else if (pathname === '/virtual-assistant-faq') {
+            app.render(req, res, '/faq', query)
+        } else if (pathname === '/virtual-assistant-pricing') {
+            app.render(req, res, '/pricing', query)
+        }
+        else if (pathname.indexOf("/hire") >= 0) {
+            let query = {name: pathname.replace("/hire")};
+            app.render(req, res, '/whatwedo', query)
+        }
+        else if (pathname.indexOf("virtual-assistants") >= 0) {
+            app.render(req, res, '/location', query)
+        }
+        else {
+            handle(req, res, parsedUrl)
+        }
+    }).listen(3103, err => {
+        if (err) throw err
+        console.log('> Ready on http://localhost:3000')
+    })
+})

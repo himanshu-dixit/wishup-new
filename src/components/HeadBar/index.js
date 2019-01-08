@@ -52,10 +52,10 @@ class HeadBar extends Component {
                               <li><a onClick={()=>{ localStorage.removeItem("token")}} href="/logout" className="cta">Logout</a></li>
                               </ul> :
                               <ul className="nav navbar-nav navbar-right">
-                                  <li><a href="/why-wishup/">Why Wishup</a></li>
-                                  <li><a href="/what-we-do/">What we do</a></li>
-                                  <li><a href="/virtual-assistant-pricing/">Pricing</a></li>
-                                  <li><a href="/virtual-assistant-faq/">FAQs</a></li>
+                                  <li><a href="/why-wishup">Why Wishup</a></li>
+                                  <li><a href="/whatwedolist">What we do</a></li>
+                                  <li><a href="/pricing">Pricing</a></li>
+                                  <li><a href="/faq">FAQs</a></li>
                                   <li><a href="https://wishup.co/blog/">Blog</a></li>
                                   {/*<li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>*/}
                                   <li><a onClick={()=>{this.setState({popup: 'initial'})}} className="cta">Get Started</a></li>

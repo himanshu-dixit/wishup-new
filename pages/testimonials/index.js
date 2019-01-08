@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './style.css';
-import {sendRequest} from "../../services/server";
-import GraphicHeader from "../../components/GraphicHeader";
 
+import {sendRequest} from "../../services/server";
+import GraphicHeader from "../../src/components/GraphicHeader";
+import './style.css';
 
 class Dashboard extends Component {
 
@@ -33,13 +33,13 @@ class Dashboard extends Component {
                                     <div className="profile-desc mobile-only">
 
                                         <div className="profile-pic">
-                                            <img src={require('../../assets/pranay.jpeg')} height="55px"/>
+                                            <img src='/static/assets/pranay.jpeg' height="55px"/>
                                         </div>
                                         <div className="profile-info">
 
                                             <span className="name"> Pranay Gupta</span>
                                             <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                                <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                                <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                                             </a>
                                             <br></br>
                                             <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
@@ -51,13 +51,13 @@ class Dashboard extends Component {
                                     <div className="profile-desc desktop-only">
 
                                         <div className="profile-pic">
-                                            <img src={require('../../assets/pranay.jpeg')} height="55px"/>
+                                            <img src='/static/assets/pranay.jpeg' height="55px"/>
                                         </div>
                                         <div className="profile-info desktop-only">
 
                                             <span className="name"> Pranay Gupta</span>
                                             <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                                <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                                <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                                             </a>
                                             <br></br>
                                             <span className="position"> Co-Founder</span>,<span className="company-name"> 91Springboards</span>
@@ -67,13 +67,13 @@ class Dashboard extends Component {
                                 <div className="col-sm-4" key={2}>
                                     <div className="profile-desc mobile-only">
                                         <div className="profile-pic">
-                                            <img src={require('../../assets/manan.jpeg')} height="55px"/>
+                                            <img src='/static/assets/manan.jpeg' height="55px"/>
                                         </div>
                                         <div className="profile-info">
 
                               <span className="name"> Manan Shah
                                <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span ><br></br>
                                             <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
@@ -84,13 +84,13 @@ class Dashboard extends Component {
                                     </div>
                                     <div className="profile-desc desktop-only">
                                         <div className="profile-pic">
-                                            <img src={require('../../assets/manan.jpeg')} height="55px"/>
+                                            <img src='/static/assets/manan.jpeg' height="55px"/>
                                         </div>
                                         <div className="profile-info">
 
                               <span className="name"> Manan Shah
                                <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span ><br></br>
                                             <span className="position"> Co-Founder</span>,<span className="company-name"> Recruiter Flow</span>
@@ -101,14 +101,14 @@ class Dashboard extends Component {
                                 <div className="col-sm-4" key={3}>
                                     <div className="profile-desc mobile-only">
                                         <div className="profile-pic" >
-                                            <img src={require('../../assets/Farhan.jpg')} height="55px"/>
+                                            <img src='/static/assets/Farhan.jpg' height="55px"/>
                                         </div>
                                         <div className="profile-info">
 
                               <span className="name">Farhan Ahmed
 
                                     <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span><br></br>
                                             <span className="position"> Founder</span>,<span className="company-name"> Confetti Holdings</span>
@@ -119,14 +119,14 @@ class Dashboard extends Component {
                                     </div>
                                     <div className="profile-desc desktop-only">
                                         <div className="profile-pic" >
-                                            <img src={require('../../assets/Farhan.jpg')} height="55px"/>
+                                            <img src='/static/assets/Farhan.jpg' height="55px"/>
                                         </div>
                                         <div className="profile-info">
 
                               <span className="name">Farhan Ahmed
 
                                     <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src={require('../../assets/linkedin-button.svg')} height="15px" className="linkedin"/>
+                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
                               </a>
                               </span><br></br>
                                             <span className="position"> Founder</span>,<span className="company-name"> Confetti Holdings</span>

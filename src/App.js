@@ -13,9 +13,9 @@ import Dashboard from './pages/Dashboard';
 import WhyWishup from './pages/why-wishup';
 import LoginCard from './components/LoginCard';
 import FAQ from './pages/faq';
-import Testimonials from './pages/Testimonials';
+import Testimonials from './pages/testimonials';
 import WhatWeDoList from './pages/WhatWeDoList';
-import LocationPage from "./pages/LocationPage";
+import LocationPage from "./pages/location";
 
 class App extends Component {
     constructor(){

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './style.css';
-import GraphicHeader from '../../components/GraphicHeader';
+import GraphicHeader from '../../src/components/GraphicHeader';
 import data from './data'
+import {withRouter} from 'next/router'
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import MetaTags from "react-meta-tags";
 
 class WhatWeDo extends Component {
+
+
 
     constructor(props){
         super(props);
@@ -22,6 +25,13 @@ class WhatWeDo extends Component {
     selectPlan(plan){
         localStorage.setItem('plan',plan);
         window.location.replace("/");
+    }
+
+    static async getInitialProps({req, query}) {
+        console.log(query);
+        return {
+            name: name
+        }
     }
 
     render() {
