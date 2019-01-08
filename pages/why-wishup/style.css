@@ -64,6 +64,11 @@ h2{
     display: block;
 }
 
+.why-wishup .icon-box {
+    float: left;
+    width: 8%;
+    height: 17px;
+}
 @media only screen and (max-width: 792px ) {
     .desktop-only{
         display: none;

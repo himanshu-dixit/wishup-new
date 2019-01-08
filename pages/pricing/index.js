@@ -75,7 +75,7 @@ class PricingPage extends Component {
                 <GraphicHeader
                 title="Plans & Pricing"
                 description="Flexible monthly plans to fit any workload"
-                image='url("static/assets/resources/why-wishup/pricing/pricing-background.png")'
+                image='url("/static/assets/resources/pricing/pricing-background.png")'
                 ></GraphicHeader>
 
                     <div className="row grey">

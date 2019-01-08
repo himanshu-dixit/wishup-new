@@ -56,7 +56,7 @@ class WhyWishup extends Component {
           <GraphicHeader
               title="Why Wishup"
               description="Bringing you the best talent possible"
-              image='url("static/assets/resources/why-wishup/header.png")'
+              image='url("/static/assets/resources/why-wishup/header.png")'
           ></GraphicHeader>
 
           <div className="why-wishup-section grey-container">

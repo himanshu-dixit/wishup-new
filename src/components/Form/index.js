@@ -5,14 +5,13 @@ import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest,oldRequest} from '../../services/server.js';
 // import IntlTelInput from 'react-intl-tel-input';
-// import 'react-intl-tel-input/dist/main.css';
+
 
 class Form extends Component {
     constructor(props) {
         super(props);
         this.state =  {email: '', phone: '', action:'',state: props.type?props.type:'initial', selectedTags: [], otherTag: false, newtag: ''};
         this.tags = ['Social','Task'];
-
     }
 
     loadState(){

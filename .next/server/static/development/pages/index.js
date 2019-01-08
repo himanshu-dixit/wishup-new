@@ -3308,7 +3308,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/apple/Desktop/client/wishup/pages/index/index.js";
 
 
 
@@ -3338,519 +3337,142 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(HomePage, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_16___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, "Wishup"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_16___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Wishup"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "manifest",
+        href: "/static/wishup.png"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "icon",
+        href: "/static/wishup.png"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
+        content: "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
         integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
-        crossOrigin: "anonymous",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
+        crossOrigin: "anonymous"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         type: "text/css",
         charset: "UTF-8",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
+        href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         type: "text/css",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
-        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
         src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
         integrity: "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",
-        crossOrigin: "anonymous",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_HeadBar__WEBPACK_IMPORTED_MODULE_17__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        crossOrigin: "anonymous"
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_HeadBar__WEBPACK_IMPORTED_MODULE_17__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "new-cover",
         style: {
           backgroundImage: "url(" + '/static/assets/blue-background.png' + ")"
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
+        }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
+        className: "wishup-container"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "container-fluid",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
+        className: "container-fluid"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-md-7",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
+        className: "col-md-7"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "cover-info",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
+        className: "cover-info"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        className: "wishup-tagline",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, "Get Work Done.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }), " Remotely."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-desc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, "Virtual Employees for Entrepreneurs,", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }), "Small Teams and Businesses."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-md-5",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_Form__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      })))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "grow-business-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
+        className: "wishup-tagline"
+      }, "Get Work Done.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " Remotely."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "wishup-desc"
+      }, "Virtual Employees for Entrepreneurs,", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "Small Teams and Businesses."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-md-5"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_Form__WEBPACK_IMPORTED_MODULE_8__["default"], null)))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "grow-business-bar"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
+        className: "wishup-container"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-6 center desktop-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
+        className: "col-sm-6 center desktop-only"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: '/static/assets/resources/thinking.png',
-        width: "80%",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        width: "80%"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
+        className: "col-sm-6"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "grow-description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "Grow your business with a Wishup Virtual Employee"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_TasksList__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-6 center mobile-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
+        className: "grow-description"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Grow your business with a Wishup Virtual Employee"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_TasksList__WEBPACK_IMPORTED_MODULE_14__["default"], null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-6 center mobile-only"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: '/static/assets/resources/thinking.png',
-        width: "80%",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Testimonial__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
+        width: "80%"
+      }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Testimonial__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "super-highlight-bar"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-5 super-highlight-box"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "super-highlight-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
+        className: "col-sm-7 green-highlight-box"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-5 super-highlight-box",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-7 green-highlight-box",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, "Ready. Set. Go Start Immediately with our Trained Employees"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "highlight-description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
+        className: "wishup-container"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Ready. Set. Go Start Immediately with our Trained Employees"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "highlight-description"
       }, "Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107
-        },
-        __self: this
+        href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        },
-        __self: this
+        className: "button"
       }, "Get Started")))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "highlight-bar ",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        },
-        __self: this
+        className: "highlight-bar "
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116
-        },
-        __self: this
+        className: "wishup-container"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-5",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119
-        },
-        __self: this
-      }, "Skilled, multitasking experts? We call them our Virtual Employees")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-7",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123
-        },
-        __self: this
+        className: "col-sm-5"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Skilled, multitasking experts? We call them our Virtual Employees")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-7"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "mobile-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124
-        },
-        __self: this
+        className: "mobile-bar"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125
-        },
-        __self: this
+        className: "description"
       }, "At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with."))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "team-pic",
         style: {
           backgroundImage: "url(" + '/static/assets/resources/team.png' + ")"
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "second-highlight-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_13__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "second-highlight-bar"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-5 super-highlight-box mobile-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 141
-        },
-        __self: this
+        className: "col-sm-5 super-highlight-box mobile-only"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-7",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 144
-        },
-        __self: this
+        className: "col-sm-7"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 146
-        },
-        __self: this
-      }, "Troubled with Recurrent Tasks? Let\u2019s Automate it for you"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "mobile-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149
-        },
-        __self: this
+        className: "wishup-container"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Troubled with Recurrent Tasks? Let\u2019s Automate it for you"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mobile-bar"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 150
-        },
-        __self: this
+        className: "description"
       }, "At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation ranging from communication skills, technical skills, multi-tasking ability and much more. Applications pour in from all over but we hire only 2-3% of them. We always find the best talent to work with."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-sm-5 super-highlight-box desktop-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 156
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Media__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_VAsList__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "va-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167
-        },
-        __self: this
+        className: "col-sm-5 super-highlight-box desktop-only"
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_Media__WEBPACK_IMPORTED_MODULE_15__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_MainComponents_VAsList__WEBPACK_IMPORTED_MODULE_12__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "va-bar"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168
-        },
-        __self: this
+        className: "wishup-container"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "va-bar-text"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 169
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "va-bar-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 169
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "va-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
+        className: "va-text"
       }, " Become a Virtual Employee ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
+        className: "line"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://www.wishup.co/become-a-virtual-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
+        href: "https://www.wishup.co/become-a-virtual-assistant"
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "hire-cta wishup",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
-      }, "Get started"))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_Footer__WEBPACK_IMPORTED_MODULE_18__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
-      }));
+        className: "hire-cta wishup"
+      }, "Get started"))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_src_components_Footer__WEBPACK_IMPORTED_MODULE_18__["default"], null));
     }
   }]);
 
@@ -4858,14 +4480,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/Form/index.js";
 
 
 
 
 
  // import IntlTelInput from 'react-intl-tel-input';
-// import 'react-intl-tel-input/dist/main.css';
 
 var Form =
 /*#__PURE__*/
@@ -5033,8 +4653,7 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this4 = this,
-          _React$createElement;
+      var _this4 = this;
 
       //<Link to='/'>Home</Link>
       var that = this;
@@ -5046,349 +4665,125 @@ function (_Component) {
       };
 
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "new-form",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        },
-        __self: this
+        className: "new-form"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mainContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 144
-        },
-        __self: this
+        className: "mainContainer"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "inputContainer col-sm-12",
-        name: "onboarding",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 147
-        },
-        __self: this
-      }, this.state.state === 'initial' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 150
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
-        className: "heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 151
-        },
-        __self: this
-      }, "Get Started"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 154
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "name-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 155
-        },
-        __self: this
+        name: "onboarding"
+      }, this.state.state === 'initial' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Get Started"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "name-bar"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "First Name",
         type: "text",
         size: "half",
         id: "first_name",
         data: this.state.first_name,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 156
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Last Name",
         size: "half",
         type: "text",
         id: "last_name",
         data: this.state.last_name,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 157
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "name-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        },
-        __self: this
+        className: "name-bar"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Email Address",
         type: "email",
         id: "email",
         data: this.state.email,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "name-bar phone",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 169
-        },
-        __self: this
-      }, "What are you looking for?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "radio-group",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
+        className: "name-bar phone"
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", null, "What are you looking for?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "radio-group"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "container",
         onClick: function onClick() {
           _this4.setState({
             action: 'hire-va'
           });
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 172
-        },
-        __self: this
+        }
       }, "Hire a Virtual employee", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
         type: "radio",
         checked: this.state.action == "hire-va" || !this.state.action ? "checked" : "",
-        name: "radio",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 173
-        },
-        __self: this
+        name: "radio"
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "checkmark",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
+        className: "checkmark"
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "container",
         onClick: function onClick() {
           _this4.setState({
             action: 'become-va'
           });
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, "I want to work", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", (_React$createElement = {
+        }
+      }, "I want to work", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({
         type: "radio",
         name: "radio",
         checked: this.state.action == "become-va" ? "checked" : ""
-      }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "name", "radio"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__source", {
-        fileName: _jsxFileName,
-        lineNumber: 177
-      }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__self", this), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "checkmark",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 178
-        },
-        __self: this
+      }, "name", "radio")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "checkmark"
       }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "error",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 181
-        },
-        __self: this
+        className: "error"
       }, this.state.error), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "buttonsContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182
-        },
-        __self: this
+        className: "buttonsContainer"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "button-cta",
         onClick: function onClick() {
           that.next();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 183
-        },
-        __self: this
-      }, "Get Started"))) : '', this.state.state === 'va' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 189
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
-        className: "heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 190
-        },
-        __self: this
-      }, "More Details"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 193
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        }
+      }, "Get Started"))) : '', this.state.state === 'va' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "More Details"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Based out of",
         type: "text",
         id: "location",
         data: this.state.location,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Your highest qualification",
         type: "text",
         id: "qualification",
         data: this.state.qualification,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 195
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Total work experience",
         type: "text",
         id: "experience",
         data: this.state.experience,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 196
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Skills",
         type: "text",
         id: "skills",
         data: this.state.skills,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 197
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
         label: "Tell us more about you",
         type: "text",
         id: "more",
         data: this.state.more,
-        changeValue: this.changeValue.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 198
-        },
-        __self: this
+        changeValue: this.changeValue.bind(this)
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "error",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199
-        },
-        __self: this
+        className: "error"
       }, this.state.error), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "buttonsContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 200
-        },
-        __self: this
+        className: "buttonsContainer"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "button-cta",
         onClick: function onClick() {
           _this4.vaSubmit();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 201
-        },
-        __self: this
-      }, "Submit"))) : '', this.state.state === 'va-done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 206
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
-        className: "heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 207
-        },
-        __self: this
-      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 210
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 211
-        },
-        __self: this
-      }, "We have succesfully received your details. Will contact you in next 3-4 days.")) : '', this.state.state === 'done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 215
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
-        className: "heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 216
-        },
-        __self: this
-      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 219
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 220
-        },
-        __self: this
-      }, "We have succesfully received your details. Will contact you in next 24 hours.")) : ''))));
+        }
+      }, "Submit"))) : '', this.state.state === 'va-done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, "We have succesfully received your details. Will contact you in next 3-4 days.")) : '', this.state.state === 'done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, "We have succesfully received your details. Will contact you in next 24 hours.")) : ''))));
     }
   }]);
 
@@ -5446,7 +4841,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/HeadBar/index.js";
 
 
 
@@ -5486,238 +4880,70 @@ function (_Component) {
       var _this2 = this;
 
       //<Link to='/'>Home</Link>
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: this.isLoggedIn() ? 'black-header' : ''
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: this.isLoggedIn() ? 'black-header' : '',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "container-fluid",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
+        className: "container-fluid"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
-        className: "navbar navbar-default",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
+        className: "navbar navbar-default"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
+        className: "wishup-container"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-header",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
+        className: "navbar-header"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
         type: "button",
         className: "navbar-toggle collapsed",
         "data-toggle": "collapse",
         "data-target": "#bs-example-navbar-collapse-1",
-        "aria-expanded": "false",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        "aria-expanded": "false"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "sr-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        className: "sr-only"
       }, "Toggle navigation"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "icon-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
+        className: "icon-bar"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "icon-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
+        className: "icon-bar"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "icon-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
+        className: "icon-bar"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "navbar-brand",
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
+        href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "header-logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
+        className: "header-logo"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "/static/assets/wishup_logo.png",
-        height: "23px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
+        height: "23px"
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "collapse navbar-collapse",
-        id: "bs-example-navbar-collapse-1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        id: "bs-example-navbar-collapse-1"
       }, this.isLoggedIn() ? react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        className: "nav navbar-nav navbar-right",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav navbar-nav navbar-right"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         onClick: function onClick() {
           localStorage.removeItem("token");
         },
         href: "/logout",
-        className: "cta",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
+        className: "cta"
       }, "Logout"))) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        className: "nav navbar-nav navbar-right",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/why-wishup",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, "Why Wishup")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/whatwedolist",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, "What we do")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/pricing",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }, "Pricing")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/faq",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://wishup.co/blog/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "Blog")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav navbar-nav navbar-right"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/why-wishup/"
+      }, "Why Wishup")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/what-we-do/"
+      }, "What we do")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/virtual-assistant-pricing/"
+      }, "Pricing")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/virtual-assistant-faq/"
+      }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://wishup.co/blog/"
+      }, "Blog")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         onClick: function onClick() {
           _this2.setState({
             popup: 'initial'
           });
         },
-        className: "cta",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
+        className: "cta"
       }, "Get Started"))))))))));
     }
   }]);

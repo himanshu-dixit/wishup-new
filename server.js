@@ -13,16 +13,26 @@ app.prepare().then(() => {
         const parsedUrl = parse(req.url, true)
         const { pathname, query } = parsedUrl
 
-        if (pathname === '/why-wishup') {
+        if (pathname === '/why-wishup/') {
             app.render(req, res, '/why-wishup', query)
-        } else if (pathname === '/virtual-assistant-faq') {
+        } else if (pathname === '/virtual-assistant-faq/') {
             app.render(req, res, '/faq', query)
-        } else if (pathname === '/virtual-assistant-pricing') {
+        } else if (pathname === '/virtual-assistant-pricing/') {
             app.render(req, res, '/pricing', query)
+        }
+        else if (pathname === '/virtual-assistant-pricing/') {
+            app.render(req, res, '/pricing', query)
+        }
+        else if (pathname === '/what-we-do/') {
+            app.render(req, res, '/whatwedolist', query)
         }
         else if (pathname.indexOf("/hire") >= 0) {
             let query = {name: pathname.replace("/hire")};
             app.render(req, res, '/whatwedo', query)
+        }
+        else if (pathname.indexOf("/location/") >= 0) {
+            let query = {name: pathname.replace("/location/")};
+            app.render(req, res, '/location', query)
         }
         else if (pathname.indexOf("virtual-assistants") >= 0) {
             app.render(req, res, '/location', query)
@@ -30,7 +40,7 @@ app.prepare().then(() => {
         else {
             handle(req, res, parsedUrl)
         }
-    }).listen(3103, err => {
+    }).listen(4008, err => {
         if (err) throw err
         console.log('> Ready on http://localhost:3000')
     })

@@ -32,7 +32,7 @@ class FAQ extends Component {
                 <GraphicHeader
                     title="FAQ"
                     description=""
-                    image='url("static/assets/resources/why-wishup/header.png")'
+                    image='url("/static/assets/resources/why-wishup/header.png")'
                 ></GraphicHeader>
                 <div className="raised-container-top raised-container">
                     <div className="wishup-container">

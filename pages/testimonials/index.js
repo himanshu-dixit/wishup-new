@@ -13,7 +13,7 @@ class Dashboard extends Component {
                 <GraphicHeader
                     title="Testimonials"
                     description="This is what industry leader say about wishup"
-                    image='url("static/assets/resources/why-wishup/header.png")'
+                    image='url("/static/assets/resources/why-wishup/header.png")'
                 ></GraphicHeader>
                 <div className="wishup-container">
                     <div className="testimonial-section">
