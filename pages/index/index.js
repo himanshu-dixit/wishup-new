@@ -24,9 +24,14 @@ class HomePage extends Component {
       <div>
 
           <Head>
-              <title>Wishup</title>
+              <title>Best Virtual Assistant Services Online, Hire a Virtual Assistant</title>
+              <meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
+              <meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>
+              <meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
+              <link rel="canonical" href="http://www.wishup.co" />
               <link rel="manifest" href="/static/wishup.png"></link>
               <link rel="icon" href="/static/wishup.png"></link>
+
               <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"

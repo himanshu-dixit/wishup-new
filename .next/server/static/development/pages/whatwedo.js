@@ -3197,7 +3197,25 @@ function (_Component) {
       var that = this;
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "what-we-do"
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_13___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", null, "Wishup"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_13___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", null, this.data[this.type].meta_title), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+        name: "description",
+        content: this.data[this.type].meta_description
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+        property: "og:title",
+        content: this.data[this.type].og_title
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+        property: "og:description",
+        content: this.data[this.type].og_description
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
+        rel: "canonical",
+        href: "/hire-" + this.data + "-assistant"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
+        rel: "manifest",
+        href: "/static/wishup.png"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
+        rel: "icon",
+        href: "/static/wishup.png"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {

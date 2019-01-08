@@ -16020,7 +16020,19 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(HomePage, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_16___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Wishup"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_16___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Best Virtual Assistant Services Online, Hire a Virtual Assistant"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "description",
+        content: "Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        property: "og:title",
+        content: "Best Virtual Assistant Services Online, Hire a Virtual Assistant"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        property: "og:description",
+        content: "Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "canonical",
+        href: "http://www.wishup.co"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "manifest",
         href: "/static/wishup.png"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {

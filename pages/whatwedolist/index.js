@@ -20,7 +20,18 @@ class WhatWeDo extends Component {
         return (
             <div>
                 <Head>
-                    <title>Wishup</title>
+                    <title>What Does A Virtual Assistant Do? | Wishup</title>
+                    <link rel="canonical" href="/what-we-do"/>
+                    <meta name="twitter:title" content="Why Hire A Virtual Assistant?"/>
+                    <meta property="og:title" content="Why Hire A Virtual Assistant?"/>
+                    <meta name="description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                    <meta property="og:description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                    <meta name="twitter:description" content="Why should you hire a Zirtual Virtual Assistant? Easy. Because we only hire the best VA’s – and they will move mountains to help you balance work and life."/>
+                    <meta property="og:image" content="https://d37szscqjmjaac.cloudfront.net/production/20181203-032325/images/why-z_c0bd7e43.jpg"/>
+                    <meta name="twitter:image" content="https://d37szscqjmjaac.cloudfront.net/production/20181203-032325/images/why-z_c0bd7e43.jpg"/>
+                    <meta name="twitter:image:alt" content="Why Hire A Virtual Assistant?"  />
+                    <link rel="manifest" href="/static/wishup.png"></link>
+                    <link rel="icon" href="/static/wishup.png"></link>
                     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"

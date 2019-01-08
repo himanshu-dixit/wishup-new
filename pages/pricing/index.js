@@ -57,6 +57,13 @@ class PricingPage extends Component {
             <div>
                 <Head>
                     <title>Wishup</title>
+                    <title>Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services </title>
+                    <meta name="description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities."/>
+                    <meta property="og:title" content="Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services "/>
+                    <meta property="og:description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities. "/>
+                    <link rel="canonical" href="/virtual-assistant-pricing" />
+                    <link rel="manifest" href="/static/wishup.png"></link>
+                    <link rel="icon" href="/static/wishup.png"></link>
                     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"

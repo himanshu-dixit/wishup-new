@@ -47,7 +47,13 @@ class WhatWeDo extends Component {
         return (
             <div className="what-we-do">
                 <Head>
-                    <title>Wishup</title>
+                    <title>{this.data[this.type].meta_title}</title>
+                    <meta name="description" content={this.data[this.type].meta_description}/>
+                    <meta property="og:title" content={this.data[this.type].og_title}/>
+                    <meta property="og:description" content={this.data[this.type].og_description}/>
+                    <link rel="canonical" href={"/hire-"+this.data+"-assistant"} />
+                    <link rel="manifest" href="/static/wishup.png"></link>
+                    <link rel="icon" href="/static/wishup.png"></link>
                     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"

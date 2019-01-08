@@ -14,7 +14,13 @@ class FAQ extends Component {
             <div className="faq">
                 <HeadBar/>
                 <Head>
-                    <title>Wishup</title>
+                    <title>Frequently Asked Questions about Virtual Assistant Services</title>
+                    <meta name="description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>
+                    <meta property="og:title" content="Frequently Asked Questions about Virtual Assistant Services"/>
+                    <meta property="og:description" content="Frequently asked questions (FAQ) about how to start working with a Wishup- well trained virtual assistants."/>
+                    <link rel="canonical" href="/virtual-assistant-faq" />
+                    <link rel="manifest" href="/static/wishup.png"></link>
+                    <link rel="icon" href="/static/wishup.png"></link>
                     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
