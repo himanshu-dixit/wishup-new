@@ -88,10 +88,21 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
@@ -452,6 +463,22 @@ function _typeof(obj) {
 
   return _typeof(obj);
 }
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
 
 /***/ }),
 
@@ -3254,37 +3281,251 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./pages/pricing/index.js":
+/***/ "./pages/location/data.js":
 /*!********************************!*\
-  !*** ./pages/pricing/index.js ***!
+  !*** ./pages/location/data.js ***!
   \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./style.css */ "./pages/pricing/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _index_style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../index/style.css */ "./pages/index/style.css");
-/* harmony import */ var _index_style_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_index_style_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _src_components_GraphicHeader__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../src/components/GraphicHeader */ "./src/components/GraphicHeader/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-slick */ "react-slick");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _src_services_location__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../src/services/location */ "./src/services/location.js");
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! next-server/head */ "next-server/head");
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _src_components_HeadBar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../src/components/HeadBar */ "./src/components/HeadBar/index.js");
-/* harmony import */ var _src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../src/components/MainComponents/Pricing */ "./src/components/MainComponents/Pricing/index.js");
-/* harmony import */ var _src_components_Footer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../src/components/Footer */ "./src/components/Footer/index.js");
+var data = {
+  telaviv: {
+    name: "Tel Aviv",
+    cover: "url('https://images.unsplash.com/photo-1544519685-0e27154e8352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80')",
+    meta_title: "Best Virtual Assistants in Tel Aviv, Virtual Assistant Services in Tel Aviv",
+    meta_description: "Get the best virtual assistant services in Tel Aviv. Wishup provides virtual or remote assistants in Dallas from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Tel Aviv Virtual Assistant Services | Hire Remote Assistants in Tel Aviv",
+    og_description: "Save time with our Virtual Assistant Services in Tel Aviv! Wishup pioneers in providing virtual assistant or remote assistant services in Tel Aviv.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  newyork: {
+    name: "New York",
+    cover: "url('https://images.unsplash.com/photo-1523128662036-c964212cc9f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1226&q=80')",
+    meta_title: "Best Virtual Assistants in New York, Virtual Assistant Services in New York",
+    meta_description: "Get the best virtual assistant services in New York. Wishup provides virtual or remote assistants in Dallas from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "New York Virtual Assistant Services | Hire Remote Assistants in New York",
+    og_description: "Save time with our Virtual Assistant Services in New York! Wishup pioneers in providing virtual assistant or remote assistant services in Tel Aviv.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  losangeles: {
+    name: "Los Angeles",
+    cover: "url('https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1434&q=80')",
+    meta_title: "Best Virtual Assistants in Los Angeles, Virtual Assistant Services in Los Angeles",
+    meta_description: "Get the best virtual assistant services in Los Angeles. Wishup provides virtual or remote assistants in Los Angeles from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Los Angeles Virtual Assistant Services | Hire Remote Assistants in Los Angeles",
+    og_description: "Save time with our Virtual Assistant Services in Los Angeles! Wishup pioneers in providing virtual assistant or remote assistant services in Los Angeles.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  dallas: {
+    name: "Dallas",
+    cover: "url('https://images.unsplash.com/photo-1515623844043-1ceda251d277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Dallas, Virtual Assistant Services in Dallas",
+    meta_description: "Get the best virtual assistant services in Dallas. Wishup provides virtual or remote assistants in Dallas from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Dallas Virtual Assistant Services | Hire Remote Assistants in Dallas",
+    og_description: "Save time with our Virtual Assistant Services in Dallas! Wishup pioneers in providing virtual assistant or remote assistant services in Dallas.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  chicago: {
+    name: "Chicago",
+    cover: "url('https://images.unsplash.com/photo-1524168272322-bf73616d9cb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Chicago, Virtual Assistant Services in Chicago",
+    meta_description: "Get the best virtual assistant services in Chicago. Wishup provides virtual or remote assistants in Chicago from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Chicago Virtual Assistant Services | Hire Remote Assistants in Chicago",
+    og_description: "Save time with our Virtual Assistant Services in Chicago! Wishup pioneers in providing virtual assistant or remote assistant services in Chicago.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  houston: {
+    name: "Houston",
+    cover: "url('https://images.unsplash.com/photo-1470082719408-b2843ab5c9ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80')",
+    meta_title: "Best Virtual Assistants in Houston, Virtual Assistant Services in Houston",
+    meta_description: "Get the best virtual assistant services in Houston. Wishup provides virtual or remote assistants in Houston from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Houston Virtual Assistant Services | Hire Remote Assistants in Houston",
+    og_description: "Save time with our Virtual Assistant Services in Houston! Wishup pioneers in providing virtual assistant or remote assistant services in Houston.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  sanfrancisco: {
+    name: "San Francisco",
+    cover: "url('https://images.unsplash.com/photo-1534513428988-e6ae8e14a629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in San Francisco, Virtual Assistant Services in San Francisco",
+    meta_description: "Get the best virtual assistant services in San Francisco. Wishup provides virtual or remote assistants in San Francisco from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "San Francisco Virtual Assistant Services | Hire Remote Assistants in San Francisco",
+    og_description: "Save time with our Virtual Assistant Services in San Francisco! Wishup pioneers in providing virtual assistant or remote assistant services in San Francisco.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  austin: {
+    name: "Austin",
+    cover: "url('https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80')",
+    meta_title: "Best Virtual Assistants in Austin, Virtual Assistant Services in Austin",
+    meta_description: "Get the best virtual assistant services in Austin. Wishup provides virtual or remote assistants in Austin from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Austin Virtual Assistant Services | Hire Remote Assistants in Austin",
+    og_description: "Save time with our Virtual Assistant Services in Austin! Wishup pioneers in providing virtual assistant or remote assistant services in Austin.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  toronto: {
+    name: "Chicago",
+    cover: "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Chicago, Virtual Assistant Services in Chicago",
+    meta_description: "Get the best virtual assistant services in Chicago. Wishup provides virtual or remote assistants in Chicago from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Chicago Virtual Assistant Services | Hire Remote Assistants in Chicago",
+    og_description: "Save time with our Virtual Assistant Services in Chicago! Wishup pioneers in providing virtual assistant or remote assistant services in Chicago.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  vancouver: {
+    name: "Vancouver",
+    cover: "url('https://images.unsplash.com/photo-1519181258491-889c2b001485?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Vancouver, Virtual Assistant Services in Vancouver",
+    meta_description: "Get the best virtual assistant services in Vancouver. Wishup provides virtual or remote assistants in Vancouver from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Vancouver Virtual Assistant Services | Hire Remote Assistants in Vancouver",
+    og_description: "Save time with our Virtual Assistant Services in Vancouver! Wishup pioneers in providing virtual assistant or remote assistant services in Vancouver.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  seattle: {
+    name: "Seattle",
+    cover: "url('https://images.unsplash.com/photo-1469321461812-afeb94496b27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80')",
+    meta_title: "Best Virtual Assistants in Seattle, Virtual Assistant Services in Seattle",
+    meta_description: "Get the best virtual assistant services in Seattle. Wishup provides virtual or remote assistants in Seattle from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Seattle Virtual Assistant Services | Hire Remote Assistants in Seattle",
+    og_description: "Save time with our Virtual Assistant Services in Seattle! Wishup pioneers in providing virtual assistant or remote assistant services in Seattle.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  uk: {
+    name: "UK",
+    cover: "url('https://images.unsplash.com/photo-1508711046474-2f4c2d3d30ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in UK, Virtual Assistant Services in UK",
+    meta_description: "Get the best virtual assistant services in UK. Wishup provides virtual or remote assistants in UK from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "UK Virtual Assistant Services | Hire Remote Assistants in UK",
+    og_description: "Save time with our Virtual Assistant Services in UK! Wishup pioneers in providing virtual assistant or remote assistant services in UK.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  london: {
+    name: "London",
+    cover: "url('https://images.unsplash.com/photo-1508711046474-2f4c2d3d30ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in London, Virtual Assistant Services in London",
+    meta_description: "Get the best virtual assistant services in London. Wishup provides virtual or remote assistants in London from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "London Virtual Assistant Services | Hire Remote Assistants in London",
+    og_description: "Save time with our Virtual Assistant Services in London! Wishup pioneers in providing virtual assistant or remote assistant services in London.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  berlin: {
+    name: "Berlin",
+    cover: "url('https://images.unsplash.com/photo-1534595277048-5eefc67087f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')",
+    meta_title: "Best Virtual Assistants in Berlin, Virtual Assistant Services in Berlin",
+    meta_description: "Get the best virtual assistant services in Berlin. Wishup provides virtual or remote assistants in Berlin from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Berlin Virtual Assistant Services | Hire Remote Assistants in Berlin",
+    og_description: "Save time with our Virtual Assistant Services in Berlin! Wishup pioneers in providing virtual assistant or remote assistant services in Berlin.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  paris: {
+    name: "Paris",
+    cover: "url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80')",
+    meta_title: "Best Virtual Assistants in Paris, Virtual Assistant Services in Paris",
+    meta_description: "Get the best virtual assistant services in Paris. Wishup provides virtual or remote assistants in Paris from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Paris Virtual Assistant Services | Hire Remote Assistants in Paris",
+    og_description: "Save time with our Virtual Assistant Services in Paris! Wishup pioneers in providing virtual assistant or remote assistant services in Paris.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  dublin: {
+    name: "Dublin",
+    cover: "url('https://images.unsplash.com/photo-1488155436641-58ef42fcc44e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80')",
+    meta_title: "Best Virtual Assistants in Dublin, Virtual Assistant Services in Dublin",
+    meta_description: "Get the best virtual assistant services in Dublin. Wishup provides virtual or remote assistants in Dublin from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Dublin Virtual Assistant Services | Hire Remote Assistants in Dublin",
+    og_description: "Save time with our Virtual Assistant Services in Dublin! Wishup pioneers in providing virtual assistant or remote assistant services in Dublin.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  dubai: {
+    name: "Dubai",
+    cover: "url('https://images.unsplash.com/photo-1522384731535-d1ccd4345321?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1544&q=80')",
+    meta_title: "Best Virtual Assistants in Dubai, Virtual Assistant Services in Dubai",
+    meta_description: "Get the best virtual assistant services in Dubai. Wishup provides virtual or remote assistants in Dubai from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Dubai Virtual Assistant Services | Hire Remote Assistants in Dubai",
+    og_description: "Save time with our Virtual Assistant Services in Dubai! Wishup pioneers in providing virtual assistant or remote assistant services in Dubai.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  abudhabhi: {
+    name: "Abu Dhabhi",
+    cover: "url('https://images.unsplash.com/photo-1510773011259-71baf5d72aea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1264&q=80')",
+    meta_title: "Best Virtual Assistants in Abu Dhabhi, Virtual Assistant Services in Abu Dhabhi",
+    meta_description: "Get the best virtual assistant services in Abu Dhabhi. Wishup provides virtual or remote assistants in Abu Dhabhi from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Abu Dhabhi Virtual Assistant Services | Hire Remote Assistants in Abu Dhabhi",
+    og_description: "Save time with our Virtual Assistant Services in Abu Dhabhi! Wishup pioneers in providing virtual assistant or remote assistant services in Abu Dhabhi.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  singapore: {
+    name: "Singapore",
+    cover: "url('https://images.unsplash.com/photo-1493540554008-8e3008329feb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Singapore, Virtual Assistant Services in Singapore",
+    meta_description: "Get the best virtual assistant services in Singapore. Wishup provides virtual or remote assistants in Singapore from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Singapore Virtual Assistant Services | Hire Remote Assistants in Singapore",
+    og_description: "Save time with our Virtual Assistant Services in Singapore! Wishup pioneers in providing virtual assistant or remote assistant services in Singapore.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  sydney: {
+    name: "Sydney",
+    cover: "url('https://images.unsplash.com/photo-1532984601283-d68a3ee3e51f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1964&q=80')",
+    meta_title: "Best Virtual Assistants in Sydney, Virtual Assistant Services in Sydney",
+    meta_description: "Get the best virtual assistant services in Sydney. Wishup provides virtual or remote assistants in Sydney from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Sydney Virtual Assistant Services | Hire Remote Assistants in Sydney",
+    og_description: "Save time with our Virtual Assistant Services in Sydney! Wishup pioneers in providing virtual assistant or remote assistant services in Sydney.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  hongkong: {
+    name: "Hong Kong",
+    cover: "url('https://images.unsplash.com/photo-1517144447511-aebb25bbc5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Hong Kong, Virtual Assistant Services in Hong Kong",
+    meta_description: "Get the best virtual assistant services in Hong Kong. Wishup provides virtual or remote assistants in Hong Kong from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Hong Kong Virtual Assistant Services | Hire Remote Assistants in Hong Kong",
+    og_description: "Save time with our Virtual Assistant Services in Hong Kong! Wishup pioneers in providing virtual assistant or remote assistant services in Hong Kong.  +Professional Assistants +Customer Support Available",
+    description: ""
+  },
+  shanghai: {
+    name: "Shanghai",
+    cover: "url('https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
+    meta_title: "Best Virtual Assistants in Shanghai, Virtual Assistant Services in Shanghai",
+    meta_description: "Get the best virtual assistant services in Shanghai. Wishup provides virtual or remote assistants in Shanghai from every domain be it medical, real estate, marketing, finance or anything. +Highly Qualified Professionals +Customer Support Available",
+    og_title: "Shanghai Virtual Assistant Services | Hire Remote Assistants in Shanghai",
+    og_description: "Save time with our Virtual Assistant Services in Shanghai! Wishup pioneers in providing virtual assistant or remote assistant services in Shanghai.  +Professional Assistants +Customer Support Available",
+    description: ""
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (data);
+
+/***/ }),
+
+/***/ "./pages/location/index.js":
+/*!*********************************!*\
+  !*** ./pages/location/index.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style.css */ "./pages/location/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _src_components_Form__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../src/components/Form */ "./src/components/Form/index.js");
+/* harmony import */ var _services_location__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../services/location */ "./services/location.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./data */ "./pages/location/data.js");
+/* harmony import */ var _src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../src/components/MainComponents/Pricing */ "./src/components/MainComponents/Pricing/index.js");
+/* harmony import */ var _src_components_MainComponents_VAsList__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../src/components/MainComponents/VAsList */ "./src/components/MainComponents/VAsList/index.js");
+/* harmony import */ var _src_components_MainComponents_Testimonial__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../src/components/MainComponents/Testimonial */ "./src/components/MainComponents/Testimonial/index.js");
+/* harmony import */ var _src_components_MainComponents_TasksList__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../src/components/MainComponents/TasksList */ "./src/components/MainComponents/TasksList/index.js");
+/* harmony import */ var _src_components_HeadBar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../src/components/HeadBar */ "./src/components/HeadBar/index.js");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! next-server/head */ "next-server/head");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _index_style_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../index/style.css */ "./pages/index/style.css");
+/* harmony import */ var _index_style_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_index_style_css__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _src_components_Footer__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../src/components/Footer */ "./src/components/Footer/index.js");
 
 
 
@@ -3303,32 +3544,72 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var PricingPage =
+
+
+var LocationPage =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(PricingPage, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(LocationPage, _Component);
 
-  function PricingPage(props) {
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(LocationPage, null, [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var query = _ref.query;
+      this.query = {
+        query: query
+      };
+      console.log(query.name);
+      return {
+        query: query
+      };
+    }
+  }]);
+
+  function LocationPage(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, PricingPage);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, LocationPage);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(PricingPage).call(this, props));
-    _this.next = _this.next.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this)));
-    _this.previous = _this.previous.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this)));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_2__["default"])(LocationPage).call(this, props));
+    _this.next = _this.next.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this)));
+    _this.previous = _this.previous.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this)));
     _this.state = {
-      show: false,
-      price: Object(_src_services_location__WEBPACK_IMPORTED_MODULE_12__["default"])(),
-      slide_no: 4
+      width: 0,
+      height: 0,
+      price: Object(_services_location__WEBPACK_IMPORTED_MODULE_9__["default"])()
     };
+    console.log(_this.props.query);
+    _this.type = _this.props.query.name;
+
+    if (!_this.type) {
+      _this.type = 'home';
+    }
+
+    _this.updateWindowDimensions = _this.updateWindowDimensions.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this)));
+    _this.type = _this.type.replace('undefined', '');
+    _this.type = _this.type.replace('-virtual-assistants', '');
+    _this.type = _this.type.replace('-', '');
+    _this.data = _data__WEBPACK_IMPORTED_MODULE_10__["default"];
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(PricingPage, [{
-    key: "changeState",
-    value: function changeState(no) {
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(LocationPage, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.updateWindowDimensions();
+      window.addEventListener('resize', this.updateWindowDimensions);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+  }, {
+    key: "updateWindowDimensions",
+    value: function updateWindowDimensions() {
       this.setState({
-        slide_no: this.state.slide_no + no
+        width: window.innerWidth,
+        height: window.innerHeight
       });
     }
   }, {
@@ -3342,477 +3623,495 @@ function (_Component) {
       this.slider.slickPrev();
     }
   }, {
-    key: "selectPlan",
-    value: function selectPlan(plan) {
-      localStorage.setItem('plan', plan);
-      window.location.replace("/");
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.setState({
-        price: Object(_src_services_location__WEBPACK_IMPORTED_MODULE_12__["default"])()
-      });
-      this.setState({
-        country: window.country
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
-      var that = this;
       var settings = {
         dots: false,
-        infinite: false,
-        slidesToShow: 4,
+        infinite: true,
+        slidesToShow: this.state.width < 550 ? 1 : this.state.width < 850 ? 2 : 4,
         slidesToScroll: 1,
-        autoplay: false,
-        initialSlide: 3,
+        autoplay: true,
         autoplaySpeed: 2000,
-        pauseOnHover: true,
-        afterChange: function afterChange(index) {
-          _this2.setState({
-            slide_no: index
-          });
-        }
+        pauseOnHover: true
       };
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_13___default.a, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", null, "Wishup"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "location"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_16___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", null, "Wishup"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
         integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
         crossOrigin: "anonymous"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         rel: "stylesheet",
         type: "text/css",
         charset: "UTF-8",
         href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         rel: "stylesheet",
         type: "text/css",
         href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("script", {
         src: "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("script", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("script", {
         src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
         integrity: "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",
         crossOrigin: "anonymous"
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_src_components_HeadBar__WEBPACK_IMPORTED_MODULE_14__["default"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "pricing"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_src_components_GraphicHeader__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        title: "Plans & Pricing",
-        description: "Flexible monthly plans to fit any workload",
-        image: "url(\"/static/assets/resources/pricing/pricing-background.png\")"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row grey"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_HeadBar__WEBPACK_IMPORTED_MODULE_15__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "new-cover",
+        style: {
+          backgroundImage: this.data[this.type].cover
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "wishup-container"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plans-bar"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-plans"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Super Employee"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "10 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(200 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.super), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card",
-        onClick: function onClick() {
-          _this2.selectPlan("full");
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Full Employee"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "8 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(160 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.full), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: this.state.show ? "hidden" : "button-container"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "button",
-        onClick: function onClick() {
-          _this2.setState({
-            show: true
-          });
-        }
-      }, "Show all plans")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: this.state.show ? "" : "hidden"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card",
-        onClick: function onClick() {
-          _this2.selectPlan("hald");
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Half Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "4 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(80 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.half), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name",
-        onClick: function onClick() {
-          _this2.selectPlan("economy");
-        }
-      }, "Econonmy Employee"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "3 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(60 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.economy), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card",
-        onClick: function onClick() {
-          _this2.selectPlan("quarter");
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Quarter Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "2 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(40 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.quarter), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card",
-        onClick: function onClick() {
-          _this2.selectPlan("mini");
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Mini Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "1.5 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(30 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.mini), " / month")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mobile-card",
-        onClick: function onClick() {
-          _this2.selectPlan("trial");
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-name"
-      }, "Trial"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-details"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "10 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(10 hrs)")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.trial), " / month")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row slider"
-      }, this.state.slide_no >= 1 ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
-        className: " previous",
-        onClick: this.previous
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/previous-icon.png",
-        height: "45px"
-      })) : '', this.state.slide_no >= 3 ? '' : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
-        className: " next",
-        onClick: this.next
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/next-icon.png",
-        height: "45px"
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_11___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-        ref: function ref(c) {
-          return _this2.slider = c;
-        }
-      }, settings), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 1
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "One Week Trial"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A warm up plan to give you the feel of things and get you started!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.trial), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "10 hrs"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "(10 hrs)"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("trial");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 2
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Mini Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A plan designed for smaller, recurring tasks"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.mini), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "1.5 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 30 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("mini");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 3
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Quarter Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A plan crafted  for busy entrepreneurs for  recurrent, small projects"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.quarter), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "2 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 40 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("quarter");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 4
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Economy Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A plan crafted  for start-ups for recurrent long-term tasks"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.economy), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "3 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 60 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("economy");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 4
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Half Assistant"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A plan customised for anyone looking for greater assistance!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.half), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "4 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 80 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("half");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 5
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Full Employee"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A full-fledged plan meant for full-time assistance for mid-sized teams."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.full), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "8 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 160 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("full");
-        }
-      }, "Sign Up"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-3",
-        key: 6
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-card"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-type"
-      }, "Super Employee"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-description"
-      }, "A plan crafted  for start-ups for recurrent long-term tasks"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-price"
-      }, this.state.price.image ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: this.state.price.sign,
-        height: "13px"
-      }) : this.state.price.sign, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "plan-amount"
-      }, this.state.price.super), " / month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hours"
-      }, "10 hrs/ Day"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-hoursinmonth"
-      }, "Up to 200 Hrs/month"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-button",
-        onClick: function onClick() {
-          _this2.selectPlan("super");
-        }
-      }, "Sign Up")))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "help-info"
-      }, "Need multiple employees? Contact us at ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        href: "mailto:sales@wishup.com"
-      }, " sales@wishup.co"))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "pricing-section"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-7"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "cover-info"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+        className: "wishup-tagline"
+      }, this.data[this.type].name, " Virtual Assistant Services"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "wishup-desc"
+      }, "Virtual Employees for Entrepreneurs,", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), "Small Teams and Businesses."))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-5"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_Form__WEBPACK_IMPORTED_MODULE_8__["default"], null)))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "grow-business-bar"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "wishup-container"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "All Plans included"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "red-strip"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-sm-6 center desktop-only"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/thinking.png",
+        width: "80%"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-sm-6"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "grow-description"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", null, "Based in ", this.data[this.type].name, " and looking for virtual assistants?"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_MainComponents_TasksList__WEBPACK_IMPORTED_MODULE_14__["default"], null))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-sm-6 center mobile-only"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/thinking.png",
+        width: "80%"
+      }))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_MainComponents_Testimonial__WEBPACK_IMPORTED_MODULE_13__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "super-highlight-bar"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-sm-5 super-highlight-box"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-sm-7 green-highlight-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "wishup-container"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", null, "What are Virtual Assistants?"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "highlight-description"
+      }, "Virtual assistants are remote workers using digital technologies who double up as your research assistant, social media manager, bookkeeper and accountant, travel and administrative assistant and email and workflow experts. Virtual assistants handle reports, minutes, analytics, facts and figures. They also have offer research, social media and email management and a whole lot of other competencies. Basically, virtual assistants carry out every task you need to keep your business in order without compromising on cost efficiency"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "button"
+      }, "Get Started"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "wishup-container location-va-type"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        className: "first-heading"
+      }, "Looking for the right support for your business or professional practice?"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "red-strip desktop-only"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "mobile-bar"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "description first-description"
+      }, "You definitely need the best virtual assistant for all your time consuming, mundane tasks. Toronto businesses are growing rapidly and if you need a virtual assistant who can keep up, hire Wishup\u2019s qualified, experienced and trained virtual assistants.", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), "Choosing the right virtual assistant for the job is important. Saving effort, time or money while hiring a best virtual assistant with Wishup. Wishup is your full-service virtual assistant provider providing dedicated solutions for business and professional practices. Now, grow your business or professional practice with our skilled, experienced and qualified virtual assistants to give your business the winning edge."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "container wishup-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-md-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/resources/pricing/tick.png",
-        height: "55px"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-feature"
-      }, "Well-trained and 5+ years experienced professionals")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-administritive-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/Add document.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Administrative and Executive Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-md-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/resources/pricing/9-5.png",
-        height: "55px"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-feature"
-      }, "Account Manager to troubleshoot problems with VE")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-socialmedia-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/socialmedia.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Social Media Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-md-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/resources/pricing/chat.png",
-        height: "55px"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-feature"
-      }, "Direct communication via Phone, Email and Direct Messages.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/lead.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Lead generation Assistant"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-md-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: "/static/assets/resources/pricing/account-manager.png",
-        height: "55px"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "plan-feature"
-      }, "Available from Mon-Fri between 9AM to 7PM IST"))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_15__["default"], null)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_src_components_Footer__WEBPACK_IMPORTED_MODULE_16__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-research-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/research.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Research Assistant"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-bookkeeping-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/bookkeeping.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Bookkeeping Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-email-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/mail.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Email Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-hiring-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/hiring.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Hiring Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/realestate.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Real Estate Assistant")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-md-3 col-sm-offset-5"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "/hire-travel-assistant"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "what-we-do-card"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icon-box"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "/static/assets/resources/icons/travel.png",
+        height: "50px"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "task-title"
+      }, "Travel Assistant"))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_MainComponents_Pricing__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_MainComponents_VAsList__WEBPACK_IMPORTED_MODULE_12__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_src_components_Footer__WEBPACK_IMPORTED_MODULE_18__["default"], null));
     }
   }]);
 
-  return PricingPage;
-}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+  return LocationPage;
+}(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (PricingPage);
+/* harmony default export */ __webpack_exports__["default"] = (LocationPage);
 
 /***/ }),
 
-/***/ "./pages/pricing/style.css":
-/*!*********************************!*\
-  !*** ./pages/pricing/style.css ***!
-  \*********************************/
+/***/ "./pages/location/style.css":
+/*!**********************************!*\
+  !*** ./pages/location/style.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./services/location.js":
+/*!******************************!*\
+  !*** ./services/location.js ***!
+  \******************************/
+/*! exports provided: getPricing, getTiming, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPricing", function() { return getPricing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getTiming", function() { return getTiming; });
+/* harmony import */ var _server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./server */ "./services/server.js");
+/*
+Date : 5 Dec 2018
+Parameters : endpoint, requestData
+Description - Fetches the location from request data received and pass it components
+*/
+
+var data = {
+  US: {
+    'trial': 125,
+    'mini': 359,
+    'quarter': 449,
+    'economy': 649,
+    'half': 799,
+    'full': 1299,
+    'super': 1499,
+    'sign': '/assets/svg/dollar.svg',
+    'whitesign': '/assets/svg/dollar-white.svg',
+    'image': true
+  },
+  IN: {
+    'trial': 4999,
+    'mini': 12699,
+    'quarter': 15999,
+    'economy': 20999,
+    'half': 26999,
+    'full': 49999,
+    'super': 59999,
+    'sign': '/assets/svg/rupee.svg',
+    'whitesign': '/assets/svg/rupee-white.svg',
+    'image': true
+  },
+  UK: {
+    'trial': 89,
+    'mini': 239,
+    'quarter': 299,
+    'economy': 449,
+    'half': 549,
+    'full': 899,
+    'super': 999,
+    'sign': '/assets/svg/pound.svg',
+    'whitesign': '/assets/svg/pound-white.svg',
+    'image': true
+  },
+  EUROPE: {
+    'trial': 89,
+    'mini': 239,
+    'quarter': 299,
+    'economy': 449,
+    'half': 549,
+    'full': 899,
+    'super': 999,
+    'sign': '/assets/svg/euro.svg',
+    'whitesign': '/assets/svg/euro-white.svg',
+    'image': true
+  },
+  OTHER: {
+    'trial': 89,
+    'mini': 239,
+    'quarter': 299,
+    'economy': 449,
+    'half': 549,
+    'full': 899,
+    'super': 999,
+    'sign': '/assets/svg/dollar.svg',
+    'whitesign': '/assets/svg/dollar-white.svg',
+    'image': true
+  }
+};
+var getPricing = function getPricing() {
+  // sendRequest('/get_location','').then((result)=>{
+  //     return data[result.country];
+  // }).catch(()=>{
+  //     console.log("Error in fetching the resources");
+  // })
+  return data['US'];
+};
+var getTiming = function getTiming() {
+  Object(_server__WEBPACK_IMPORTED_MODULE_0__["default"])('/get_location', '').then(function (result) {
+    return result.country !== "IN" ? 'Mon - Fri from 9 am to 6 pm EST' : 'Mon - Fri from 9 am to 6 pm IST';
+  }).catch(function () {
+    console.log("Error in fetching the resources");
+  });
+  return 'Mon - Fri from 9 am to 6 pm EST';
+};
+/* harmony default export */ __webpack_exports__["default"] = (getPricing);
+
+/***/ }),
+
+/***/ "./services/server.js":
+/*!****************************!*\
+  !*** ./services/server.js ***!
+  \****************************/
+/*! exports provided: sendRequest, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sendRequest", function() { return sendRequest; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/*
+Date : 5 Dec 2018
+Parameters : endpoint, requestData
+Description - Service to interact with server and fetch the data by calling an API.
+*/
+var serverURI = 'https://revamp.wishup.co/server';
+var sendRequest = function sendRequest(endpoint, requestData) {
+  return new _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function () {
+    resolve(2);
+  }); // return fetch(serverURI + endpoint, {
+  //     method: 'POST',
+  //     body: JSON.stringify(requestData),
+  //     headers: {
+  //         Authorization: 'Bearer ' + localStorage.getItem('token'),
+  //         'Content-type': 'application/json',
+  //     },
+  //     credentials: 'same-origin',
+  // })
+  //     .then(response => response.json())
+  //     .then((data) => {
+  //         return data;
+  //     })
+  //     .catch((error) => {
+  //         console.error(error);
+  //         // Handle the error by explicit method, if required by application.
+  //     });
+};
+/* harmony default export */ __webpack_exports__["default"] = (sendRequest);
+
+/***/ }),
+
+/***/ "./src/components/CustomInput/index.js":
+/*!*********************************************!*\
+  !*** ./src/components/CustomInput/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style.css */ "./src/components/CustomInput/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_icons_kit_fa_chevronDown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-icons-kit/fa/chevronDown */ "react-icons-kit/fa/chevronDown");
+/* harmony import */ var react_icons_kit_fa_chevronDown__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_icons_kit_fa_chevronDown__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_icons_kit_fa_chevronUp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-icons-kit/fa/chevronUp */ "react-icons-kit/fa/chevronUp");
+/* harmony import */ var react_icons_kit_fa_chevronUp__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_icons_kit_fa_chevronUp__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/CustomInput/index.js";
+
+
+
+
+
+var CustomInput =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CustomInput, _Component);
+
+  function CustomInput(props) {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CustomInput);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CustomInput).call(this, props));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CustomInput, [{
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      var that = this;
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: this.props.size === "half" ? "half mainInput" : "mainInput",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mainInputContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("label", {
+        className: "label",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
+        className: this.props.size === "half" ? "inputText" : "inputText",
+        name: this.props.id,
+        placeholder: this.props.label,
+        value: this.props.data,
+        type: this.props.type ? this.props.type : "text",
+        onChange: function onChange(event) {
+          _this.props.changeValue(_this.props.id, event.target.value);
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }))));
+    }
+  }]);
+
+  return CustomInput;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (CustomInput);
+
+/***/ }),
+
+/***/ "./src/components/CustomInput/style.css":
+/*!**********************************************!*\
+  !*** ./src/components/CustomInput/style.css ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4665,130 +4964,362 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/GraphicHeader/index.css":
-/*!************************************************!*\
-  !*** ./src/components/GraphicHeader/index.css ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/components/GraphicHeader/index.js":
-/*!***********************************************!*\
-  !*** ./src/components/GraphicHeader/index.js ***!
-  \***********************************************/
+/***/ "./src/components/Form/index.js":
+/*!**************************************!*\
+  !*** ./src/components/Form/index.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.css */ "./src/components/GraphicHeader/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../styles/index.css */ "./src/styles/index.css");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _CustomInput__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../CustomInput */ "./src/components/CustomInput/index.js");
+/* harmony import */ var react_icons_kit_ionicons_loop__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-icons-kit/ionicons/loop */ "react-icons-kit/ionicons/loop");
+/* harmony import */ var react_icons_kit_ionicons_loop__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_icons_kit_ionicons_loop__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./style.css */ "./src/components/Form/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _services_server_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../services/server.js */ "./src/services/server.js");
 
 
 
 
 
-var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/GraphicHeader/index.js";
 
 
 
-var GraphicHeader =
+
+
+
+
+ // import IntlTelInput from 'react-intl-tel-input';
+
+var Form =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(GraphicHeader, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Form, _Component);
 
-  function GraphicHeader() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, GraphicHeader);
+  function Form(props) {
+    var _this;
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(GraphicHeader).apply(this, arguments));
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Form);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Form).call(this, props));
+    _this.state = {
+      email: '',
+      phone: '',
+      action: '',
+      state: props.type ? props.type : 'initial',
+      selectedTags: [],
+      otherTag: false,
+      newtag: ''
+    };
+    _this.tags = ['Social', 'Task'];
+    return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(GraphicHeader, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Form, [{
+    key: "loadState",
+    value: function loadState() {
+      this.setState(JSON.parse(localStorage.getItem('data')));
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      localStorage.setItem('data', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(this.state));
+    }
+  }, {
+    key: "next",
+    value: function next() {
+      var that = this;
+      var plan = localStorage.getItem('plan');
+      var data = {
+        first_name: this.state.first_name,
+        last_name: this.state.last_name,
+        email: this.state.email,
+        phone: this.state.phone,
+        plan: plan ? plan : ''
+      };
+      console.log(data);
+
+      if (this.state.action === "become-va") {
+        if (data.email && data.phone && data.first_name && data.last_name) {
+          this.changeState("va");
+        } else {
+          this.setState({
+            error: "Please enter all the data"
+          });
+        }
+      } else {
+        if (!this.state.first_name || !this.state.email || !this.state.phone) {
+          that.setState({
+            error: "Please enter all the field accordingly"
+          });
+          return;
+        }
+
+        var http = new XMLHttpRequest();
+        var url = 'https://prod.wishup.in/user/requestConsultation';
+        var params = 'name=' + this.state.first_name + " " + this.state.last_name + '&country_name=' + '&email=' + this.state.email + '&phone=' + this.state.phone + "&sourceLead='wishup'&undefined='TALK TTO US'";
+        http.open('POST', url, true); //Send the proper header information along with the request
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function () {
+          //Call a function when the state changes.
+          if (http.readyState == 4 && http.status == 200) {
+            that.changeState("done");
+          } else {
+            that.setState({
+              error: "Please enter all the field accordingly"
+            });
+          }
+        };
+
+        http.send(params); // console.log(response);
+        //
+        // var response = oldRequest(this.state.first_name+" "+this.state.last_name,this.state.email,this.state.phone,'');
+        //     if(response.status==="success"){
+        //     this.changeState("done");
+        //     }
+        //     else{
+        //         this.setState({error: "Please enter all the field accordingly"});
+        //     }
+        // sendRequest('/controller/client_lead.php',data).then((data)=>{
+        //     if(data.status===200){
+        //     this.changeState("done");
+        //     }
+        //     else{
+        //         this.setState({error: data.message});
+        //     }
+        // });
+      }
+    }
+  }, {
+    key: "redirect",
+    value: function redirect() {
+      window.location.replace("/dashboard");
+    }
+  }, {
+    key: "changeState",
+    value: function changeState(state) {
+      localStorage.setItem('data', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(this.state));
+      this.setState({
+        state: state
+      });
+    }
+  }, {
+    key: "changeValue",
+    value: function changeValue(id, value) {
+      var obj = {};
+      obj[id] = value;
+      this.setState(obj);
+    }
+  }, {
+    key: "clientSubmit",
+    value: function clientSubmit() {
+      var _this2 = this;
+
+      var data = {
+        name: this.state.name,
+        email: this.state.email,
+        phone: this.state.phone
+      };
+      Object(_services_server_js__WEBPACK_IMPORTED_MODULE_12__["sendRequest"])('/controller/client_lead.php', data).then(function (data) {
+        if (data.status === 200) {
+          _this2.changeState("tags");
+        } else {
+          _this2.setState({
+            error: data.message
+          });
+        }
+      });
+    }
+  }, {
+    key: "vaSubmit",
+    value: function vaSubmit() {
+      var _this3 = this;
+
+      var data = {
+        first_name: this.state.first_name,
+        last_name: this.state.last_name,
+        email: this.state.email,
+        phone: this.state.phone,
+        location: this.state.location,
+        qualification: this.state.qualification,
+        experience: this.state.experience,
+        skills: this.state.skills,
+        more: this.state.more
+      };
+      Object(_services_server_js__WEBPACK_IMPORTED_MODULE_12__["sendRequest"])('/controller/va_lead.php', data).then(function (data) {
+        if (data.status === 200) {
+          _this3.changeState("va-done");
+        }
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this4 = this;
+
       //<Link to='/'>Home</Link>
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "graphic-header",
-        style: {
-          backgroundImage: this.props.image
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "opaque-mask",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "graphic-header-content",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, this.props.type == "small" ? react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, this.props.title) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, this.props.title)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, this.props.description))))));
+      var that = this;
+
+      var handler = function handler(status, value, countryData, number, id) {
+        _this4.setState({
+          phone: number
+        });
+      };
+
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "new-form"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "mainContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "inputContainer col-sm-12",
+        name: "onboarding"
+      }, this.state.state === 'initial' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Get Started"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "name-bar"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "First Name",
+        type: "text",
+        size: "half",
+        id: "first_name",
+        data: this.state.first_name,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Last Name",
+        size: "half",
+        type: "text",
+        id: "last_name",
+        data: this.state.last_name,
+        changeValue: this.changeValue.bind(this)
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "name-bar"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Email Address",
+        type: "email",
+        id: "email",
+        data: this.state.email,
+        changeValue: this.changeValue.bind(this)
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "name-bar phone"
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", null, "What are you looking for?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "radio-group"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        className: "container",
+        onClick: function onClick() {
+          _this4.setState({
+            action: 'hire-va'
+          });
+        }
+      }, "Hire a Virtual employee", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "radio",
+        checked: this.state.action == "hire-va" || !this.state.action ? "checked" : "",
+        name: "radio"
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "checkmark"
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        className: "container",
+        onClick: function onClick() {
+          _this4.setState({
+            action: 'become-va'
+          });
+        }
+      }, "I want to work", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        type: "radio",
+        name: "radio",
+        checked: this.state.action == "become-va" ? "checked" : ""
+      }, "name", "radio")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "checkmark"
+      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "error"
+      }, this.state.error), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "buttonsContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "button-cta",
+        onClick: function onClick() {
+          that.next();
+        }
+      }, "Get Started"))) : '', this.state.state === 'va' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "More Details"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Based out of",
+        type: "text",
+        id: "location",
+        data: this.state.location,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Your highest qualification",
+        type: "text",
+        id: "qualification",
+        data: this.state.qualification,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Total work experience",
+        type: "text",
+        id: "experience",
+        data: this.state.experience,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Skills",
+        type: "text",
+        id: "skills",
+        data: this.state.skills,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_CustomInput__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        label: "Tell us more about you",
+        type: "text",
+        id: "more",
+        data: this.state.more,
+        changeValue: this.changeValue.bind(this)
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "error"
+      }, this.state.error), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "buttonsContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "button-cta",
+        onClick: function onClick() {
+          _this4.vaSubmit();
+        }
+      }, "Submit"))) : '', this.state.state === 'va-done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, "We have succesfully received your details. Will contact you in next 3-4 days.")) : '', this.state.state === 'done' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "heading"
+      }, "Thank you"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, "We have succesfully received your details. Will contact you in next 24 hours.")) : ''))));
     }
   }]);
 
-  return GraphicHeader;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+  return Form;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (GraphicHeader);
+/* harmony default export */ __webpack_exports__["default"] = (Form);
+
+/***/ }),
+
+/***/ "./src/components/Form/style.css":
+/*!***************************************!*\
+  !*** ./src/components/Form/style.css ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -5084,6 +5615,1291 @@ function (_Component) {
 
 /***/ }),
 
+/***/ "./src/components/MainComponents/TasksList/index.js":
+/*!**********************************************************!*\
+  !*** ./src/components/MainComponents/TasksList/index.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./testimonial.css */ "./src/components/MainComponents/TasksList/testimonial.css");
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_testimonial_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _services_location__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../services/location */ "./src/services/location.js");
+
+
+
+
+
+var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/MainComponents/TasksList/index.js";
+
+
+
+
+var TasksList =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(TasksList, _Component);
+
+  function TasksList() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, TasksList);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(TasksList).call(this));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(TasksList, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "description",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mobile-bar",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), "Do you think your business would soar if you got the right assistance? Struggling to check tasks off your to-do list? Your Virtual Employee is trained and ready to handle recurrent and specialized tasks. Try us!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "service-list",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-administritive-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Administrative tasks")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-socialmedia-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Social Media")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-research-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "Online Research")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, "Invoicing and Payments")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-ecommerce-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Ecommerce assistant")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+        className: "second-ul",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "Project Management")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-email-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, "E-mail Management")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-bookkeeping-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Bookkeeping")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/hire-personal-assistant",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Personal tasks")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/what-we-do",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "So much more")))))));
+    }
+  }]);
+
+  return TasksList;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (TasksList);
+
+/***/ }),
+
+/***/ "./src/components/MainComponents/TasksList/testimonial.css":
+/*!*****************************************************************!*\
+  !*** ./src/components/MainComponents/TasksList/testimonial.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/components/MainComponents/Testimonial/index.js":
+/*!************************************************************!*\
+  !*** ./src/components/MainComponents/Testimonial/index.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./testimonial.css */ "./src/components/MainComponents/Testimonial/testimonial.css");
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_testimonial_css__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/MainComponents/Testimonial/index.js";
+
+
+
+var Testimonial =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Testimonial, _Component);
+
+  function Testimonial() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Testimonial);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Testimonial).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Testimonial, [{
+    key: "render",
+    value: function render() {
+      //<Link to='/'>Home</Link>
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "testimonial-section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "wishup-container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, "Unbelievable? Read to Believe"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "red-strip",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "description",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mobile-bar",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), "Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don\u2019t believe it? ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "/testimonial",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, " Read what people have to say")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row ",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-4",
+        key: 1,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc mobile-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/pranay.jpeg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, " Pranay Gupta"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/pranayg/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, " Co-Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, " 91Springboards"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "I have been using the services of a Virtual assistant from Wishup for few months now and I must say they are professional, trustworthy and highly competent."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc desktop-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/pranay.jpeg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info desktop-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, " Pranay Gupta"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/pranayg/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, " Co-Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, " 91Springboards")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-4",
+        key: 2,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc mobile-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/manan.jpeg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }, " Manan Shah", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/mananshah212/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, " Co-Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, " Recruiter Flow"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        },
+        __self: this
+      }, "We've had a great experience working with Upasana and WIshup. I can not recommend it enough for anyone looking for a talented freelancer to accelerate your growth."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc desktop-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/manan.jpeg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }, " Manan Shah", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/mananshah212/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        },
+        __self: this
+      }, " Co-Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        },
+        __self: this
+      }, " Recruiter Flow")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-sm-4",
+        key: 3,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc mobile-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/Farhan.jpg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        },
+        __self: this
+      }, "Farhan Ahmed", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/farhad-ahmed-240227144/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }, " Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }, " Confetti Holdings"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, "I have been using the services of Wishup for close to half a year now and I truly feel this is one of the best investments I have made."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-desc desktop-only",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/Farhan.jpg",
+        height: "55px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "profile-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116
+        },
+        __self: this
+      }, "Farhan Ahmed", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/farhad-ahmed-240227144/",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/assets/linkedin-button.svg",
+        height: "15px",
+        className: "linkedin",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "position",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122
+        },
+        __self: this
+      }, " Founder"), ",", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "company-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122
+        },
+        __self: this
+      }, " Confetti Holdings")))))));
+    }
+  }]);
+
+  return Testimonial;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Testimonial);
+
+/***/ }),
+
+/***/ "./src/components/MainComponents/Testimonial/testimonial.css":
+/*!*******************************************************************!*\
+  !*** ./src/components/MainComponents/Testimonial/testimonial.css ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/components/MainComponents/VAsList/index.js":
+/*!********************************************************!*\
+  !*** ./src/components/MainComponents/VAsList/index.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./testimonial.css */ "./src/components/MainComponents/VAsList/testimonial.css");
+/* harmony import */ var _testimonial_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_testimonial_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _services_location__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../services/location */ "./src/services/location.js");
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/MainComponents/VAsList/index.js";
+
+
+
+
+
+var VAsList =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(VAsList, _Component);
+
+  function VAsList(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, VAsList);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(VAsList).call(this, props));
+    _this.next = _this.next.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this)));
+    _this.previous = _this.previous.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this)));
+    _this.state = {
+      width: 0,
+      height: 0,
+      price: Object(_services_location__WEBPACK_IMPORTED_MODULE_10__["default"])()
+    };
+    _this.updateWindowDimensions = _this.updateWindowDimensions.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this)));
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(VAsList, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.updateWindowDimensions();
+      window.addEventListener('resize', this.updateWindowDimensions);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+  }, {
+    key: "updateWindowDimensions",
+    value: function updateWindowDimensions() {
+      this.setState({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    }
+  }, {
+    key: "next",
+    value: function next() {
+      this.slider.slickNext();
+    }
+  }, {
+    key: "previous",
+    value: function previous() {
+      this.slider.slickPrev();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: this.state.width < 550 ? 1 : this.state.width < 850 ? 2 : 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true
+      }; //<Link to='/'>Home</Link>
+
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "va-section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "wishup-container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "Meet Some Of our Virtual employees"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "description",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "mobile-bar",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }), "Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row slider",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+        className: " previous",
+        onClick: this.previous,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/previous-icon.png",
+        height: "45px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+        className: " next",
+        onClick: this.next,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/next-icon.png",
+        height: "45px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_9___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        ref: function ref(c) {
+          return _this2.slider = c;
+        }
+      }, settings, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-sm-3",
+        key: 1,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "round-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/va/upasana.jpg",
+        width: "100%",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, "Upasana Iyer"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-desc",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        },
+        __self: this
+      }, "Social science post graduate with 10+ yrs of writing/translating experience. Proficient with social media management, content creation, secondary research and more."))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-sm-3",
+        key: 2,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "round-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/resources/userr.png",
+        width: "100%",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }, "Shweta"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-desc",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        },
+        __self: this
+      }, "A computer science graduate with over 9 years of experience in the field of web development, web sales, e-marketing and customer relationships."))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-sm-3",
+        key: 3,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "round-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/va/swati.jpg",
+        width: "100%",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      }, "Swati"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-desc",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }, "A Software Engineer turned Virtual Assistant, now donning the hat of Training Manager at Wishup. I enjoy the variety my role offers at Wishup."))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-sm-3",
+        key: 4,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "round-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/va/saloni.jpg",
+        width: "100%",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
+        },
+        __self: this
+      }, "Saloni"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-desc",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }, "MBA Finance graduate with work experience as a wealth manager in a private sector bank. Proficient with Accounting and Gross Analysis, Email drafting, Recruitment, Management."))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-sm-3",
+        key: 5,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "round-pic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "/static/assets/va/malika.jpg",
+        width: "100%",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }, "Mallika"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "user-desc",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124
+        },
+        __self: this
+      }, "Vast experience in the aviation industry and global customer service. Proficient with social media, content generation, schedule management and more.")))))));
+    }
+  }]);
+
+  return VAsList;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (VAsList);
+
+/***/ }),
+
+/***/ "./src/components/MainComponents/VAsList/testimonial.css":
+/*!***************************************************************!*\
+  !*** ./src/components/MainComponents/VAsList/testimonial.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./src/services/location.js":
 /*!**********************************!*\
   !*** ./src/services/location.js ***!
@@ -5240,14 +7056,14 @@ var sendRequest = function sendRequest(endpoint, requestData) {
 
 /***/ }),
 
-/***/ 6:
-/*!**************************************!*\
-  !*** multi ./pages/pricing/index.js ***!
-  \**************************************/
+/***/ 4:
+/*!***************************************!*\
+  !*** multi ./pages/location/index.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/pricing/index.js */"./pages/pricing/index.js");
+module.exports = __webpack_require__(/*! ./pages/location/index.js */"./pages/location/index.js");
 
 
 /***/ }),
@@ -5307,6 +7123,17 @@ module.exports = require("react-icons-kit/fa/chevronUp");
 
 /***/ }),
 
+/***/ "react-icons-kit/ionicons/loop":
+/*!************************************************!*\
+  !*** external "react-icons-kit/ionicons/loop" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons-kit/ionicons/loop");
+
+/***/ }),
+
 /***/ "react-router-dom":
 /*!***********************************!*\
   !*** external "react-router-dom" ***!
@@ -5341,4 +7168,4 @@ module.exports = require("react-slick");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=pricing.js.map
+//# sourceMappingURL=location.js.map

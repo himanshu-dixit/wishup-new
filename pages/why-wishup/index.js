@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import '../index/style.css';
+
 import GraphicHeader from '../../src/components/GraphicHeader';
 import getPricing from "../../src/services/location";
 import MetaTags from "react-meta-tags";
@@ -8,6 +8,7 @@ import Pricing from "../../src/components/MainComponents/Pricing";
 import HeadBar from "../../src/components/HeadBar";
 import Footer from "../../src/components/Footer";
 import Head from "next/head";
+import '../index/style.css';
 
 class WhyWishup extends Component {
 
