@@ -37,10 +37,13 @@ app.prepare().then(() => {
         else if (pathname.indexOf("virtual-assistants") >= 0) {
             app.render(req, res, '/location', query)
         }
+        else if (pathname.indexOf("/testimonial/") >= 0) {
+            app.render(req, res, '/testimonials', query)
+        }
         else {
             handle(req, res, parsedUrl)
         }
-    }).listen(3000, err => {
+    }).listen(3001, err => {
         if (err) throw err
         console.log('> Ready on http://localhost:3000')
     })

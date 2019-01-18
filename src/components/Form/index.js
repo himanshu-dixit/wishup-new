@@ -4,8 +4,10 @@ import CustomInput from '../CustomInput';
 import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest,oldRequest} from '../../services/server.js';
-// import IntlTelInput from 'react-intl-tel-input';
-
+import dynamic from 'next/dynamic';
+const IntlTelInput = dynamic(import('react-intl-tel-input'), {
+    ssr: false
+});
 
 class Form extends Component {
     constructor(props) {
@@ -159,11 +161,11 @@ class Form extends Component {
                                                 <CustomInput label="Email Address"  type="email" id="email" data={this.state.email} changeValue={this.changeValue.bind(this)}/>
                                             </div>
                                             <div className="name-bar phone">
-                                                {/*<IntlTelInput*/}
-                                                    {/*onPhoneNumberChange={handler}*/}
-                                                    {/*preferredCountries={['US']}*/}
-                                                    {/*css={['intl-tel-input', 'form-control']}*/}
-                                                {/*/>*/}
+                                                <IntlTelInput
+                                                    onPhoneNumberChange={handler}
+                                                    preferredCountries={['US']}
+                                                    css={['intl-tel-input', 'form-control']}
+                                                />
                                            </div>
                                             <h4>What are you looking for?</h4>
 

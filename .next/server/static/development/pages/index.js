@@ -3,6 +3,12 @@ module.exports =
 /******/ 	// The module cache
 /******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
+/******/ 	// object to store loaded chunks
+/******/ 	// "0" means "already loaded"
+/******/ 	var installedChunks = {
+/******/ 		"static/development/pages/index.js": 0
+/******/ 	};
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/
@@ -86,9 +92,16 @@ module.exports =
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
+/******/ 	// uncaught error handler for webpack runtime
+/******/ 	__webpack_require__.oe = function(err) {
+/******/ 		process.nextTick(function() {
+/******/ 			throw err; // catch this error by using import().catch()
+/******/ 		});
+/******/ 	};
+/******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -3661,7 +3674,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/apple/Desktop/client/wishup/src/components/Footer/index.js";
 
 
 
@@ -3700,82 +3712,26 @@ function (_Component) {
 
       //<Link to='/'>Home</Link>
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        className: "footer"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "wishup-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        className: "wishup-container"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-sm-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        className: "col-sm-4"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
+        className: "footer-logo"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "static/assets/resources/logo.png",
-        height: "23px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
+        src: "/static/assets/resources/logo.png",
+        height: "23px"
       }), " wishup"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-description",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
+        className: "footer-description"
       }, "Wishup helps by taking care of all the little tasks so you can chase the higher goals. Come give us your to-do lists and instead focus on things you care."), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-sub-heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, "Subscribe"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-form-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
+        className: "footer-sub-heading"
+      }, "Subscribe"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "footer-form-text"
       }, "We'll send you updates regularly"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "subscribe_bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
+        className: "subscribe_bar"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
         action: "https://wishup.us18.list-manage.com/subscribe/post?u=1b6f68fbae24ef77d377c480f&id=1048219f9e",
         method: "post",
@@ -3783,670 +3739,197 @@ function (_Component) {
         name: "mc-embedded-subscribe-form",
         className: "validate",
         target: "_blank",
-        noValidate: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
+        noValidate: true
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", (_React$createElement = {
         className: "subscribe",
         type: "email",
         name: "EMAIL"
-      }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "className", "required email email_input"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "placeholder", "Enter your email"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "__source", {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "__self", this), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+      }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "className", "required email email_input"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(_React$createElement, "placeholder", "Enter your email"), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
         className: "subscribe_button",
         type: "submit",
         value: "Subscribe",
         name: "subscribe",
-        onClick: function onClick() {},
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        onClick: function onClick() {}
       }, "subscribe"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-sub-heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
+        className: "footer-sub-heading"
       }, "Join Us"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "social-icons",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
+        className: "social-icons"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         href: "https://www.facebook.com/WishUpNow/",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
+        target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "static/assets/facebook.png",
-        height: "23px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
+        src: "/static/assets/facebook.png",
+        height: "23px"
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         href: "https://twitter.com/wishupnow",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "static/assets/twitter.png",
-        height: "23px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
+        src: "/static/assets/twitter.png",
+        height: "23px"
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         href: "https://www.instagram.com/wishupnow/",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
+        target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "static/assets/instagram.png",
-        height: "23px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
+        src: "/static/assets/instagram.png",
+        height: "23px"
       })))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-sm-3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
+        className: "col-sm-3"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-sub-heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "Useful Links"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
+        className: "footer-sub-heading"
+      }, "Useful Links"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-research-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
+        href: "/hire-research-assistant"
       }, "Virtual Research Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-administritive-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
+        href: "/hire-administritive-assistant"
       }, " Virtual Administrative Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-travel-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
+        href: "/hire-travel-assistant"
       }, "Virtual Travel Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-socialmedia-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
+        href: "/hire-socialmedia-assistant"
       }, "Social Media Virtual Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-bookkeeping-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
+        href: "/hire-bookkeeping-assistant"
       }, "Virtual Book-Keeping Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-email-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
+        href: "/hire-email-assistant"
       }, "Virtual Email Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-personal-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
+        href: "/hire-personal-assistant"
       }, "Virtual Personal Assistant")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-hiring-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
+        href: "/hire-hiring-assistant"
       }, "Virtual Hiring Customer")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
+        className: "footer-link"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/hire-ecommerce-assistant",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
+        href: "/hire-ecommerce-assistant"
       }, "Virtual Ecommerce Customer")))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-sm-5",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        className: "col-sm-5"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-xs-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link country",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
+        className: "col-xs-4"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "footer-link country"
       }, "USA"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/dallas-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
+        href: "/location/dallas-virtual-assistants"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
+        className: "footer-link"
       }, "Dallas")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/new-york-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82
-        },
-        __self: this
+        href: "/location/new-york-virtual-assistants"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
+        className: "footer-link"
       }, "New York")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/los-angeles-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
+        href: "/location/los-angeles-virtual-assistants"
       }, "   ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
+        className: "footer-link"
       }, " Los Angeles")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/chicago-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
+        href: "/location/chicago-virtual-assistants"
       }, "   ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
+        className: "footer-link"
       }, "Chicago")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/houston-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
+        href: "/location/houston-virtual-assistants"
       }, "    ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
+        className: "footer-link"
       }, "Houston")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/san-francisco-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
+        href: "/location/san-francisco-virtual-assistants"
       }, "       ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
+        className: "footer-link"
       }, "San Francisco")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/austin-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
+        href: "/location/austin-virtual-assistants"
       }, "           ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
+        className: "footer-link"
       }, "Austin")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link country",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
+        className: "footer-link country"
       }, "Canada"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/toronto-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
+        href: "/location/toronto-virtual-assistants"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
+        className: "footer-link"
       }, "Toronto")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/vancouver-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
+        href: "/location/vancouver-virtual-assistants"
       }, "    ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
+        className: "footer-link"
       }, " Vancouver")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/seattle-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
+        href: "/location/seattle-virtual-assistants"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
+        className: "footer-link"
       }, "Seattle")))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-xs-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link country",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
+        className: "col-xs-4"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "footer-link country"
       }, "Europe"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/uk-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
+        href: "/location/uk-virtual-assistants"
       }, "   ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
+        className: "footer-link"
       }, "UK")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/london-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
+        href: "/location/london-virtual-assistants"
       }, "   ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
+        className: "footer-link"
       }, "London")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/tel-aviv-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
+        href: "/location/tel-aviv-virtual-assistants"
       }, "    ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
+        className: "footer-link"
       }, "Tel Aviv")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/berlin-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
+        href: "/location/berlin-virtual-assistants"
       }, "        ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
+        className: "footer-link"
       }, "Berlin")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/paris-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
+        href: "/location/paris-virtual-assistants"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
+        className: "footer-link"
       }, "Paris")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/dublin-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
+        href: "/location/dublin-virtual-assistants"
       }, "            ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
+        className: "footer-link"
       }, "Dublin")))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "col-xs-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link country",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        },
-        __self: this
+        className: "col-xs-4"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "footer-link country"
       }, "Asia"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/dubai-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
+        href: "/location/dubai-virtual-assistants"
       }, "   ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
+        className: "footer-link"
       }, " Dubai")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/abu-dhabi-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        },
-        __self: this
+        href: "/location/abu-dhabi-virtual-assistants"
       }, "  ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        },
-        __self: this
+        className: "footer-link"
       }, "Abu Dhabi")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/singapore-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        },
-        __self: this
+        href: "/location/singapore-virtual-assistants"
       }, "  ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        },
-        __self: this
+        className: "footer-link"
       }, "Singapore")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/sydney-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116
-        },
-        __self: this
+        href: "/location/sydney-virtual-assistants"
       }, "  ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116
-        },
-        __self: this
+        className: "footer-link"
       }, "Sydney")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/hong-kong-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
+        href: "/location/hong-kong-virtual-assistants"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
+        className: "footer-link"
       }, "Hong Kong")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        href: "/location/shanghai-virtual-assistants",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
+        href: "/location/shanghai-virtual-assistants"
       }, " ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "footer-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
+        className: "footer-link"
       }, "Shangai")))))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "sub-footer-bar",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123
-        },
-        __self: this
+        className: "sub-footer-bar"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "left-sub-footer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125
-        },
-        __self: this
-      }, "Copyright @ 2019"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
-        className: "sub-footer-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126
-        },
-        __self: this
+        className: "left-sub-footer"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", null, "Copyright @ 2019"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
+        className: "sub-footer-text"
       }, "All Right Reserved")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "right-sub-footer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 128
-        },
-        __self: this
+        className: "right-sub-footer"
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         className: "footer-sub-link",
-        href: "https://www.wishup.co/privacy-policy/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 129
-        },
-        __self: this
+        href: "https://www.wishup.co/privacy-policy/"
       }, "Privacy Policy"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         className: "footer-sub-link",
-        href: "https://www.wishup.co/terms-and-conditions/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130
-        },
-        __self: this
+        href: "https://www.wishup.co/terms-and-conditions/"
       }, "Terms and conditions")))));
     }
   }]);
@@ -4485,6 +3968,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./style.css */ "./src/components/Form/style.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _services_server_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../services/server.js */ "./src/services/server.js");
+/* harmony import */ var next_server_dynamic__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! next-server/dynamic */ "next-server/dynamic");
+/* harmony import */ var next_server_dynamic__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(next_server_dynamic__WEBPACK_IMPORTED_MODULE_13__);
 
 
 
@@ -4497,7 +3982,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import IntlTelInput from 'react-intl-tel-input';
+
+
+var IntlTelInput = next_server_dynamic__WEBPACK_IMPORTED_MODULE_13___default()(function () {
+  return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-intl-tel-input */ "react-intl-tel-input", 7));
+}, {
+  ssr: false,
+  loadableGenerated: {
+    webpack: function webpack() {
+      return [/*require.resolve*/(/*! react-intl-tel-input */ "react-intl-tel-input")];
+    },
+    modules: ['react-intl-tel-input']
+  }
+});
 
 var Form =
 /*#__PURE__*/
@@ -4713,7 +4210,11 @@ function (_Component) {
         changeValue: this.changeValue.bind(this)
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "name-bar phone"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", null, "What are you looking for?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(IntlTelInput, {
+        onPhoneNumberChange: handler,
+        preferredCountries: ['US'],
+        css: ['intl-tel-input', 'form-control']
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", null, "What are you looking for?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "radio-group"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "container",
@@ -6790,7 +6291,7 @@ var sendRequest = function sendRequest(endpoint, requestData) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/index/index.js ***!
   \************************************/
@@ -6799,6 +6300,17 @@ var sendRequest = function sendRequest(endpoint, requestData) {
 
 module.exports = __webpack_require__(/*! ./pages/index/index.js */"./pages/index/index.js");
 
+
+/***/ }),
+
+/***/ "next-server/dynamic":
+/*!**************************************!*\
+  !*** external "next-server/dynamic" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-server/dynamic");
 
 /***/ }),
 
@@ -6865,6 +6377,17 @@ module.exports = require("react-icons-kit/fa/chevronUp");
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons-kit/ionicons/loop");
+
+/***/ }),
+
+/***/ "react-intl-tel-input":
+/*!***************************************!*\
+  !*** external "react-intl-tel-input" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-intl-tel-input");
 
 /***/ }),
 

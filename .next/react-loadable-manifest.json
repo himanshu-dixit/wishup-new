@@ -7,9 +7,25 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
+  "libphonenumber-js-utils": [
+    {
+      "id": "./node_modules/libphonenumber-js-utils/dist/libphonenumber.js",
+      "name": "./node_modules/libphonenumber-js-utils/dist/libphonenumber.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "react-intl-tel-input": [
+    {
+      "id": "./node_modules/react-intl-tel-input/dist/main.js",
+      "name": "./node_modules/react-intl-tel-input/dist/main.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
   "undefined": [
     {
-      "id": 18,
+      "id": 10,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -21,43 +37,19 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 8,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 9,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 10,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 11,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 5,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 20,
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -69,7 +61,31 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 14,
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -85,24 +101,6 @@
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 15,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 21,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 23,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
     }
   ],
   "./style.css": [
@@ -113,14 +111,14 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/CustomInput/style.css",
-      "name": "./src/components/CustomInput/style.css",
+      "id": "./pages/testimonials/style.css",
+      "name": "./pages/testimonials/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./pages/whatwedo/style.css",
-      "name": "./pages/whatwedo/style.css",
+      "id": "./src/components/CustomInput/style.css",
+      "name": "./src/components/CustomInput/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
@@ -129,36 +127,34 @@
       "name": "./src/components/Form/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    },
+    }
+  ],
+  "./index.css": [
     {
-      "id": "./pages/whatwedolist/style.css",
-      "name": "./pages/whatwedolist/style.css",
+      "id": "./src/components/Footer/index.css",
+      "name": "./src/components/Footer/index.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./pages/pricing/style.css",
-      "name": "./pages/pricing/style.css",
+      "id": "./src/components/GraphicHeader/index.css",
+      "name": "./src/components/GraphicHeader/index.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    },
+    }
+  ],
+  "./header.css": [
     {
-      "id": "./pages/faq/style.css",
-      "name": "./pages/faq/style.css",
+      "id": "./src/components/HeadBar/header.css",
+      "name": "./src/components/HeadBar/header.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
   "./testimonial.css": [
     {
-      "id": "./src/components/MainComponents/Testimonial/testimonial.css",
-      "name": "./src/components/MainComponents/Testimonial/testimonial.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/MainComponents/VAsList/testimonial.css",
-      "name": "./src/components/MainComponents/VAsList/testimonial.css",
+      "id": "./src/components/MainComponents/Media/testimonial.css",
+      "name": "./src/components/MainComponents/Media/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
@@ -175,30 +171,14 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/MainComponents/Media/testimonial.css",
-      "name": "./src/components/MainComponents/Media/testimonial.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./header.css": [
-    {
-      "id": "./src/components/HeadBar/header.css",
-      "name": "./src/components/HeadBar/header.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./index.css": [
-    {
-      "id": "./src/components/Footer/index.css",
-      "name": "./src/components/Footer/index.css",
+      "id": "./src/components/MainComponents/Testimonial/testimonial.css",
+      "name": "./src/components/MainComponents/Testimonial/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/GraphicHeader/index.css",
-      "name": "./src/components/GraphicHeader/index.css",
+      "id": "./src/components/MainComponents/VAsList/testimonial.css",
+      "name": "./src/components/MainComponents/VAsList/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

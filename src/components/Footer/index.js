@@ -18,7 +18,7 @@ class Footer extends Component {
                 <div className="wishup-container">
                     <div className="row">
                         <div className="col-sm-4">
-                            <div className="footer-logo"> <img src='static/assets/resources/logo.png' height="23px"/> wishup</div>
+                            <div className="footer-logo"> <img src='/static/assets/resources/logo.png' height="23px"/> wishup</div>
                             <div className="footer-description">Wishup helps by taking care of all the little tasks so you can chase the higher goals. Come give us your to-do lists and instead focus on things you care.</div>
                             <div className="footer-sub-heading">Subscribe</div><br></br>
 
@@ -44,13 +44,13 @@ class Footer extends Component {
 
                             <div className="social-icons">
                                 <a href="https://www.facebook.com/WishUpNow/" target="_blank">
-                                <img src='static/assets/facebook.png' height="23px"/>
+                                <img src='/static/assets/facebook.png' height="23px"/>
                                 </a>
                                 <a href="https://twitter.com/wishupnow" target="_blank">
-                                <img src='static/assets/twitter.png' height="23px"/>
+                                <img src='/static/assets/twitter.png' height="23px"/>
                                 </a>
                                 <a href="https://www.instagram.com/wishupnow/" target="_blank">
-                                <img src='static/assets/instagram.png' height="23px"/>
+                                <img src='/static/assets/instagram.png' height="23px"/>
                                 </a>
                             </div>
 

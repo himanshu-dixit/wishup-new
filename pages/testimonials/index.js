@@ -3,12 +3,39 @@ import React, { Component } from 'react';
 import {sendRequest} from "../../services/server";
 import GraphicHeader from "../../src/components/GraphicHeader";
 import './style.css';
+import Head from "next/head";
+import HeadBar from "../../src/components/HeadBar";
+import Footer from "../../src/components/Footer";
 
-class Dashboard extends Component {
+class Testimonial extends Component {
 
     render() {
 
         return (
+            <div>
+                <Head>
+                    <title>Wishup</title>
+                    <title>Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services </title>
+                    <meta name="description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities."/>
+                    <meta property="og:title" content="Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services "/>
+                    <meta property="og:description" content="Wishup.co offers Virtual Assistant services at affordable prices. Hire a virtual assistant in USA, UK, Canada, India or anywhere and let your VA take care of your priorities. "/>
+                    <link rel="canonical" href="/virtual-assistant-pricing" />
+                    <link rel="manifest" href="/static/wishup.png"></link>
+                    <link rel="icon" href="/static/wishup.png"></link>
+                    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+                          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+                          crossOrigin="anonymous"></link>
+                    <link rel="stylesheet" type="text/css" charset="UTF-8"
+                          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"></link>
+                    <link rel="stylesheet" type="text/css"
+                          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"></link>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                            crossOrigin="anonymous"></script>
+                </Head>
+                <HeadBar/>
             <div className="homepage">
                 <GraphicHeader
                     title="Testimonials"
@@ -139,8 +166,10 @@ class Dashboard extends Component {
                     </div>
                 </div>
             </div>
+                <Footer></Footer>
+            </div>
         );
     }
 }
 
-export default Dashboard;
+export default Testimonial;
