@@ -8,16 +8,16 @@ const data = {
       og_description: "",
       description: "",
       content: "<h2>Why Virtual Administrative Assistant?</h2>\n" +
-          "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Employee will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
+          "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Assistant will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
       first_section:{
           title: "How are they different?",
           content: "<ul>\n" +
               "<li>For One. For All</li>\n" +
               "<li>Whether you’re a big business or small, we understand different one-time and ongoing administrative needs. We’re ready to get started on your tasks as soon as you are ready to delegate your boring, mundane tasks to us!</li>\n" +
               "<li>Amazing Team</li>\n" +
-              "<li>The secret ingredient to our magic is our team of awesome, efficient, multi-taskers. Apart from being technically skilled, we understand organizational skills like no other. Our team of Virtual Employees is committed, professional and do not need to be micromanaged.</li>\n" +
+              "<li>The secret ingredient to our magic is our team of awesome, efficient, multi-taskers. Apart from being technically skilled, we understand organizational skills like no other. Our team of Virtual assistants is committed, professional and do not need to be micromanaged.</li>\n" +
               "<li>Value-Addition</li>\n" +
-              "<li>Our team of Virtual Employee understands the administrative needs of each client and adapts to each of these needs. We are always on the lookout to add the happiness quotient to your life, whether it is by helping you book a nice family vacation or by micro-managing all your daily office tasks. </li>\n" +
+              "<li>Our team of Virtual Assistant understands the administrative needs of each client and adapts to each of these needs. We are always on the lookout to add the happiness quotient to your life, whether it is by helping you book a nice family vacation or by micro-managing all your daily office tasks. </li>\n" +
               "<ul>",
       },
       second_section:{
@@ -53,16 +53,16 @@ const data = {
       description: "",
     description: "Our virtual administrative assistants are great organizers of your business and make everyday easy for you. ",
     content: "<h2>Why Virtual Administrative Assistant?</h2>\n" +
-        "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Employee will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
+        "Focus on the more important tasks for business growth and delegate your everyday to-do lists to our extremely dedicated virtual administrative assistants. You can stop worrying about the less important, recurrent tasks as your Virtual Assistant will give you regular updates on the tasks delegated and help you plan every detail of your needs. Appointment scheduling, calendar management, inbox management, generating cold leads or work-related communication, just name it and consider it done!\n",
     first_section:{
       title: "How are they different?",
       content: "<ul>\n" +
           "<li>For One. For All</li>\n" +
           "<li>Whether you’re a big business or small, we understand different one-time and ongoing administrative needs. We’re ready to get started on your tasks as soon as you are ready to delegate your boring, mundane tasks to us!</li>\n" +
           "<li>Amazing Team</li>\n" +
-          "<li>The secret ingredient to our magic is our team of awesome, efficient, multi-taskers. Apart from being technically skilled, we understand organizational skills like no other. Our team of Virtual Employees is committed, professional and do not need to be micromanaged.</li>\n" +
+          "<li>The secret ingredient to our magic is our team of awesome, efficient, multi-taskers. Apart from being technically skilled, we understand organizational skills like no other. Our team of Virtual assistants is committed, professional and do not need to be micromanaged.</li>\n" +
           "<li>Value-Addition</li>\n" +
-          "<li>Our team of Virtual Employee understands the administrative needs of each client and adapts to each of these needs. We are always on the lookout to add the happiness quotient to your life, whether it is by helping you book a nice family vacation or by micro-managing all your daily office tasks. </li>\n" +
+          "<li>Our team of Virtual Assistant understands the administrative needs of each client and adapts to each of these needs. We are always on the lookout to add the happiness quotient to your life, whether it is by helping you book a nice family vacation or by micro-managing all your daily office tasks. </li>\n" +
           "<ul>",
     },
     second_section:{
@@ -97,7 +97,7 @@ const data = {
         og_description: "Affordable Social Media Virtual Assistant to manage your brand image over various social networking platforms. Our Social Media Assistants maintain regular post updates, write catchy SEO-friendly content and constantly finding means to keep you ahead in the internet world.",
         description: "Our social media assistants are web-mavericks who can bring you the traffic you want. They are the perfect combination of zealous and net-savvy for your needs.",
         content: "<h2>Why Virtual Social Media Assistant?</h2>" +
-            "With the world getting digitized at a faster pace, social networking and managing brand image over various social networking portals can be a tedious task. Instead, hand it over to our social media assistants who are extremely passionate about the Internet. Our virtual employees make sure they are updated with the latest tools and technology to promote your needs. A social media assistant writes catchy SEO-friendly content, maintains a regular posting schedule and constantly finds means to keep you ahead in the world of the Internet. ",
+            "With the world getting digitized at a faster pace, social networking and managing brand image over various social networking portals can be a tedious task. Instead, hand it over to our social media assistants who are extremely passionate about the Internet. Our Virtual assistants make sure they are updated with the latest tools and technology to promote your needs. A social media assistant writes catchy SEO-friendly content, maintains a regular posting schedule and constantly finds means to keep you ahead in the world of the Internet. ",
         first_section:{
             title: "What our social media assistants can do? ",
             content: "<ul class=\"ul1\">\n" +
@@ -111,7 +111,7 @@ const data = {
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Value-Addition</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">Social Media is a wide world and you may have your specific needs and expectations. Don&rsquo;t worry, our system allows you to choose your specific virtual employee, best suited for your task.</p>",
+                "<p class=\"p2\">Social Media is a wide world and you may have your specific needs and expectations. Don&rsquo;t worry, our system allows you to choose your specific Virtual Assistant, best suited for your task.</p>",
         },
         second_section:{
             title: "What our social media assistants can do? ",
@@ -131,7 +131,7 @@ const data = {
         third_section:{
             title: "How can a social media assistant benefit you?",
             content: "<ul class=\"ul1\">\n" +
-                "<li class=\"li1\">Get maximum traffic and engagement: Our team of experienced virtual employees targets high yielding keywords and audience to your website, blog, campaign and other social media efforts.</li>\n" +
+                "<li class=\"li1\">Get maximum traffic and engagement: Our team of experienced Virtual assistants targets high yielding keywords and audience to your website, blog, campaign and other social media efforts.</li>\n" +
                 "<li class=\"li1\">Expert advice: Our experience as a company can be used to drive your campaign, utilizing shared knowledge gained after working on numerous projects.</li>\n" +
                 "<li class=\"li1\">More productivity: Our team of social media assistants is experienced and equipped with the knowledge to bring you greater traffic. We design attractive and high click rate images.</li>\n" +
                 "<li class=\"li1\">Time bounty: Our social media assistants can be a great time saver as you can simply delegate recurrent tasks to them and be carefree about it.</li>\n" +
@@ -160,7 +160,7 @@ const data = {
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Value-Addition</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">Our team consists of virtual employees who are capable of meeting the specific demands of each client and their work-related expectations. Our support and management team is just a phone call or email away and we are more than happy to resolve any queries and concerns!</p>\n" +
+                "<p class=\"p2\">Our team consists of Virtual assistants who are capable of meeting the specific demands of each client and their work-related expectations. Our support and management team is just a phone call or email away and we are more than happy to resolve any queries and concerns!</p>\n" +
                 "\n",
         },
         second_section:{
@@ -172,19 +172,19 @@ const data = {
                 "<li class=\"li1\">Influencer research: Stay up to date on the trends and influencers in your field and keep track of the aptest ones for your brand. Your virtual research assistants will scan through thousands of profiles for you and get you the best results.</li>\n" +
                 "<li class=\"li1\">Lead generation: Our research assistants will scan through online networking sites to find you the most suitable business potentials and opportunities.</li>\n" +
                 "<li class=\"li1\">Web research: You can get quotes, reviews and comparisons of products to help you make the best buying decision.</li>\n" +
-                "<li class=\"li1\">Trend research: Stay updated on the latest technological trends in your field and add value to your knowledge with your virtual employee&rsquo;s excellent research results.</li>\n" +
+                "<li class=\"li1\">Trend research: Stay updated on the latest technological trends in your field and add value to your knowledge with your Virtual Assistant&rsquo;s excellent research results.</li>\n" +
                 "<li class=\"li1\">Product and market research: Your virtual research assistants can do all data research for your marketing strategy and plans.</li>\n" +
-                "<li class=\"li1\">Research anything: Whether it&rsquo;s an experimental idea in your head or a specific kind of research task at your hand, our virtual employees are equipped for it. Go ahead and have a word with them!</li>\n" +
+                "<li class=\"li1\">Research anything: Whether it&rsquo;s an experimental idea in your head or a specific kind of research task at your hand, our Virtual assistants are equipped for it. Go ahead and have a word with them!</li>\n" +
                 "</ul>\n",
         },
         third_section:{
             title: "How can a virtual research assistant benefit you?",
             content: "\n" +
                 "<ul class=\"ul1\">\n" +
-                "<li class=\"li1\">Responsible guardian: Your virtual employee solemnly takes the onus to guard two of your most valuable assets, time and resources.</li>\n" +
+                "<li class=\"li1\">Responsible guardian: Your Virtual Assistant solemnly takes the onus to guard two of your most valuable assets, time and resources.</li>\n" +
                 "<li class=\"li1\">Experienced research gurus: Virtual research assistants are extremely detail oriented and their vast experience across different domains helps in finding accurate information. Their strong data validation ethics increases the value of data found.</li>\n" +
                 "<li class=\"li1\">Time bounty: Your day won&rsquo;t fall short to focus on the larger tasks at hand. Share your to-do list with us and stay rest assured.</li>\n" +
-                "<li class=\"li1\">We make it easy: Whether it is a lot of data or complicated data, we understand your value for time. Your virtual employee will make it easier for you to interpret it, so you don&rsquo;t have to run over the cumbersome load of information all over again.</li>\n" +
+                "<li class=\"li1\">We make it easy: Whether it is a lot of data or complicated data, we understand your value for time. Your Virtual Assistant will make it easier for you to interpret it, so you don&rsquo;t have to run over the cumbersome load of information all over again.</li>\n" +
                 "</ul>\n",
         }
     },
@@ -317,11 +317,11 @@ const data = {
                 "<p class=\"p2\">&nbsp;</p>\n" +
                 "<p class=\"p1\">Communication: Our Virtual Hiring Employees can manage all your hiring related communication with potential candidates, setup interview calls and relieve you of the hassle.</p>\n" +
                 "<p class=\"p2\">&nbsp;</p>\n" +
-                "<p class=\"p1\">Telephonic screening: Our Virtual Employees come with experience in the hiring industry and have a sharp-eye for great candidates to fit your business. They are equipped to do the pre-interview screening and save you that time.</p>\n" +
+                "<p class=\"p1\">Telephonic screening: Our Virtual assistants come with experience in the hiring industry and have a sharp-eye for great candidates to fit your business. They are equipped to do the pre-interview screening and save you that time.</p>\n" +
                 "<p class=\"p2\">&nbsp;</p>\n" +
-                "<p class=\"p1\">Copywriting for Job Ads: It takes much more than simply putting your job requirements to allure the right candidates. Our Virtual Employees are great at conveying your brand image through words, making it much more impressive.</p>\n" +
+                "<p class=\"p1\">Copywriting for Job Ads: It takes much more than simply putting your job requirements to allure the right candidates. Our Virtual assistants are great at conveying your brand image through words, making it much more impressive.</p>\n" +
                 "<p class=\"p2\">&nbsp;</p>\n" +
-                "<p class=\"p1\">Creating and managing documents: Our Virtual Employees can create and manage HR related documents like offer letters, appointment letters, Employment policy and much more.</p>\n",
+                "<p class=\"p1\">Creating and managing documents: Our Virtual assistants can create and manage HR related documents like offer letters, appointment letters, Employment policy and much more.</p>\n",
         },
         third_section:{
             title: "How can a virtual hiring assistant benefit you?",
@@ -353,7 +353,7 @@ const data = {
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Value-Addition</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">With a diverse team of virtual employees, you can choose to work with someone who can handle your tasks and suit your needs best. Our virtual employees have got the right skills, attitude and ability to make sure all your expectations are met.</p>\n",
+                "<p class=\"p2\">With a diverse team of Virtual assistants, you can choose to work with someone who can handle your tasks and suit your needs best. Our Virtual assistants have got the right skills, attitude and ability to make sure all your expectations are met.</p>\n",
         },
         second_section:{
             title: "What our personal assistants can do? ",
@@ -367,23 +367,23 @@ const data = {
                 "<li class=\"li1\">Data research: If you have basic web research to do, our personal assistants can ace it up for you.</li>\n" +
                 "<li class=\"li1\">Recurring tasks management: If you have recurring, boring, administrative tasks that eat in your precious time, simply delegate it to your personal assistants.</li>\n" +
                 "<li class=\"li1\">Email management: Get all your emails and email accounts managed and sorted as per your instructions and convenience.</li>\n" +
-                "<li class=\"li1\">Handling invoices: All your payments, invoices and basic financial stuff can be taken care of by your virtual employee.</li>\n" +
+                "<li class=\"li1\">Handling invoices: All your payments, invoices and basic financial stuff can be taken care of by your Virtual Assistant.</li>\n" +
                 "</ul>\n",
         },
         third_section:{
             title: "How can a virtual administrative assistant benefit you?",
             content: "<ul class=\"ul1\">\n" +
-                "<li class=\"li1\">Find time for a quality life: Our virtual employees help you in planning your personal life so you can spend quality time with your loved ones.</li>\n" +
-                "<li class=\"li1\">No more brimming bucket lists: Your virtual employee will ensure that your tasks list is not overflowing with pending items that give you sleepless nights.</li>\n" +
-                "<li class=\"li1\">Feel special: Let your virtual employee plan your special days with love and the best possible personalized arrangements.</li>\n" +
-                "<li class=\"li1\">No more last minutes: Ace your day and life with the help of the time management and advance planning skills of your virtual employee. Better productivity and time utilization is possible now!</li>\n" +
+                "<li class=\"li1\">Find time for a quality life: Our Virtual assistants help you in planning your personal life so you can spend quality time with your loved ones.</li>\n" +
+                "<li class=\"li1\">No more brimming bucket lists: Your Virtual Assistant will ensure that your tasks list is not overflowing with pending items that give you sleepless nights.</li>\n" +
+                "<li class=\"li1\">Feel special: Let your Virtual Assistant plan your special days with love and the best possible personalized arrangements.</li>\n" +
+                "<li class=\"li1\">No more last minutes: Ace your day and life with the help of the time management and advance planning skills of your Virtual Assistant. Better productivity and time utilization is possible now!</li>\n" +
                 "</ul>",
         }
     },
     ecommerce:{
         name: "Ecommerce",
         title: "Ecommerce Assistant",
-        description: "Now organize the clutter of your booming e-commerce business with a virtual employee by delegating the recurring, mundane tasks. ",
+        description: "Now organize the clutter of your booming e-commerce business with a Virtual Assistant by delegating the recurring, mundane tasks. ",
         content: "<h2>Why Virtual E-commerce Assistant?</h2>\n" +
             "Managing a store is a lot to handle with orders, delivery, product management, social media handles, e-commerce sites and the list goes on. It’s definitely not a one-man show! Don’t worry, our e-commerce assistants are trained to manage your e-commerce stores with great efficiency whether it’s uploading products and categorizing it on different portal, uploading offers and discounts, reviewing products when needed and ensure that all your portals are being managed at the same pace. ",
         first_section:{
@@ -430,7 +430,7 @@ const data = {
         title: "Travel Assistant",
         description: "Our virtual travel assistants ensure that you travel smooth and hassle-free by getting the best travel information and arrangements done for you.  ",
         content: "<h2>Why Virtual Travel Assistant?</h2>\n" +
-            "If you’re someone who is constantly on-the-go, our virtual travel assistant can be a great resource for you! Our team of quick and efficient virtual employees will scan all the best options available to suit your travel needs. Whether you are traveling for business or pleasure, your virtual travel assistant will make sure you have a great time! ",
+            "If you’re someone who is constantly on-the-go, our virtual travel assistant can be a great resource for you! Our team of quick and efficient Virtual assistants will scan all the best options available to suit your travel needs. Whether you are traveling for business or pleasure, your virtual travel assistant will make sure you have a great time! ",
         first_section:{
             title: "How are they different?",
             content: "\n" +
@@ -454,12 +454,12 @@ const data = {
                 "<p class=\"p1\">Our Virtual Travel Assistants are excel at:</p>\n" +
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Planning itineraries: Our virtual travel assistants craft itineraries suiting your interests and needs with immense research and care.</li>\n" +
-                "<li class=\"li1\">Handling reservations: Whether it is a restaurant reservation, movie, hotel or any outdoor activity, our virtual employees ensure you make the most of your adventures while they take care of the rest.</li>\n" +
+                "<li class=\"li1\">Handling reservations: Whether it is a restaurant reservation, movie, hotel or any outdoor activity, our Virtual assistants ensure you make the most of your adventures while they take care of the rest.</li>\n" +
                 "<li class=\"li1\">Travel bookings: All your travel bookings whether it is a bus, train, flight or cab, your travel assistant will manage them all, so you have a swift transit to the destination.</li>\n" +
                 "<li class=\"li1\">Manage the visa process: You don&rsquo;t have to spend time in the cumbersome and long procedure for visas. Get your virtual travel assistant do the research, set up an appointment and do the follow-up paperwork for you.</li>\n" +
                 "<li class=\"li1\">Recommendations: If you&rsquo;re new to a place and wish to explore it like a traveler, your virtual travel assistant will churn the web to bring you the best tourist recommendations.</li>\n" +
                 "<li class=\"li1\">Get the best deals: Your virtual travel assistant is always on the lookout for great deals that give you a nice saving while not compromising on your standards and expectations.</li>\n" +
-                "<li class=\"li1\">Manage impromptu plans: If your travel plans change suddenly due to business needs, don&rsquo;t worry, our virtual employees will manage the rescheduling for you while you&rsquo;re on the go.</li>\n" +
+                "<li class=\"li1\">Manage impromptu plans: If your travel plans change suddenly due to business needs, don&rsquo;t worry, our Virtual assistants will manage the rescheduling for you while you&rsquo;re on the go.</li>\n" +
                 "<li class=\"li1\">Manage travel expenses: Get your travel expenses, tracked and managed by your virtual travel assistant.&nbsp;</li>\n" +
                 "</ul>\n" +
                 "</li>\n" +
@@ -489,15 +489,15 @@ const data = {
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">For One. For All</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">Real Estate is one of the booming sectors in today&rsquo;s world. With so many projects, potential customers, cold leads, ongoing final deals, paperwork, there is lots to do. Hiring a virtual real estate assistant at Wishup helps you take the lead as your virtual employee backs you up strongly with all the smaller, delegated tasks.</p>\n" +
+                "<p class=\"p2\">Real Estate is one of the booming sectors in today&rsquo;s world. With so many projects, potential customers, cold leads, ongoing final deals, paperwork, there is lots to do. Hiring a virtual real estate assistant at Wishup helps you take the lead as your Virtual Assistant backs you up strongly with all the smaller, delegated tasks.</p>\n" +
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Amazing Team</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">The secret ingredient to our magic is our team of committed, passionate and efficient people who are selectively trained to give you the best virtual employee experience. Let them know how you expect them to be of help and they will strive to deliver more than expected!</p>\n" +
+                "<p class=\"p2\">The secret ingredient to our magic is our team of committed, passionate and efficient people who are selectively trained to give you the best Virtual Assistant experience. Let them know how you expect them to be of help and they will strive to deliver more than expected!</p>\n" +
                 "<ul class=\"ul1\">\n" +
                 "<li class=\"li1\">Value-Addition</li>\n" +
                 "</ul>\n" +
-                "<p class=\"p2\">You can be assured of utmost satisfaction as you don&rsquo;t have to micromanage your virtual employees in your busy schedule. On the contrary, experience a great journey of partnership with our responsible, committed workforce who will always prioritize you!</p>\n",
+                "<p class=\"p2\">You can be assured of utmost satisfaction as you don&rsquo;t have to micromanage your Virtual assistants in your busy schedule. On the contrary, experience a great journey of partnership with our responsible, committed workforce who will always prioritize you!</p>\n",
         },
         second_section:{
             title: "What our administrative assistants can do? ",
@@ -507,11 +507,11 @@ const data = {
                 "<li class=\"li1\">Marketing and posting ads to sites: Your virtual real estate assistant will regularly post property ads to various sites for marketing and promotion.</li>\n" +
                 "<li class=\"li1\">Calendar management: Get your business appointments and work calendar managed with a virtual real estate assistant.</li>\n" +
                 "<li class=\"li1\">Organize emails: All your inbox clutter of queries and customer emails will now be clean, organized and promptly responded to.</li>\n" +
-                "<li class=\"li1\">Setting up meetings: Setting up meetings with new clients or business leads, confirmation of meetings and reminders will all be taken care of by your virtual employee.</li>\n" +
+                "<li class=\"li1\">Setting up meetings: Setting up meetings with new clients or business leads, confirmation of meetings and reminders will all be taken care of by your Virtual Assistant.</li>\n" +
                 "<li class=\"li1\">Replying to emails: All your inquiries and customer emails will be responded to promptly and regularly.</li>\n" +
                 "<li class=\"li1\">Following up with prospective renters and buyers: All your potential customers will be followed up with.</li>\n" +
                 "<li class=\"li1\">Preparing and filing paperwork: All the cumbersome paperwork will be taken care of by your virtual real estate assistant.</li>\n" +
-                "<li class=\"li1\">Sales support and customer follow up: Regular follow up with customers, over the phone sales support will be handled by your virtual employee.</li>\n" +
+                "<li class=\"li1\">Sales support and customer follow up: Regular follow up with customers, over the phone sales support will be handled by your Virtual Assistant.</li>\n" +
                 "</ul>\n",
         },
         third_section:{

@@ -170,7 +170,7 @@ class Form extends Component {
                                             <h4>What are you looking for?</h4>
 
                                             <div className="radio-group">
-                                                <label className="container" onClick={()=>{this.setState({action: 'hire-va'})}}>Hire a Virtual employee
+                                                <label className="container" onClick={()=>{this.setState({action: 'hire-va'})}}>Hire a Virtual Assistant
                                                     <input type="radio" checked={this.state.action=="hire-va"||!this.state.action?"checked":""} name="radio"></input>
                                                         <span className="checkmark"></span>
                                                 </label>

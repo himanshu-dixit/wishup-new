@@ -13,7 +13,7 @@ class TasksList extends Component {
         <div>
             <div className="description">
                 <div className="mobile-bar"></div>
-                Do you think your business would soar if you got the right assistance? Struggling to check tasks off your to-do list? Your Virtual Employee is trained and ready to handle recurrent and specialized tasks. Try us!
+                Do you think your business would soar if you got the right assistance? Struggling to check tasks off your to-do list? Your Virtual Assistant is trained and ready to handle recurrent and specialized tasks. Try us!
             </div>
             <div className="service-list">
                 <div className="row">

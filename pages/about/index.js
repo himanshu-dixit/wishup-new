@@ -24,7 +24,7 @@ class WhyWishup extends Component {
 
             <Head>
 
-                <title>Why Hire A Virtual Assistant? | Wishup</title>
+                <title>About Wishup | Wishup</title>
                 <link rel="canonical" href="/why-wishup"/>
                 <meta property="og:url" content="https://www.zirtual.com/why-zirtual"/>
                 <meta name="twitter:title" content="Why Hire A Virtual Assistant?"/>

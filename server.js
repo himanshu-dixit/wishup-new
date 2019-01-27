@@ -40,10 +40,16 @@ app.prepare().then(() => {
         else if (pathname.indexOf("/testimonial/") >= 0) {
             app.render(req, res, '/testimonials', query)
         }
+        else if (pathname.indexOf("/become-va/") >= 0) {
+            app.render(req, res, '/become', query)
+        }
+        else if (pathname.indexOf("/about/") >= 0) {
+            app.render(req, res, '/about', query)
+        }
         else {
             handle(req, res, parsedUrl)
         }
-    }).listen(3001, err => {
+    }).listen(3002, err => {
         if (err) throw err
         console.log('> Ready on http://localhost:3000')
     })

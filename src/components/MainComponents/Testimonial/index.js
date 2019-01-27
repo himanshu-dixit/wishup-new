@@ -14,14 +14,12 @@ class Testimonial extends Component {
                 <div className="red-strip"></div>
                 <div className="description">
                     <div className="mobile-bar"></div>
-                    Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonial"> Read what people have to say</a>
+                    Virtual assistants are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonials"> Read what people have to say</a>
                 </div>
                 <div className="row ">
 
-
                     <div className="col-sm-4" key={1}>
                         <div className="profile-desc mobile-only">
-
                             <div className="profile-pic">
                                 <img src='/static/assets/pranay.jpeg' height="55px"/>
                             </div>
@@ -70,7 +68,7 @@ class Testimonial extends Component {
                             </div>
                         </div>
                         <div className="card">
-                            We've had a great experience working with Upasana and WIshup. I can not recommend it enough for anyone looking for a talented freelancer to accelerate your growth.
+                            We've had a great experience working with Upasana and Wishup. I can not recommend it enough for anyone looking for a talented freelancer to accelerate your growth.
                         </div>
                         <div className="profile-desc desktop-only">
                             <div className="profile-pic">

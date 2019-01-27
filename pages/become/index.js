@@ -23,7 +23,7 @@ class HomePage extends Component {
     return (
       <div>
           <Head>
-              <title>Best Virtual Assistant Services Online, Hire a Virtual Assistant</title>
+              <title>Become a Virtual Assistant</title>
               <meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
               <meta property="og:title" content="Best Virtual Assistant Services Online, Hire a Virtual Assistant"/>
               <meta property="og:description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
@@ -82,10 +82,13 @@ class HomePage extends Component {
                       <div className="col-sm-6">
                           <div className="grow-description">
                           <h2>
-                          Grow your business with a Wishup Virtual Assistant
+                              What is a virtual assistant or remote employee?
                           </h2>
-
-                            <TasksList/>
+                              <div className="description">
+                                  <div className="mobile-bar"></div>
+                                  A virtual assistant is a remote employee who assists varied businesses and entrepreneurs on business related and personal tasks. They operate out of home and have access to a laptop in good condition and reliable internet speed. They’re trained on numerous business related tasks which range from research, lead generation, social media management, travel planning, administrative tasks and more.
+                                  A virtual assistant is a graduate or above with certain level of experience in their respective fields. They are tech-savvy and have the ability to multi-task and quickly adapt to new trends. Virtual assistants have good communication skills, both written and verbal and demonstrate a smart, friendly and self-driven personality.
+                              </div>
                           </div>
                       </div>
                       <div className="col-sm-6 center mobile-only">
@@ -95,57 +98,28 @@ class HomePage extends Component {
               </div>
           </div>
 
-          <Testimonial/>
-
-
           <div className="super-highlight-bar">
               <div className="row">
                   <div className="col-sm-5 super-highlight-box">
                   </div>
                   <div className="col-sm-7 green-highlight-box">
                       <div className="wishup-container">
-                      <h2>
-                          Ready. Set. Go - Start Immediately with our Trained Employees
-                      </h2>
-                      <div className="highlight-description">
-                          Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!
-                     </div>
-                          <a href="/">
-                              <div className="button">Get Started</div>
-                          </a>
-
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div className="highlight-bar ">
-              <div className="wishup-container">
-                  <div className="row">
-                      <div className="col-sm-5">
                           <h2>
-                              Skilled, multitasking experts? We call them our Virtual assistants
+                              Why you should do it?
                           </h2>
-                      </div>
-                      <div className="col-sm-7">
-                          <div className="mobile-bar"></div>
-                          <div className="description">
-                              At Wishup, we undertake a serious vetting process to find the most apt, multi-skilled workforce for our clients. Our Virtual Employees undergo numerous levels of evaluation:
-                              <ul>
-                                  <li>communication skills</li>
-                                  <li>technical skills</li>
-                                  <li>multi-tasking ability and much more.</li>
-                              </ul>
-                              We hire only the best 2-3% of our total applications! Find the best talent to work with.
-                              </div>
+                          <div className="highlight-description">
+                              Each of our virtual assistants have had varied motivation to become one! A virtual assistant role is perfect for anyone looking to be financially independent, have a flexible working schedule, have personal commitments to cater to, looking to resume after career-break, believes in the future of remote working, aspires to be or is a digital nomad.
+                              <br></br>
+                              If you feel that you have a reason to be a part of the remote working culture, then there’s lot in it for you to discover.
+                          </div>
+
+
                       </div>
                   </div>
               </div>
           </div>
 
-          <div className="team-pic" style={{  backgroundImage: "url(" + '/static/assets/resources/team.png' + ")"}}>
-          </div>
-
-          <Pricing/>
+          <Media/>
 
           <div className="second-highlight-bar">
 
@@ -156,11 +130,18 @@ class HomePage extends Component {
                       <div className="col-sm-7">
                           <div className="wishup-container">
                           <h2>
-                              Troubled with Recurrent Tasks? Let’s Automate it for you
+                              What’s in it for you?
                           </h2>
                           <div className="mobile-bar"></div>
                           <div className="description">
-                              Enterprises require a great deal of time and focus to streamline their success.Our Virtual Employee helps you stay on track by managing appointments, inbox, social media, content creation and much more.
+                              <ul>
+                                  <li>Don’t have to worry about learning new market trends and tools. You’re constantly upskilled. </li>
+                               <li>Don’t have to worry about finding clients and managing them. There’s a team for you to do it! </li>
+                                  <li>Our tests map out your strengths and weaknesses and accordingly we align you with respective businesses and requirements.</li>
+                                  <li>You don’t have to fret over payments. They are made promptly and on-time. </li>
+                                  <li>Get access to working with people from diverse industries.</li>
+                                  <li>Since remote working is a relatively new concept, you need not fret over establishing yourself as a brand.</li>
+                              </ul>
                           </div>
                           </div>
                       </div>
@@ -171,14 +152,13 @@ class HomePage extends Component {
 
           </div>
 
-          <Media/>
 
-          <VAsList/>
+
+          <VAsList type="become-va"/>
 
           <div className="va-bar">
               <div className="wishup-container">
                   <div><div className="va-bar-text">
-
                       <div className="va-text"> Become a Virtual Assistant </div></div><div className="line"></div><a href="https://www.wishup.co/become-a-virtual-assistant"> <div className="hire-cta wishup">Get started</div></a></div>
               </div>
           </div>

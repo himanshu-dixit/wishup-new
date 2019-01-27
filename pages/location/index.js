@@ -70,7 +70,6 @@ class LocationPage extends Component {
       };
     return (
       <div className="location">
-
           <Head>
               <title>{this.data[this.type].meta_title}</title>
               <meta name="description" content={this.data[this.type].meta_description}/>
@@ -102,9 +101,9 @@ class LocationPage extends Component {
                           <div className="col-md-7">
                               <div className="cover-info">
                                   <h1 className="wishup-tagline">{this.data[this.type].name} Virtual Assistant Services</h1>
-                                  <div className="wishup-desc">Virtual Employees for Entrepreneurs,<br></br>
+                                  <h2 className="wishup-desc">Virtual assistants for Entrepreneurs,<br></br>
                                       Small Teams and Businesses.
-                                  </div>
+                                  </h2>
                               </div>
                           </div>
                           <div className="col-md-5">

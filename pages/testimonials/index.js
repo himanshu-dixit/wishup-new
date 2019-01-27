@@ -36,7 +36,7 @@ class Testimonial extends Component {
                             crossOrigin="anonymous"></script>
                 </Head>
                 <HeadBar/>
-            <div className="homepage">
+            <div className="testiomonials">
                 <GraphicHeader
                     title="Testimonials"
                     description="This is what industry leader say about wishup"
@@ -51,7 +51,7 @@ class Testimonial extends Component {
                             <div className="red-strip"></div>
                             <div className="description">
                                 <div className="mobile-bar"></div>
-                                Virtual Employees are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonial"> Read what people have to say</a>
+                                Virtual assistants are go-to for many thriving businesses and entrepreneurs across the globe. Don’t believe it? <a href="/testimonial"> Read what people have to say</a>
                             </div>
                             <div className="row ">
 

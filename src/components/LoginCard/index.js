@@ -5,7 +5,6 @@ import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest} from '../../services/server.js';
 import GoogleLogin from 'react-google-login';
-import { LinkedIn } from 'react-linkedin-login-oauth2';
 
 import FacebookLogin from 'react-facebook-login';
 
