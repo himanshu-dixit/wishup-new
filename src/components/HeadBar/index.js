@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/index.css';
 import './header.css';
+import LoginCard from '../LoginCard'
 
 
 class HeadBar extends Component {
@@ -22,8 +23,8 @@ class HeadBar extends Component {
     //<Link to='/'>Home</Link>
     return (
         <div>
-      {/*{this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}*/}
-      {/*{this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}*/}
+      {this.state.popup==="login"?<LoginCard type="login"></LoginCard>:''}
+      {this.state.popup==="initial"?<LoginCard type="initial"></LoginCard>:''}
       <div className={this.isLoggedIn()?'black-header':''}>
         <div className="row">
           <div className="container-fluid">
@@ -57,6 +58,7 @@ class HeadBar extends Component {
                                   <li><a href="/virtual-assistant-pricing/">Pricing</a></li>
                                   <li><a href="/virtual-assistant-faq/">FAQs</a></li>
                                   <li><a href="https://wishup.co/blog/">Blog</a></li>
+                                  {/*<li><a onClick={()=>{this.setState({popup: 'login'})}}>Start</a></li>*/}
                                   {/*<li><a onClick={()=>{this.setState({popup: 'login'})}}>Login</a></li>*/}
                                   <li><a onClick={()=>{this.setState({popup: 'initial'})}} className="cta">Get Started</a></li>
                               </ul> }

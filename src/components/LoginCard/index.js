@@ -4,7 +4,10 @@ import CustomInput from '../CustomInput';
 import {loop} from 'react-icons-kit/ionicons/loop';
 import './style.css';
 import {sendRequest} from '../../services/server.js';
-import GoogleLogin from 'react-google-login';
+import dynamic from 'next/dynamic';
+const GoogleLogin = dynamic(import('react-google-login'), {
+    ssr: false
+});
 
 import FacebookLogin from 'react-facebook-login';
 
@@ -195,7 +198,7 @@ class LoginCard extends Component {
 
                                     <i className="fas fa-times close-button "></i>
                                     <div className="header-logo form-logo-visible">
-                                        <img src={require('../../assets/resources/logo.png')} height="23px"/> Wishup
+                                        <img src="/static/assets/wishup_logo.png" height="23px"/> Wishup
                                     </div>
 
 
