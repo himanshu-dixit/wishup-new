@@ -56,7 +56,7 @@ class HomePage extends Component {
 
                               <div className="col-md-7">
                           <div className="cover-info">
-                              <h1 className="wishup-tagline">Get Work Done.<br></br> Remotely.</h1>
+                              <h1 className="wishup-tagline">Get Work Done.<br></br> <span className="light-text"> Remotely.</span></h1>
                               <h2 className="wishup-desc">Virtual assistant for Entrepreneurs,<br></br>
                                   Small Teams and Businesses.
                               </h2>
@@ -82,7 +82,7 @@ class HomePage extends Component {
                       <div className="col-sm-6">
                           <div className="grow-description">
                           <h2>
-                          Grow your business with a Wishup Virtual Assistant
+                          Grow your business with a Wishup Virtual Assistant.
                           </h2>
 
                             <TasksList/>
@@ -105,7 +105,8 @@ class HomePage extends Component {
                   <div className="col-sm-7 green-highlight-box">
                       <div className="wishup-container">
                       <h2>
-                          Ready. Set. Go - Start Immediately with our Trained Employees
+                          Ready. Set. Go.
+                          <br></br>Start Immediately with our Trained Employees.
                       </h2>
                       <div className="highlight-description">
                           Working with a Virtual Employee is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately!
@@ -123,7 +124,7 @@ class HomePage extends Component {
                   <div className="row">
                       <div className="col-sm-5">
                           <h2>
-                              Skilled, multitasking experts? We call them our Virtual assistants
+                              Skilled, multitasking experts? We call them our Virtual assistants.
                           </h2>
                       </div>
                       <div className="col-sm-7">

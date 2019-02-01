@@ -7,6 +7,22 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
+  "libphonenumber-js-utils": [
+    {
+      "id": "./node_modules/libphonenumber-js-utils/dist/libphonenumber.js",
+      "name": "./node_modules/libphonenumber-js-utils/dist/libphonenumber.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "react-intl-tel-input": [
+    {
+      "id": "./node_modules/react-intl-tel-input/dist/main.js",
+      "name": "./node_modules/react-intl-tel-input/dist/main.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
   "react-google-login": [
     {
       "id": "./node_modules/react-google-login/dist/google-login.js",
@@ -15,16 +31,28 @@
       "publicPath": "static/chunks/2.js"
     }
   ],
-  "./index.css": [
+  "./style.css": [
     {
-      "id": "./src/components/GraphicHeader/index.css",
-      "name": "./src/components/GraphicHeader/index.css",
+      "id": "./pages/why-wishup/style.css",
+      "name": "./pages/why-wishup/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/Footer/index.css",
-      "name": "./src/components/Footer/index.css",
+      "id": "./src/components/CustomInput/style.css",
+      "name": "./src/components/CustomInput/style.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/LoginCard/style.css",
+      "name": "./src/components/LoginCard/style.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Form/style.css",
+      "name": "./src/components/Form/style.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -49,7 +77,37 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -73,46 +131,46 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 16,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 18,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 24,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 28,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./style.css": [
+  "./testimonial.css": [
     {
-      "id": "./pages/testimonials/style.css",
-      "name": "./pages/testimonials/style.css",
+      "id": "./src/components/MainComponents/Media/testimonial.css",
+      "name": "./src/components/MainComponents/Media/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./pages/why-wishup/style.css",
-      "name": "./pages/why-wishup/style.css",
+      "id": "./src/components/MainComponents/Pricing/testimonial.css",
+      "name": "./src/components/MainComponents/Pricing/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/CustomInput/style.css",
-      "name": "./src/components/CustomInput/style.css",
+      "id": "./src/components/MainComponents/TasksList/testimonial.css",
+      "name": "./src/components/MainComponents/TasksList/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./src/components/LoginCard/style.css",
-      "name": "./src/components/LoginCard/style.css",
+      "id": "./src/components/MainComponents/VAsList/testimonial.css",
+      "name": "./src/components/MainComponents/VAsList/testimonial.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/MainComponents/Testimonial/testimonial.css",
+      "name": "./src/components/MainComponents/Testimonial/testimonial.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -133,10 +191,16 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./testimonial.css": [
+  "./index.css": [
     {
-      "id": "./src/components/MainComponents/Pricing/testimonial.css",
-      "name": "./src/components/MainComponents/Pricing/testimonial.css",
+      "id": "./src/components/GraphicHeader/index.css",
+      "name": "./src/components/GraphicHeader/index.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Footer/index.css",
+      "name": "./src/components/Footer/index.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

@@ -71,7 +71,7 @@ class WhyWishup extends Component {
 
           <GraphicHeader
               title="Why Wishup"
-              description="You Get the Best Suited Assistant"
+              description="Bringing You The Best Talent Possible"
               image='url("/static/assets/resources/why-wishup/header.png")'
           ></GraphicHeader>
 
@@ -102,7 +102,7 @@ class WhyWishup extends Component {
                                   <div className="icon-box">
                                       <img src='/static/assets/resources/why-wishup/tick.png' width="20px"/>
                                   </div>
-                                  <div className="description-box">Well-qualified and diverse skill-sets.!</div>
+                                  <div className="description-box">Well-qualified and diverse skill-sets.s</div>
                               </div>
 
                           </div>
@@ -123,7 +123,7 @@ class WhyWishup extends Component {
                           <img src='/static/assets/resources/why-wishup/2.png' className="featured-section-image"/>
                       </div>
                       <div className="col-md-6">
-                          <h2>Virtual assistants Upskilled
+                          <h2>Virtual Assistants Upskilled
                               and Ready to Start Now</h2>
                           <div className="section-description">
                               <div className="mobile-bar"></div>
@@ -160,7 +160,7 @@ class WhyWishup extends Component {
               <div className="wishup-container ">
                   <div className="row">
                       <div className="col-md-6">
-                        <h2>Not serving your purpose? It’s simple.</h2>
+                        <h2>Not serving your purpose? It’s Simple.</h2>
                         <div className="section-description">
                             <div className="mobile-bar"></div>
                             If you feel your present VE is a bad fit for your tasks, then feel free to connect with the support team and we’ll make it a smooth transition to the next one!</div>

@@ -1,3 +1,6 @@
 .testimonial-section .mobile-only{
     padding-left: 1rem;
 }
+.service-list ul li {
+    text-transform: capitalize;
+}

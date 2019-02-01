@@ -205,6 +205,10 @@ h2{
 
 }
 
+.wishup-container .description{
+    color: rgb(113, 113, 113);
+}
+
 .highlight-bar{
     margin: 5rem 2rem -1.2rem 2rem;
 }
@@ -1083,3 +1087,6 @@ sub-what-we-do-bar{
 }
 
 
+.light-text{
+    opacity: 0.5;
+}

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import {sendRequest} from "../../services/server";
 import GraphicHeader from "../../src/components/GraphicHeader";
 import './style.css';
 import Head from "next/head";
@@ -11,8 +10,49 @@ class Testimonial extends Component {
 
     render() {
 
+        function return_card(text, name,position,company,linkedin,image){
+            return (   <div className="col-sm-4" key={1}>
+                <div className="profile-desc mobile-only">
+
+                    <div className="profile-pic">
+                        <img src={image} height="55px"/>
+                    </div>
+                    <div className="profile-info">
+
+                        <span className="name"> {name}</span>
+                        <a href={linkedin}  target="_blank">
+                            <img src='/static/assets/linkedin-button.svg' height="15px"
+                                 className="linkedin"/>
+                        </a>
+                        <br></br>
+                        <span className="position">{position}</span>,<span
+                        className="company-name">{company}</span>
+                    </div>
+                </div>
+                <div className="card">
+                    {text}
+                </div>
+                <div className="profile-desc desktop-only">
+
+                    <div className="profile-pic">
+                        <img src={image} height="55px"/>
+                    </div>
+                    <div className="profile-info desktop-only">
+
+                        <span className="name">{name}</span>
+                        <a href={linkedin} target="_blank">
+                            <img src='/static/assets/linkedin-button.svg' height="15px"
+                                 className="linkedin"/>
+                        </a>
+                        <br></br>
+                        <span className="position">{position}</span>,<span
+                        className="company-name">{company}</span>
+                    </div>
+                </div>
+            </div>);
+        }
         return (
-            <div>
+            <div className="testimonial-page">
                 <Head>
                     <title>Wishup</title>
                     <title>Affordable Virtual Assistants, Price For Virtual/ Remote Assistant Services </title>
@@ -50,7 +90,8 @@ class Testimonial extends Component {
                         <div className="testimonial-section">
                             <div className="wishup-container">
                                 <h2>
-                                    Unbelievable? Read to Believe
+                                    We take immense pride in all the clients that we’ve worked with so far. Here’s what
+                                    industry leaders have to say about Wishup.
                                 </h2>
                                 <div className="red-strip"></div>
                                 <div className="description">
@@ -62,127 +103,55 @@ class Testimonial extends Component {
                                 <div className="row ">
 
 
-                                    <div className="col-sm-4" key={1}>
-                                        <div className="profile-desc mobile-only">
+                                    {return_card('I have been using the services of a Virtual assistant from Wishup for few months now and I must say they are professional, trustworthy and highly competent.',
+                                        'Pranay Gupta',
+                                        'Co-Founder',
+                                        '91 Springboards',
+                                        'https://www.linkedin.com/in/pranayg/',
+                                        '/static/assets/pranay.jpeg')}
 
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/pranay.jpeg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info">
 
-                                                <span className="name"> Pranay Gupta</span>
-                                                <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                                    <img src='/static/assets/linkedin-button.svg' height="15px"
-                                                         className="linkedin"/>
-                                                </a>
-                                                <br></br>
-                                                <span className="position"> Co-Founder</span>,<span
-                                                className="company-name"> 91Springboards</span>
-                                            </div>
-                                        </div>
-                                        <div className="card">
-                                            I have been using the services of a Virtual assistant from Wishup for few
-                                            months now and I must say they are professional, trustworthy and highly
-                                            competent.
-                                        </div>
-                                        <div className="profile-desc desktop-only">
+                                    {return_card('I couldn\'t be more thrilled with my Wishup VA! It took me a few weeks to get the time to organize the work to assign initially, but it\'s been the best business decision for me this year.\n' +
+                                        '                                       ',
+                                        'Andrew McDermott',
+                                        'Full-Time Traveler',
+                                        '',
+                                        'https://www.linkedin.com/in/andrewmcdermott/',
+                                        '/static/assets/andrew.jpeg')}
 
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/pranay.jpeg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info desktop-only">
 
-                                                <span className="name"> Pranay Gupta</span>
-                                                <a href="https://www.linkedin.com/in/pranayg/" target="_blank">
-                                                    <img src='/static/assets/linkedin-button.svg' height="15px"
-                                                         className="linkedin"/>
-                                                </a>
-                                                <br></br>
-                                                <span className="position"> Co-Founder</span>,<span
-                                                className="company-name"> 91Springboards</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-4" key={2}>
-                                        <div className="profile-desc mobile-only">
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/manan.jpeg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info">
+                                    {return_card('I couldn\'t be more thrilled with my Wishup VA! It took me a few weeks to get the time to organize the work to assign initially, but it\'s been the best business decision for me this year.\n' +
+                                        '                                       ',
+                                        'Niels Van De Bergh',
+                                        'Growth Consultant',
+                                        '',
+                                        'https://www.linkedin.com/in/nielsvandenbergh/',
+                                        '/static/assets/neil.jpg')}
 
-                              <span className="name"> Manan Shah
-                               <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                                <span className="position"> Co-Founder</span>,<span
-                                                className="company-name"> Recruiter Flow</span>
-                                            </div>
-                                        </div>
-                                        <div className="card">
-                                            We've had a great experience working with Upasana and WIshup. I can not
-                                            recommend it enough for anyone looking for a talented freelancer to
-                                            accelerate your growth.
-                                        </div>
-                                        <div className="profile-desc desktop-only">
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/manan.jpeg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info">
 
-                              <span className="name"> Manan Shah
-                               <a href="https://www.linkedin.com/in/mananshah212/" target="_blank">
-                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                                <span className="position"> Co-Founder</span>,<span
-                                                className="company-name"> Recruiter Flow</span>
-                                            </div>
-                                        </div>
+                        </div>
+                                <div className="row">
+                                    {return_card(' We\'ve had a great experience working with Upasana and WIshup. I can not\n' +
+                                        '                                            recommend it enough for anyone looking for a talented freelancer to\n' +
+                                        '                                            accelerate your growth.',
+                                        'Manan Shah',
+                                        'Co-Founder',
+                                        'Recruiter Flow',
+                                        'https://www.linkedin.com/in/mananshah212/',
+                                        '/static/assets/manan.jpeg')}
 
-                                    </div>
-                                    <div className="col-sm-4" key={3}>
-                                        <div className="profile-desc mobile-only">
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/Farhan.jpg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info">
+                                    {return_card('I have been using the services of Wishup for close to half a year now and I\n' +
+                                        '                                            truly feel this is one of the best investments I have made.',
+                                        'Farhan Ahmed',
+                                        'Founder',
+                                        ' Confetti Holdings',
+                                        'https://www.linkedin.com/in/farhad-ahmed-240227144/',
+                                        '/static/assets/Farhan.jpg')}
 
-                              <span className="name">Farhan Ahmed
-
-                                    <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                                <span className="position"> Founder</span>,<span
-                                                className="company-name"> Confetti Holdings</span>
-                                            </div>
-                                        </div>
-                                        <div className="card">
-                                            I have been using the services of Wishup for close to half a year now and I
-                                            truly feel this is one of the best investments I have made.
-                                        </div>
-                                        <div className="profile-desc desktop-only">
-                                            <div className="profile-pic">
-                                                <img src='/static/assets/Farhan.jpg' height="55px"/>
-                                            </div>
-                                            <div className="profile-info">
-
-                              <span className="name">Farhan Ahmed
-
-                                    <a href="https://www.linkedin.com/in/farhad-ahmed-240227144/" target="_blank">
-                                  <img src='/static/assets/linkedin-button.svg' height="15px" className="linkedin"/>
-                              </a>
-                              </span><br></br>
-                                                <span className="position"> Founder</span>,<span
-                                                className="company-name"> Confetti Holdings</span>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                 </div>
                             </div>
-                        </div>
+                                </div>
                     </div>
                 </div>
                 <Footer></Footer>

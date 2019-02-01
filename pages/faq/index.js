@@ -36,7 +36,7 @@ class FAQ extends Component {
                 </Head>
 
                 <GraphicHeader
-                    title="FAQ"
+                    title="FAQs"
                     description=""
                     image='url("/static/assets/resources/why-wishup/header.png")'
                 ></GraphicHeader>
@@ -46,12 +46,12 @@ class FAQ extends Component {
 
                             <div className="col-sm-8">
                                 <div className="section-text">
-                                    <h4> Who are these employees?</h4>
+                                    <h4>1. Who are these employees?</h4>
 
                                     Your employees are smart & experienced professionals. They are qualified and rigorously trained in-house for a month on 50+ business and executive related tasks.
 
 
-                                    <h4>2.  When is my VE available?</h4>
+                                    <h4>2.  When is my virtual assistant available?</h4>
 
                                     Your VAs are available {getTiming()}
 
@@ -84,7 +84,7 @@ class FAQ extends Component {
                                     Please contact us at ops@wishup.co
 
 
-                                    <h4> 8. What tasks my VE cannot do?</h4>
+                                    <h4> 8. What tasks my virtual assistant cannot do?</h4>
 
                                     Running physical errands
 
@@ -99,52 +99,47 @@ class FAQ extends Component {
                                     Payments on behalf of clients
 
 
-                                    <h4> 9. Can the VE make payments on my behalf?</h4>
+                                    <h4> 9. Can the virtual assistant make payments on my behalf?</h4>
 
                                     Currently, they cannot. Although we are in the process of integrating this facility very soon.
 
 
-                                    <h4>10. Can the VE make outbound calls for me?</h4>
+                                    <h4>10. Can the virtual assistant make outbound calls for me?</h4>
 
-                                    Absolutely but with some limitations.  Your VE can contact vendors, make reservations, and place phone calls for you but they cannot make outbound sales calls or solicit prospects.
+                                    Absolutely but with some limitations.  Your virtual assistant can contact vendors, make reservations, and place phone calls for you but they cannot make outbound sales calls or solicit prospects.
 
 
-                                    <h4>11. Will I be charged for phone calls VE makes on my behalf?</h4>
+                                    <h4>11. Will I be charged for phone calls virtual assistant makes on my behalf?</h4>
 
                                     Yes, the VA will send a detailed statement for these calls.
 
 
-                                    <h4>12. Can VE receive inbound calls?</h4>
+                                    <h4>12. Can virtual assistant receive inbound calls?</h4>
 
                                     Yes, but accessible only to you and the number of users limited to the package you’ve subscribed for. Your VAs cannot receive calls from service providers, contacts, employees on your behalf.
 
 
-                                    <h4>13.Can my VE manage my inbox?</h4>
+                                    <h4>13.Can my virtual assistant manage my inbox?</h4>
 
                                     Sure they can! Our VE’s are thoroughly trained in inbox management and can keep your inbox, organized and easy to access always.
 
 
                                     <h4>14. Can my VA handle scheduling?</h4>
                                     Absolutely. Our VEs exclusively use and manage Google Calendars.
-                                    Your VE can coordinate meetings, schedule appointments, and manage your Google Calendar with ease. Simply share and grant your VE access to manage your calendar.
+                                    Your virtual assistant can coordinate meetings, schedule appointments, and manage your Google Calendar with ease. Simply share and grant your virtual assistant access to manage your calendar.
 
-                                    <h4> 15.  Can my VE edit a presentation for me?</h4>
+                                    <h4> 15.  Can my virtual assistant edit a presentation for me?</h4>
                                     Your VA can format and edit ppts with your provided content, images and detailed design layout & instructions.
 
 
-                                    <h4>16. Will my VE be working on holidays?</h4>
+                                    <h4>16. Will my virtual assistant be working on holidays?</h4>
 
-                                    Wishup observes all national holidays in India. Your VE will not be available on New Year's Eve, New Year's day, Diwali, Holi, Independence Day (US & India), Republic day, Labor Day, Thanksgiving, Christmas Eve, Christmas Day(US only)
-
-
-                                    <h4> 17. What if my VE goes on vacation?</h4>
-
-                                    Every VE is entitled to 2 days of leaves in a month (24 leaves in a calendar year). If a VE takes more than 2 leaves, your subscription will be extended by those number of days. Needless to say, any leave taken will be informed to you.
+                                    Wishup observes all national holidays in India. Your virtual assistant will not be available on New Year's Eve, New Year's day, Diwali, Holi, Independence Day (US & India), Republic day, Labor Day, Thanksgiving, Christmas Eve, Christmas Day(US only)
 
 
-                                    <h4>18. I want to escalate a serious issue.</h4>
+                                    <h4> 17. What if my virtual assistant goes on vacation?</h4>
 
-                                    If you wish to escalate a serious issue about any of our VE, please get in touch with the respective Account Manager assigned to you.
+                                    Every virtual assistant is entitled to 2 days of leaves in a month (24 leaves in a calendar year). If a virtual assistant takes more than 2 leaves, your subscription will be extended by those number of days. Needless to say, any leave taken will be informed to you.
 
 
                                     <h4>18. Is my company or personal information protected with Wishup?</h4>
@@ -154,7 +149,7 @@ class FAQ extends Component {
 
                                     <h4>19. I don't like my VE. I want a replacement.</h4>
 
-                                    Contact the Account Manager assigned to you and convey the same. We shall investigate quickly and make the transition to your next VE smooth.
+                                    Contact the Account Manager assigned to you and convey the same. We shall investigate quickly and make the transition to your next virtual assistant smooth.
 
 
                                     <h4> 20. Can I become a VE?</h4>
@@ -162,12 +157,12 @@ class FAQ extends Component {
                                     We’re forever looking for zestful people. Please go to our ‘How to Become a VE’ page and fill the form with relevant details. If it enthuses us, we will get in touch with you shortly!
 
 
-                                    <h4> 21. For how many hours will my VE work for me?</h4>
+                                    <h4> 21. For how many hours will my virtual assistant work for me?</h4>
 
                                     Your daily bandwidth depends on the package that you subscribe for. Please refer to our Plans and Pricing Page to find out more.
 
 
-                                    <h4>  22. How many users can delegate tasks to one VE that I have subscribed for?</h4>
+                                    <h4>  22. How many users can delegate tasks to one virtual assistant that I have subscribed for?</h4>
 
                                     This depends on the package that you have subscribed for. Please refer to our Plans and Pricing Page to find out more.
 
@@ -196,7 +191,7 @@ class FAQ extends Component {
                                             <div className="button">Get Started</div>
                                         </a>
                                         <a href="/virtual-assistant-pricing/">
-                                            <div className="button">Plan and Pricing</div>
+                                            <div className="button">Plans and Pricing</div>
                                         </a>
                                     </div>
                                 </div>

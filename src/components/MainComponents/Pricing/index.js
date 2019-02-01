@@ -14,7 +14,7 @@ return(
       <div className="pricing-bar">
           <div className="wishup-container">
               <div className="heading">
-                  Tailor-made plans to suit every workload.
+                  Tailor made plans to suit every workload.
               </div>
               <div className="description">
                   Starting at {this.state.price.image?<img src={this.state.price.whitesign} height="10px"/>:this.state.price.sign}{this.state.price.mini}/month
@@ -24,7 +24,7 @@ return(
                       <div className="button">Get Started</div>
                   </a>
                   <a href="/virtual-assistant-pricing/">
-                      <div className="button">Plan and Pricing</div>
+                      <div className="button">Plans and Pricing</div>
                   </a>
               </div>
           </div>

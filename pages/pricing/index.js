@@ -81,7 +81,7 @@ class PricingPage extends Component {
                 <div className="pricing">
                 <GraphicHeader
                 title="Plans & Pricing"
-                description="Flexible monthly plans to fit any workload"
+                description="Flexible Monthly Plans to Fit Any Workload"
                 image='url("/static/assets/resources/pricing/pricing-background.png")'
                 ></GraphicHeader>
 
@@ -375,7 +375,7 @@ class PricingPage extends Component {
                     Super Employee
                     </div>
                     <div className="plan-description">
-                    A plan crafted  for start-ups for recurrent long-term tasks
+                        A plan crafted for exhaustive support for larger team sizes.
                     </div>
                     <div className="plan-price">
                     {this.state.price.image?<img src={this.state.price.sign} height="13px"/>:this.state.price.sign}
@@ -406,7 +406,7 @@ class PricingPage extends Component {
 
                     <div className="pricing-section">
                     <div className="wishup-container">
-                    <h3>All Plans included</h3>
+                    <h3>All Plans include</h3>
                     <div className="red-strip"></div>
                     <div className="row">
                     <div className="col-md-3">
@@ -420,7 +420,7 @@ class PricingPage extends Component {
                     <div className="col-md-3">
                     <img src='/static/assets/resources/pricing/9-5.png' height="55px"/>
                     <div className="plan-feature">
-                    Account Manager to troubleshoot problems with VE
+                    Account Manager to troubleshoot problems with virtual assistant
                     </div>
                     </div>
 

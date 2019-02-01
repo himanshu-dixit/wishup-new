@@ -21,7 +21,7 @@ class HomePage extends Component {
   render() {
 
     return (
-      <div>
+      <div className="become-va">
           <Head>
               <title>Become a Virtual Assistant</title>
               <meta name="description" content="Looking for the best virtual assistant services online? Welcome to Wishup.co. Our dedicated team of Virtual (remote) assistants understand your need and takes care of your priorities. Hire a virtual assistant today! Services available for USA, UK, Canada, India and more."/>
@@ -44,8 +44,6 @@ class HomePage extends Component {
                       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                       crossOrigin="anonymous"></script>
           </Head>
-
-
           <HeadBar/>
 
               <div className="new-cover"
@@ -70,8 +68,6 @@ class HomePage extends Component {
                       </div>
                   </div>
               </div>
-
-
 
           <div className="grow-business-bar">
               <div className="wishup-container">
@@ -112,14 +108,10 @@ class HomePage extends Component {
                               <br></br>
                               If you feel that you have a reason to be a part of the remote working culture, then there’s lot in it for you to discover.
                           </div>
-
-
                       </div>
                   </div>
               </div>
           </div>
-
-          <Media/>
 
           <div className="second-highlight-bar">
 
@@ -147,15 +139,12 @@ class HomePage extends Component {
                       </div>
                       <div className="col-sm-5 super-highlight-box desktop-only">
                       </div>
-
                   </div>
-
           </div>
 
 
 
-          <VAsList type="become-va"/>
-
+          <Testimonial type="become-va"/>
           <div className="va-bar">
               <div className="wishup-container">
                   <div><div className="va-bar-text">

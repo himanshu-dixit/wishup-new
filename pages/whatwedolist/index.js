@@ -67,9 +67,11 @@ class WhatWeDo extends Component {
                 />
 
                 <div className="wishup-container">
-                    <h2 className="first-heading">What Can Wishup Help Me With?</h2>
+                    <h2 className="first-heading">What Can Wishup Help You With?</h2>
                     <div className="mobile-bar"></div>
-                    <div className="description first-description">We can help with both your work and personal life tasks, letting you focus on what’s most important.</div>
+                    <div className="description first-description">
+                    Trained on over 50+ tasks in-house, our Virtual Employees are Ready to Assist on all your business, executive and personal tasks
+                    </div>
                     <div className="container wishup-box">
                         <div className="row">
 
@@ -196,7 +198,9 @@ class WhatWeDo extends Component {
                     <div>
                         <h2 className="second-heading">What Doesn't Wishup Do?</h2>
                         <div className="mobile-bar"></div>
-                        <div className="description secondary-description">There are in fact a few things that we don't do... yet. But we're constantly looking for ways to grow our capabilities even more.</div>
+                        <div className="description secondary-description">
+                        Although we would love to help you with everything, there are some limitations at present. But we’re constantly evolving to reach out more!
+                        </div>
                         <div className="row">
                             <div className="col-md-3">
                                 <div className="wishup-dont-tasks">
@@ -207,7 +211,7 @@ class WhatWeDo extends Component {
                                         In-person tasks.
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                            We work virtually, but can schedule in-person services.
                                     </div>
                                 </div>
                             </div>
@@ -217,10 +221,10 @@ class WhatWeDo extends Component {
                                         <img src='/static/assets/resources/icons/sales.png' height="50px"/>
                                     </div>
                                     <div className="task-title">
-                                        Sales
+                                      Target-oriented Sales
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                                      We can help with sales allied functions like lead generation, online research, customer follow up etc., but not cold calling or target oriented sales.
                                     </div>
                                 </div>
                             </div>
@@ -230,10 +234,10 @@ class WhatWeDo extends Component {
                                         <img src='/static/assets/resources/icons/bookkeeping.png' height="50px"/>
                                     </div>
                                     <div className="task-title">
-                                        Legal, Accounting and HR
+                                    Core Legal, Accounting and HR
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                                        We can help with allied tasks like paperwork, creating legal drafts, managing expense sheets, tax preparation, sourcing candidates, telephonic interviews but not cater to the A-Z of legal, accounting and HR related work.
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +250,7 @@ class WhatWeDo extends Component {
                                         Full time customer support
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                                      We can help you with various customer support functions but not inbound calls.
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +266,7 @@ class WhatWeDo extends Component {
                                         Payment on Behalf of the clients
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                                        We can help you with options, reserve places and much more but the payment link is shared with you. We don't make payments on behalf of the clients.
                                     </div>
                                 </div>
                             </div>
@@ -275,7 +279,7 @@ class WhatWeDo extends Component {
                                         Receptionist service
                                     </div>
                                     <div className="task-description">
-                                        We work virtually, but can schedule in-person services.
+                                        We are great at regular support roles and ready to help you with varied personal and business tasks but not inbound calls. 
                                     </div>
                                 </div>
                             </div>

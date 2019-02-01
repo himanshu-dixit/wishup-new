@@ -61,7 +61,7 @@ class Footer extends Component {
                                 <div className="footer-link"><a href="/hire-research-assistant">Virtual Research Assistant</a></div>
                                 <div className="footer-link"><a href="/hire-administritive-assistant"> Virtual Administrative Assistant</a></div>
                                 <div className="footer-link"><a href="/hire-travel-assistant">Virtual Travel Assistant</a></div>
-                                <div className="footer-link"><a href="/hire-socialmedia-assistant">Social Media Virtual Assistant</a></div>
+                                <div className="footer-link"><a href="/hire-socialmedia-assistant">Virtual Social Media Assistant</a></div>
                                 <div className="footer-link"><a href="/hire-bookkeeping-assistant">Virtual Book-Keeping Assistant</a></div>
                                 <div className="footer-link"><a href="/hire-email-assistant">Virtual Email Assistant</a></div>
                                 <div className="footer-link"><a href="/hire-personal-assistant">Virtual Personal Assistant</a></div>

@@ -47,12 +47,12 @@ class VAsList extends Component {
                 <div className="va-section">
                     <div className="wishup-container">
                         <h2>
-                            Meet Some Of our Virtual assistants
+                            We have a team of quirky, resourceful and extremely efficient internet wizards. Connect with one today!
                         </h2>
 
                         <div className="description">
                             <div className="mobile-bar"></div>
-                            Working with a Virtual Assistant is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately
+                            Working with a Virtual Assistant is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your Virtual assistant, connect and start delegating almost immediately
                         </div>
                         <div className="row slider">
                             <button className=" previous" onClick={this.previous}>
@@ -140,12 +140,12 @@ class VAsList extends Component {
         <div className="va-section">
             <div className="wishup-container">
                 <h2>
-                    Meet Some Of our Virtual assistants
+                    We have a team of quirky, resourceful and extremely efficient internet wizards. Connect with one today!
                 </h2>
 
                 <div className="description">
                     <div className="mobile-bar"></div>
-                    Working with a Virtual Assistant is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your VE, connect and start delegating almost immediately
+                    Working with a Virtual Assistant is easier than ever before. Request a consultation, connect with our client support team, list out your requirements, find your Virtual assistant, connect and start delegating almost immediately
                 </div>
                 <div className="row slider">
                     <button className=" previous" onClick={this.previous}>

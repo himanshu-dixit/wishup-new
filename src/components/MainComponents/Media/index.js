@@ -10,7 +10,7 @@ class Media extends Component {
     return (
         <div className="mentions">
             <h2>
-                Wishup in media
+                Wishup in Media
             </h2>
             <div className="red-strip"></div>
             <div className="wishup-container">
